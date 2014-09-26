@@ -14,7 +14,7 @@
         <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css" rel="stylesheet">
         <![endif]-->
         <link href="/templates/worksaver/css/main.css" rel="stylesheet">
-        <script type="text/javascript" src="/templates/worksaver/js/slider.js"></script>
+        <jdoc:include type="head" />
     </head>
     <body>
         <div class="container-fluid">
