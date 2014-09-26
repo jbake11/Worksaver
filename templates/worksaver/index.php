@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <?php if ($this->countModules('slider') && $this->countModules('featuredproduct')) : ?>
+    <?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
     <div class="container-fluid">
         <div class="row" id="slideRow">
             <div class="col-lg-9 col-md-9 col-sm-9 ">
