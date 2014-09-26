@@ -9,10 +9,10 @@ class JConfig {
 	public $captcha = '0';
 	public $list_limit = '20';
 	public $access = '1';
-	public $debug = '0';
+	public $debug = '1';
 	public $debug_lang = '0';
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
+	public $dbtype = 'mysql';
+	public $host = '127.0.0.1';
 	public $user = 'worksaver';
 	public $password = 'isshit67';
 	public $db = 'worksaver';
