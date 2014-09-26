@@ -66,30 +66,28 @@
                                 <div class="col-xs-12" id="slider">
                                     <!-- Top part of the slider -->
                                     <div class="row">
-                                        <div class="col-sm-8" id="carousel-bounding-box">
-                                            <div class="carousel slide" id="myCarousel">
-                                                <!-- Carousel items -->
-                                                <div class="carousel-inner">
-                                                    <div class="active item" data-slide-number="0">
-                                                        <img class="img-responsive" src="/templates/worksaver/images/slider/slider_1_attachment.jpg" alt=""/>
-                                                    </div>
-                                                    <div class="item" data-slide-number="1">
-                                                        <img class="img-responsive" src="/templates/worksaver/images/slider/slider_2_stumpgrinder.jpg" alt=""/>
-                                                    </div>
-                                                    <div class="item" data-slide-number="2">
-                                                        <img class="img-responsive" src="/templates/worksaver/images/slider/slider_3_ATV.jpg" alt=""/>
-                                                    </div>
-                                                    <div class="item" data-slide-number="3">
-                                                        <img class="img-responsive" src="/templates/worksaver/images/slider/slider_4_bailspear.jpg" alt=""/>
-                                                    </div>
-                                                    <!-- Carousel nav -->
-                                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                                        <span class="glyphicon glyphicon-chevron-left"></span>
-                                                    </a>
-                                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                                        <span class="glyphicon glyphicon-chevron-right"></span>
-                                                    </a>
+                                        <div class="carousel slide" id="myCarousel">
+                                            <!-- Carousel items -->
+                                            <div class="carousel-inner">
+                                                <div class="active item" data-slide-number="0">
+                                                    <img class="img-responsive" src="/templates/worksaver/images/slider/slider_1_attachment.jpg" alt=""/>
                                                 </div>
+                                                <div class="item" data-slide-number="1">
+                                                    <img class="img-responsive" src="/templates/worksaver/images/slider/slider_2_stumpgrinder.jpg" alt=""/>
+                                                </div>
+                                                <div class="item" data-slide-number="2">
+                                                    <img class="img-responsive" src="/templates/worksaver/images/slider/slider_3_ATV.jpg" alt=""/>
+                                                </div>
+                                                <div class="item" data-slide-number="3">
+                                                    <img class="img-responsive" src="/templates/worksaver/images/slider/slider_4_bailspear.jpg" alt=""/>
+                                                </div>
+                                                <!-- Carousel nav -->
+                                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
