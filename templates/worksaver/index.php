@@ -54,9 +54,9 @@
                     </div>
                 </div>
             </div>
-            <div id="slide" class="container-fluid">
+        </div>
 
-            </div>
+        <div id="slide" class="container-fluid">
             <div class="row" id="row2">
                 <div class="col-lg-8 col-md-8 col-sm-8 ">
                     <div class="container">
@@ -98,30 +98,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8"
-            </div>
-            <div class="row" id="row3">
-                <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+                <div class="col-lg-8 col-md-8 col-sm-8">
 
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-9">
-                    <div class="container-fluid">
-
-                        <!--Body Content Here-->
-
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="row4">
-                <div class="col-lg-12 col-md-12 col-sm-12 contentbottom">
-                    <footer id="footer">
-
-                    </footer>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
-</body>
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="row4">
+
+            </div>
+        </div>
+
+
+    </body>
 </html>
