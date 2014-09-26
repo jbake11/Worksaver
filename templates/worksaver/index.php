@@ -36,9 +36,9 @@
                     </form>
                 </div>
             </div>
-            <div class="row">
+            <div id='navRow' class="row">
                 <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
-                    <div class="navRow">
+                    <div class="navi">
                         <nav>
                             <ul class="nav nav-pills">
                                 <li><a href="index.php">Home</a></li>

@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : Jeff
 */
 
+.container-fluid {
+    padding: 0;
+}
+
 #head{
     background: url('/templates/worksaver/images/headbg.jpg') center  no-repeat;
     width: 100%;
@@ -21,8 +25,13 @@ and open the template in the editor.
     margin-top: 15px;
 }
 
-.navRow{
+#navRow{
     background-color: #6a6a69;
+
+}
+
+.navi{
+
     margin-left: auto;
     margin-right: auto;
 
