@@ -41,10 +41,10 @@
                     <div class="navi">
                         <nav>
                             <?php if ($this->countModules('mainmenu')) : ?>
-                				<nav class="navigation" role="navigation">
-                					<jdoc:include type="modules" name="mainmenu" style="none" />
-                				</nav>
-                			<?php endif; ?>   
+                                <nav class="navigation" role="navigation">
+                                    <jdoc:include type="modules" name="mainmenu" style="none" />
+                                </nav>
+                            <?php endif; ?>
                         </nav>
                     </div>
                 </div>
@@ -58,24 +58,22 @@
                         <jdoc:include type="modules" name="slider" style="xhtml" />
                     <?php endif; ?>
                 </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <a href="index.php" ><img src="/templates/worksaver/images/featured_item.jpg" alt=""/></a>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3">
-            <a href="index.php" ><img src="/templates/worksaver/images/featured_item.jpg" alt=""/></a>
+        <div class="container">
+            <div class="row">
+
+            </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
+        <div class="container">
+            <div class="row" id="footer">
 
-    </div>
-</div>
-<div class="container">
-    <div class="row" id="footer">
-
-    </div>
-</div>
+            </div>
+        </div>
 
 
-</body>
+    </body>
 </html>
