@@ -59,7 +59,7 @@
         <div class="container-fluid">
             <div class="row" id="slideRow">
                 <div class="col-lg-9 col-md-9 col-sm-9 ">
-                    <jdoc:include type="modules" name="footer" style="none" />
+                    <jdoc:include  name="footer" style="none" />
                 </div>
             </div>
         </div>
