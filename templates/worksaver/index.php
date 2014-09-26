@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div id='head' class="row">
+            <div id='header' class="row">
                 <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                     <div class="flag">
                         <img class="img-responsive" src="/templates/worksaver/images/flag.png" alt=""/>
@@ -57,8 +57,8 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row" id="slide">
-                <div class="col-lg-8 col-md-8 col-sm-8 ">
+            <div class="row" id="slideRow">
+                <div class="col-lg-9 col-md-9 col-sm-9 ">
                     <div class="container">
                         <div id="main_area">
                             <!-- Slider -->
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-3 col-md-3 col-sm-3">
 
                 </div>
             </div>
@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row" id="row4">
+            <div class="row" id="footer">
 
             </div>
         </div>
