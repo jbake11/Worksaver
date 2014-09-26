@@ -22,6 +22,8 @@ and open the template in the editor.
 .navRow{
     background-color: #6a6a69;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
