@@ -20,8 +20,6 @@ and open the template in the editor.
     margin: 0px;
 }
 
-
-
 .flag{
     margin-top: 15px;
 }
@@ -32,17 +30,17 @@ and open the template in the editor.
 }
 
 .navi{
-
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .nav-pills>li>a {
     border-radius: 0px;
 }
 
-
+#slide  .container {
+    padding: 0px;
+}
 
 
 /*For Slider*/

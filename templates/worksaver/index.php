@@ -56,8 +56,8 @@
             </div>
         </div>
 
-        <div id="slide" class="container-fluid">
-            <div class="row" id="row2">
+        <div class="container-fluid">
+            <div class="row" id="slide">
                 <div class="col-lg-8 col-md-8 col-sm-8 ">
                     <div class="container">
                         <div id="main_area">
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="col-lg-4 col-md-4 col-sm-4">
 
                 </div>
             </div>
