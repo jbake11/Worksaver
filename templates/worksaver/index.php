@@ -51,6 +51,7 @@
         </div>
     </div>
 
+    <?php if ($this->countModules('slider') && $this->countModules('featuredproduct')) : ?>
     <div class="container-fluid">
         <div class="row" id="slideRow">
             <div class="col-lg-9 col-md-9 col-sm-9 ">
@@ -59,10 +60,14 @@
                 <?php endif; ?>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
-                <a href="index.php" ><img src="/templates/worksaver/images/featured_item.jpg" alt=""/></a>
+                <?php if ($this->countModules('featuredproduct')) : ?>
+                        <jdoc:include type="modules" name="featuredproduct" style="none" />
+                <?php endif; ?>
             </div>
         </div>
     </div>
+    <?php endif; ?>
+
     <div class="container">
         <div class="row">
             <jdoc:include type="component" />
