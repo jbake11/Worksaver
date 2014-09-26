@@ -63,32 +63,16 @@
             </div>
         </div>
     </div>
-    <<<<<<< HEAD
-    <div class="container">
-        <div class="row">
-
-        </div>
-    </div>
-    <div class="container">
-        <div class="row" id="footer">
-            =======
-            <div class="col-lg-3 col-md-3 col-sm-3">
-                <a href="index.php" ><img src="/templates/worksaver/images/featured_item.jpg" alt=""/></a>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
             <jdoc:include type="component" />
         </div>
     </div>
+
     <div class="container">
         <div class="row" id="footer">
-            >>>>>>> origin/master
-
         </div>
     </div>
-
 
 </body>
 </html>
