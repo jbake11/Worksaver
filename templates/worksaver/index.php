@@ -59,7 +59,9 @@
         <div class="container-fluid">
             <div class="row" id="slideRow">
                 <div class="col-lg-9 col-md-9 col-sm-9 ">
-                    <jdoc:include type='module' name="slider" style="none" />
+                    <?php if ($this->countModules('position-8')) : ?>
+                        <jdoc:include type="modules" name="slider" style="xhtml" />
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
