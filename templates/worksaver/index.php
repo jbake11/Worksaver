@@ -67,7 +67,7 @@
 </div>
 <div class="container">
     <div class="row">
-
+        <jdoc:include type="component" />
     </div>
 </div>
 <div class="container">
