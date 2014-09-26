@@ -40,16 +40,11 @@
                 <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
                     <div class="navi">
                         <nav>
-                            <ul class="nav nav-pills">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="index.php">Company Profile</a></li>
-                                <li><a href="index.php">Products</a></li>
-                                <li><a href="index.php">Videos</a></li>
-                                <li><a href="index.php">Where to Buy</a></li>
-                                <li><a href="index.php">News & Shows</a></li>
-                                <li><a href="index.php">Manuals & Literature</a></li>
-                                <li><a href="index.php">Contact Us</a></li>
-                            </ul>
+                            <?php if ($this->countModules('mainmenu')) : ?>
+                				<nav class="navigation" role="navigation">
+                					<jdoc:include type="modules" name="mainmenu" style="none" />
+                				</nav>
+                			<?php endif; ?>   
                         </nav>
                     </div>
                 </div>
