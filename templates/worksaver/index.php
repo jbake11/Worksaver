@@ -13,8 +13,8 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
         <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css" rel="stylesheet">
         <![endif]-->
-        <link href="css/main.css" rel="stylesheet">
-        <script type="text/javascript" src="js/slider.js"></script>
+        <link href="/templates/worksaver/css/main.css" rel="stylesheet">
+        <script type="text/javascript" src="/templates/worksaver/js/slider.js"></script>
     </head>
     <body>
         <div class='container'>
@@ -22,11 +22,13 @@
                 <div  class="row">
                     <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                         <div class="flag ">
-                            <img class="img-responsive" src="images/flag.png" alt=""/>
+                            <img class="img-responsive" src="/templates/worksaver/images/flag.png" alt=""/>
                         </div>
                     </div>
                     <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                        <img class="img-responsive" src="images/biglogo.png" alt=""/>
+                        <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>
+
+
                     </div>
                     <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                         <form id="custom-search-form" class="form-search form-horizontal pull-right">
@@ -69,16 +71,16 @@
                                                     <!-- Carousel items -->
                                                     <div class="carousel-inner">
                                                         <div class="active item" data-slide-number="0">
-                                                            <img class="img-responsive" src="images/slider/slider_1_attachment.jpg" alt=""/>
+                                                            <img class="img-responsive" src="/templates/worksaver/images/slider/slider_1_attachment.jpg" alt=""/>
                                                         </div>
                                                         <div class="item" data-slide-number="1">
-                                                            <img class="img-responsive" src="images/slider/slider_2_stumpgrinder.jpg" alt=""/>
+                                                            <img class="img-responsive" src="/templates/worksaver/images/slider/slider_2_stumpgrinder.jpg" alt=""/>
                                                         </div>
                                                         <div class="item" data-slide-number="2">
-                                                            <img class="img-responsive" src="images/slider/slider_3_ATV.jpg" alt=""/>
+                                                            <img class="img-responsive" src="/templates/worksaver/images/slider/slider_3_ATV.jpg" alt=""/>
                                                         </div>
                                                         <div class="item" data-slide-number="3">
-                                                            <img class="img-responsive" src="images/slider/slider_4_bailspear.jpg" alt=""/>
+                                                            <img class="img-responsive" src="/templates/worksaver/images/slider/slider_4_bailspear.jpg" alt=""/>
                                                         </div>
                                                         <!-- Carousel nav -->
                                                         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
