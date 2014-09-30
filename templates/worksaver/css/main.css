@@ -47,12 +47,15 @@ and open the template in the editor.
 .slider-adjust{
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+
 }
 
 
 .item-adjust{
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 /*For Slider*/
