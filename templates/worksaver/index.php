@@ -36,7 +36,7 @@
                 </form>
             </div>
         </div>
-        <div id='navRow' class="row">
+        <div id='headnav' class="row">
             <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
                 <div class="navi">
                     <nav>
@@ -72,14 +72,27 @@
         </div>
     <?php endif; ?>
 
+    <!--Body Content-->
     <div class="container">
         <div class="row">
             <jdoc:include type="component" />
         </div>
     </div>
 
-    <div class="container">
-        <div class="row" id="footer">
+    <!--Footer-->
+    <div class="container-fluid">
+        <div id='footnav' class="row">
+            <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
+                <div class="navi">
+                    <nav>
+                        <?php if ($this->countModules('mainmenu')) : ?>
+                            <nav class="navigation" role="navigation">
+                                <jdoc:include type="modules" name="footermenu" style="none" />
+                            </nav>
+                        <?php endif; ?>
+                    </nav>
+                </div>
+            </div>
         </div>
     </div>
 
