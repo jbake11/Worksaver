@@ -43,6 +43,9 @@
         <position>position-13</position>
         <position>position-14</position>
         <position>footermenu</position>
+        <position>footcol1</position>
+        <position>footcol2</position>
+        <position>footcol3</position>
         <position>footer</position>
     </positions>
     <languages folder="language">
