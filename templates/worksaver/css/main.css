@@ -41,7 +41,11 @@ and open the template in the editor.
 
 #slideRow {
     padding: 0px;
+}
 
+#slideRow div {
+    padding: 0;
+    margin: 0;
 }
 
 .slider-adjust{
