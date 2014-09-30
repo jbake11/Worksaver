@@ -55,14 +55,18 @@
         <div class="container-fluid">
             <div class="row-fluid" id="slideRow">
                 <div class="col-lg-8 col-md-8 col-sm-8 ">
-                    <?php if ($this->countModules('slider')) : ?>
-                        <jdoc:include type="modules" name="slider" style="xhtml" />
-                    <?php endif; ?>
+                    <div class="navi">
+                        <?php if ($this->countModules('slider')) : ?>
+                            <jdoc:include type="modules" name="slider" style="xhtml" />
+                        <?php endif; ?>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
-                    <?php if ($this->countModules('featuredproduct')) : ?>
-                        <jdoc:include type="modules" name="featuredproduct" style="none" />
-                    <?php endif; ?>
+                    <div class="navi">
+                        <?php if ($this->countModules('featuredproduct')) : ?>
+                            <jdoc:include type="modules" name="featuredproduct" style="none" />
+                        <?php endif; ?>
+                    </div>
                 </div>
             </div>
         </div>
