@@ -44,6 +44,16 @@ and open the template in the editor.
 
 }
 
+.slider-adjust{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.item-adjust{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*For Slider*/
 .hide-bullets {
