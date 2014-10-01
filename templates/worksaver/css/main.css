@@ -93,7 +93,11 @@ nav>ul>li{
 address{
     line-height: 0px !important;
     color: white;
-    horizontal-align: center;
+
+}
+
+.foot-contact{
+    margin-top: 20px;
 }
 
 .foot-badges{
