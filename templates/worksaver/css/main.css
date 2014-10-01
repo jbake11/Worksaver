@@ -93,6 +93,7 @@ nav>ul>li{
 address{
     line-height: 0px !important;
     color: white;
+    horizontal-align: center;
 }
 
 .foot-badges{
