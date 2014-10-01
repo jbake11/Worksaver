@@ -99,7 +99,7 @@
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="foot-contact">
                     <jdoc:include type="modules" name="footcol1" style="none" />
-<!--                    <p>WORKSAVER, INC.</p>
+<!--                <p>WORKSAVER, INC.</p>
                     <p>P.O. BOX 100</p>
                     <p>9 Worksaver Trail</p>
                     <p>Litchfield, Illinois 62056-0100 USA</p>
@@ -108,13 +108,13 @@
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <jdoc:include type="modules" name="footcol2" style="none" />
-                <!--<img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
+                <!--<jdoc:include type="modules" name="footcol2" style="none" />-->
+                <img class="img-responsive" src="/templates/worksaver/images/smalllogo.png" alt=""/>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="foot-badges">
                     <jdoc:include type="modules" name="footcol3" style="none" />
-<!--                    <img src="/templates/worksaver/images/ytbadge.png" alt=""/>
+<!--                <img src="/templates/worksaver/images/ytbadge.png" alt=""/>
                     <img src="/templates/worksaver/images/twitbadge.png" alt=""/>
                     <img src="/templates/worksaver/images/fbbadge.png" alt=""/>-->
                 </div>
