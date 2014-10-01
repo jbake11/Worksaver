@@ -34,9 +34,12 @@ and open the template in the editor.
 
 }
 
-.navi{
+nav>ul>li{
     margin-left: auto;
     margin-right: auto;
+    color: white;
+
+
 }
 
 .nav-pills>li>a {
@@ -87,8 +90,8 @@ and open the template in the editor.
     margin: 0px;
 }
 
-.foot-contact{
-
+address{
+    line-height: 10px !important;
 }
 
 .foot-badges{
