@@ -21,16 +21,16 @@
         <div id='header' class="row">
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="flag">
-                    <jdoc:include type="modules" name="headcol1" style="none" />
+                    <jdoc:include type="modules" name="headcol1" style="xhtml" />
 <!--                    <img class="img-responsive" src="/templates/worksaver/images/flag.png" alt=""/>-->
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <jdoc:include type="modules" name="headcol2" style="none" />
+                <jdoc:include type="modules" name="headcol2" style="xhtml" />
 <!--                <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <jdoc:include type="modules" name="headcol3" style="none" />
+                <jdoc:include type="modules" name="headcol3" style="xhtml" />
             </div>
         </div>
         <div id='headnav' class="row">
@@ -95,7 +95,7 @@
         <div id="footer" class="row">
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="foot-contact">
-                    <jdoc:include type="modules" name="footcol1" style="none" />
+                    <jdoc:include type="modules" name="footcol1" style="xhtml" />
 <!--                <p>WORKSAVER, INC.</p>
                     <p>P.O. BOX 100</p>
                     <p>9 Worksaver Trail</p>
@@ -106,13 +106,13 @@
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="foot-logo">
-                    <jdoc:include type="modules" name="footcol2" style="none" />
+                    <jdoc:include type="modules" name="footcol2" style="xhtml" />
 <!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="foot-badges">
-                    <jdoc:include type="modules" name="footcol3" style="none" />
+                    <jdoc:include type="modules" name="footcol3" style="xhtml" />
 <!--                <img src="/templates/worksaver/images/ytbadge.png" alt=""/>
                     <img src="/templates/worksaver/images/twitbadge.png" alt=""/>
                     <img src="/templates/worksaver/images/fbbadge.png" alt=""/>-->
