@@ -74,6 +74,9 @@ nav>ul>li{
     min-width: 100%;
 }
 
+.item-page table td {
+    padding: 8px;
+}
 
 
 
