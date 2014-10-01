@@ -24,6 +24,11 @@ and open the template in the editor.
     margin-top: 15px;
 }
 
+.head-search{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #headnav{
     background-color: #6a6a69;
 
@@ -67,45 +72,7 @@ and open the template in the editor.
 }
 
 
-/*Head Search Bar*/
-#custom-search-form {
-    margin:0;
-    margin-top: 15px;
-    padding: 0;
-}
 
-#custom-search-form .search-query {
-    padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-#custom-search-form button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.search-query:focus + button {
-    z-index: 3;
-}
-/*Head search bar end*/
 
 #footnav{
     background-color: #6a6a69;
@@ -121,6 +88,7 @@ and open the template in the editor.
 }
 
 .foot-contact{
+
 }
 
 .foot-badges{
@@ -128,7 +96,6 @@ and open the template in the editor.
 }
 
 .foot-logo{
-    /*    margin-right: -150px;*/
 
 
 }

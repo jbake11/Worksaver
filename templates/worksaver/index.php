@@ -26,11 +26,15 @@
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <jdoc:include type="modules" name="headcol2" style="xhtml" />
-<!--                <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
+                <div class="head-logo">
+                    <jdoc:include type="modules" name="headcol2" style="xhtml" />
+    <!--                <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
+                </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <jdoc:include type="modules" name="headcol3" style="xhtml" />
+                <div class="head-search">
+                    <jdoc:include type="modules" name="headcol3" style="xhtml" />
+                </div>
             </div>
         </div>
         <div id='headnav' class="row">
