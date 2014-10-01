@@ -21,19 +21,16 @@
         <div id='header' class="row">
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="flag">
-                    <img class="img-responsive" src="/templates/worksaver/images/flag.png" alt=""/>
+                    <jdoc:include type="modules" name="headcol1" style="none" />
+<!--                    <img class="img-responsive" src="/templates/worksaver/images/flag.png" alt=""/>-->
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>
+                <jdoc:include type="modules" name="headcol2" style="none" />
+<!--                <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <form id="custom-search-form" class="form-search form-horizontal pull-right">
-                    <div class="input-append span12">
-                        <input type="text" class="search-query" placeholder="Search">
-                        <button type="submit" class="btn"><i class="icon-search"></i></button>
-                    </div>
-                </form>
+                <jdoc:include type="modules" name="headcol3" style="none" />
             </div>
         </div>
         <div id='headnav' class="row">
@@ -108,8 +105,10 @@
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <!--<jdoc:include type="modules" name="footcol2" style="none" />-->
-                <img class="img-responsive" src="/templates/worksaver/images/smalllogo.png" alt=""/>
+                <div class="foot-logo">
+                    <jdoc:include type="modules" name="footcol2" style="none" />
+<!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
+                </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="foot-badges">

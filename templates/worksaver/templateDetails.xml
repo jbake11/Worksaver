@@ -26,12 +26,12 @@
     </files>
     <positions>
         <position>banner</position>
+        <position>headcol1</position>
+        <position>headcol2</position>
+        <position>headcol3</position>
         <position>mainmenu</position>
         <position>featuredproduct</position>
         <position>slider</position>
-        <position>position-2</position>
-        <position>position-3</position>
-        <position>position-4</position>
         <position>position-5</position>
         <position>position-6</position>
         <position>position-7</position>

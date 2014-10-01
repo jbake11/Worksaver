@@ -107,12 +107,6 @@ and open the template in the editor.
 }
 /*Head search bar end*/
 
-
-
-
-
-
-
 #footnav{
     background-color: #6a6a69;
 
@@ -131,5 +125,11 @@ and open the template in the editor.
 }
 
 .foot-badges{
+
+}
+
+.foot-logo{
+    /*    margin-right: -150px;*/
+
 
 }
