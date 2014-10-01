@@ -39,15 +39,11 @@
         </div>
         <div id='headnav' class="row">
             <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
-                <div class="navi">
-                    <nav>
-                        <?php if ($this->countModules('mainmenu')) : ?>
-                            <nav class="navigation" role="navigation">
-                                <jdoc:include type="modules" name="mainmenu" style="none" />
-                            </nav>
-                        <?php endif; ?>
+                <?php if ($this->countModules('mainmenu')) : ?>
+                    <nav class="navigation" role="navigation">
+                        <jdoc:include type="modules" name="mainmenu" style="none" />
                     </nav>
-                </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
