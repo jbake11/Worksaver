@@ -195,5 +195,5 @@ address{
 
 .tbody-content img{
     max-height: 300px;
-    width: auto;
+    max-width: 300px;
 }
