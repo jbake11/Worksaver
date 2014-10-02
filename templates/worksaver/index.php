@@ -34,22 +34,7 @@
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="head-search">
                     <jdoc:include type="modules" name="headcol3" style="xhtml" />
-
-                    <!--                    <div class="head-search">
-                                            <div class="moduletable">
-                                                <div class="search">
-                                                    <form action="/" method="post" class="form-inline">
-                                                        <label for="mod-search-searchword" class="element-invisible">Search...</label> <input name="searchword" id="mod-search-searchword" maxlength="20" class="inputbox search-query" type="text" size="0" value="Search..." onblur="if (this.value == '')
-                                                this.value = 'Search...';" onfocus="if (this.value == 'Search...')
-                                                            this.value = '';">		<input type="hidden" name="task" value="search">
-                                                        <input type="hidden" name="option" value="com_search">
-                                                        <input type="hidden" name="Itemid" value="101">
-                                                    </form>
-                                                </div>
-                                            </div>-->
-
                 </div>
-
             </div>
         </div>
     </div>
