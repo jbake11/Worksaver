@@ -96,7 +96,7 @@ nav>ul>li{
 /* ------------------- Carousel Styling ------------------- */
 
 .carousel-inner {
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 .carousel-caption {
