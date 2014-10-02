@@ -16,7 +16,7 @@
         <link href="/templates/worksaver/css/main.css" rel="stylesheet">
     <jdoc:include type="head" />
 </head>
-<body>
+<body class="bg-gradient">
     <div class="container-fluid">
         <div id='header' class="row">
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
@@ -71,7 +71,7 @@
 
     <!--Body Content-->
     <div class="container">
-        <div class="row bg-gradient">
+        <div class="row ">
             <jdoc:include type="component" />
         </div>
     </div>
