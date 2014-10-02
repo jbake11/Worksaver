@@ -179,3 +179,20 @@ address{
 
 
 }
+
+/*Product Table Adjustments*/
+.tbody-content{
+
+}
+
+.tbody-content>tr{
+
+}
+
+.tbody-content>td{
+
+}
+
+.tbody-content>img{
+    max-height: 300px;
+}
