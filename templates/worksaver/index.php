@@ -51,14 +51,14 @@
 <?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
     <div class="container-fluid">
         <div class="row" id="slideRow">
-            <div class="col-lg-9 col-md-9 col-sm-9">
+            <div class="col-lg-8 col-md-8 col-sm-8">
                 <div class="slider-adjust">
                     <?php if ($this->countModules('slider')) : ?>
                         <jdoc:include type="modules" name="slider" style="xhtml" />
                     <?php endif; ?>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="item-adjust">
                     <?php if ($this->countModules('featuredproduct')) : ?>
                         <jdoc:include type="modules" name="featuredproduct" style="none" />
