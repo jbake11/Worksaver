@@ -12,6 +12,10 @@ and open the template in the editor.
     margin-top: 0px;
 }
 
+.item-page .row {
+    margin-bottom: 40px;
+}
+
 .container-fluid {
     padding: 0;
 }
