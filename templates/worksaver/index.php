@@ -34,85 +34,101 @@
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="head-search">
                     <jdoc:include type="modules" name="headcol3" style="xhtml" />
+
+                    <!--                    <div class="head-search">
+                                            <div class="moduletable">
+                                                <div class="search">
+                                                    <form action="/" method="post" class="form-inline">
+                                                        <label for="mod-search-searchword" class="element-invisible">Search...</label> <input name="searchword" id="mod-search-searchword" maxlength="20" class="inputbox search-query" type="text" size="0" value="Search..." onblur="if (this.value == '')
+                                                this.value = 'Search...';" onfocus="if (this.value == 'Search...')
+                                                            this.value = '';">		<input type="hidden" name="task" value="search">
+                                                        <input type="hidden" name="option" value="com_search">
+                                                        <input type="hidden" name="Itemid" value="101">
+                                                    </form>
+                                                </div>
+                                            </div>-->
+
                 </div>
-            </div>
-        </div>
-        <div id='headnav' class="row">
-            <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
-                <?php if ($this->countModules('mainmenu')) : ?>
-                    <nav class="navigation" role="navigation">
-                        <jdoc:include type="modules" name="mainmenu" style="none" />
-                    </nav>
-                <?php endif; ?>
+
             </div>
         </div>
     </div>
-
-    <?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
-        <div class="container-fluid">
-            <div class="row-fluid" id="slideRow">
-                <div class="col-lg-9 col-md-9 col-sm-9">
-                    <div class="slider-adjust">
-                        <?php if ($this->countModules('slider')) : ?>
-                            <jdoc:include type="modules" name="slider" style="xhtml" />
-                        <?php endif; ?>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="item-adjust">
-                        <?php if ($this->countModules('featuredproduct')) : ?>
-                            <jdoc:include type="modules" name="featuredproduct" style="none" />
-                        <?php endif; ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <?php endif; ?>
-
-    <!--Body Content-->
-    <div class="container">
-        <div class="row ">
-            <jdoc:include type="component" />
+    <div id='headnav' class="row">
+        <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
+            <?php if ($this->countModules('mainmenu')) : ?>
+                <nav class="navigation" role="navigation">
+                    <jdoc:include type="modules" name="mainmenu" style="none" />
+                </nav>
+            <?php endif; ?>
         </div>
     </div>
+</div>
 
-    <!--Footer-->
+<?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
     <div class="container-fluid">
-        <div id='footnav' class="row">
-            <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
-                <div class="navi">
-                    <nav>
-                        <?php if ($this->countModules('mainmenu')) : ?>
-                            <nav class="navigation" role="navigation">
-                                <jdoc:include type="modules" name="footermenu" style="none" />
-                            </nav>
-                        <?php endif; ?>
-                    </nav>
+        <div class="row-fluid" id="slideRow">
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="slider-adjust">
+                    <?php if ($this->countModules('slider')) : ?>
+                        <jdoc:include type="modules" name="slider" style="xhtml" />
+                    <?php endif; ?>
                 </div>
             </div>
-        </div>
-
-        <div id="footer" class="row">
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <div class="foot-contact">
-                    <jdoc:include type="modules" name="footcol1" style="xhtml" />
-
-                </div>
-            </div>
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <div class="foot-logo">
-                    <jdoc:include type="modules" name="footcol2" style="xhtml" />
-<!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
-                </div>
-            </div>
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <div class="foot-badges">
-                    <jdoc:include type="modules" name="footcol3" style="xhtml" />
-
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="item-adjust">
+                    <?php if ($this->countModules('featuredproduct')) : ?>
+                        <jdoc:include type="modules" name="featuredproduct" style="none" />
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
     </div>
+<?php endif; ?>
+
+<!--Body Content-->
+<div class="container">
+    <div class="row ">
+        <jdoc:include type="component" />
+    </div>
+</div>
+
+<!--Footer-->
+<div class="container-fluid">
+    <div id='footnav' class="row">
+        <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
+            <div class="navi">
+                <nav>
+                    <?php if ($this->countModules('mainmenu')) : ?>
+                        <nav class="navigation" role="navigation">
+                            <jdoc:include type="modules" name="footermenu" style="none" />
+                        </nav>
+                    <?php endif; ?>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="row">
+        <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
+            <div class="foot-contact">
+                <jdoc:include type="modules" name="footcol1" style="xhtml" />
+
+            </div>
+        </div>
+        <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
+            <div class="foot-logo">
+                <jdoc:include type="modules" name="footcol2" style="xhtml" />
+<!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
+            </div>
+        </div>
+        <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
+            <div class="foot-badges">
+                <jdoc:include type="modules" name="footcol3" style="xhtml" />
+
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

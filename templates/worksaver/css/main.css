@@ -29,6 +29,10 @@ and open the template in the editor.
     margin-right: auto;
 }
 
+.element-invisible{
+    display: none;
+}
+
 #headnav{
     background-color: #6a6a69;
 
