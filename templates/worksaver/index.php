@@ -71,7 +71,7 @@
 
     <!--Body Content-->
     <div class="container">
-        <div class="row">
+        <div class="row bg-gradient">
             <jdoc:include type="component" />
         </div>
     </div>
