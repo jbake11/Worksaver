@@ -189,6 +189,22 @@ address{
 
 }
 
+
+
+/*Rotary-Broom Tables*/
+.table-body{
+
+}
+.table-col-header{
+    text-align: center;
+}
+.table-col-note{
+
+}
+.table-col-modelnum{
+
+}
+
 /*Product Table Adjustments*/
 .tbody-content{
 

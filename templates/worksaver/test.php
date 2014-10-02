@@ -1,64 +1,113 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <h3>ROTARY BROOMS FOR SKID STEERS &amp; 3-PT. TRACTOR MOUNT</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <ul>
+            <li>Top quality rotary brooms for use by contractors, municipalities, institutions, and farmers .</li>
+            <li>Remove dirt, sand, gravel and trash from construction entrances, parking lots, bridges, driveways and sidewalks.</li>
+            <li>Remove thatch and prepare turf for the growing season.</li>
+            <li>Clean snow or leaves from streets, driveways, and buildings, and building entrances.</li>
+            <li>Excellent for general clean up before sealing or repairing pavement.</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="/images/Broom 3.jpg" alt="Photo of Rotary Broom" />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul>
+            <li>PTO driven 3-pt. tractor mount in 5-ft., 6-ft., &amp; 7-ft. widths with 32" diameter brushes.</li>
+            <li>Double gearbox drive (Patented No. 8,117,705) for smooth power tranmission and easy reversal of brush rotation.</li>
+            <li>Broom angles 30° right and left.</li>
+            <li>Parking stands standard.</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul>
+            <li>Hydraulically driven skid steer models in 5-ft., 6-ft., &amp; 7-ft. widths with 32" diameter brushes.</li>
+            <li>Variable flow control valve for optimum broom speed.</li>
+            <li>Step-throught mount design for easy in/out of skid steer cab.</li>
+            <li>Broom angles 30° right or left.</li>
+            <li>Parking stands standard.</li>
+        </ul>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="/images/Broom Lit.jpg" alt="Photo of Rotary Broom" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul>
+            <li>Variable flow control valve allows operator to adjust broom speed independently of engine or ground speed.</li>
+            <li>5-ft., 6-ft., and 7-ft. widths.</li>
+            <li>Broom angles 30° right and left.</li>
+            <li>32" Diameter convoluted brushes available in Poly (P) or both Poly and Wire (PW).</li>
+        </ul>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul>
+            <li>Height adjustment chains maintain even operatimg position.</li>
+            <li>Parking stand included as standard equipment.</li>
+            <li>Manual or Hydraulic Agle Kits available.</li>
+            <li>Optional electric solenoid kit available for hydraulic angle adjustment kits on skid steers having one set of hydraulic remotes.</li>
+        </ul>
+    </div>
+</div>
 
 
-
-<table align="CENTER" border="0" cellpadding="5" cellspacing="0" width="95%">
-
-    <tbody><tr align="CENTER" valign="TOP"><td align="CENTER" valign="TOP" nowrap=""><font color="#000000" size="+2"><b>Land Management Tools</b></font>
-                <br><b><font size="3">For Front Loader, Skid Steer and Rear Hitch Mounting</font></b></td></tr></tbody></table>
-<p>
-
-    <a name="broom"></a>
-<table align="CENTER" border="1" width="85%">
-    <tbody><tr><td align="CENTER" bgcolor="#80FFFF" colspan="3"><b><font size="5">Rotary Brooms </font></b></td></tr>
-        <tr><td align="CENTER" bgcolor="#80FFFF" width="150"><b><font size="2">Product</font></b></td>
-            <td align="CENTER" bgcolor="#80FFFF" width="22%"><b><font size="2">Model</font></b></td>
-            <td align="CENTER" bgcolor="#80FFFF" width="95%"><b><font size="2">Description</font></b></td></tr>
-
-        <tr><td width="150"><a href="broom.html"><img src="../landscape/Broom 3.jpg" alt="Photo of Rotary Broom" width="200" length="200"></a></td>
-            <td width="22%"><b><font size="2">RMB-325P<br>RMB-325PW<br>RMB-326P<br>RMB-326PW<br>RMB-327P<br>RMB-327PW</font></b></td>
-            <td width="80%"><font size="2"><br><b>PTO Driven Rotary Brooms</b>&nbsp;&nbsp;&nbsp;PTO driven 3-pt. tractor mount in 5-ft., 6-ft., &amp; 7-ft. widths with 32" diameter brushes.<br>Top quality rotary brooms for use by contractors, municipalities, institutions, and farmers to remove dirt, sand, gravel and trash from construction entrances, parking lots, bridges, driveways and sidewalks.
-
-                <br><br><a href="broompartsman.html"><b>3-PT. Broom Part List</b></a><br><a href="../manuals/broom.pdf"><b>3-PT. Rotary Broom Manuals</b></a><br><br>Click photo for more specs.</font></td></tr>
-
-        <tr><td width="150"><a href="broom.html"><img src="../landscape/Broom lit.jpg" alt="Photo of Rotary Broom" width="200" length="200"></a></td>
-            <td width="22%"><b><font size="2">SSMB-325P<br>SSMB-325PW<br>SSMB-326P<br>SSMB-326PW<br>SSMB-327P<br>SSMB-327PW</font></b></td>
-            <td width="80%"><font size="2"><br><b>Skid Steer Rotary Brooms</b>&nbsp;&nbsp;&nbsp;Hydraulically driven skid steer models in 5-ft., 6-ft., &amp; 7-ft. widths with 32" diameter brushes.<br>Top quality rotary brooms for use by contractors, municipalities, institutions, and farmers to remove dirt, sand, gravel and trash from construction entrances, parking lots, bridges, driveways and sidewalks.
-
-                <br><br><a href="ssbroompartsman.html"><b>Skid Steer Broom Part List</b></a><br><a href="../manuals/SSBroom.pdf"><b>Skid Steer Rotary Broom Manuals</b></a><br><br>Click photo for more specs.</font></td></tr>
-    </tbody></table></p>
-
-<p>
-
-    <a name="snow"></a>
-<table align="CENTER" border="1" width="85%">
-    <tbody><tr><td align="CENTER" bgcolor="#80FFFF" colspan="3"><b><font size="5">Snow Blades</font></b></td></tr>
-        <tr><td align="CENTER" bgcolor="#80FFFF" width="150"><b><font size="2">Product</font></b></td>
-            <td align="CENTER" bgcolor="#80FFFF" width="22%"><b><font size="2">Model</font></b></td>
-            <td align="CENTER" bgcolor="#80FFFF" width="95%"><b><font size="2">Description</font></b></td></tr>
-
-        <tr><td width="150"><a href="snowblade.html"><img src="../ts/snowblade1.jpg" alt="Photo of Skid Steer Snow Blade" width="200" length="200"><br><img src="../ts/SBFL-2790-21.jpg" alt="Photo of Front Loader Snow Blade" width="200" length="200"></a></td>
-            <td width="22%"><b><font size="2">SBS-2160<br>SBS-2172<br>SBS-2790A<br>SBS-27108A<br><br>SBG-2160<br>SBG-2172<br>SBG-2790A<br>SBG-27108A<br><br>SBFL-2160<br>SBFL-2172<br>SBFL-2790A<br>SBFL-27108A<br></font></b></td>
-            <td width="80%"><font size="2"><br><b>Snow Blades for Skid Steers and Front Loaders.</b><br>Designed for 30-80 hp Tractors and Skid Steers.  All snow blades have trip springs for controlled break over in snow, or lock for light grading of loose dirt or gravel.  All have 3/8" x 6" reversible hard steel cutting edges and height adjustable skid shoes (6" x 1/2" thick) that rotate for long wear.  Manual angle adjstment is standard on 5-ft., 6-ft., and 7.5-ft. models (optional hydraulic. angle kits available.).  9-ft blades have hyddraulic angle adjustment and cross-over relief valve as standard equipment.  7.5 and 9-ft. models ave 5 deg lateral oscilation feature as standard equipment.
-
-                <br><br><br>Click photo for more specs., Manuals and Parts List</font></td></tr>
-    </tbody></table></p>
-
-<p>
-    <a name="stump"></a>
-<table align="CENTER" border="1" width="85%">
-    <tbody><tr><td align="CENTER" bgcolor="#80FFFF" colspan="3"><b><font size="5">Stump Grinder</font></b></td></tr>
-        <tr><td align="CENTER" bgcolor="#80FFFF" width="150"><b><font size="2">Product</font></b></td>
-            <td align="CENTER" bgcolor="#80FFFF" width="22%"><b><font size="2">Model</font></b></td>
-            <td align="CENTER" bgcolor="#80FFFF" width="95%"><b><font size="2">Description</font></b></td></tr>
-
-        <tr><td width="150"><a href="stumpgrinder.html"><img src="../ts/sg1.jpg" width="200" height="150" border="0" alt="Photo of Stump Grinder"></a></td>
-            <td width="22%"><b><font size="2">SG-26A<br>SG-36A</font></b></td>
-            <td width="80%"><font size="2"><b>Stump Grinder - </b>Available January 2004 - Economical; Efficent PTO &amp; Hydraulic Powered Stump Grinders make stump removal fast and easy
-                <br><b>Click on picture for more details.<br><br><a href="26stumpman.html">Click Here for SG-26 Parts List</a><br><br><a href="36stumpman.html">Click Here for SG-36 Parts List</a><br><br><a href="26Hydstumpman.html">Click Here for SG-26H Parts List</a>
-                    <br><br><a href="../manuals/wssg26-36.pdf"><b>Download Manual</b></a></b></font></td></tr>
-
-    </tbody></table></p>
-
-<table align="CENTER" valign="TOP" width="75%" border="0">
-    <tbody><tr><td align="CENTER" colspan="3"><a href="bale-options.html"><img border="0" vspace="5" src="../bin/button/lmb.gif" alt="Optional Loader Brackets"></a><br><a href="haf-op.html"><img border="0" vspace="5" src="../bin/button/htlc.gif" alt="Optional Top-Link Cylinders"></a></td></tr>
-    </tbody></table><p></p>
+<table class="table table-responsive">
+    <tbody class="table-body">
+        <tr><td class="table-col-header" colspan="7"><h3>3-PT. Rotary Broom Specifications</h3></td></tr>
+        <tr><td class="table-col-note" colspan="7"><b>Note:</b> Double gearbox drive for smooth power transmission and low maintenance.  Top "T-shaft" gearbox allows easy reversal of brush rotation.  Designed for category I tractors with 1,000 lbs. or greater 3-pt. lift capacity.</td></tr>
+        <tr><td class="table-col-modelnum">&nbsp;</td><td>RMB-325P</font></td><td>>RMB-325PW</td><td>RMB-326P</td><td>RMB-326PW</td><td>RMB-327P</td><td>RMB-327PW</td></tr>
+        <tr><td>Overall width (in/cm)</td><td>69 / 175</td><td >69 / 175</td><td >81 / 206</td><td >81 / 206</td><td >93 / 236</td><td >93 / 236</td></tr>
+        <tr><td>Brush Diameter (in/cm)</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td></tr>
+        <tr><td>Sweeping Width (in/cm)</td><td >60 / 152</td><td >60 / 152</td><td >72 / 183</td><td >72 / 183</td><td >84 / 213</td><td >84 / 213</td></tr>
+        <tr><td>Width @ 30° angle (in/cm)</td><td >53 / 135</td><td >53 / 135</td><td >64 / 163</td><td >64 / 163</td><td >76 / 193</td><td >76 / 193</td></tr>
+        <tr><td>Mounting System</td><td >3-pt. (Cat. I)</td><td >3-pt.(Cat. I)</td><td >3-pt. (Cat. I)</td><td >3-pt. (Cat. I)</td><td >3-pt. (Cat. I)</td><td >3-pt. (Cat. I)</td></tr>
+        <tr><td>Brush Material</td><td >Poly</td><td >Poly / Wire</td><td >Poly</td><td >Poly / Wire</td><td >Poly</td><td >Poly / Wire</td></tr>
+        <tr><td>PTO RPM Range</td><td >540</td><td >540</td><td >540</td><td >540</td><td >540</td><td >540</td></tr>
+        <tr><td>Sprinkler System</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td></tr>
+        <tr><td>Dirt Deflector</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td></tr>
+        <tr><td>Weight (lb / kg)</td><td >640 / 290</td><td >640 / 290</td><td >740 /  336</td><td >840 / 381</td><td >740 / 336</td><td >840 / 381</td></tr>
+        <tr><td>Item No.</td><td >610705</td><td >610700</td><td >610755</td><td >610750</td><td >610805</td><td >610800</td></tr>
+        <tr><td><a href="broompartsman.html">3-PT. Broom Part List</a></td><td  colspan="3"><a href="../manuals/broom.pdf">3-PT. Rotary Broom Manuals</a></td></tr>
+    </tbody>
+</table>
+<br />
+<table>
+    <tbody class="table-body">
+        <tr><td  class="table-col-header" colspan="7"><h3>Skid Steer Rotary Broom Specifications</h3></td></tr>
+        <tr><td class="table-col-note" colspan="7"><b>Note:</b> Variable flow control valve allows operator to adjust broom speed independently of enine or ground speed.  4.36 / 1 chain drive ratio for excellent torque.  Heavy-duty #60 chain for long life.  Step-through mount design for easy in/out of skid steer cab.</td></tr>
+        <tr><td class="table-col-modelnum">&nbsp;</td><td >SSMB-325P</td><td >SSMB-325PW</td><td >SSMB-326P</td><td >SSMB-326PW</td><td >SSMB-327P</td><td >SSMB-327PW</td></tr>
+        <tr><td>Overall width (in/cm)</td><td >69 / 175</td><td >69 / 175</td><td >81 / 206</td><td >81 / 206</td><td >93 / 236</td><td >93 / 236</td></tr>
+        <tr><td>Brush Diameter (in/cm)</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td><td >32 / 81</td></tr>
+        <tr><td>Sweeping Width (in/cm)</td><td >60 / 152</td><td >60 / 152</td><td >72 / 183</td><td >72 / 183</td><td >84 / 213</td><td >84 / 213</td></tr>
+        <tr><td>Width @ 30° angle (in/cm)</td><td >53 / 135</td><td >53 / 135</td><td >64 / 163</td><td >64 / 163</td><td >76 / 193</td><td >76 / 193</td></tr>
+        <tr><td>Mounting System</td><td >Skid Steer</td><td >Skid Steer</td><td >Skid Steer</td><td >Skid Steer</td><td >Skid Steer</td><td >Skid Steer</td></tr>
+        <tr><td>Brush Material</td><td >Poly</td><td >Poly / Wire</td><td >Poly</td><td >Poly / Wire</td><td >Poly</td><td >Poly / Wire</td></tr>
+        <tr><td>Hyd. Motor Rating</td><td >16 GPM</td><td >16 GPM</td><td >16 GPM</td><td >16 GPM</td><td >16 GPM</td><td >16 GPM</td></tr>
+        <tr><td>Sprinkler System</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td></tr>
+        <tr><td>Dirt Deflector</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td><td >Optional</td></tr>
+        <tr><td>Weight (lb / kg)</td><td >640 / 290</td><td >640 / 290</td><td >740 /  336</td><td >840 / 381</td><td >740 / 336</td><td >840 / 381</td></tr>
+        <tr><td>Item No.</td><td >610961</td><td >610960</td><td >610966</td><td >610965</td><td >610971</td><td >610970</td></tr>
+        <tr><td></td><td  colspan="3"><a href="ssbroompartsman.html">Skid Steer Broom Part List</a></td><td  colspan="3"><a href="../manuals/SSBroom.pdf">Skid Steer Rotary Broom Manuals</a></td></tr>
+    </tbody>
+</table>
+<br />
+<table>
+    <tbody class="table-body">
+        <tr><td class="table-col-header" colspan="7"><h3>Angle Adjustment Kits</h3></td>
+        </tr><tr><td>Item #610702</td><td>Manual Angle Adjustment Kit for either skid steers or tractor 3-pt.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AdjustmentLinkPartsman.html">Parts List</a></td></tr>
+        <tr><td>Item #610703</td><td>3-pt. Hydraulic Angle Adjustment Kit - includes cylinder &amp; hoses less tips.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="optHydAngleKitPartsman.html">Parts List</a></td></tr>
+        <tr><td>Item #610940</td><td>Skid steer Hydraulic Angle Adjustment Kit - includes elec. hydraulic solenoid control valve.  For skid steer brooms used on units with only one set of remotes.  Includes cylinder, hoses, valve, &amp; flat-faced couplers.  Factory installed..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="optsolenoidFactoryPartsman.html">Parts List</a></td></tr>
+        <tr><td class="table-col-header" colspan="7"><h3>Electric Solenoid Kit (Optional)</h3> </td>
+        </tr><tr><td>Item #610950</td><td>Field installed electric hydraulic solenoid valve kit - fits #610703 hydraulic angle kit above.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="optsolenoidElecPartsman.html">Parts List</a></td></tr>
+    </tbody>
+</table>
