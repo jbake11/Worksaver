@@ -67,7 +67,6 @@
 
         <tr><td>Weight (lb/kg)</td><td>665 / 302</td><td>690 / 313</td><td>NA</td><td>555 / 252</td><td>530 / 240</td><td>NA</td></tr>
 
-
         <tr><td>Front Loader Angle Hydraulic Kit</td><td>Standard</td><td>NA</td><td>Standard</td><td>Optional</td><td>NA</td><td>Optional</td></tr>
         <tr><td>Skid Steer Angle Hydraulic Kit</td><td>NA</td><td>Standard</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td></tr>
         <tr><td>Crossover Rel. Valve</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
@@ -82,7 +81,7 @@
     </tbody></table>
 
 <p></p>
-<table class="table table-bordered table-responsive table-striped">
+<table  class="table table-bordered table-responsive table-striped">
     <tbody><tr><td align="center" colspan="9"><b><font size="+1">6' and 5' Snow Blade Specifications</b></td></tr>
         <tr><td>&nbsp;</td><td><b>SBC-2172</b></td><td><b>SBJD-2172</b></td><td><b>SBFL-2172</b></td><td><b>SBS-2172</b></td><td><b>SBJD-2160</b></td><td><b>SBFL-2160</b></td><td><b>SBS-2160</b></td><td><b>SBC-2160</b></td></tr>
         <tr><td>Overall width (in/cm)</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td></tr>
