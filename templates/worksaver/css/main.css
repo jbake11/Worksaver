@@ -112,7 +112,8 @@ nav ul li a{
 .carousel-inner > .item > a > img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    max-height: 285px;
 }
 
 /* ------------------- Carousel Styling ------------------- */
