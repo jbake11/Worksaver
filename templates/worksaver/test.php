@@ -79,7 +79,7 @@
 
         <tr><td><b><i>* Be Sure front of tractor is properly counterbalanced with front-end weights or front-end loader.</i></b></td></tr>
         <tr><td></td><td><b><a href="26stumpman.html">SG-26 Part List</a></b></td><td><b><a href="36stumpman.html">SG-36 Part List</a></b></td><td><b><a href="26Hydstumpman.html">SG-26H Part List</a></b></td></tr>
-        <tr><td colspan="4"><b><a href="../manuals/wssg26-36.pdf"><b>Download Manual</b></a></b></td></tr>
+        <tr><td align="center" colspan="4"><b><a href="../manuals/wssg26-36.pdf"><b>Download Manual</b></a></b></td></tr>
     </tbody>
 </table>
 
