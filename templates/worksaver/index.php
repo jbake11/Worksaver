@@ -30,8 +30,14 @@
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <div class="head-search">
-                    <jdoc:include type="modules" name="headcol3" style="xhtml" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="head-search">
+                                <jdoc:include type="modules" name="headcol3" style="xhtml" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
