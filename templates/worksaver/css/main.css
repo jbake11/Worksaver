@@ -92,6 +92,12 @@ nav>ul>li{
 
 }
 
+.item-adjust{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
 /* Makes images fully responsive */
 
 .img-responsive,
@@ -133,12 +139,7 @@ nav>ul>li{
 }
 
 
-.item-adjust{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    min-width: 100%;
-}
+
 
 .item-page table td {
     padding: 8px;
