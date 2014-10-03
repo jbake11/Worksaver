@@ -1,126 +1,75 @@
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12">
-        <h3>Snow Blades for Front Loader, Skid Steer, and Clamp-on</h3>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <img class="img-responsive" src="/images/SnowBlade7.jpg" alt="Photo of Skid Steer Snow Blade" />
-        Skid Steer Snow Blade
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <img class="img-responsive" src="images/SBFL-2790-21.jpg" alt="Photo of Front Loader Snow Blade" />
-        Front Loader Snow Blade
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <img class="img-responsive" src="/images/snowblade1.jpg" alt="Photo of Skid Steer Snow Blade" />
-        Skid Steer Snow Blade
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <img class="img-responsive" src="/images/ClampSnowBlade.jpg" alt="Photo of Clamp-on Snow Blade" />
-        Clamp-on Snow Blade
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12">
-        <h3>Features</h3>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12">
-        <ul>
-            <li>Ideal for residential or commercial snow removal.  Use on driveways, parking lots, or other large areas.</li>
-            <li>7.5-ft. &amp; 9-ft. models feature 5° lateral oscillation to allow blade to follow ground contours.</li>
-            <li>Two trip springs for controlled break over in snow.</li>
-            <li>Clamp-on blade for compact tractors.</li>
-            <li>Reinforced 21" or 27" high 10-guage moldboards provide long service life.</li>
-            <li>3/8" x 6" cutting edge of 1044 steel.</li>
-            <li>Blade locks for grading loose dirt or gravel.</li>
-            <li>Step-through design allows for easy access to skid steer seat.</li>
-            <li>Quick hook up on skid steers or front loaders equipped with "Universal" mounting plate.</li>
-            <li>Blade angles right or left.</li>
-            <li>Adjustable skid shoes are ½" thick and rotate for long life.</li>
-        </ul>
-    </div>
-</div>
-<table class="table table-bordered table-responsive table-striped">
-    <tbody><tr><td align="center" colspan="7"><b>9' and 7½' Snow Blade Specifications</b></td></tr>
-        <tr><td>&nbsp;</td><td align="center"><b>SBFL-27108A</b></td><td><b>SBS-27108A</b></td><td><b>SBG-27108A</b></td><td><b>SBFL-2790A</b></td><td><b>SBS-2790A</b></td><td><b>SBG-2790A</b></td></tr>
-        <tr><td>Overall width (in/cm)</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td></tr>
-        <tr><td>Overall height (in/cm)</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td></tr>
-        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
-        <tr><td>Cutting edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>5° Lateral Oscillation</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
 
-        <tr><td>Extension trip springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
-        <tr><td>Manual angle positions</td><td>NA</td><td>NA</td><td>NA</td><td>5</td><td>5</td><td>NA</td></tr>
-        <tr><td>Width @ Full angle</td><td>96/244</td><td>96/244</td><td>96/244</td><td>80/203</td><td>80/203</td><td>80/203</td></tr>
+SmoothCut PTO &amp; Hydraulic Powered Stump Grinders
 
-        <tr><td>Mounting for Tractor Loader (SBFL)</td><td>Brackets required *</td><td>NA</td><td>Global/Euro</td><td>Brackets required *</td><td>NA</td><td>Global/Euro</td></tr>
-        <tr><td>Mounting for Skid Steer (SBS)</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td></tr>
+Economical and Efficient PTO and Hydraulic powered stump grinders make stump removal fast and easy.  Operator easily controls the stump grinder from the comfort of the tractor or skid steer seat.
 
-        <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>Horse power Recommended range</td><td>35 - 80 HP</td><td>35 - 80 HP</td><td>35 - 80 HP</td><td>30 - 80 HP</td><td>30 - 80 HP</td><td>30 - 80 HP</td></tr>
-        <tr><td>Max. Operating Weight (lb/kg)</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td></tr>
+<td><img src="/images/sg1.jpg" alt="Photo Close-up of Stump Grinder">
+<tr><td align="center" valign="top"><img src="/images/SGH-26.jpg">
+    <td align="center"><img src="/images/sg.jpg" alt="Photo of Stump Grinder" width="280" length="240"><br><br></td></tr>
 
-        <tr><td>Weight (lb/kg)</td><td>665 / 302</td><td>690 / 313</td><td>NA</td><td>555 / 252</td><td>530 / 240</td><td>NA</td></tr>
+<tr><td align="center" colspan="2"><img src="/images/sgfoot.jpg" alt="Photo of Stump Grinder Stabilizer Bar" width="250" length="225"></td>
+</tr>
+</tbody></table><p></p>
 
-        <tr><td>Front Loader Angle Hydraulic Kit</td><td>Standard</td><td>NA</td><td>Standard</td><td>Optional</td><td>NA</td><td>Optional</td></tr>
-        <tr><td>Skid Steer Angle Hydraulic Kit</td><td>NA</td><td>Standard</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td></tr>
-        <tr><td>Crossover Rel. Valve</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
-        <tr><td>Optional Top Deflector</td><td>360230</td><td>360230</td><td>360230</td><td>360227</td><td>360227</td><td>360227</td></tr>
-        <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
-        <tr><td>Snow Blade Item No.</td><td>360075</td><td>360070</td><td>360078</td><td>360040</td><td>360000</td><td>360090</td></tr>
-        <tr><td align="left" colspan="7"><i>Be Sure tractor / skid steer is properly counterbalanced.</i><br /><br />*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
-
-        <tr><td>&nbsp;&nbsp;</td><td><br /><a href="SBFL2790A-27108Aman.html"><b>SBFL-27108A<br />Part List</b></a></td><td><br /><a href="SBS2790A-27108man.html"><b>SBS-27108A<br />Part List</b></a></td><td><br /><a href="SBG2790A-27108man.html"><b>SBG-27108A<br />Part List</b></a></td><td><br /><a href="SBFL2790A-27108Aman.html"><b>SBFL-2790A<br />Part List</b></a></td><td><br /><a href="SBS2790A-27108man.html"><b>SBS-2790A<br />Part List</b></a></td><td><br /><a href="SBG2790A-27108man.html"><b>SBG-2790A<br />Part List</b></a></td></tr>
+<table align="CENTER" border="5" cellpadding="3" cellspacing="0" width="95%">
+    <tbody><tr><td align="center"><font size="+2"><b>Features</b></font></td></tr>
+        <tr><td>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Maneuverable - goes anywhere a tractor can; gets into tight places.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Higher productivity via it's unique cutting wheel design.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Cutting wheel design provides a smoother cutting action.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Easy to operate - hydraulic controls allow easy operation from the tractor seat using existing tractor hydraulic controls.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Durable carbide-tipped cutting teeth are economical and easy to replace.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Harden bushings used in major pivot points for increased reliability.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Grease zerks provided at major pivot points for extended service life.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Standard needle valve for precise control of cutting feed rate for best cutting action.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">SureFoot stabilizer bar provides solid footing during operation.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Rubber deflector helps control chips and debris during grinding.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Parking stand for easy storage.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Tractor models require two pair of remote hydraulic outlets</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">Hydraulic model has quick attach universal skid steer hitch system.</font><br><br>
+                <img src="../bin/dot/multidot.gif" hspace="10"><font size="+0">skid steer unit has hydraulic solenoid valve requiring only one pair of remote hydraulic outlets.</font><br><br>
 
 
-    </tbody></table>
+                <p></p>
+                <table align="center" border="4" cellpadding="3" cellspacing="0" width="95%">
+                    <tbody><tr><td align="center" colspan="4"><b><font size="+1">SmoothCut Specifications</font></b></td></tr>
+                        <tr><td align="CENTER" width="20%"><b></b></td><td align="CENTER" width="15%"><b>Model SG-26</b></td><td align="CENTER" width="15%"><b>Model SG-36</b></td><td align="CENTER" width="15%"><b>Model SG-26H</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Hitch</b></td><td align="CENTER" width="15%"><b>Cat. I</b></td><td align="CENTER" width="15%"><b>Cat. I/II</b></td><td align="CENTER" width="15%"><b>Univ. Skid Steer</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Overall Length (est.)</b></td><td align="CENTER" width="15%"><b>75-inches</b></td><td align="CENTER" width="15%"><b>80-inches</b></td><td align="CENTER" width="15%"><b>72-inches</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Drive System</b></td><td align="CENTER" width="15%"><b>Slip Clutch PTO/Series 5</b></td><td align="CENTER" width="15%"><b>Slip Clutch PTO/Series 6</b></td><td align="CENTER" width="15%"><b>System Pressure Hydraulics</b></td></tr>
+                        <tr><td align="left" width="20%"><b>PTO speed</b></td><td align="CENTER" width="15%"><b>540 rpm</b></td><td align="CENTER" width="15%"><b>540 rpm</b></td><td align="CENTER" width="15%"><b>540 rpm @ 19.4 gpm</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Drive system protection</b></td><td align="CENTER" width="15%"><b>Slip Clutch</b></td><td align="CENTER" width="15%"><b>slip clutch</b></td><td align="CENTER" width="15%"><b>System Pressure</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Gearbox rating/ratio</b></td><td align="CENTER" width="15%"><b>60 hp / 1:1.5</b></td><td align="CENTER" width="15%"><b>100 hp / 1:1.46</b></td><td align="CENTER" width="15%"><b>60 hp / 1:1.5</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Cutting wheel construction</b></td><td align="CENTER" width="15%" colspan="3"><b>--Welded 2-piece laminated steel--</b></td></tr>
+                        <tr><td align="leftR" width="20%"><b>Cutting wheel thickness</b></td><td align="CENTER" width="15%" colspan="3"><font size="+2"><b>----------¾"----------</b></font></td></tr>
+                        <tr><td align="left" width="20%"><b>Cutting wheel diameter</b></td><td align="CENTER" width="15%"><b>26-inches</b></td><td align="CENTER" width="15%"><b>36-inches</b></td><td align="CENTER" width="15%"><b>26-inches</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Cutting wheel speed (approx.)<br>@ 540 PTO rpm</b></td><td align="CENTER" width="15%"><b>810 rpm<br>5,515 ft./min</b></td><td align="CENTER" width="15%"><b>788 rpm<br>7,430 ft./min</b></td><td align="CENTER" width="15%"><b>810 rpm<br>5515 ft./min</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Number of teeth</b></td><td align="CENTER" width="15%"><b>33</b></td><td align="CENTER" width="15%"><b>42</b></td><td align="CENTER" width="15%"><b>33</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Cutting teeth construction</b></td><td align="CENTER" width="15%" colspan="3"><b>------Carbide Steel Bolt In------</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Cutting height above ground</b></td><td align="CENTER" width="15%"><b>18-inches</b></td><td align="CENTER" width="15%"><b>18-inches</b></td><td align="CENTER" width="15%"><b>18-inches</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Cutting depth below ground</b></td><td align="CENTER" width="15%"><b>10-inches</b></td><td align="CENTER" width="15%"><b>15-inches</b></td><td align="CENTER" width="15%"><b>10-inches</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Max. cut depth per pass</b></td><td align="CENTER" width="15%"><b>5-inches</b></td><td align="CENTER" width="15%"><b>8-inches</b></td><td align="CENTER" width="15%"><b>5-inches</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Maximum horizontal cut</b></td><td align="CENTER" width="15%"><b>28-inches</b></td><td align="CENTER" width="15%"><b>33-inches</b></td><td align="CENTER" width="15%"><b>28-inches</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Swing arc</b></td><td align="CENTER" width="15%"><b>45-degrees</b></td><td align="CENTER" width="15%"><b>45-degrees</b></td><td align="CENTER" width="15%"><b>45-degrees</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Min. power / flow required</b></td><td align="CENTER" width="15%"><b>22-PTO hp</b></td><td align="CENTER" width="15%"><b>45-PTO hp</b></td><td align="CENTER" width="15%"><b>15 gpm</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Max. power / flow</b></td><td align="CENTER" width="15%"><b>50-PTO hp</b></td><td align="CENTER" width="15%"><b>100-PTO hp</b></td><td align="CENTER" width="15%"><b>25 gpm</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Drive System</b></td><td align="CENTER" width="15%"><b>PTO Series 5p</b></td><td align="CENTER" width="15%"><b>PTO / Series 6</b></td><td align="CENTER" width="15%"><b>Hydraulic</b></td></tr>
+                        <tr><td align="left" width="20%"><b>PTO Speed</b></td><td align="CENTER" width="15%"><b>540 rpm</b></td><td align="CENTER" width="15%"><b>540 rpm</b></td><td align="CENTER" width="15%"><b>540 rpm @ 19.4 gpm</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Weight (est.)</b></td><td align="CENTER" width="15%"><b>660-lbs.</b></td><td align="CENTER" width="15%"><b>880-lbs.</b></td><td align="CENTER" width="15%"><b>757 lbs.</b></td></tr>
+                        <tr><td align="left" width="20%"><b>Computer product number</b></td><td align="CENTER" width="15%"><b>811500</b></td><td align="CENTER" width="15%"><b>811550</b></td><td align="CENTER" width="15%"><b>811640</b></td></tr>
 
-<p></p>
-<table  class="table table-bordered table-responsive table-striped">
-    <tbody><tr><td align="center" colspan="9"><b><font size="+1">6' and 5' Snow Blade Specifications</b></td></tr>
-        <tr><td>&nbsp;</td><td><b>SBC-2172</b></td><td><b>SBJD-2172</b></td><td><b>SBFL-2172</b></td><td><b>SBS-2172</b></td><td><b>SBJD-2160</b></td><td><b>SBFL-2160</b></td><td><b>SBS-2160</b></td><td><b>SBC-2160</b></td></tr>
-        <tr><td>Overall width (in/cm)</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td></tr>
-        <tr><td>Overall height (in/cm)</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td></tr>
-        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
-        <tr><td>Cutting edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>5° Lateral Oscillation</td><td>N/A</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+                        <tr><td align="CENTER" width="20%" colspan="4"><font size="2"><b><i>* Be Sure front of tractor is properly counterbalanced with front-end weights or front-end loader.</i></b></font></td></tr>
+                        <tr><td align="left" width="20%"><b></b></td><td align="CENTER" width="15%"><b><a href="26stumpman.html">SG-26 Part List</a></b></td><td align="CENTER" width="15%"><b><a href="36stumpman.html">SG-36 Part List</a></b></td><td align="CENTER" width="15%"><b><a href="26Hydstumpman.html">SG-26H Part List</a></b></td></tr>
+                        <tr><td align="center" width="20%" colspan="4"><b><a href="../manuals/wssg26-36.pdf"><b>Download Manual</b></a></b></td></tr>
 
-        <tr><td>Extension trip springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
-        <tr><td>Manual angle positions</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
-        <tr><td>Width @ Full angle</td><td>62 / 157</td><td>62/157</td><td>62/157</td><td>62/157</td><td>52/132</td><td>52/132</td><td>52/132</td><td>52/132</td></tr>
+                    </tbody></table>
 
-        <tr><td>Mounting for Tractor Loader (SBFL)</td><td>Clamp-on</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>Clamp-on</td></tr>
-        <tr><td>Mounting for Skid Steer (SBS)</td><td>N/A</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>N/A</td></tr>
+                <table align="center" border="0" cellpadding="3" cellspacing="0" width="85%">
+                    <tbody><tr><td align="left" colspan="3"><b><font size="+1">&nbsp;<br>&nbsp;</font></b></td></tr>
 
-        <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>Horse power Recommended range</td><td>&lt;35 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>&lt;35 HP</td></tr>
-        <tr><td>Max. Operating Weight (lb/kg)</td><td>4,000/1,814.4</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,000/1,814.4</td></tr>
-
-        <tr><td>Weight (lb/kg)</td><td>335 / 152</td><td>366 / 166</td><td>366 / 166</td><td>350 / 159</td><td>347 / 157</td><td>347 / 157</td><td>334 / 152</td><td>305 / 138</td></tr>
+                        <tr><td align="left" colspan="3"><b><font size="3"><img src="Caution2.gif" alt="Photo of Caution Sign" width="25" length="25">&nbsp;&nbsp;Read and understand Operator's Manual before operation.</font></b></td></tr>
+                        <tr><td align="left" colspan="3"><b><font size="3"><img src="Caution2.gif" alt="Photo of Caution Sign" width="25" length="25">&nbsp;&nbsp;Stump Grinder will put a heavy load on the rear of your tractor.  Be sure front of tractor is properly counterbalanced with weights.</font></b></td></tr>
+                        <tr><td align="left" colspan="3"><b><font size="3"><img src="Caution2.gif" alt="Photo of Caution Sign" width="25" length="25">&nbsp;&nbsp;Never allow children or bystanders around tractor or stump grinder when you are using equipment.</font></b></td></tr>
 
 
-        <tr><td>Front Loader Angle Hydraulic Kit</td><td>N/A</td><td>Optional</td><td>Optional</td><td>NA</td><td>Optional</td><td>Optional</td><td>NA</td><td>N/A</td></tr>
-        <tr><td>Skid Steer Angle Hydraulic Kit</td><td>N/A</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td><td>NA</td><td>Optional</td><td>N/A</td></tr>
-        <tr><td>Crossover Rel. Valve</td><td>N/A</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>N/A</td></tr>
-        <tr><td>Optional Top Deflector</td><td>360223</td><td>360223</td><td>360223</td><td>360223</td><td>360220</td><td>360220</td><td>360220</td><td>360220</td></tr>
-        <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
-        <tr><td>Snow Blade Item No.</td><td>360290</td><td>360255</td><td>360160</td><td>360130</td><td>360250</td><td>360140</td><td>360100</td><td>360280</td></tr>
-
-        <tr><td align="left" colspan="9"><i>Be Sure tractor / skid steer is properly counterbalanced.</i><br /><br />*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
-        <tr><td>&nbsp;&nbsp;</td><td><br /><a href=".html"><b>SBC-2172<br />Part List N/A</b></a></td><td><br /><a href=".html"><b>SBJD-2172<br />Part List N/A</b></a></td><td><br /><a href="sbsl2172-2160blademan.html"><b>SBFL-2172<br />Part List</b></a></td><td><br /><a href="SBS2172-2160Blademan.html"><b>SBS-2172<br />Part List</b></a></td><td><br /><a href=".html"><b>SBJD-2160<br />Part List N/A</b></a></td><td><br /><a href="sbsl2172-2160blademan.html"><b>SBFL-2160<br />Part List</b></a></td><td><br /><a href="SBS2172-2160Blademan.html"><b>SBS-2160<br />Part List</b></a></td><td><br /><a href=".html"><b>SBC-2160<br />Part List N/A</b></a></td></tr>
-
-        <tr><td align="center" colspan="9"><a href="360170man.html"><b>Optional Hydraulic Angle Kit (#360170) (Models 2160 and 2172 Blades)</b></a></td></tr>
-        <tr><td align="center" colspan="9"><a href="360165man.html"><b>Optional Hydraulic Angle Kit (#360165) (For Models SBS-2790A only)</b></a></td></tr>
-        <tr><td align="center" colspan="9"><a href="360168man.html"><b>Optional Hydraulic Angle Kit (#360168) (For Models SBFL-2790A only)</b></a></td></tr>
-        <tr><td align="center" colspan="9"><a href="360165-360065man.html"><b>Hydraulic Angle Kit (#360165)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBS-27108A and Optional on Models SBS-2790A)</b></a></td></tr>
-        <tr><td align="center" colspan="9"><a href="360168-360065man.html"><b>Hydraulic Angle Kit (#360168)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBFL-27108A and Optional on Models SBFL-2790A)</b></a></td></tr>
-        <tr><td align="center" colspan="9"><a href="360235man.html"><b>Optional Marker Kit (#360235)</b></a><br /></td></tr>
-        <tr><td align="center" colspan="9"><a href="../manuals/WSSnowBlade.pdf"><b>Snow Blade Manual</b></a><br /></td></tr>
-    </tbody>
-</table>
-
+                    </tbody></table>
