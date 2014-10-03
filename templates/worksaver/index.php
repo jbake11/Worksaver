@@ -19,35 +19,35 @@
 <body class="bg-gradient">
     <div class="container-fluid">
         <div id='header' class="row">
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
                 <div class="flag">
                     <jdoc:include type="modules" name="headcol1" style="xhtml" />
                 </div>
             </div>
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
                 <div class="head-logo">
                     <jdoc:include type="modules" name="headcol2" style="xhtml" />
                 </div>
             </div>
-            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="head-search">
-                                <jdoc:include type="modules" name="headcol3" style="xhtml" />
-                            </div>
-                        </div>
-                    </div>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
+                <div class="head-search">
+                    <jdoc:include type="modules" name="headcol3" style="xhtml" />
                 </div>
             </div>
         </div>
     </div>
     <div id='headnav' class="row">
-        <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
+        <div class='col-lg-12'>
             <?php if ($this->countModules('mainmenu')) : ?>
-                <nav class="navigation" role="navigation">
-                    <jdoc:include type="modules" name="mainmenu" style="none" />
-                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navigation" role="navigation">
+                                <jdoc:include type="modules" name="mainmenu" style="none" />
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             <?php endif; ?>
         </div>
     </div>
@@ -83,13 +83,19 @@
 <!--Footer-->
 <div class="container-fluid">
     <div id='footnav' class="row">
-        <div class='col-lg-12 col-md-12 hidden-sm hidden-xs'>
+        <div class='col-lg-12 col-md-12'>
             <div class="navi">
                 <nav>
                     <?php if ($this->countModules('mainmenu')) : ?>
-                        <nav class="navigation" role="navigation">
-                            <jdoc:include type="modules" name="footermenu" style="none" />
-                        </nav>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <nav class="navigation" role="navigation">
+                                        <jdoc:include type="modules" name="footermenu" style="none" />
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
                     <?php endif; ?>
                 </nav>
             </div>
