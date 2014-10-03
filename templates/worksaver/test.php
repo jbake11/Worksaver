@@ -1,10 +1,6 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
         <h3>SmoothCut PTO &amp; Hydraulic Powered Stump Grinders</h3>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12">
         <h4>Economical and Efficient PTO and Hydraulic powered stump grinders make stump removal fast and easy.  Operator easily controls the stump grinder from the comfort of the tractor or skid steer seat.</h4>
     </div>
 
