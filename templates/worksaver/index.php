@@ -22,13 +22,11 @@
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="flag">
                     <jdoc:include type="modules" name="headcol1" style="xhtml" />
-<!--                    <img class="img-responsive" src="/templates/worksaver/images/flag.png" alt=""/>-->
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="head-logo">
                     <jdoc:include type="modules" name="headcol2" style="xhtml" />
-    <!--                <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
