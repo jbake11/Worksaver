@@ -226,8 +226,6 @@ address{
 
 .caution-icon li{
     list-style-image: url('/images/Caution2.gif') no-repeat;
-    padding-left: 0;
     list-style-type: none;
-    margin-bottom: 0px;
-    margin-left: 0px;
+
 }
