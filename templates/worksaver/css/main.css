@@ -59,6 +59,10 @@ and open the template in the editor.
     margin-right: 0px;
 }
 
+#headnav .row {
+    margin: 0px;
+}
+
 #headnav .container .row>div{
     padding: 0;
 } 
