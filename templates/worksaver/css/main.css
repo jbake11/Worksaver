@@ -223,3 +223,7 @@ address{
     max-height: 300px;
     max-width: 300px;
 }
+
+.caution-icon li{
+    background: url('/images/Caution2.gif') no-repeat;
+}
