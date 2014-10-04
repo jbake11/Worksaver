@@ -276,5 +276,26 @@ address{
                  margin-right: auto;
     }
 
+    .foot-contact{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .foot-badges{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .foot-logo{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
 }
 
