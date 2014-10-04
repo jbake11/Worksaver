@@ -19,7 +19,7 @@
 <body class="bg-gradient">
     <div class="container-fluid">
         <div id='header' class="row">
-            <div class='col-lg-4 col-md-4'>
+            <div class='col-lg-4 col-md-4 hidden-xs'>
                 <div class="flag">
                     <jdoc:include type="modules" name="headcol1" style="xhtml" />
                 </div>
