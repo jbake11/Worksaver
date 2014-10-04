@@ -261,7 +261,15 @@ address{
     .item-page .page-header {
         margin: 42px 10px 21px;
     }
+
+    .head-search {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-top: 20px;
+
+    }
+
 }
-
-
 
