@@ -145,16 +145,6 @@ nav ul li a{
 }
 
 
-@media screen and (min-width: 992px) {
-
-    .container {
-        max-width: 930px;
-    }
-
-}
-
-
-
 
 .item-page table td {
     padding: 8px;
@@ -299,3 +289,16 @@ address{
 
 }
 
+@media (max-width: 991px){
+
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 930px;
+    }
+
+}
