@@ -12,6 +12,21 @@ and open the template in the editor.
     margin-top: 0px;
 }
 
+@media(max-width: 767px){
+    .item-page .row {
+        margin-bottom: 40px;
+    }
+
+    .item-page .page-header {
+        margin: 42px 10px 21px;
+    }
+}
+
+}
+.item-page .row {
+    margin-bottom: 40px;
+}
+
 .item-page .row {
     margin-bottom: 40px;
 }
@@ -65,7 +80,7 @@ and open the template in the editor.
 
 #headnav .container .row>div{
     padding: 0;
-} 
+}
 
 nav ul li a{
     margin-left: auto;
@@ -248,3 +263,4 @@ address{
     /*list-style-type: none;*/
 
 }
+
