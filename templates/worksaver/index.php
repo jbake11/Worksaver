@@ -118,7 +118,6 @@
         <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
             <div class="foot-badges">
                 <jdoc:include type="modules" name="footcol3" style="xhtml" />
-
             </div>
         </div>
     </div>
