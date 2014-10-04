@@ -12,21 +12,6 @@ and open the template in the editor.
     margin-top: 0px;
 }
 
-@media(max-width: 767px){
-    .item-page .row {
-        margin-bottom: 40px;
-    }
-
-    .item-page .page-header {
-        margin: 42px 10px 21px;
-    }
-}
-
-}
-.item-page .row {
-    margin-bottom: 40px;
-}
-
 .item-page .row {
     margin-bottom: 40px;
 }
@@ -263,4 +248,20 @@ address{
     /*list-style-type: none;*/
 
 }
+
+
+
+@media(max-width: 767px){
+    .item-page .row {
+        margin-bottom: 40px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .item-page .page-header {
+        margin: 42px 10px 21px;
+    }
+}
+
+
 
