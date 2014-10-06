@@ -53,7 +53,7 @@
     </div>
 </div>
 <?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row" id="slideRow">
             <div class="col-lg-8 col-md-8 col-sm-8">
                 <div class="slider-adjust">
