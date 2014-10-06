@@ -41,7 +41,7 @@
     <div id='headnav' class="row">
         <div class='col-lg-12'>
             <?php if ($this->countModules('mainmenu')) : ?>
-                <div class="container visible-xs">
+                <div class="container visible-xs visible-sm">
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navigation" role="navigation">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container hidden-sm">
+                <div class="container hidden-sm hidden-xs">
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navigation" role="navigation">
