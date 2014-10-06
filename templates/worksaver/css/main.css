@@ -109,8 +109,13 @@ nav ul li a{
     margin-right: auto;
     width: 100%;
     min-width: 100%;
-
 }
+
+.slider-adjust .item img {
+    max-width: 100%;
+    width: 100%;
+}
+
 
 .item-adjust{
     margin-left: 0px;
