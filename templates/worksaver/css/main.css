@@ -256,7 +256,11 @@ address{
 
 }
 
+.hor-line{
+    height: 4px;
+    border-color: darkgray;
 
+}
 
 @media (max-width: 1200px){
     .slider-adjust .item img {
