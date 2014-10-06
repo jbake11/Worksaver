@@ -19,17 +19,17 @@
 <body class="bg-gradient">
     <div class="container-fluid">
         <div id='header' class="row">
-            <div class='col-lg-4 col-md-4 hidden-xs'>
+            <div class='col-lg-4 col-md-4 col-sm-4 hidden-xs'>
                 <div class="flag">
                     <jdoc:include type="modules" name="headcol1" style="xhtml" />
                 </div>
             </div>
-            <div class='col-lg-4 col-md-4'>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
                 <div class="head-logo">
                     <jdoc:include type="modules" name="headcol2" style="xhtml" />
                 </div>
             </div>
-            <div class='col-lg-4 col-md-4'>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
                 <div class="head-search">
                     <jdoc:include type="modules" name="headcol3" style="xhtml" />
                 </div>
@@ -103,19 +103,19 @@
     </div>
 
     <div id="footer" class="row">
-        <div class='col-lg-4 col-md-4'>
+        <div class='col-lg-4 col-md-4 col-sm-4'>
             <div class="foot-contact">
                 <jdoc:include type="modules" name="footcol1" style="xhtml" />
 
             </div>
         </div>
-        <div class='col-lg-4 col-md-4'>
+        <div class='col-lg-4 col-md-4 col-sm-4'>
             <div class="foot-logo">
                 <jdoc:include type="modules" name="footcol2" style="xhtml" />
 <!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
             </div>
         </div>
-        <div class='col-lg-4 col-md-4'>
+        <div class='col-lg-4 col-md-4 col-sm-4'>
             <div class="foot-badges">
                 <jdoc:include type="modules" name="footcol3" style="xhtml" />
             </div>
