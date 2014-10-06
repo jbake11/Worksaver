@@ -45,8 +45,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navigation" role="navigation">
-                            Mobile:
-                                <jdoc:include type="modules" name="mainmenu" style="none" />
+                                <jdoc:include type="modules" name="mobilemenu" style="none" />
                             </nav>
                         </div>
                     </div>
