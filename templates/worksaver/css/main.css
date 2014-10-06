@@ -254,6 +254,15 @@ address{
 
 
 
+@media (min-width: 992px){
+    .slider-adjust .item img {
+        max-width: 100%;
+        width: 100%;
+        height: 242px;
+    }
+
+}
+
 @media (max-width: 992px){
     #index-thumbs img{
         margin-bottom: 40px;
