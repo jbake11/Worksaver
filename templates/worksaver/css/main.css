@@ -304,6 +304,11 @@ address{
     #index-thumbs img{
         margin-bottom: 40px
     }
+
+    .item-page .row {
+        margin-bottom: 0px;
+    }
+
 }
 
 
