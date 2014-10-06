@@ -257,7 +257,7 @@ address{
 }
 
 .hor-line{
-    height: 4px;
+    height: 10px;
     border-color: darkgray;
 
 }
@@ -352,10 +352,10 @@ address{
         max-width: 400px;
 
     }
-    
 
 
-    
+
+
 }
 
 /*@media  (max-width: 992px){*/
