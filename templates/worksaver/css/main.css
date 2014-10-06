@@ -55,6 +55,10 @@ and open the template in the editor.
     display: inherit;
 }
 
+.search-query {
+    background-color: #f7f7f7;
+}
+
 .element-invisible{
     display: none;
     border: none;
