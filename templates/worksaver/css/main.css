@@ -114,6 +114,7 @@ nav ul li a{
 .slider-adjust .item img {
     max-width: 100%;
     width: 100%;
+    height: 260px;
 }
 
 
@@ -253,6 +254,22 @@ address{
 
 
 
+@media (max-width: 992px){
+    #index-thumbs img{
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item-page .row {
+        max-width: 930px;
+    }
+
+}
+
+
+
+
 @media(max-width: 767px){
     .item-page .row {
         margin-bottom: 40px;
@@ -300,20 +317,16 @@ address{
         max-width: 400px;
 
     }
-
-}
-
-@media (max-width: 992px){
-    #index-thumbs img{
-        margin-bottom: 40px;
-        margin-left: auto;
-        margin-right: auto;
+    
+    .slider-adjust .item img {
+        max-width: 100%;
+        width: 100%;
+        height: 242px;
     }
 
-    .item-page .row {
-        max-width: 930px;
-    }
-
+    
 }
 
-
+/*@media  (max-width: 992px){*/
+/*    187px*/
+/*}*/
