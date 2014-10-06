@@ -41,7 +41,17 @@
     <div id='headnav' class="row">
         <div class='col-lg-12'>
             <?php if ($this->countModules('mainmenu')) : ?>
-                <div class="container">
+                <div class="container visible-xs">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navigation" role="navigation">
+                            Mobile:
+                                <jdoc:include type="modules" name="mainmenu" style="none" />
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="container hidden-sm">
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navigation" role="navigation">
