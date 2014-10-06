@@ -300,8 +300,10 @@ address{
 
 }
 
-@media (max-width: 991px){
-
+@media (max-width: 992px){
+    #index-thumbs img{
+        margin-bottom: 40px
+    }
 }
 
 

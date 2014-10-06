@@ -75,7 +75,7 @@
 
 <!--Body Content-->
 <div class="container">
-    <div class="row ">
+    <div id="index-thumbs" class="row">
         <jdoc:include type="component" />
     </div>
 </div>
