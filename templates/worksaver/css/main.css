@@ -124,6 +124,10 @@ nav ul li a{
     width: 100%;
 }
 
+.carousel-indicators, .carousel-control {
+    display: none;
+}
+
 /* Makes images fully responsive */
 
 .img-responsive,
