@@ -301,6 +301,8 @@ address{
 @media (max-width: 992px){
     #index-thumbs img{
         margin-bottom: 40px
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .item-page .row {
