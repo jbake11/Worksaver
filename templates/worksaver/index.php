@@ -88,10 +88,10 @@
 <div class="container">
     <div class="row">
         <?php if ($this->countModules('sidebar')) : ?>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <jdoc:include type="modules" name="sidebar" style="none" />
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                 <jdoc:include type="component" />
             </div>
         <?php else: ?>
