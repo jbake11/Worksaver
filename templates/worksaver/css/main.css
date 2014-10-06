@@ -258,21 +258,21 @@ address{
     .slider-adjust .item img {
         max-width: 100%;
         width: 100%;
-        height: 260px;
+        height: 242px;
     }
 }
 @media (max-width: 992px){
     .slider-adjust .item img {
         max-width: 100%;
         width: 100%;
-        height: 242px;
+        height: 187px;
     }
 }
 @media (max-width: 767px){
     .slider-adjust .item img {
         max-width: 100%;
         width: 100%;
-        height: 187px;
+        height: auto;
     }
 }
 
