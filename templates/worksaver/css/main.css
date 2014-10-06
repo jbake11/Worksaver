@@ -139,6 +139,12 @@ nav ul li a{
 
 }
 
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #ccc;
+}
+
+
 /* ------------------- Carousel Styling ------------------- */
 
 .carousel-indicators {
