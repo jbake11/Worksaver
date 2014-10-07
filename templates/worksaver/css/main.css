@@ -270,6 +270,8 @@ td { font-weight: bold; }
 .caution-icon li{
     list-style-image: url('/images/Caution2.gif');
     list-style-type: none;
+    width: 25px;
+    float: left;
 
 }
 
