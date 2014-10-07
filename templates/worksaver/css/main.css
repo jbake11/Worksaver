@@ -170,7 +170,10 @@ nav ul li a{
     background-image: none;
 }
 
+.item-page ul{
+    padding: 20px;
 
+}
 
 .item-page table td {
     padding: 8px;
@@ -274,10 +277,6 @@ address{
 
 }
 
-.list-nopad li{
-    padding-left: 0px;
-}
-
 @media (max-width: 1200px){
     .slider-adjust .item img {
         max-width: 100%;
@@ -296,7 +295,7 @@ address{
         display: block;
         padding: 10px 12px;
         font-size: smaller;
-    }    
+    }
 }
 @media (max-width: 767px){
     .slider-adjust .item img {
