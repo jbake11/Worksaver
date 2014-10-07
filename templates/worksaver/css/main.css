@@ -268,7 +268,7 @@ address{
 td { font-weight: bold; }
 
 .caution-icon li{
-    list-style-image: url ('/images/Caution2.gif') no-repeat;
+    list-style-image: url('/images/Caution2.gif');
     /*list-style-type: none;*/
 
 }
