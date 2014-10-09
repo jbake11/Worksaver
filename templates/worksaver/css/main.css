@@ -12,6 +12,10 @@ and open the template in the editor.
     margin-top: 0px;
 }
 
+.item-page h3 a{
+    color: black;
+}
+
 .item-page .row {
     margin-bottom: 40px;
 }
