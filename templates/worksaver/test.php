@@ -1,14 +1,11 @@
 <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h3></h3>
-    </div>
-</div>
-<div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-
+        <h5>Model #580c Cement Mixer</h5>
+        <img class="img-responsive" src="/images/concrete-mixer1.jpg" alt=""/>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-
+        <h5>Model Model SS-590 Hyd. Cement Mixer</h5>
+        <img class="img-responsive" src="/images/SS_590_1.jpg" alt=""/>
     </div>
 </div>
 
@@ -16,9 +13,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h4>Main Features</h4>
     </div>
-</div>
 
-<div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <h5>Model 580c</h5>
         <ul>
