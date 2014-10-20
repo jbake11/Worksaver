@@ -284,6 +284,10 @@ td { font-weight: bold; }
 
 }
 
+.list-nopad{
+    margin-top: 0px;
+}
+
 @media (max-width: 1200px){
     .slider-adjust .item img {
         max-width: 100%;
