@@ -60,7 +60,7 @@
                 <tr class="table-col-header"><td align="center" colspan="9">Skid Steer Rotary Broom Specifications</td></tr>
                 <tr class="table-col-modelnum"><td>&nbsp;</td><td>SSMB-325P</td><td>SSMB-325PW</td><td>SSMB-326P</td><td>SSMB-326PW</td><td>SSMB-327P</td><td>SSMB-327PW</td></tr>
                 <tr><td>Overall Width (in/cm)</td><td>69 / 175</td><td>69 / 175</td><td>81 / 206</td><td>81 / 206</td><td>93 / 236</td><td>93 / 236</td></tr>
-                <tr><td>Brush Diameter (in/cm)</td>32 / 81<td></td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td></tr>
+                <tr><td>Brush Diameter (in/cm)</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td></tr>
                 <tr><td>Sweeping Width (in/cm)</td><td>60 / 152</td><td>60 / 152</td><td>72 / 183</td><td>72 / 183</td><td>84 / 213</td><td>84 / 213</td></tr>
                 <tr><td>Width @ 30° Angle (in/cm)</td><td>53 / 135</td><td>53 / 135</td><td>64 / 163</td><td>64 / 163</td><td>76 / 193</td><td>76 / 193</td></tr>
                 <tr><td>Mounting System</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td></tr>
@@ -76,8 +76,8 @@
 </div>
 
 <table class="table table-bordered table-responsive table-striped">
-    <tbody><tr><td align="center" colspan="9"><font size="+1">3-pt. Rotary Broom Specifications</td></tr>
-        <tr><td>&nbsp;</td><td>RMB-325P</td><td>RMB-325PW</td><td>RMB-326P</td><td>RMB-326PW</td><td>RMB-327P</td><td>RMB-327PW</td></tr>
+    <tbody><tr class="table-col-header"><td align="center" colspan="9">3-pt. Rotary Broom Specifications</td></tr>
+        <tr class="table-col-modelnum"><td>&nbsp;</td><td>RMB-325P</td><td>RMB-325PW</td><td>RMB-326P</td><td>RMB-326PW</td><td>RMB-327P</td><td>RMB-327PW</td></tr>
         <tr><td>Overall Width (in/cm)</td><td>69 / 175</td><td>69 / 175</td><td>81 / 206</td><td>81 / 206</td><td>93 / 236</td><td>93 / 236</td></tr>
         <tr><td>Brush Diameter (in/cm)</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td></tr>
         <tr><td>Sweeping Width (in/cm)</td><td>60 / 152</td><td>60 / 152</td><td>72 / 183</td><td>72 / 183</td><td> 84 / 213</td><td> 84 / 213</td></tr>

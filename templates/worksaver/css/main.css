@@ -242,13 +242,13 @@ address{
 
 }
 .table-col-header{
-    text-align: center;
+    font-size: 2em;
 }
 .table-col-note{
 
 }
 .table-col-modelnum{
-
+    font-style: oblique;
 }
 
 /*Product Table Adjustments*/
