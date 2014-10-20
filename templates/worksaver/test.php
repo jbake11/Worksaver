@@ -1,108 +1,87 @@
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <h5>Model #580c Cement Mixer</h5>
-        <img class="img-responsive" src="/images/concrete-mixer1.jpg" alt=""/>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <h5>Model Model SS-590 Hyd. Cement Mixer</h5>
-        <img class="img-responsive" src="/images/SS_590_1.jpg" alt=""/>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h4>Main Features</h4>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <h5>Model 580c</h5>
-        <ul>
-            <li>Two piece steel drum construction with internal paddles for uniform mixing and clean dumping.</li>
-            <li>Compact, trouble free, long life design with few moving parts.</li>
-            <li>Ideal for mixing feed, fertilizer, inoculating seed, potting soil and other mixing jobs.</li>
-            <li>Five (5) cu./ft. capacity (1 bag mix).</li>
-            <li>Hydraulic top link cylinder provides positive dump control.</li>
-            <li>Parking stand for easy storage.</li>
-            <li>Number 40-roller chain drives mixing drum.</li>
-            <li>Adjustable Cat.I hitch allows easy hook up to most tractors (7/8" Dia. Lift pins).</li>
-            <li>Sealed ball bearings provide long service life with reduced maintenance.</font><br>
-        </ul>
-
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <h5>Model SS-590</h5>
-        <ul>
-            <li>All welded drum construction with internal paddles for uniform mixing and clean dumping.</li>
-            <li>Compact, trouble free, long life design with few moving parts.</li>
-            <li>Hydraulic motor drive for easy operation and low maintenance requirements.</li>
-            <li>Five (5) cu./ft. capacity (1 bag mix).</li>
-            <li>Direct gearbox drive of drum</li>
-            <li>Parking stand for easy storage.</li>
-            <li>Direct mount all welded frame fits "universal style" skid steer attachment system.</li>
-            <li>Flow control valve allows easy control of speed of the mixer.  Simple lever control for engagement / disengagement of drum.</li>
-        </ul>
-    </div>
-</div>
+Tractor Loader *Brackets N/A Euro/Global 400 / 500 JD *Brackets N/A Euro/Global 400 / 500 JD Mount Req. Req.
+Skid Steer N/A Universal N/A N/A N/A Universal N/A N/A Mount
+Adjustable Standard Standard Standard Standard Standard Standard Standard Standard Skid Shoes
+Horse Power
+40-95 HP 40-95 HP 40-95 HP 40-95 HP 30-80 HP 30-80 HP 30-80 HP 30-80 HP Rating
+Weight 665 / 302 690 / 313 640 / 290 670 / 304 555 / 252 530 / 240 510 / 231 510 / 231 (lbs/kg)
+Hydraulic Standard Standard Standard Standard Optional Optional Optional Optional Angle Kit
+Crossover Standard Standard Standard Standard Optional Optional Optional Optional Ref. Valve
+Optional Top 360230 360230 360230 360230 360277 360277 360277 360277 Deflector
+Optional Sight 360235 360235 360235 360235 360235 360235 360235 360235 Indicator
+Product No. 360075 360070 360078 360275 360040 360000 360090 360270
 
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
-            <tbody><tr><td widt1h="180" bgcolor="#80FFFF"><b><font size="2">Product</font></b></td>
-                    <td width="18%" bgcolor="#80FFFF"><b><font size="2">Model</font></b> </td>
-                    <td width="100%" bgcolor="#80FFFF"><b><font size="2">Description </font></b></td></tr>
-
-                <tr><td width="180"><img width="200" height="160" src="../bp/bsf-1523-lit.jpg" alt="Photo of BSF-1523"></td>
-                    <td width="12%"><b><font size="2"><br>BSF-1523</font></b>
-                    </td><td width="100%"><b><font size="2">Economical 3-pt. Bale Spear for handling round bales up to 1,800 lbs.  Unit features a main tapered spear with a useable length of 44" and two welded balance spears.  Fits Cat. I/II, sjipped with 7/8" pins.
-                            <br><br><a href="bsf1523man.html">Parts List Click Here</a> <br><br><a href="../manuals/hsbdh.pdf">Download Manual</a> </font></b></td></tr>
-
-                <tr><td width="180"><img width="200" height="140" src="../bp/dbfs-30.gif" alt="Photo of HS-3000"></td>
-                    <td width="12%"><b><font size="2"><img src="../bin/ani/newanima.gif"><br>HS-3000</font></b></td>
-                    <td width="100%"><b><font size="2">Dual bolt-in spears with cast steel sockets (Pat. Pend.), 42" useable length.  Round bales maintain orientation.  Fits Cat I/II/Quick hitches.
-                            <br><br><a href="hs3000man.html">Parts List Click Here</a><br><br><a href="../manuals/hsbdh.pdf">Download Manual</a> </font></b></td></tr>
-
-                <tr><td width="180"><img width="200" height="140" src="../bp/Hs-2200.JPG" alt="Photo of HS-2200"></td>
-                    <td width="12%"><b><font size="2"><img src="../bin/ani/newanima.gif"><br>HS-2200</font></b></td>
-                    <td width="100%"><b><font size="2">3-pt. Bale Spear for round bales to 2,200 lbs.  Bolt-in spear (Useable 42")  with cast steel socket (pat. pend).  Two balance spikes.  Cat I/II and quick hitch compatible.  Ships UPS.
-                            <br><br><a href="hs2200man.html">Parts List Click Here</a><br><br><a href="../manuals/hsbdh.pdf">Download Manual</a> </font></b></td></tr>
-
-                <tr><td width="180"><a href="3pt-spear.html"><img width="200" height="140" src="../bp/hs-330.JPG" alt="Photo of HS-330"></a></td>
-                    <td width="12%"><b><font size="2"><img src="../bin/ani/newanima.gif"><br>HS-330</font></b></td>
-                    <td width="100%"><b><font size="2">3-pt. Triple bale spear rated 3,000 lbs.  Features bolt-in forged spear (26" useable length) in case steel sockets (pat. pend.). Cat II &amp; III.  For mid-size square bales.<br><br>Click on picture for more information.
-                            <br><br><a href="man.html">Parts List Click Here</a><br><br><a href="../manuals/hsbdh.pdf">Download Manual</a> </font></b></td></tr>
-
-                <tr><td width="180"><a href="3pt-spear.html"><img width="200" height="140" src="../bp/dbh-449-2.JPG" alt="Photo of DBH-449"></a></td>
-                    <td width="12%"><b><font size="2"><img src="../bin/ani/newanima.gif"><br>DBH-449</font></b></td>
-                    <td width="100%"><b><font size="2">3-pt. Four bale spear handler rated 4,000 lbs.  Features bolt-in forged spear (42" useable length) in case steel sockets (pat. pend.). Cat II &amp; III.  For two round bales.  <br><br>Click on picture for more information.
-                            <br><br><a href="man.html">Parts List Click Here</a><br><br><a href="../manuals/hsbdh.pdf">Download Manual</a> </font></b></td></tr>
-
-                <tr><td width="180"><img width="200" height="140" src="../bp/bsfa-20-lit.jpg" alt="Photo of BSFA-20"></td>
-                    <td width="12%"><b><font size="2"><br>BSFA-20</font></b></td>
-                    <td width="100%"><b><font size="2">Adjustable height bale spear for handling round bales up to 2,000 lbs.  Utilizes a bolt-on spear with a useable length of 44".  The spear can be positioned up or down the vertical mast.  Fits Cat. I/II and is shipped with 7/8" pins.
-                            <br><br><a href="bsfa20man.html">Parts List Click Here</a> <br><br><a href="../manuals/hsbdh.pdf">Download Manual</a> </font></b></td></tr>
+            <tbody><tr><td align="center" colspan="7">9' and 7½' Snow Blade Specifications</td></tr>
+                <tr><td>&nbsp;</td><td align="center">SBFL-27108A</td><td> SBS-27108A</td><td>SBG-27108A</td><td>SBJD-27108A</td><td>SBFL-2709A</td><td>SBS-2790A</td><td>SBG-2790A</td><td>SBJD-2709A</td></tr>
+                <tr><td>Overall width (in/cm)</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td></tr>
+                <tr><td>Overall height (in/cm)</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td></tr>
+                <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
+                <tr><td>Cutting edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
+                <tr><td>5° Lateral Oscillation</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
+                <tr><td>Extension trip springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
+                <tr><td>Manual angle positions</td><td>NA</td><td>NA</td><td>NA</td><td>5</td><td>5</td><td>NA</td></tr>
+                <tr><td>Width @ Full angle</td><td>96/244</td><td>96/244</td><td>96/244</td><td>96/244</td><td>80/203</td><td>80/203</td><td>80/203</td><td>80/203</td></tr>
+                <tr><td>Mounting for Tractor Loader (SBFL)</td><td>Brackets required *</td><td>NA</td><td>Global/Euro</td><td>Brackets required *</td><td>NA</td><td>Global/Euro</td></tr>
+                <tr><td>Mounting for Skid Steer (SBS)</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td></tr>
+                <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
+                <tr><td>Horse power Recommended range</td><td>35 - 80 HP</td><td>35 - 80 HP</td><td>35 - 80 HP</td><td>30 - 80 HP</td><td>30 - 80 HP</td><td>30 - 80 HP</td></tr>
+                <tr><td>Max. Operating Weight (lb/kg)</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td><td>8,000 / 3,628.8</td></tr>
+                <tr><td>Weight (lb/kg)</td><td>665 / 302</td><td>690 / 313</td><td>NA</td><td>555 / 252</td><td>530 / 240</td><td>NA</td></tr>
+                <tr><td>Front Loader Angle Hydraulic Kit</td><td>Standard</td><td>NA</td><td>Standard</td><td>Optional</td><td>NA</td><td>Optional</td></tr>
+                <tr><td>Skid Steer Angle Hydraulic Kit</td><td>NA</td><td>Standard</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td></tr>
+                <tr><td>Crossover Rel. Valve</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
+                <tr><td>Optional Top Deflector</td><td>360230</td><td>360230</td><td>360230</td><td>360227</td><td>360227</td><td>360227</td></tr>
+                <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
+                <tr><td>Snow Blade Item No.</td><td>360075</td><td>360070</td><td>360078</td><td>360040</td><td>360000</td><td>360090</td></tr>
+                <tr><td align="left" colspan="7"><i>Be Sure tractor / skid steer is properly counterbalanced.</i><br /><br />*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
+                <tr><td>&nbsp;&nbsp;</td><td><br /><a href="SBFL2790A-27108Aman.html">SBFL-27108A<br />Part List</a></td><td><br /><a href="SBS2790A-27108man.html">SBS-27108A<br />Part List</a></td><td><br /><a href="SBG2790A-27108man.html">SBG-27108A<br />Part List</a></td><td><br /><a href="SBFL2790A-27108Aman.html">SBFL-2790A<br />Part List</a></td><td><br /><a href="SBS2790A-27108man.html">SBS-2790A<br />Part List</a></td><td><br /><a href="SBG2790A-27108man.html">SBG-2790A<br />Part List</a></td></tr>
 
 
-                <tr><td width="180"><img width="200" height="162" src="../bp/F-1511_2.jpg" alt="Photo of F-1511"></td>
-                    <td width="12%"><b><font size="2">F-1511</font></b></td>
-                    <td width="100%"><b><font size="2">3-Pt. Bale fork rated at 1,500 lbs. designed for moving round bales.  Patented 3" x 2" internally reinforced forks are 55" on length and spaced 37.5" apart.  Unit fits Cat. I/II as well as Cat II Quick Hitches.  Shipped with 7/8" pins.</font></b></td></tr>
-
-                <tr><td width="180"><img width="200" height="160" src="../bp/F-3000.jpg" alt="Photo of F-3000"></td>
-                    <td width="12%"><b><font size="2">F-3000</font></b></td>
-                    <td width="100%"><b><font size="2">3-Pt. Bale fork rated at 3,000 lbs. designed for moving round bales.  Patented 3" x 2" internally reinforced forks are 55" on length and spaced 46.5" apart.  Unit fits Cat. II as well as Cat II Quick Hitches.  Shipped with 1-1/8" pins.<br><br><a href="f3000man.html">Parts List Click Here</a></font></b></td></tr>
-
-                <tr><td width="180"><img width="200" height="115" src="../bp/hhu2045stand.jpg" alt="Photo of HHU-2045"></td>
-                    <td width="12%"><b><font size="2">HHU-2045</font></b></td>
-                    <td width="100%"><font size="2"><b>3-Pt Hay Handler / Unroller.  Rated at 2,000 lbs. and is designed to unroll or handle round bales either 4' or 5' in width up to 6' in diameter.  Unit Requires a 2.5" x 8" hydraulic cylinder (which is not included). The HHU-2045 now comes with a parking stand for allowing easy hook up with a Quick Hitch.
-                            <br><br><a href="hhu2045man.html">Parts List Click Here</a><br><br><a href="../manuals/hhu2045.pdf">Download Manual</a> </b></font><b> </b></td></tr>
-
-                <tr><td align="center" colspan="4"><b><br><a href="spearkit.html">Replacement Spear Kits<br> <br></a></b></td></tr>
-
-
-                <tr><td align="CENTER" colspan="3" width="100%"><a href="haf-op.html"><img border="0" vspace="5" src="../bin/button/htlc.gif" alt="OPTIONAL TOP LINK CYLINDERS"></a></td></tr>
-            </tbody>
-        </table>
+            </tbody></table>
     </div>
 </div>
 
+<table class="table table-bordered table-responsive table-striped">
+    <tbody><tr><td align="center" colspan="9"><font size="+1">6' and 5' Snow Blade Specifications</td></tr>
+        <tr><td>&nbsp;</td><td>SBC-2172</td><td>SBJD-2172</td><td>SBFL-2172</td><td>SBS-2172</td><td>SBJD-2160</td><td>SBFL-2160</td><td>SBS-2160</td><td>SBC-2160</td></tr>
+        <tr><td>Overall width (in/cm)</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td></tr>
+        <tr><td>Overall height (in/cm)</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td></tr>
+        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
+        <tr><td>Cutting edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
+        <tr><td>5° Lateral Oscillation</td><td>N/A</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+
+        <tr><td>Extension trip springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
+        <tr><td>Manual angle positions</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
+        <tr><td>Width @ Full angle</td><td>62 / 157</td><td>62/157</td><td>62/157</td><td>62/157</td><td>52/132</td><td>52/132</td><td>52/132</td><td>52/132</td></tr>
+
+        <tr><td>Mounting for Tractor Loader (SBFL)</td><td>Clamp-on</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>Clamp-on</td></tr>
+        <tr><td>Mounting for Skid Steer (SBS)</td><td>N/A</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>N/A</td></tr>
+
+        <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
+        <tr><td>Horse power Recommended range</td><td>&lt;35 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>&lt;35 HP</td></tr>
+        <tr><td>Max. Operating Weight (lb/kg)</td><td>4,000/1,814.4</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,000/1,814.4</td></tr>
+
+        <tr><td>Weight (lb/kg)</td><td>335 / 152</td><td>366 / 166</td><td>366 / 166</td><td>350 / 159</td><td>347 / 157</td><td>347 / 157</td><td>334 / 152</td><td>305 / 138</td></tr>
 
 
+        <tr><td>Front Loader Angle Hydraulic Kit</td><td>N/A</td><td>Optional</td><td>Optional</td><td>NA</td><td>Optional</td><td>Optional</td><td>NA</td><td>N/A</td></tr>
+        <tr><td>Skid Steer Angle Hydraulic Kit</td><td>N/A</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td><td>NA</td><td>Optional</td><td>N/A</td></tr>
+        <tr><td>Crossover Rel. Valve</td><td>N/A</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>N/A</td></tr>
+        <tr><td>Optional Top Deflector</td><td>360223</td><td>360223</td><td>360223</td><td>360223</td><td>360220</td><td>360220</td><td>360220</td><td>360220</td></tr>
+        <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
+        <tr><td>Snow Blade Item No.</td><td>360290</td><td>360255</td><td>360160</td><td>360130</td><td>360250</td><td>360140</td><td>360100</td><td>360280</td></tr>
+
+        <tr><td align="left" colspan="9"><i>Be Sure tractor / skid steer is properly counterbalanced.</i><br /><br />*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
+        <tr><td>&nbsp;&nbsp;</td><td><br /><a href=".html">SBC-2172<br />Part List N/A</a></td><td><br /><a href=".html">SBJD-2172<br />Part List N/A</a></td><td><br /><a href="sbsl2172-2160blademan.html">SBFL-2172<br />Part List</a></td><td><br /><a href="SBS2172-2160Blademan.html">SBS-2172<br />Part List</a></td><td><br /><a href=".html">SBJD-2160<br />Part List N/A</a></td><td><br /><a href="sbsl2172-2160blademan.html">SBFL-2160<br />Part List</a></td><td><br /><a href="SBS2172-2160Blademan.html">SBS-2160<br />Part List</a></td><td><br /><a href=".html">SBC-2160<br />Part List N/A</a></td></tr>
+
+        <tr><td align="center" colspan="9"><a href="360170man.html">Optional Hydraulic Angle Kit (#360170) (Models 2160 and 2172 Blades)</a></td></tr>
+        <tr><td align="center" colspan="9"><a href="360165man.html">Optional Hydraulic Angle Kit (#360165) (For Models SBS-2790A only)</a></td></tr>
+        <tr><td align="center" colspan="9"><a href="360168man.html">Optional Hydraulic Angle Kit (#360168) (For Models SBFL-2790A only)</a></td></tr>
+        <tr><td align="center" colspan="9"><a href="360165-360065man.html">Hydraulic Angle Kit (#360165)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBS-27108A and Optional on Models SBS-2790A)</a></td></tr>
+        <tr><td align="center" colspan="9"><a href="360168-360065man.html">Hydraulic Angle Kit (#360168)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBFL-27108A and Optional on Models SBFL-2790A)</a></td></tr>
+        <tr><td align="center" colspan="9"><a href="360235man.html">Optional Marker Kit (#360235)</a><br /></td></tr>
+        <tr><td align="center" colspan="9"><a href="../manuals/WSSnowBlade.pdf">Snow Blade Manual</a><br /></td></tr>
+    </tbody>
+</table>
