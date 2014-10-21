@@ -8,11 +8,8 @@
 
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-
-
-
-                <tr><td colspan="4">Brush Assembly</td></tr>
                 <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/Brush Assembly.gif"></td></tr>
+                <tr><td align="center" colspan="4">Brush Assembly</td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
@@ -249,9 +246,8 @@
         <br />
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-
-                <tr><td colspan="4">PTO Tractor to Gearbox</td></tr>
                 <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/PTO-GB-TR.gif"></td></tr>
+                <tr><td  align="center"  colspan="4">PTO Tractor to Gearbox</td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
@@ -325,9 +321,8 @@
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-
-                <tr><td colspan="4">PTO Gearbox to Broom</td></tr>
                 <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/PTO-GB-BR.gif"></td></tr>
+                <tr><td align="center" colspan="4">PTO Gearbox to Broom</td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
@@ -400,6 +395,7 @@
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
                 <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/adjustment-link.gif"></td></tr>
+                <tr><td align="center" colspan="4">Optional Manual Angle</td></tr>
                 <tr><td>Ref. No.</td><td>Part No.</td><td>Description</td><td>No. Req'd.</td></tr>
                 <tr><td>&nbsp;</td><td>610702</td><td>Complete Manual Angle Kit</td><td>1</td></tr>
                 <tr><td>1</td><td>610826</td><td>Link, Manual Angle Male</td><td>1</td></tr>
@@ -411,8 +407,7 @@
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
                 <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/Mount Assembly.gif"></td></tr>
-                <tr><td colspan="4">3-pt. Mount Assembly</td></tr>
-
+                <tr><td align="center" colspan="4">3-pt. Mount Assembly</td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
