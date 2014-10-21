@@ -9,10 +9,10 @@
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
 
-                <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/Brush Assembly.gif"></td></tr>
+
 
                 <tr><td colspan="4">Brush Assembly</td></tr>
-
+                <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/Brush Assembly.gif"></td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
@@ -249,9 +249,9 @@
         <br />
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/PTO-GB-TR.gif"></td></tr>
-                <tr><td colspan="4">PTO Tractor to Gearbox</td></tr>
 
+                <tr><td colspan="4">PTO Tractor to Gearbox</td></tr>
+                <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/PTO-GB-TR.gif"></td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
@@ -321,13 +321,13 @@
             </tbody>
         </table>
     </div>
-    <br />
+
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/PTO-GB-BR.gif"></td></tr>
-                <tr><td colspan="4">PTO Gearbox to Broom</td></tr>
 
+                <tr><td colspan="4">PTO Gearbox to Broom</td></tr>
+                <tr><td colspan="4"><img class="img-responsive" src="/images/partslist/rotarybrooms/3pt/PTO-GB-BR.gif"></td></tr>
                 <tr><td>Ref. No</td>
                     <td>Part No.</td>
                     <td>Description</td>
