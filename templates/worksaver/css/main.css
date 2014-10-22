@@ -252,6 +252,12 @@ address{
     font-style: oblique;
 }
 
+.table-col-img{
+    background: white;
+    text-align: center;
+
+}
+
 /*Product Table Adjustments*/
 .tbody-content{
 
