@@ -286,6 +286,7 @@ td { font-weight: bold; }
 
 .list-nopad{
     margin-top: 0px;
+    padding: 0px;
 }
 
 @media (max-width: 1200px){
