@@ -62,90 +62,90 @@
             <?php endif; ?>
         </div>
     </div>
-</div>
-<?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
+
+    <?php if ($this->countModules('slider') || $this->countModules('featuredproduct')) : ?>
+        <div class="container">
+            <div class="row" id="slideRow">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                    <div class="slider-adjust">
+                        <?php if ($this->countModules('slider')) : ?>
+                            <jdoc:include type="modules" name="slider" style="xhtml" />
+                        <?php endif; ?>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="item-adjust">
+                        <?php if ($this->countModules('featuredproduct')) : ?>
+                            <jdoc:include type="modules" name="featuredproduct" style="none" />
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <!--Body Content-->
     <div class="container">
-        <div class="row" id="slideRow">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                <div class="slider-adjust">
-                    <?php if ($this->countModules('slider')) : ?>
-                        <jdoc:include type="modules" name="slider" style="xhtml" />
-                    <?php endif; ?>
+        <div class="row">
+            <?php if ($this->countModules('sidebar')) : ?>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <jdoc:include type="modules" name="sidebar" style="none" />
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="item-adjust">
-                    <?php if ($this->countModules('featuredproduct')) : ?>
-                        <jdoc:include type="modules" name="featuredproduct" style="none" />
-                    <?php endif; ?>
+                <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <jdoc:include type="component" />
                 </div>
-            </div>
+            <?php else: ?>
+                <div class="col-lg-12">
+                    <div id="index-thumbs">
+                        <jdoc:include type="component" />
+                    </div>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
-<?php endif; ?>
 
-<!--Body Content-->
-<div class="container">
-    <div class="row">
-        <?php if ($this->countModules('sidebar')) : ?>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                <jdoc:include type="modules" name="sidebar" style="none" />
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                <jdoc:include type="component" />
-            </div>
-        <?php else: ?>
-        <div class="col-lg-12">
-            <div id="index-thumbs">
-                <jdoc:include type="component" />
-            </div>
-        </div>
-        <?php endif; ?>
-    </div>
-</div>
-
-<!--Footer-->
-<div class="container-fluid">
-    <div id='footnav' class="row">
-        <div class='col-lg-12 col-md-12'>
-            <div class="navi">
-                <nav>
-                    <?php if ($this->countModules('mainmenu')) : ?>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <nav class="navigation" role="navigation">
-                                        <jdoc:include type="modules" name="footermenu" style="none" />
-                                    </nav>
+    <!--Footer-->
+    <div class="container-fluid">
+        <div id='footnav' class="row">
+            <div class='col-lg-12 col-md-12'>
+                <div class="navi">
+                    <nav>
+                        <?php if ($this->countModules('mainmenu')) : ?>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <nav class="navigation" role="navigation">
+                                            <jdoc:include type="modules" name="footermenu" style="none" />
+                                        </nav>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php endif; ?>
-                </nav>
+                        <?php endif; ?>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="row">
+            <div class='col-lg-4 col-md-4 col-sm-4'>
+                <div class="foot-contact">
+                    <jdoc:include type="modules" name="footcol1" style="xhtml" />
+
+                </div>
+            </div>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
+                <div class="foot-logo">
+                    <jdoc:include type="modules" name="footcol2" style="xhtml" />
+    <!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
+                </div>
+            </div>
+            <div class='col-lg-4 col-md-4 col-sm-4'>
+                <div class="foot-badges">
+                    <jdoc:include type="modules" name="footcol3" style="xhtml" />
+                </div>
             </div>
         </div>
     </div>
-
-    <div id="footer" class="row">
-        <div class='col-lg-4 col-md-4 col-sm-4'>
-            <div class="foot-contact">
-                <jdoc:include type="modules" name="footcol1" style="xhtml" />
-
-            </div>
-        </div>
-        <div class='col-lg-4 col-md-4 col-sm-4'>
-            <div class="foot-logo">
-                <jdoc:include type="modules" name="footcol2" style="xhtml" />
-<!--                    <img class="img-responsive" src="/templates/worksaver/images/biglogo.png" alt=""/>-->
-            </div>
-        </div>
-        <div class='col-lg-4 col-md-4 col-sm-4'>
-            <div class="foot-badges">
-                <jdoc:include type="modules" name="footcol3" style="xhtml" />
-            </div>
-        </div>
-    </div>
-</div>
 
 </body>
 </html>
