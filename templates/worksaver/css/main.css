@@ -136,7 +136,7 @@ nav ul li a{
 }
 
 .carousel-indicators, .carousel-control {
-    display: none;
+    /*    display: none;*/
 }
 
 /* Makes images fully responsive */
