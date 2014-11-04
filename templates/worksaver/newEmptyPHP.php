@@ -1,152 +1,112 @@
 <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h3>Snow Blades for Front Loader, Skid Steer, and Clamp-on</h3>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <h3>Rotary Brooms For Skid Steers &amp; 3-Pt. Tractor Mount</h3>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/mss-snowblad.jpg" alt="Photo of Skid Steer Snow Blade" />
-        Mini Skid Steer Snow Blade
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/SBFL-2790-21.jpg" alt="Photo of Front Loader Snow Blade" />
-        Front Loader Snow Blade
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/snowblade1.JPG" alt="Photo of Skid Steer Snow Blade" />
-        Skid Steer Snow Blade
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/ClampSnowBlade.jpg" alt="Photo of Clamp-on Snow Blade" />
-        Clamp-on Snow Blade
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h3>Features</h3>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <h4>Features</h4>
         <ul>
-            <li>Ideal for residential or commercial snow removal.  Use on driveways, parking lots, or other large areas.</li>
-            <li>7.5-ft. &amp; 9-ft. models feature 5° lateral oscillation to allow blade to follow ground contours.</li>
-            <li>Two trip springs for controlled break over in snow.</li>
-            <li>Clamp-on blade for compact tractors.</li>
-            <li>Reinforced 21" or 27" high 10-guage moldboards provide long service life.</li>
-            <li>3/8" x 6" cutting edge of 1044 steel.</li>
-            <li>Blade locks for grading loose dirt or gravel.</li>
-            <li>Step-through design allows for easy access to skid steer seat.</li>
-            <li>Quick hook up on skid steers or front loaders equipped with "Universal" mounting plate.</li>
-            <li>Blade angles right or left.</li>
-            <li>Adjustable skid shoes are ½" thick and rotate for long life.</li>
+            <li>Top quality rotary brooms for use by contractors, municipalities, institutions, and farmers .</li>
+            <li>Remove dirt, sand, gravel and trash from construction entrances, parking lots, bridges, driveways and sidewalks.</li>
+            <li>Remove thatch and prepare turf for the growing season.</li>
+            <li>Clean snow or leaves from streets, driveways, and buildings, and building entrances.</li>
+            <li>Excellent for general clean up before sealing or repairing pavement.</li>
             <li><a href="/templates/worksaver/literature/wsr6481_Land Management Equipment brochure.pdf">Literature</a></li>
         </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="/images/Broom 3.jpg" alt="Photo of Rotary Broom" />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul>
+            <li>PTO driven 3-pt. tractor mount in 5-ft., 6-ft., &amp; 7-ft. widths with 32" diameter brushes.</li>
+            <li>Double gearbox drive (Patented No. 8,117,705) for smooth power tranmission and easy reversal of brush rotation.</li>
+            <li>Broom angles 30° right and left.</li>
+            <li>Parking stands standard.</li>
+        </ul>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <hr class="hor-line">
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <ul>
+            <li>Hydraulically driven skid steer models in 5-ft., 6-ft., &amp; 7-ft. widths with 32" diameter brushes.</li>
+            <li>Variable flow control valve for optimum broom speed.</li>
+            <li>Step-through mount design for easy in/out of skid steer cab.</li>
+            <li>Broom angles 30° right or left.</li>
+            <li>Parking stands standard.</li>
+            <li>32" Diameter convoluted brushes available in Poly (P) or both Poly and Wire (PW).</li>
+            <li>Height adjustment chains maintain even operating position.</li>
+            <li>Parking stand included as standard equipment.</li>
+            <li>Manual or Hydraulic Angle Kits available.</li>
+        </ul>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="/images/Broom Lit.jpg" alt="Photo of Rotary Broom" />
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr class="table-col-header"><td align="center" colspan="9">9' and 7½' Snow Blade Specifications</td></tr>
-                <tr class="table-col-modelnum"><td>&nbsp;</td><td>SBFL-27108A</td><td> SBS-27108A</td><td>SBG-27108A</td><td>SBJD-27108A</td><td>SBFL-2709A</td><td>SBS-2790A</td><td>SBG-2790A</td><td>SBJD-2709A</td></tr>
-                <tr><td>Overall Width (in/cm)</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td></tr>
-                <tr><td>Overall Height (in/cm)</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td></tr>
-                <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
-                <tr><td>Cutting Edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-                <tr><td>5° Lateral Oscillation</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-                <tr><td>Extension Trip Springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
-                <tr><td>Manual Angle Positions</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
-                <tr><td>Width @ Full Angle</td><td>96/244</td><td>96/244</td><td>96/244</td><td>96/244</td><td>80/203</td><td>80/203</td><td>80/203</td><td>80/203</td></tr>
-                <tr><td>Tractor Loader Mount</td><td>*Brackets Req.</td><td>NA</td><td>Euro / Global</td><td>400 / 500 JD</td><td>*Brackets Req.</td><td>NA</td><td>Euro / Global</td><td>400 / 500 JD</td></tr>
-                <tr><td>Skid Steer Mount</td><td>NA</td><td>Universal</td><td>NA</td><td>NA</td><td>NA</td><td>Universal</td><td>NA</td><td>NA</td></tr>
-                <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-                <tr><td>Horse Power Rating</td><td>40-90 HP</td><td>40-90 HP</td><td>40-90 HP</td><td>40-90 HP</td><td>30-80 HP</td><td>30-80 HP</td><td>30-80 HP</td><td>30-80 HP</td></tr>
-                <tr><td>Weight (lb/kg)</td><td>665 / 302</td><td>690 / 313</td><td>640 / 290</td><td>670 / 304</td><td>555 / 252</td><td>530 / 240</td><td>510 / 231</td><td>510 / 231</td></tr>
-                <tr><td>Hydraulic Angle Kit</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
-                <tr><td>Crossover Rel. Valve</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
-                <tr><td>Optional Top Deflector</td><td>360230</td><td>360230</td><td>360230</td><td>360230</td><td>360227</td><td>360227</td><td>360227</td><td>360227</td></tr>
-                <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
-                <tr><td>Snow Blade Item No.</td><td>360075</td><td>360070</td><td>360078</td><td>360275</td><td>360085</td><td>360080</td><td>360090</td><td>360270</td></tr>
-                <tr>
-                    <td>Parts Lists</td>
-                    <td><a href="/sbfl2790a-27108a-part-list">SBFL-27108A</a></td>
-                    <td><a href="/SBS2790A-27108-part-list">SBS-27108A</a></td>
-                    <td><a href="/-part-list">SBG-27108A</a></td>
-                    <td><a href="/-part-list">SBJD-27108A</a></td>
-                    <td><a href="/-part-list">SBFL-2790A</a></td>
-                    <td><a href="/-part-list">SBS-2790A</a></td>
-                    <td><a href="/-part-list">SBG-2790A</a></td>
-                    <td><a href="/-part-list">SBJD-2709A</a></td>
-                </tr>
-                <tr><td align="left" colspan="9">*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
+                <tr class="table-col-header"><td align="center" colspan="9">Skid Steer Rotary Broom Specifications</td></tr>
+                <tr class="table-col-modelnum"><td>&nbsp;</td><td>SSMB-325P</td><td>SSMB-325PW</td><td>SSMB-326P</td><td>SSMB-326PW</td><td>SSMB-327P</td><td>SSMB-327PW</td></tr>
+                <tr><td>Overall Width (in/cm)</td><td>69 / 175</td><td>69 / 175</td><td>81 / 206</td><td>81 / 206</td><td>93 / 236</td><td>93 / 236</td></tr>
+                <tr><td>Brush Diameter (in/cm)</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td></tr>
+                <tr><td>Sweeping Width (in/cm)</td><td>60 / 152</td><td>60 / 152</td><td>72 / 183</td><td>72 / 183</td><td>84 / 213</td><td>84 / 213</td></tr>
+                <tr><td>Width @ 30° Angle (in/cm)</td><td>53 / 135</td><td>53 / 135</td><td>64 / 163</td><td>64 / 163</td><td>76 / 193</td><td>76 / 193</td></tr>
+                <tr><td>Mounting System</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td><td>Skid Steer</td></tr>
+                <tr><td>Brush Material</td><td>Poly</td><td>Poly / Wire</td><td>Poly</td><td>Poly / Wire</td><td>Poly</td><td>Poly / Wire</td></tr>
+                <tr><td>Hydraulic Motor Rating</td><td>16 GPM</td><td>16 GPM</td><td>16 GPM</td><td>16 GPM</td><td>16 GPM</td><td>16 GPM</td></tr>
+                <tr><td>Oil Flow Requirement (gpm/lpm)</td><td>12-30 / 45-114</td><td>12-30 / 45-114</td><td>12-30 / 45-114</td><td>12-30 / 45-114</td><td> 12-30 / 45-114</td><td>12-30 / 45-114</td></tr>
+                <tr><td>Dirt Deflector</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
+                <tr><td>Weight (lbs/kg)</td><td>640 / 290</td><td>637 / 289</td><td>740 / 336</td><td>736 / 334</td><td>840 / 381</td><td>833 / 378</td></tr>
+                <tr><td>Product No.</td><td>610961</td><td>610960</td><td>610966</td><td>610965</td><td>610971</td><td>610970</td></tr>
+                <tr><td>&nbsp;</td>
+                    <td colspan="3"><a href="/skid-steer-rotary-broom-parts-list">Skid Steer Rotary Broom Parts List</a></td>
+                    <td colspan="3"><a href="/templates/worksaver/manuals/SSBroom.pdf">Skid Steer Rotary Broom Manual</a></tr>
+            </tbody>
+        </table>
+        <br />
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody><tr class="table-col-header"><td align="center" colspan="9">3-Pt. Rotary Broom Specifications</td></tr>
+                <tr class="table-col-modelnum"><td>&nbsp;</td><td>RMB-325P</td><td>RMB-325PW</td><td>RMB-326P</td><td>RMB-326PW</td><td>RMB-327P</td><td>RMB-327PW</td></tr>
+                <tr><td>Overall Width (in/cm)</td><td>69 / 175</td><td>69 / 175</td><td>81 / 206</td><td>81 / 206</td><td>93 / 236</td><td>93 / 236</td></tr>
+                <tr><td>Brush Diameter (in/cm)</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td><td>32 / 81</td></tr>
+                <tr><td>Sweeping Width (in/cm)</td><td>60 / 152</td><td>60 / 152</td><td>72 / 183</td><td>72 / 183</td><td> 84 / 213</td><td> 84 / 213</td></tr>
+                <tr><td>Width @ 30° Angle (in/cm)</td><td>53 / 135</td><td>53 / 135</td><td>64 / 163</td><td>64 / 163</td><td>76 / 193</td><td>76 / 193</td></tr>
+                <tr><td>Mounting System</td><td>3-pt. (Cat. I)</td><td>3-pt. (Cat. I)</td><td>3-pt. (Cat. I)</td><td>3-pt. (Cat. I)</td><td>3-pt. (Cat. I)</td><td>3-pt. (Cat. I)</td></tr>
+                <tr><td>Brush Material</td><td>Poly</td><td>Poly / Wire</td><td>Poly</td><td>Poly / Wire</td><td>Poly</td><td>Poly / Wire</td></tr>
+                <tr><td>PTO RPM Range</td><td>540</td><td>540</td><td>540</td><td>540</td><td>540</td><td>540</td></tr>
+                <tr><td>Dirt Deflector</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
+                <tr><td>Weight (lbs/kg)</td><td>720 / 326</td><td>714 / 324</td><td>780 / 354</td><td>774 / 351</td><td>840 / 381</td><td>833 / 378</td></tr>
+                <tr><td>Product No.</td><td>610705</td><td>610700</td><td>610755</td><td>610750</td><td>610805</td><td>610800</td></tr>
+                <tr><td>&nbsp;</td>
+                    <td colspan="3"><a href="/3-pt-rotary-brooms-parts-list">3-Pt. Rotary Broom Parts List</a></td>
+                    <td colspan="3"><a href="/templates/worksaver/manuals/broom.pdf">3-Pt. Rotary Broom Manual</a></tr>
+
+            </tbody>
+        </table>
+        <br />
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr class="table-col-header"><td align="center" colspan="3">Angle Adjustment Kits</td></tr>
+                <tr><td>Item #610702</td><td>Manual Angle Adjustment Kit for either skid steers or tractor 3-pt.</td><td><a href="AdjustmentLinkPartsman.html">Parts List</a></td></tr>
+                <tr><td>Item #610703</td><td>3-pt. Hydraulic Angle Adjustment Kit - includes cylinder &amp; hoses less tips.</td><td><a href="optHydAngleKitPartsman.html">Parts List</a></td></tr>
+                <tr><td>Item #610940</td><td>Skid steer Hydraulic Angle Adjustment Kit - includes elec. hydraulic solenoid control valve.  For skid steer brooms used on units with only one set of remotes.  Includes cylinder, hoses, valve, &amp; flat-faced couplers.  Factory installed.. </td><td><a href="optsolenoidFactoryPartsman.html">Parts List</a></td></tr>
+                <tr class="table-col-header"><td align="center" colspan="3">Electric Solenoid Kit(Optional)</td></tr>
+                <tr><td>Item #610950</td><td>Field installed electric hydraulic solenoid valve kit - fits #610703 hydraulic angle kit above.</td><td><a href="optsolenoidElecPartsman.html">Parts List</a></td></tr>
             </tbody>
         </table>
     </div>
 </div>
 
-<table class="table table-bordered table-responsive table-striped">
-    <tbody>
-        <tr class="table-col-header"><td align="center" colspan="9">6' and 5' Snow Blade Specifications</td></tr>
-        <tr class="table-col-modelnum"><td>&nbsp;</td><td>SBC-2172</td><td>SBJD-2172</td><td>SBFL-2172</td><td>SBS-2172</td><td>SBJD-2160</td><td>SBFL-2160</td><td>SBS-2160</td><td>SBC-2160</td></tr>
-        <tr><td>Overall width (in/cm)</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td></tr>
-        <tr><td>Overall height (in/cm)</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td></tr>
-        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
-        <tr><td>Cutting edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>5° Lateral Oscillation</td><td>N/A</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
 
-        <tr><td>Extension trip springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
-        <tr><td>Manual angle positions</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
-        <tr><td>Width @ Full angle</td><td>62 / 157</td><td>62/157</td><td>62/157</td><td>62/157</td><td>52/132</td><td>52/132</td><td>52/132</td><td>52/132</td></tr>
-
-        <tr><td>Mounting for Tractor Loader (SBFL)</td><td>Clamp-on</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>Clamp-on</td></tr>
-        <tr><td>Mounting for Skid Steer (SBS)</td><td>N/A</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>N/A</td></tr>
-
-        <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>Horse power Recommended range</td><td>&lt;35 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>&lt;35 HP</td></tr>
-        <tr><td>Max. Operating Weight (lb/kg)</td><td>4,000/1,814.4</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,000/1,814.4</td></tr>
-
-        <tr><td>Weight (lb/kg)</td><td>335 / 152</td><td>366 / 166</td><td>366 / 166</td><td>350 / 159</td><td>347 / 157</td><td>347 / 157</td><td>334 / 152</td><td>305 / 138</td></tr>
-
-
-        <tr><td>Front Loader Angle Hydraulic Kit</td><td>N/A</td><td>Optional</td><td>Optional</td><td>NA</td><td>Optional</td><td>Optional</td><td>NA</td><td>N/A</td></tr>
-        <tr><td>Skid Steer Angle Hydraulic Kit</td><td>N/A</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td><td>NA</td><td>Optional</td><td>N/A</td></tr>
-        <tr><td>Crossover Rel. Valve</td><td>N/A</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>N/A</td></tr>
-        <tr><td>Optional Top Deflector</td><td>360223</td><td>360223</td><td>360223</td><td>360223</td><td>360220</td><td>360220</td><td>360220</td><td>360220</td></tr>
-        <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
-        <tr><td>Snow Blade Item No.</td><td>360290</td><td>360255</td><td>360160</td><td>360130</td><td>360250</td><td>360140</td><td>360100</td><td>360280</td></tr>
-        <tr><td>Parts Lists</td>
-            <td><a href="-part-list">SBC-2172 N/A</a></td>
-            <td><a href="-part-list">SBJD-2172 N/A</a></td>
-            <td><a href="-part-list">SBFL-2172</a></td>
-            <td><a href="-part-list">SBS-2172</a></td>
-            <td><a href="-part-list">SBJD-2160 N/A</a></td>
-            <td><a href="-part-list">SBFL-2160</a></td>
-            <td><a href="-part-list">SBS-2160</a></td>
-            <td><a href="-part-list">SBC-2160 N/A</a></td></tr>
-
-        <tr><td align="left" colspan="9"><i>Be Sure tractor / skid steer is properly counterbalanced.</i><br /><br />*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
-        <tr><td colspan="9"><a href="360170man.html">Optional Hydraulic Angle Kit (#360170) (Models 2160 and 2172 Blades)</a></td></tr>
-        <tr><td colspan="9"><a href="360165man.html">Optional Hydraulic Angle Kit (#360165) (For Models SBS-2790A only)</a></td></tr>
-        <tr><td colspan="9"><a href="360168man.html">Optional Hydraulic Angle Kit (#360168) (For Models SBFL-2790A only)</a></td></tr>
-        <tr><td colspan="9"><a href="360165-360065man.html">Hydraulic Angle Kit (#360165)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBS-27108A and Optional on Models SBS-2790A)</a></td></tr>
-        <tr><td colspan="9"><a href="360168-360065man.html">Hydraulic Angle Kit (#360168)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBFL-27108A and Optional on Models SBFL-2790A)</a></td></tr>
-        <tr><td colspan="9"><a href="360235man.html">Optional Marker Kit (#360235)</a></td></tr>
-        <tr><td colspan="9"><a href="/templates/worksaver/manuals/WSSnowBlade.pdf">Snow Blade Manual</a></td></tr>
-    </tbody>
-</table>
-
-<table class="table table-bordered table-responsive table-striped">
-    <tbody>
-        <tr class="table-col-header"><td align="center" colspan="3">Mini Skid Steer Snow Blade Specifications</td></tr>
-        <tr class="table-col-modelnum"><td>&nbsp;</td><td>SBMS-50</td><td>SBMS-50 B/G</td></tr>
-        <tr><td>Overall Width (in/mm)</td><td>50 / 1270</td><td>50 / 1270</td></tr>
-        <tr><td>Overall Height (in/mm)</td><td>21 / 533.4</td><td>21 / 533.4</td></tr>
-        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td></tr>
-        <tr><td>Cutting Edge (in/mm)</td><td>3/8 x 6 / 9.525 x 152.4</td><td>3/8 x 6 / 9.525 x 152.4</td></tr>
-        <tr><td>Mount</td><td> Universal Mini Skid</td><td>Bobcat MT / Gehl*</td></tr>
-        <tr><td>Weight (lbs/kg)</td><td>280 / 127</td><td>280 / 127</td></tr>
-        <tr><td>Product No.</td><td>360245</td><td>360260</td></tr>
-        <tr><td>Parts Lists</td><td><a href=".html">SBMS-50</a></td><td><a href=".html">SBMS-50 B/G</a></td></tr>
-        <tr><td align="left" colspan="3">* Note: Also for Bobcat S-70 & Gehl 1640 small cab type units.</td></tr>
-
-    </tbody>
-</table>
