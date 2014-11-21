@@ -1,152 +1,86 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h3>Snow Blades for Front Loader, Skid Steer, and Clamp-on</h3>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/mss-snowblad.jpg" alt="Photo of Skid Steer Snow Blade" />
-        Mini Skid Steer Snow Blade
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/SBFL-2790-21.jpg" alt="Photo of Front Loader Snow Blade" />
-        Front Loader Snow Blade
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/snowblade1.JPG" alt="Photo of Skid Steer Snow Blade" />
-        Skid Steer Snow Blade
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/ClampSnowBlade.jpg" alt="Photo of Clamp-on Snow Blade" />
-        Clamp-on Snow Blade
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h3>Features</h3>
-        <ul>
-            <li>Ideal for residential or commercial snow removal.  Use on driveways, parking lots, or other large areas.</li>
-            <li>7.5-ft. &amp; 9-ft. models feature 5° lateral oscillation to allow blade to follow ground contours.</li>
-            <li>Two trip springs for controlled break over in snow.</li>
-            <li>Clamp-on blade for compact tractors.</li>
-            <li>Reinforced 21" or 27" high 10-guage moldboards provide long service life.</li>
-            <li>3/8" x 6" cutting edge of 1044 steel.</li>
-            <li>Blade locks for grading loose dirt or gravel.</li>
-            <li>Step-through design allows for easy access to skid steer seat.</li>
-            <li>Quick hook up on skid steers or front loaders equipped with "Universal" mounting plate.</li>
-            <li>Blade angles right or left.</li>
-            <li>Adjustable skid shoes are ½" thick and rotate for long life.</li>
-            <li><a href="/templates/worksaver/literature/wsr6481_Land Management Equipment brochure.pdf">Literature</a></li>
-        </ul>
+        <h4>For Tractor Front Loader Applications
+            (Standard on Model SBFL-27108A and Optional on Model SBFL-2790A)</h4>
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr class="table-col-header"><td align="center" colspan="9">9' and 7½' Snow Blade Specifications</td></tr>
-                <tr class="table-col-modelnum"><td>&nbsp;</td><td>SBFL-27108A</td><td> SBS-27108A</td><td>SBG-27108A</td><td>SBJD-27108A</td><td>SBFL-2709A</td><td>SBS-2790A</td><td>SBG-2790A</td><td>SBJD-2709A</td></tr>
-                <tr><td>Overall Width (in/cm)</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>108 / 274</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td><td>90 / 229</td></tr>
-                <tr><td>Overall Height (in/cm)</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td><td>27 / 69</td></tr>
-                <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
-                <tr><td>Cutting Edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-                <tr><td>5° Lateral Oscillation</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-                <tr><td>Extension Trip Springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
-                <tr><td>Manual Angle Positions</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
-                <tr><td>Width @ Full Angle</td><td>96/244</td><td>96/244</td><td>96/244</td><td>96/244</td><td>80/203</td><td>80/203</td><td>80/203</td><td>80/203</td></tr>
-                <tr><td>Tractor Loader Mount</td><td>*Brackets Req.</td><td>NA</td><td>Euro / Global</td><td>400 / 500 JD</td><td>*Brackets Req.</td><td>NA</td><td>Euro / Global</td><td>400 / 500 JD</td></tr>
-                <tr><td>Skid Steer Mount</td><td>NA</td><td>Universal</td><td>NA</td><td>NA</td><td>NA</td><td>Universal</td><td>NA</td><td>NA</td></tr>
-                <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-                <tr><td>Horse Power Rating</td><td>40-90 HP</td><td>40-90 HP</td><td>40-90 HP</td><td>40-90 HP</td><td>30-80 HP</td><td>30-80 HP</td><td>30-80 HP</td><td>30-80 HP</td></tr>
-                <tr><td>Weight (lb/kg)</td><td>665 / 302</td><td>690 / 313</td><td>640 / 290</td><td>670 / 304</td><td>555 / 252</td><td>530 / 240</td><td>510 / 231</td><td>510 / 231</td></tr>
-                <tr><td>Hydraulic Angle Kit</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
-                <tr><td>Crossover Rel. Valve</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td></tr>
-                <tr><td>Optional Top Deflector</td><td>360230</td><td>360230</td><td>360230</td><td>360230</td><td>360227</td><td>360227</td><td>360227</td><td>360227</td></tr>
-                <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
-                <tr><td>Snow Blade Item No.</td><td>360075</td><td>360070</td><td>360078</td><td>360275</td><td>360085</td><td>360080</td><td>360090</td><td>360270</td></tr>
-                <tr>
-                    <td>Parts Lists</td>
-                    <td><a href="/snow-blade-models-sbfl-2790a-27108a-part-list">SBFL-27108A</a></td>
-                    <td><a href="/snow-blade-models-sbs-2790a-and-sbs-27108a-part-list">SBS-27108A</a></td>
-                    <td><a href="/snow-blade-models-sbg-2790a-and-sbg-27108a-part-list">SBG-27108A</a></td>
-                    <td><a href="/snow-blade-model-sbjd-27108a-part-list">SBJD-27108A N/A</a></td>
-                    <td><a href="/snow-blade-models-sbfl-2790a-27108a-part-list">SBFL-2790A</a></td>
-                    <td><a href="/snow-blade-models-sbs-2790a-and-sbs-27108a-part-list">SBS-2790A</a></td>
-                    <td><a href="/snow-blade-models-sbg-2790a-and-sbg-27108a-part-list">SBG-2790A</a></td>
-                    <td><a href="/snow-blade-model-sbjd-2709a-part-list">SBJD-2709A N/A</a></td>
-                </tr>
-                <tr><td align="left" colspan="9">*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
+                <tr class="table-col-header"><td align="center" colspan="4">Other Associated Part List's</td></tr>
+
+                <tr><td>PTO Shaft	Hydraulic's	GearBox Parts
+            </tbody>
+        </table>
+
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr class="table-col-header"><td align="center" colspan="4">Optional Marker Kit (#360235)</td></tr>
+                <tr><td class="table-col-img" colspan="4"><img class="img-responsive col-xs-12" src="/images/partslist/snowblades/plow_marker_kit_360235.jpg" alt="" /></td></tr>
+                <tr><td>1</td><td>2504230</td><td>Plow Marker (Pair)</td><td>1</td></tr>
+                <tr><td>2</td><td>2503038</td><td>Bolt 5/8" -18NC x 1" Hex Head Gr.2</td><td>2</td></tr>
+                <tr><td>3</td><td>2501012</td><td>Washer 5/16" Flat</td><td>2</td></tr>
+                <tr><td>4</td><td>2500046</td><td>Nut 5/8" - 18NC Nylock Hex</td><td>2</td></tr>
+
+                SG-26 Stump Grinder Part List
+                Ref.	Part No.	Description	Req'd.
+                1	811505	3Pt. Yoke Weldment	1
+                2	811515	Housing Weldment	1
+                3	811525	Anchor Weldment	2
+                4	811510	 Wheel Guard Weldment	1
+                5	811522	 Pivot Cross (7"x10")	1
+                6	811517	Special Bolt 3/4"-10NC	4
+                7	2500084	Nut 3/4"-10NC Vibration Proof	8
+                8	803185	Bushing, Spring (3/4"ID x 1" OD x 5/8")	4
+                9	2503035	Bolt 3/4" - 10 NC x 6" Hex Head Gr.5	2
+                10	2502001	Washer 3/4" Springlock	2
+                11	2500002	Nut 3/4"-10NC Full Hex	2
+                12	2505034	Bushing, Spring (1" ID x 1 1/4" OD x 5/8")	4
+                13	2504215	Hydraulic Cylinder 2 1/2 x 10	1
+                14	2504120	Hydraulic Cylinder 2 x 24	1
+                15	590108	Draw Pin (Ak-578)	2
+                16	2504049	Drive Zerk 5/16"	6
+                17	863070	Cylinder Pin Dia.1"	4
+                18	2504121	Cotter Pin 3/16" x 1 1/2"	4
+                19	2501003	Washer 1/2' Flat	11
+                20	2500040	Nut 1/2"-13Nc Whiz Flange Hex	11
+                21	811531	Grinder Wheel Weldment (SG-26)	1
+                22	811534	Carbide Tooth	33
+                23	2503061	Bolt 3/8"16Nc x 1" Hex Head Gr.8	33
+                24	811567	Gearbox Assembly w/Plugs	1
+                25	2504072	Breather Plug 1/2"NPT	1
+                26	2504222	Pipe Plug 1/4" NPT Square Head	1
+                27	2503258	Bolt 3/4" - 10 NC x 2 1/4" Hex Head Gr.5	4
+                28	650475	PTO Assembly	1
+                650497	PTO Half (Implement End)	1
+                650498	PTO Half (Tractor End)	1
+                29	811540	Lid, Shield	1
+                30	811520	PTO Shield Weldment	1
+                31	2503011	Bolt 3/8'-16NC Hex Head Gr.2	2
+                32	2501004	Washer 3/8" Flat	2
+                33	2500042	Nut 3/8"-16NC Hex Nylock	2
+                34	2503123	Bolt M8 x 12mm Hex Head	4
+                35	2501012	Washer 5/16" Flat	4
+                36	2502011	Washer 5/16" Springlock	4
+                37	811559	Edging Strip 2"	2
+                38	811541	Rubber Guard	1
+                39	2503007	Bolt 1/2"-13NC x 2" Hex Head Gr.2	5
+                40	811547	Guard Retainer Strap	1
+                41	811557	Stand Weldment	1
+                42	341826	Hitch Pin 1/2" x 3 1/2"	1
+                43	2502008	Washer 3/8" Springlock	33
+                44	101027	Safety Sign-Warning (StandClear)	2
+                45	101101	Safety Sign-Warning (540 RPM)	1
+                46	101103	Safety Sign-Danger (540 RPM)	1
+                47	101122	Safety Sign-Warning (Hi Pressure0	1
+                48	101186	Safety Sign-Warning (Shields)	1
+                49	101206	Safety Sign-Danger (Debris)	1
+                50	101219	Safety Sign-Warning (Valve)	1
+                51	101201	Safety Sign-Warning	1
+
+
             </tbody>
         </table>
     </div>
 </div>
-
-<table class="table table-bordered table-responsive table-striped">
-    <tbody>
-        <tr class="table-col-header"><td align="center" colspan="9">6' and 5' Snow Blade Specifications</td></tr>
-        <tr class="table-col-modelnum"><td>&nbsp;</td><td>SBC-2172</td><td>SBJD-2172</td><td>SBFL-2172</td><td>SBS-2172</td><td>SBJD-2160</td><td>SBFL-2160</td><td>SBS-2160</td><td>SBC-2160</td></tr>
-        <tr><td>Overall width (in/cm)</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>72 / 183</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td><td>60 / 152</td></tr>
-        <tr><td>Overall height (in/cm)</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td><td>21 / 53</td></tr>
-        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td><td>10-gauge</td></tr>
-        <tr><td>Cutting edge (in/mm)<br />3/8" x 6" / 9.525 x 152.4</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>5° Lateral Oscillation</td><td>N/A</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
-
-        <tr><td>Extension trip springs</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
-        <tr><td>Manual angle positions</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
-        <tr><td>Width @ Full angle</td><td>62 / 157</td><td>62/157</td><td>62/157</td><td>62/157</td><td>52/132</td><td>52/132</td><td>52/132</td><td>52/132</td></tr>
-
-        <tr><td>Mounting for Tractor Loader (SBFL)</td><td>Clamp-on</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>JD 200/300/400</td><td>Brackets required *</td><td>NA</td><td>Clamp-on</td></tr>
-        <tr><td>Mounting for Skid Steer (SBS)</td><td>N/A</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>NA</td><td>NA</td><td>"Universal" Skid Steer</td><td>N/A</td></tr>
-
-        <tr><td>Adjustable Skid Shoes</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td><td>Standard</td></tr>
-        <tr><td>Horse power Recommended range</td><td>&lt;35 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>25 - 45 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>20 - 40 HP</td><td>&lt;35 HP</td></tr>
-        <tr><td>Max. Operating Weight (lb/kg)</td><td>4,000/1,814.4</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,500 / 2,041.2</td><td>4,000/1,814.4</td></tr>
-
-        <tr><td>Weight (lb/kg)</td><td>335 / 152</td><td>366 / 166</td><td>366 / 166</td><td>350 / 159</td><td>347 / 157</td><td>347 / 157</td><td>334 / 152</td><td>305 / 138</td></tr>
-
-
-        <tr><td>Front Loader Angle Hydraulic Kit</td><td>N/A</td><td>Optional</td><td>Optional</td><td>NA</td><td>Optional</td><td>Optional</td><td>NA</td><td>N/A</td></tr>
-        <tr><td>Skid Steer Angle Hydraulic Kit</td><td>N/A</td><td>NA</td><td>NA</td><td>Optional</td><td>NA</td><td>NA</td><td>Optional</td><td>N/A</td></tr>
-        <tr><td>Crossover Rel. Valve</td><td>N/A</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>Optional</td><td>N/A</td></tr>
-        <tr><td>Optional Top Deflector</td><td>360223</td><td>360223</td><td>360223</td><td>360223</td><td>360220</td><td>360220</td><td>360220</td><td>360220</td></tr>
-        <tr><td>Opt. Sight Indicator</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td><td>360235</td></tr>
-        <tr><td>Snow Blade Item No.</td><td>360290</td><td>360255</td><td>360160</td><td>360130</td><td>360250</td><td>360140</td><td>360100</td><td>360280</td></tr>
-        <tr><td>Parts Lists</td>
-            <td><a href="snow-blade-models-sbc-2172-part-list">SBC-2172 N/A</a></td>
-            <td><a href="snow-blade-models-sbjd-2172-part-list">SBJD-2172 N/A</a></td>
-            <td><a href="snow-blade-models-sbfl-2172-part-list">SBFL-2172 N/A</a></td>
-            <td><a href="snow-blade-models-sbs-2172-and-2160-part-list">SBS-2172</a></td>
-            <td><a href="snow-blade-models-sbjd-2160-part-list">SBJD-2160 N/A</a></td>
-            <td><a href="snow-blade-models-sbfl-2160-part-list">SBFL-2160 N/A</a></td>
-            <td><a href="snow-blade-models-sbs-2172-and-2160-part-list">SBS-2160</a></td>
-            <td><a href="snow-blade-models-sbc-2160-part-list">SBC-2160 N/A</a></td></tr>
-
-        <tr><td colspan="9"><i>Be Sure tractor / skid steer is properly counterbalanced.</i><br /><br />*Optional Interfacing Quick Attach brackets available for most popular loaders.</td></tr>
-        <tr><td colspan="9"><a href="snow-blade-optional-hydraulic-angle-kit-360170">Optional Hydraulic Angle Kit (#360170) (Models 2160 and 2172 Blades)</a></td></tr>
-        <tr><td colspan="9"><a href="snow-blade-optional-hydraulic-angle-kit-360165">Optional Hydraulic Angle Kit (#360165) (For Models SBS-2790A only)</a></td></tr>
-        <tr><td colspan="9"><a href="snow-blade-optional-hydraulic-angle-kit-360168">Optional Hydraulic Angle Kit (#360168) (For Models SBFL-2790A only)</a></td></tr>
-        <tr><td colspan="9"><a href="snow-blade-hydraulic-angle-kit-360165-with-cross-over-relief-valve-kit-360065">Hydraulic Angle Kit (#360165)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBS-27108A and Optional on Models SBS-2790A)</a></td></tr>
-        <tr><td colspan="9"><a href="snow-blade-hydraulic-angle-kit-360168-with-cross-over-relief-valve-kit-360065">Hydraulic Angle Kit (#360168)w/ Crossover Relief Valve Kit (#360065) (Standard on Models SBFL-27108A and Optional on Models SBFL-2790A)</a></td></tr>
-        <tr><td colspan="9"><a href="snow-blade-optional-marker-kit-360235">Optional Marker Kit (#360235)</a></td></tr>
-        <tr><td colspan="9"><a href="/templates/worksaver/manuals/WSSnowBlade.pdf">Snow Blade Manual</a></td></tr>
-    </tbody>
-</table>
-
-<table class="table table-bordered table-responsive table-striped">
-    <tbody>
-        <tr class="table-col-header"><td align="center" colspan="3">Mini Skid Steer Snow Blade Specifications</td></tr>
-        <tr class="table-col-modelnum"><td>&nbsp;</td><td>SBMS-50</td><td>SBMS-50 B/G</td></tr>
-        <tr><td>Overall Width (in/mm)</td><td>50 / 1270</td><td>50 / 1270</td></tr>
-        <tr><td>Overall Height (in/mm)</td><td>21 / 533.4</td><td>21 / 533.4</td></tr>
-        <tr><td>Moldboard Thickness</td><td>10-gauge</td><td>10-gauge</td></tr>
-        <tr><td>Cutting Edge (in/mm)</td><td>3/8 x 6 / 9.525 x 152.4</td><td>3/8 x 6 / 9.525 x 152.4</td></tr>
-        <tr><td>Mount</td><td> Universal Mini Skid</td><td>Bobcat MT / Gehl*</td></tr>
-        <tr><td>Weight (lbs/kg)</td><td>280 / 127</td><td>280 / 127</td></tr>
-        <tr><td>Product No.</td><td>360245</td><td>360260</td></tr>
-        <tr><td>Parts Lists</td><td><a href=".html">SBMS-50 N/A</a></td><td><a href=".html">SBMS-50 B/G N/A</a></td></tr>
-        <tr><td align="left" colspan="3">* Note: Also for Bobcat S-70 & Gehl 1640 small cab type units.</td></tr>
-
-    </tbody>
-</table>
