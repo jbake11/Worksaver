@@ -1,44 +1,68 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h4>3-PT. Bale Spears</h4>
+        <p>    Designed for use on tractor 3-pt. hitches only. These bale spear feature tapered forged spring steel spears allowing easier spear penetration of and withdrawal from the bale. Frames are made from rugged square tubing.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr class="table-col-header"><td align="center" colspan="3"></td></tr>
-                <tr><td><a href="">PTO Shaft</a></td><td><a href="">Hydraulic's</a></td><td><a href="">GearBox Parts</a></td></tr>
-            </tbody>
-        </table>
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr class="table-col-header"><td align="center" colspan="4">SG-26 PTO Shaft Parts List</td></tr>
-                <tr><td class="table-col-img" colspan="4"><img class="img-responsive col-xs-12" src="/images/partslist/stumpgrinder/SG-26PTO.gif" alt="" /></td></tr>
-                Ref.	Part No.	Ref. No (E&G)	Description	Req'd.
-                650475	07.582.024.10	Complete Driveline Assembly	1
-                1	650701	141.025.001	Push Pin Yoke 122	1
-                2	650702	180.015.130	Cross Journal Set	2
-                30	650740	146.252.011	Complete Disc Clutch	1
-                31	650710	180.015.009	Guard Retaining Collar For Outer Tube	1
-                33	650712	190.000.019	Bolt, Plastic Retainer	6
-                37	650716	180.015.008	Guard Retaining Collar For Inner Tube	1
-                40	650763	142.250.007.7520	Complete Guard	1
-                51	650719	166.026.004	Push Pin Set 1 3/8"	1
-                71	650745	180.019.017	Spring	8
-                72	650746	151.015.038	Flanged Yoke	1
-                73	650747	180.019.019	Bushing	1
-                74	650748	180.019.18	Lining Ping	2
-                75	650749	165.000.502	Bolt M12 x 1.25 x 65 w/Nut	2
-                76	650750	151.018.018	Clutch Support	1
-                77	650751	180.019.014	Inner Plate	1
-                78	650752	180.019.116	Pressure Plate	1
-                79	650753	165.000.549	Bolt M10 x 85 w/Nut	8
-                94	650764	149.251.170.7520	Half Female Guard	1
-                95	650765	142.251.247.7521	Half Male Guard	1
-                96	650766	123.250.780.10	Half Female Shaft w/Guarding	1
-                97	650767	123.250398.10	Half Male Shaft w/Guarding	1
-                98	650726	190.000.098	"Danger" Laber for Outer Tube	1
-                99	650727	190.000.099	"Danger" Label for Outer Guard Tube	1
+            <tbody><tr><td>Product</b></td>
+                    <td>Model</b> </td>
+                    <td>Description</td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/bsf-1523-lit.jpg" alt="Photo of BSF-1523"></td>
+                    <td><br />BSF-1523</b>
+                    </td><td>3-pt. spear for handling round bales up to 1,800 lbs. Tapered  main spear has useable length of 44” with two welded balance spears. Fits Cat I/II hitches (shipped with 7/8” pins)
+                        <br /><br /><a href="bsf1523man.html">Parts List Click Here</a> <br /><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/dbfs-30.gif" alt="Photo of HS-3000"></td>
+                    <td><br />HS-3000</b></td>
+                    <td>Dual bolt-in forged spears with 42” usable length. Spears are spaced 26” apart allowing bale to be picked up & not lose its orientation. Rated at 3,000 lbs. Fits Cat I/II Quick Hitches (shipped with 7/8” pins)
+                        <br /><br /><a href="hs3000man.html">Parts List Click Here</a><br /><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/Hs-2200.jpg" alt="Photo of HS-2200"></td>
+                    <td><br />HS-2200</b></td>
+                    <td>3-pt. Bale Spear for round bales to 2,200 lbs.  Bolt-in spear (Useable 42")  with cast steel socket (pat. pend).  Two balance spikes.  Cat I/II and quick hitch compatible.  Ships UPS.
+                        <br /><br /><a href="hs2200man.html">Parts List Click Here</a><br /><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
+
+                <tr><td><a href="3pt-spear.html"><img class="img-responsive" src="/images/bale-handling/hs-330.jpg" alt="Photo of HS-330"></a></td>
+                    <td><br />HS-330</b></td>
+                    <td>3-pt. Triple bale spear rated 3,000 lbs.  Features bolt-in forged spear (26" useable length) in case steel sockets (pat. pend.). Cat II &amp; III.  For mid-size square bales.<br /><br />Click on picture for more information.
+                        <br /><br /><a href="man.html">Parts List Click Here</a><br /><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
+
+                <tr><td><a href="3pt-spear.html"><img class="img-responsive" src="/images/bale-handling/dbh-449-2.jpg" alt="Photo of DBH-449"></a></td>
+                    <td><br />DBH-449</b></td>
+                    <td>3-pt. Four bale spear handler rated 4,000 lbs.  Features bolt-in forged spear (42" useable length) in case steel sockets (pat. pend.). Cat II &amp; III.  For two round bales.  <br /><br />Click on picture for more information.
+                        <br /><br /><a href="man.html">Parts List Click Here</a><br /><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/bsfa-20-lit.jpg" alt="Photo of BSFA-20"></td>
+                    <td><br />BSFA-20</b></td>
+                    <td>Adjustable height bale spear for handling round bales up to 2,000 lbs.  Utilizes a bolt-on spear with a useable length of 44".  The spear can be positioned up or down the vertical mast.  Fits Cat. I/II and is shipped with 7/8" pins.
+                        <br /><br /><a href="bsfa20man.html">Parts List Click Here</a> <br /><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
 
 
+<!--                <tr><td><img class="img-responsive" src="/images/bale-handling/F-1511_2.jpg" alt="Photo of F-1511"></td>
+                    <td>F-1511</b></td>
+                    <td>3-Pt. Bale fork rated at 1,500 lbs. designed for moving round bales.  Patented 3" x 2" internally reinforced forks are 55" on length and spaced 37.5" apart.  Unit fits Cat. I/II as well as Cat II Quick Hitches.  Shipped with 7/8" pins.</b></td></tr>
 
+                <tr><td><img class="img-responsive" src="/images/bale-handling/F-3000.jpg" alt="Photo of F-3000"></td>
+                    <td>F-3000</b></td>
+                    <td>3-Pt. Bale fork rated at 3,000 lbs. designed for moving round bales.  Patented 3" x 2" internally reinforced forks are 55" on length and spaced 46.5" apart.  Unit fits Cat. II as well as Cat II Quick Hitches.  Shipped with 1-1/8" pins.<br /><br /><a href="f3000man.html">Parts List Click Here</a></b></td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/hhu2045stand.jpg" alt="Photo of HHU-2045"></td>
+                    <td>HHU-2045</b></td>
+                    <td><font size="2"><b>3-Pt Hay Handler / Unroller.  Rated at 2,000 lbs. and is designed to unroll or handle round bales either 4' or 5' in width up to 6' in diameter.  Unit Requires a 2.5" x 8" hydraulic cylinder (which is not included). The HHU-2045 now comes with a parking stand for allowing easy hook up with a Quick Hitch.
+                            <br /><br /><a href="hhu2045man.html">Parts List Click Here</a><br /><br /><a href="/templates/worksaver/manuals/hhu2045.pdf">Download Manual</a> </b><b> </b></td></tr>-->
+
+                <tr><td align="center" colspan="4"><b><br /><a href="spearkit.html">Replacement Spear Kits<br /> <br /></a></b></td></tr>
+
+
+                <tr><td align="CENTER" colspan="3"><a href="haf-op.html"><img border="0" vspace="5" src="/bin/button/htlc.gif" alt="OPTIONAL TOP LINK CYLINDERS"></a></td></tr>
             </tbody>
         </table>
     </div>
 </div>
+
+
