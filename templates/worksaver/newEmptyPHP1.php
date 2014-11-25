@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr><td colspan="3"><h4>LS-Series Pin-on Type</h4></td></tr>
+                <tr><td align="center" colspan="3"><h4>LS-Series Pin-on Type</h4></td></tr>
                 <tr><td>Product</td><td>Model</td><td>Description</td></tr>
                 <tr><td><img class="img-responsive" src="/images/bale-handling/lsf-22-lit.jpg" alt=""></td>
                     <td>LSFB-22</td>
@@ -25,7 +25,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr><td colspan="3"><h4>FLBS-Series</h4></td></tr>
+                <tr><td align="center" colspan="3"><h4>FLBS-Series</h4></td></tr>
                 <tr><td>Product</td><td>Model</td><td>Description</td></tr>
 
                 <tr><td><img class="img-responsive" src="/images/bale-handling/FLSB-2200.jpg" alt=""></td>
@@ -83,7 +83,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr><td colspan="2"><h4>Optional Kits</h4></td></tr>
+                <tr><td align="center" colspan="2"><h4>Optional Kits</h4></td></tr>
                 <tr><td>Optional Upright Kit (831095)</td><td>Optional upright kit (831095) for handling two square bales. Fits models FLBS-330 / 340 / 432 / 449. <br />(Shown on FLBS-340 and 432 units.)</td></tr>
                 <tr><td>Optional Upright Kit</td><td>Optional bolt-on uprights for RBSF-3232 / 3333. Designed for handling two bales at once.
                         <br /><a href="/front-loader-bale-spear-optional-upright-kit">Parts List Click Here</a></td></tr>
@@ -92,6 +92,21 @@
                 <tr><td>Optional Upright Kit</td><td>Optional bolt-on uprights for RBSF-449 / 432. Designed for handling two bales at once.
                         <br /><a href="/front-loader-bale-spear-optional-bolt-on-upright-kit">Parts List Click Here</a></td></tr>
                 <tr><td>Optional 3-Pt. Bolt-on Top Link</td><td>Optional bolt-on assembly to allow USBF-series and RBSF-series to be use on a Cat. II 3-Pt. hitch.</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr><td align="center" colspan="3"><h4>Rectangular Bale Handler</h4></td></tr>
+                <tr><td><a href="/front-loader-bale-spear-rbh-4000-large-rectangular-bale-handler"><img class="img-responsive" src="/images/bale-handling/rbh4000.jpg" alt=""></a></td>
+                    <td><a href="/front-loader-bale-spear-rbh-4000-large-rectangular-bale-handler">RBH-4000<br />Shown with Optional Brackets</a></td>
+                    <td>Rectangular bale handler id designed for tractor front loaders. Rated at 4,000 lbs., this unit will handle either two 4'x4'x8' bales or three 3'x3'x8' bales. Five 26" long forged spears are placed along the bottom of the unit and six 18" long spears are supplied for the uprights. Each side features 5 hooks that are moveable by the operator. The Unit is 79.50" wide and 80" high. Click picture for more information.
+                        <br /><a href="/front-loader-bale-spear-rbh-4000">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/rbh4000.pdf">Download Manual</a></td>
+                </tr>
             </tbody>
         </table>
     </div>
