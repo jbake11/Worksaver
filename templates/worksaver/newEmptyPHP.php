@@ -1,40 +1,29 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h4>Some Features are:</h4>
-        <li>HS-330 Triple Spear model for handling a mid-size rectangular bale.</li>
-        (Spears have a useable length of 26")
-        <li>DBH-449 Four Spear model for handling two round bales.</li>
-        (Spears have useable length of 42")
-        <li>Bolt-in forged spears for increased reliability.</li>
-        <li>Cast Steel Weld-on sockets (patent pending) for superior strength.</li>
-        <li>Cat. II & III Quick hitch compatible.</li>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive col-xs-12" src="/images/partslist/balehandling/dbh-449-2.jpg" alt="" />
-        <h4>Model DBH-449</h4>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive col-xs-12" src="/images/partslist/balehandling/hs-330.jpg" alt="" />
-        <h4>Model HS-330</h4>
+        <h4>2,000 Lb. 3-Pt. Adjustable Bale Spear</h4>
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr><td>Model:</td><td>DBH-449</td><td>HS-330</td></tr>
-                <tr><td>Weight Capacity (lb/kg)</td><td>251 / 114</td><td>163 / 74</td></tr>
-                <tr><td>Overall Width (in/cm)</td><td>96 / 244</td><td>60 / 152</td></tr>
-                <tr><td>Bolt-in Forged Spear Length (in/cm)</td><td>42 / 107</td><td>26 / 66</td></tr>
-                <tr><td># of Spears</td><td>4</td><td>3</td></tr>
-                <tr><td>Spear Spacing (in/cm)</td><td>26 / 66 On Center</td><td>28.5 / 72 On Center</td></tr>
-                <tr><td>Cast Steel Weld-on Socket</td><td>Yes</td><td>Yes</td></tr>
-                <tr><td>Number / Type of Bales</td><td>2 Round Bales</td><td>1 Mid-size Rectangular Bale</td></tr>
-                <tr><td>Hitch Category</td><td>Cat. II / III</td><td>Cat. II / III</td></tr>
-                <tr><td>Item Number</td><td>832610</td><td>832615</td></tr>
-                <tr><td><a href="">DBH-449 Parts List</a></td><td><a href="">HS-330 Parts List</a></td><td><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
+                <tr class="table-col-header"><td align="center" colspan="5">HS-2200 Part List</td></tr>
+                <tr><td class="table-col-img" colspan="5"><img class="img-responsive col-xs-12" src="/images/partslist/balehandling/HS-2200.jpg" alt="" /></td></tr>
+                <tr><td>Ref.</td><td>Part No.</td><td>Description</td><td>Req'd.</td></tr>
+                1	830921	Main Frame Weldment	1
+                830925	Spear & Socket Assembly (includes #2 thru #9)	1
+                2	830926	Socket Weldment	2
+                3	830928	Forged Spear	1
+                4	2503054	Bolt, 7/16"-14NC x 3" Hex Head Grade 5	1
+                5	2502006	Washer, 7/16" Springlock	1
+                6	2500012	Nut, 7/16"-NC Full Hex	1
+                7	830214	U-Bolt, 5/8"-11NC 3" x 4-1/2"	2
+                8	2502007	Washer, 5/8" Springlock	4
+                9	2500013	Nut, 5/8"-11NC Full Hex	4
+                10	590108	Lift Pin (AK-578)	2
+                11	101026	Safety Sign - Caution (Instructions)	1
+                12	101041	Safety Sign - Notice (2000 Lb. Capacity)	1
+
             </tbody>
         </table>
     </div>
