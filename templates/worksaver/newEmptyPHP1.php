@@ -12,9 +12,10 @@
             <tbody>
                 <tr><td>Product</td><td>Model</td><td>Description</td></tr>
 
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/" alt=""></td>
+                <tr><td><img class="img-responsive" src="/images/bucket-bale-handling//" alt=""></td>
                     <td>BBSF-20</td>
-                    <td>
+                    <td>Patented<br />
+                        Bolt-on Bucket Bale Spear for round bales. Rated at 2,000 lbs. Bolt-in spear has useable length of 42". Requires drilling one 17/32" diameter hole in the bucket. Bolt-together design.
                         <br /><br /><a href="/">Parts List Click Here</a>
                         <br /><a href="/templates/worksaver/manuals/">Download Manual</a>
                     </td>
