@@ -1,95 +1,98 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h4>Designed for use on tractor 3-pt. hitches only. These bale spear feature tapered forged spring steel spears allowing easier spear penetration of and withdrawal from the bale. Frames are made from rugged square tubing.</h4>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
-            <tbody><tr><td>Product</td>
-                    <td>Model </td>
-                    <td>Description</td></tr>
+            <tbody>
+                <tr><td colspan="3"><h4>LS-Series Pin-on Type</h4></td></tr>
+                <tr><td>Product</td><td>Model</td><td>Description</td></tr>
+                <tr><td><img class="img-responsive" src="/images/bale-handling/lsf-22-lit.jpg" alt=""></td>
+                    <td>LSFB-22</td>
+                    <td>Designed for pin-type loaders only. This unit is rated at 2,200 lbs. Bolt-in spear has 42" useable length. For use with round bales. Includes pin-on brackets. Ships in one carton. (NOTE: Not Quick Attach Adaptable)
+                        <br /><br /><a href="/front-loader-bale-spear-lsfb-22">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/LSFB.pdf">Download Manual</a></td></tr>
 
-                <tr><td><img class="img-responsive" src="/images/bale-handling/bsf-1523-lit.jpg" alt="Photo of BSF-1523"></td>
-                    <td><br />BSF-1523
-                    </td><td>3-pt. spear for handling round bales up to 1,800 lbs. Tapered  main spear has useable length of 44” with two welded balance spears. Fits Cat I/II hitches (shipped with 7/8” pins)
-                        <br /><br /><a href="/3-pt-bale-spear-bsf-1523">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bale-handling/Hs-2200.jpg" alt="Photo of HS-2200"></td>
-                    <td><br />HS-2200</td>
-                    <td>3-pt. Bale Spear for round bales to 2,200 lbs.  Bolt-in spear (Useable 42")  with cast steel socket (pat. pend).  Two balance spikes.  Cat I/II and quick hitch compatible.  Ships UPS.
-                        <br /><br /><a href="/3-pt-bale-spear-hs-2200">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bale-handling/dbfs-30.gif" alt="Photo of HS-3000"></td>
-                    <td><br />HS-3000</td>
-                    <td>Dual bolt-in forged spears with 42” usable length. Spears are spaced 26” apart allowing bale to be picked up & not lose its orientation. Rated at 3,000 lbs. Fits Cat I/II Quick Hitches (shipped with 7/8” pins)
-                        <br /><br /><a href="./3-pt-bale-spear-hs-3000">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
-
-                <tr><td><a href="3pt-spear.html"><img class="img-responsive" src="/images/bale-handling/hs-330.jpg" alt="Photo of HS-330"></a></td>
-                    <td><br />HS-330</td>
-                    <td>3-pt. Triple bale spear rated 3,000 lbs.  Features bolt-in forged spear (26" useable length) in case steel sockets (pat. pend.). Cat II &amp; III.  For mid-size square bales.
-                        <br /><br /><a href="/3-pt-bale-spear-hs-330">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
-
-                <tr><td><a href="/3-pt-bale-spear-hs-330"><img class="img-responsive" src="/images/bale-handling/dbh-449-2.jpg" alt="Photo of DBH-449"></a></td>
-                    <td><br />DBH-449</td>
-                    <td>3-pt. Four bale spear handler rated 4,000 lbs.  Features bolt-in forged spear (42" useable length) in case steel sockets (pat. pend.). Cat II &amp; III.  For two round bales.
-                        <br /><br /><a href="/3-pt-bale-spear-hs-330">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bale-handling/bsfa-20-lit.jpg" alt="Photo of BSFA-20"></td>
-                    <td><br />BSFA-20</td>
-                    <td>Adjustable height bale spear for handling round bales up to 2,000 lbs.  Utilizes a bolt-on spear with a useable length of 44".  The spear can be positioned up or down the vertical mast.  Fits Cat. I/II and is shipped with 7/8" pins.
-                        <br /><br /><a href="/3-pt-bale-spear-bsfa-20">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hsbdh.pdf">Download Manual</a></td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bale-handling/bsf-1523-lit.jpg" alt="Photo of BSF-1523"></td>
-                    <td><br />DBH-6000
-                    </td><td>Four bolt-in spears, square frame design allowing transport of two 6-ft. round bales at once. Rated at 6,000 lbs. Overall unit width of 76”. Fits Cat. II/III hitch & Quick Hitches
-                        <br /><br /><a href="/3-pt-bale-spear-dbh-6000">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/">Download Manual</a></td></tr>
-
-
-                <tr><td align="center" colspan="4"><br /><a href="spearkit.html">Replacement Spear Kits<br /> <br /></a></td></tr>
+                <tr><td><img class="img-responsive" src="/images/bale-handling/lsf-28-lit.jpg" alt=""></td>
+                    <td>LSFB-28</td>
+                    <td>Designed for pin-type loaders only. This unit is rated at 3,000 lbs. Bolt-in spears have 42" useable length. For use with round bales. Includes pin-on brackets. Ships in one carton. (NOTE: Not Quick Attach Adaptable)
+                        <br /><br /><a href="/front-loader-bale-spear-lsfb-28">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/LSFB.pdf">Download Manual</a>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>3-PT Bale Forks</h2>
-
         <table class="table table-bordered table-responsive table-striped">
-            <tbody><tr><td>Product</td>
-                    <td>Model </td>
-                    <td>Description</td></tr>
+            <tbody>
+                <tr><td colspan="3"><h4>FLBS-Series</h4></td></tr>
+                <tr><td>Product</td><td>Model</td><td>Description</td></tr>
 
-                <tr><td><img class="img-responsive" src="/images/bale-handling/F-1511_2.jpg" alt="Photo of F-1511"></td>
-                    <td>F-1511</b></td>
-                    <td>3-Pt. Bale fork rated at 1,500 lbs. designed for moving round bales.  Patented 3" x 2" internally reinforced forks are 55" on length and spaced 37.5" apart.  Unit fits Cat. I/II as well as Cat II Quick Hitches.  Shipped with 7/8" pins.</b></td></tr>
+                <tr><td><img class="img-responsive" src="/images/bale-handling/FLSB-2200.jpg" alt=""></td>
+                    <td>FLBS-2200</td>
+                    <td>Loader Bale Spear rated at 2,200 lbs. Unit has a tapered spear with a useable length of 42". Designed fo use on tractor front loaders. Features an all welded frame, cast steel weld-on spear sockets, and bolt-in spears for increased durability. Optional interfacing brackets for most loader quick attach systems are available.
+                        <br />(will not accept 831110 brackets).
+                        <br />Instead of 831110 brackets, consider SSB-2200.
+                        <br /><br /><a href="/front-loader-bale-spears-flbs-2200">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/flbs.pdf">Download Manual</a></td></tr>
 
-                <tr><td><img class="img-responsive" src="/images/bale-handling/F-3000.jpg" alt="Photo of F-3000"></td>
-                    <td>F-3000</b></td>
-                    <td>3-Pt. Bale fork rated at 3,000 lbs. designed for moving round bales.  Patented 3" x 2" internally reinforced forks are 55" on length and spaced 46.5" apart.  Unit fits Cat. II as well as Cat II Quick Hitches.  Shipped with 1-1/8" pins.<br /><br /><a href="/3-pt-bale-spear-f-3000">Parts List Click Here</a></b></td></tr>
+                <tr><td><img class="img-responsive" src="/images/bale-handling/FLBS-3000.jpg" alt=""></td>
+                    <td>FLBS-3000</td>
+                    <td>Loader Bale Spear rated at 3,000 lbs. Unit has Dual tapered spears with a useable length of 42". Designed fo use on tractor front loaders. Features an all welded frame, cast steel weld-on spear sockets, and bolt-in spears for increased durability. Optional interfacing brackets for most loader quick attach systems are available.
+                        <br />(will not accept 831110 brackets).
+                        <br />Instead of 831110 brackets, consider SSB-3000.
+                        <br /><br /><a href="/front-loader-bale-spears-flbs-3000">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/flbs.pdf">Download Manual</a>
+                    </td>
+                </tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/FLBS-330.jpg" alt=""></td>
+                    <td>FLBS-330</td>
+                    <td>Loader Bale Spear rated at 3,000 lbs. Unit has three tapered spears spaced 26-1/2" apart with a useable length of 26". For Mid-Size Square bales. Designed fo use on tractor front loaders. Features an all welded frame, cast steel weld-on spear sockets, and bolt-in spears for increased durability. Optional upright kit (831095) for handling two bales. Optional interfacing brackets for most loader quick attach systems are available.
+                        <br />Instead of 831110 brackets, consider SSRB-330.
+                        <br /><br /><a href="/front-loader-bale-spears-flbs-330">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/flbs.pdf">Download Manual</a></td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/FLBS-340.jpg" alt=""></td>
+                    <td>FLBS-340</td>
+                    <td>Loader Bale Spear rated at 3,000 lbs. Unit has three tapered spears spaced 26-1/2" apart with a useable length of 42". For Large-Size Square bales. Designed fo use on tractor front loaders. Features an all welded frame, cast steel weld-on spear sockets, and bolt-in spears for increased durability. Optional upright kit (831095) for handling two bales. Optional interfacing brackets for most loader quick attach systems are available.
+                        <br />Instead of 831110 brackets, consider SSRB-340.
+                        <br /><br /><a href="/front-loader-bale-spears-flbs-340">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/flbs.pdf">Download Manual</a>
+                    </td>
+                </tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/FLSB-432.jpg" alt=""></td>
+                    <td>FLBS-432</td>
+                    <td>Loader bale spear to handle Mid-Sized square bales. Features 79-1/2" wide frame with four tapered spears with useable length of 26", spaced 24" apart. Optional upright kit (831095) for handling two square bales. Optional interfacing brackets for most quick attach systems are available.
+                        <br /><br /><a href="/front-loader-bale-spears-flbs-432">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/flbs.pdf">Download Manual</a></td></tr>
+
+                <tr><td><img class="img-responsive" src="/images/bale-handling/FLBS-449.jpg" alt=""></td>
+                    <td>FLBS-449</td>
+                    <td>Loader bale spear to handle Large-Sized square bales. Features 79-1/2" wide frame with four tapered spears with useable length of 42", spaced 24" apart. Optional upright kit (831095) for handling two square bales. Optional interfacing brackets for most quick attach systems are available.
+                        <br /><br /><a href="/front-loader-bale-spears-flbs-449">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/flbs.pdf">Download Manual</a>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>3-PT Bale Unroller</h2>
         <table class="table table-bordered table-responsive table-striped">
-            <tbody><tr><td>Product</td>
-                    <td>Model</td>
-                    <td>Description</td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bale-handling/hhu2045stand.jpg" alt="Photo of HHU-2045"></td>
-                    <td>HHU-2045</b></td>
-                    <td><font size="2"><b>3-Pt Hay Handler / Unroller.  Rated at 2,000 lbs. and is designed to unroll or handle round bales either 4' or 5' in width up to 6' in diameter.  Unit Requires a 2.5" x 8" hydraulic cylinder (which is not included). The HHU-2045 now comes with a parking stand for allowing easy hook up with a Quick Hitch.
-                            <br /><br /><a href="/3-pt-bale-spear-hhu-2045">Parts List Click Here</a><br /><br /><a href="/templates/worksaver/manuals/hhu2045.pdf">Download Manual</a> </b><b> </b></td></tr>
-
+            <tbody>
+                <tr><td colspan="2"><h4>Optional Kits</h4></td></tr>
+                <tr><td>Optional Upright Kit (831095)</td><td>Optional upright kit (831095) for handling two square bales. Fits models FLBS-330 / 340 / 432 / 449. <br />(Shown on FLBS-340 and 432 units.)</td></tr>
+                <tr><td>Optional Upright Kit</td><td>Optional bolt-on uprights for RBSF-3232 / 3333. Designed for handling two bales at once.
+                        <br /><a href="/front-loader-bale-spear-optional-upright-kit">Parts List Click Here</a></td></tr>
+                <tr><td>Optional Bushing Kit</td><td>Optional Cat II Quick Hitch Bushing Kit for RBSF-449 / 432. Kit includes bushing adapters to allow standard pin on brackets & Optional toplink bracket to be used with a Cat. II Quick Hitch.
+                        <br /><a href="/front-loader-bale-spear-optional-bushing-kit">Parts List Click Here</a></td></tr>
+                <tr><td>Optional Upright Kit</td><td>Optional bolt-on uprights for RBSF-449 / 432. Designed for handling two bales at once.
+                        <br /><a href="/front-loader-bale-spear-optional-bolt-on-upright-kit">Parts List Click Here</a></td></tr>
+                <tr><td>Optional 3-Pt. Bolt-on Top Link</td><td>Optional bolt-on assembly to allow USBF-series and RBSF-series to be use on a Cat. II 3-Pt. hitch.</td></tr>
             </tbody>
         </table>
     </div>
 </div>
-
-
-
-
