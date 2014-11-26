@@ -18,8 +18,6 @@
             <li>Models for 3-pt, Front Loaders & Skid Steers.
         </ul>
     </div>
-</div>
-<div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <ul>
             <li>Hydraulically driven for better operator control.
