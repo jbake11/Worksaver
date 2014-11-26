@@ -1,9 +1,6 @@
 <div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-        <h4>Designed for use on Front Loader Buckets. These attachments allow the operator to leave the bucket installed when handling round bales. Ideal for the operator who is looking for an economical way to move a few round bales.</h4>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="/images/bale-handling/Bucket_Bale_Spears.jpg" alt="">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h4>Integrated-Frame designed hay attachments. These attachments feature all welded frame design, that incorporates the interfacing quick attach brackets welded to the unit. The attachments are loader model specific.</h4>
     </div>
 </div>
 <div class="row">
@@ -11,34 +8,19 @@
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
                 <tr><td>Product</td><td>Model</td><td>Description</td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bucket-bale-handling//" alt=""></td>
-                    <td>BBSF-20</td>
-                    <td>Patented<br />
-                        Bolt-on Bucket Bale Spear for round bales. Rated at 2,000 lbs. Bolt-in spear has useable length of 42". Requires drilling one 17/32" diameter hole in the bucket. Bolt-together design.
-                        <br /><br /><a href="/">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/">Download Manual</a>
+                <tr><td align="center" colspan="3">For John Deere loader models: 300, 300CX, 400X, 410, 420, 430, 440, 460, 520, 521, 540, and 541</td></tr>
+                <tr><td><img class="img-responsive" src="/images/integrated-frame-bale-spears/Jdbs-412.jpg" alt=""></td>
+                    <td>JDBS-412</td>
+                    <td>Single bolt-in forged spear with useable length of 42". Rated at 2,200 lbs. Two balance spikes, 1" x 8-1/2" useable.
+                        <br /><br /><a href="/integrated-frame-bale-spears-jdbs-412">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/JDBS412-633.pdf">Download Manual</a>
                     </td>
                 </tr>
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/" alt=""></td>
-                    <td></td>
-                    <td>
-                        <br /><br /><a href="/">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/">Download Manual</a>
-                    </td>
-                </tr>
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/" alt=""></td>
-                    <td></td>
-                    <td>
-                        <br /><br /><a href="/">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/">Download Manual</a>
-                    </td>
-                </tr>
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/" alt=""></td>
-                    <td></td>
-                    <td>
-                        <br /><br /><a href="/">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/">Download Manual</a>
+                <tr><td><img class="img-responsive" src="/images/integrated-frame-bale-spears/Jdbs-423.jpg" alt=""></td>
+                    <td>JDBS-423</td>
+                    <td>Dual bolt-in forged spears spaced 26-1/2" apart, with useable length of 42". Rated at 3,000 lbs.
+                        <br /><br /><a href="/integrated-frame-bale-spears-jdbs-423">Parts List Click Here</a>
+                        <br /><a href="/templates/worksaver/manuals/JDBS412-633.pdf">Download Manual</a>
                     </td>
                 </tr>
 
@@ -47,45 +29,3 @@
         </table>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr><td class="table-col-header" align="center" colspan="3">Skid Steer Bale Hand</td></tr>
-                <tr><td>Product</td><td>Model</td><td>Description</td></tr>
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/" alt=""></td>
-                    <td>SSBH-2072</td>
-                    <td>Loader "Bale Hugger" Designed to handle 4' to 6' round bales, wrapped or dry, up to 2,000 lbs. Features one stationary arm, one opening arm. Includes hydraulic cylinder. Optional interfacing brackets for most loader quick attach systems are available - see options below.
-                        <br /><br /><a href="/bale-clamping-attachments-ssbh-2072">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/">Download Manual</a></td></tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr><td class="table-col-header" align="center" colspan="3">UBH-Series</td></tr>
-                <tr><td>Product</td><td>Model</td><td>Description</td></tr>
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/ubh2000.jpg" alt=""></td>
-                    <td>UBH-2000<br />Shown with Optional Brackets</td>
-                    <td>Loader "Bale Hugger" Designed to handle 4' to 6' round bales, wrapped or dry, up to 2,000 lbs. Features one stationary arm, one opening arm. Includes hydraulic cylinder. Optional interfacing brackets for most loader quick attach systems are available - see options below.
-                        <br /><br /><a href="/bale-clamping-attachments-ubh-2000">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/ubh-2000.pdf">Download Manual</a></td></tr>
-
-                <tr><td><img class="img-responsive" src="/images/bale-clamping/balehand.gif" alt=""></td>
-                    <td>UBH-2072<br />Shown with Optional Brackets</td>
-                    <td>Loader "Bale Hand" Designed to handle 4' to 6' round bales, wrapped or dry, up to 2,200 lbs. Both arms open to clamp the bale. Hydraulic cylinder is standard. Optional interfacing brackets for most loader quick attach systems are available - see options below.
-                        <br /><br /><a href="/bale-clamping-attachments-ubh-2072">Parts List Click Here</a>
-                        <br /><a href="/templates/worksaver/manuals/ubh-2072.pdf">Download Manual</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-
-
-
-
