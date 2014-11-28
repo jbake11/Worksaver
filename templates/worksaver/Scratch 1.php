@@ -3,26 +3,33 @@
         Designed as an efficient hay management tool for moving and feeding round bales, the RW Spin Off hydraulically rotates the bale, unwinding the hay into a windrow. Rotates in both directions for easy feeding and allows the operator to unroll what the cattle will clean up in one hour, eliminating wasted hay. Also, by changing the feeding location each day the operator can eliminate manure buildup. Available in three models and designed to fit Category II or Category III 3-pt hitches (FSO-906), front loaders (FLSO-907) and skid steers (SSSO908). All models are hydraulically driven for better operator control, provide easy operation from the cab of tractors or skid steers and feature a forged tapered spear for easier bale penetration. All have usable spear length of 53”.
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive col-xs-12" src="/images/Round Bale Feeder/SO 906 Lit.jpg" alt="" />
+        <img class="img-responsive col-xs-12" src="/images/round-bale-feeder/SSFSO908.jpg" alt="" />
     </div>
 </div>
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive col-xs-12" src="/images/Round Bale Feeder/FLFSO9071.jpg" alt="" />
+        <img class="img-responsive col-xs-12" src="/images/round-bale-feeder/FLFSO9071.jpg" alt="" />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <img class="img-responsive col-xs-12" src="/images/round-bale-feeder/SO 906 Lit.jpg" alt="" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <ul>
-            <li>Eliminate wasted hay; only unroll what cattle will clean up in one hour
-            <li>Almost no manure buildup; by feeding in a different location each day.
-            <li>Easy operation from the cab of the tractor or Skid Steer.
-            <li>Models for 3-pt, Front Loaders & Skid Steers.
+            <li>Eliminate wasted hay; only unroll what cattle will clean up in one hour</li>
+            <li>Almost no manure buildup; by feeding in a different location each day.</li>
+            <li>Easy operation from the cab of the tractor or Skid Steer.</li>
+            <li>Models for 3-pt, Front Loaders & Skid Steers.</li>
         </ul>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive col-xs-12" src="/images/Round Bale Feeder/SSFSO908.jpg" alt="" />
+
         <ul>
-            <li>Hydraulically driven for better operator control.
-            <li>Rotates in both directions for easy feeding.
-            <li>Cushion valve in the motor provides protection for hydraulic components.
-            <li>Forged tapered spear for easier spear penetration.
+            <li>Hydraulically driven for better operator control.</li>
+            <li>Rotates in both directions for easy feeding.</li>
+            <li>Cushion valve in the motor provides protection for hydraulic components.</li>
+            <li>Forged tapered spear for easier spear penetration.</li>
         </ul>
     </div>
 </div>
