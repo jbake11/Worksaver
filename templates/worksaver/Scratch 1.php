@@ -98,4 +98,3 @@ table-col-modelnum
 background: white;
 text-align: center;
 
-}
