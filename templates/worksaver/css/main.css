@@ -16,6 +16,10 @@
     padding: -15px;
 }
 
+.item-page .table .img-responsive {
+    min-width: 214px;
+}
+
 .container-fluid {
     padding: 0;
 }
