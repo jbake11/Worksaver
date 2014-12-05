@@ -17,7 +17,7 @@
 }
 
 .item-page .table .img-responsive {
-    min-width: 214px;
+    max-width: 214px;
 }
 
 .container-fluid {
