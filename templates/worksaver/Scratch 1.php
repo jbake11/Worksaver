@@ -98,3 +98,34 @@ table-col-modelnum
 background: white;
 text-align: center;
 
+================================================================================
+
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2>Boost Your Loader's Productivity</h2>
+        <br />
+        Do you want to convert your loader to the "Universal" Skid Steer quick attach system or the EuroGlobal standard?
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-4"><a href="/"><img class="img-responsive" src="/images/adapter-brackets/Universal_Landing.jpg" alt="" /></a></div>
+    <div class="col-lg-8 col-md-8">
+        <h3><a href="/"><strong>"Universal" Skid Steer Quick Attach System</strong></a></h3>
+        Elevate your tractor's productivity by converting its loader to the "Universal" Skid Steer quick attach system. Worksaver adapter brackets feature all welded frames for durability and plated latch components.
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-4"><a href="/"><img class="img-responsive" src="/images/adapter-brackets/EuroGlobal_Landing.jpg" alt="" /></a></div>
+    <div class="col-lg-8 col-md-8">
+        <h3><a href="/"><strong>EuroGlobal Standard Attaching System</strong></a></h3>
+        Elevate your tractor's productivity by converting its loader to the EuroGlobal standard system. Worksaver adapter brackets feature all welded frames for durability and plated latch components.
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-4"><a href="/"><img class="img-responsive" src="/images/adapter-brackets/BoltOn_Brackets_Landing.jpg" alt="" /></a></div>
+    <div class="col-lg-8 col-md-8">
+        <h3><a href="/"><strong>Optional "Bolt-on" Brackets</strong></a></h3>
+        Optional "bolt-on" loader brackets for Worksaver implements.
+    </div>
+</div>
