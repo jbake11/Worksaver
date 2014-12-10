@@ -155,7 +155,7 @@ class OSContentModelContent extends OSModel {
         $registry->loadArray($params);
         $row->params = (string) $registry;
 
-        $FH = fopen("debug.log", "a");
+        $FH = fopen("/srv/worksaver/tmp/debug.log", "a");
         fwrite($FH, print_r($row, true));
         fclose($FH);
 
