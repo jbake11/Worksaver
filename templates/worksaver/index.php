@@ -99,6 +99,7 @@
                 <div class="col-lg-12">
                     <div id="index-thumbs">
                         <jdoc:include type="component" />
+                        <jdoc:include type="modules" name="bottomcontent" style="none" />
                     </div>
                 </div>
             <?php endif; ?>
