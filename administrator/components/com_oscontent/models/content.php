@@ -115,22 +115,13 @@ class OSContentModelContent extends OSModel
         $row->link      = 'index.php?option=com_content&view=' . $taskLink . '&id=' . $id;
         $row->published = 1;
         $row->language  = "*";
-        
-        
-        // {"show_title":"","link_titles":"","show_intro":"","info_block_position":"","show_category":"","link_category":"",
-        // "show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"",
-        // "show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_vote":"","show_icons":"",
-        // "show_print_icon":"","show_email_icon":"","show_hits":"","show_tags":"","show_noauth":"","urls_position":"",
-        // "menu-anchor_title":"","menu-anchor_css":"","menu_image":"","menu_text":1,"page_title":"","show_page_heading":0,
-        // "page_heading":"",
-        // "pageclass_sfx":"","menu-meta_description":"","menu-meta_keywords":"","robots":"","secure":0}
 
         // $row->componentid = $id;
         $row->component_id = 22;
         // $row->ordering = 9999;
         $params                          = array();
         $params['display_num']           = 10;
-        // $params['show_headings']         = 0;
+        $params['show_headings']         = 0;
         $params['show_date']             = 0;
         $params['date_format']           = "";
         $params['filter']                = 1;
@@ -139,7 +130,7 @@ class OSContentModelContent extends OSModel
         $params['show_pagination']       = 1;
         $params['show_pagination_limit'] = 1;
         $params['show_noauth']           = "";
-        $params['show_title']            = "";
+        //$params['show_title']            = "";
         $params['link_titles']           = "";
         $params['show_intro']            = "";
         $params['show_section']          = "";
