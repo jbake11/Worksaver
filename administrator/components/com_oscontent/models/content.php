@@ -130,7 +130,7 @@ class OSContentModelContent extends OSModel
         // $row->ordering = 9999;
         $params                          = array();
         $params['display_num']           = 10;
-        $params['show_headings']         = 0;
+        // $params['show_headings']         = 0;
         $params['show_date']             = 0;
         $params['date_format']           = "";
         $params['filter']                = 1;
