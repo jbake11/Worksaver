@@ -158,7 +158,7 @@ class OSContentModelContent extends OSModel
         $params['show_email_icon']       = "";
         $params['show_hits']             = "";
         $params['feed_summary']          = "";
-        $params['page_title']            = "";
+        //$params['page_title']            = "";
         // $params['show_page_title']       = 0;
         $params['pageclass_sfx']         = "";
         $params['menu_image']            = "";

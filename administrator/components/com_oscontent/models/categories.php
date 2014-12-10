@@ -518,7 +518,7 @@ class OSContentModelCategories extends OSModel
         $params['show_hits']             = "";
         $params['feed_summary']          = "";
         $params['page_title']            = "";
-        $params['show_page_title']       = 0;
+        $params['show_page_title']       =0;
         $params['pageclass_sfx']         = "";
         $params['menu_image']            = "";
         $params['secure']                = 0;
