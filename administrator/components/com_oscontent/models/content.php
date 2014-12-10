@@ -1,11 +1,11 @@
 <?php
+
 /**
  * @package   OSContent
  * @contact   www.alledia.com, hello@alledia.com
  * @copyright 2014 Alledia.com, All rights reserved
  * @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
  */
-
 defined('_JEXEC') or die();
 
 require_once JPATH_ADMINISTRATOR . '/components/com_oscontent/models/model.php';
@@ -15,8 +15,8 @@ require_once JPATH_ADMINISTRATOR . '/components/com_oscontent/models/model.php';
  *
  * @since  1.0.0
  */
-class OSContentModelContent extends OSModel
-{
+class OSContentModelContent extends OSModel {
+
     /**
      * @var    string  The prefix to use with controller messages.
      * @since  1.6
@@ -41,13 +41,10 @@ class OSContentModelContent extends OSModel
      *
      * @return  Form
      */
-    public function getForm($data = array(), $loadData = true)
-    {
+    public function getForm($data = array(), $loadData = true) {
         // Get the form.
         $form = $this->loadForm(
-            'com_oscontent.content',
-            'content',
-            array('control' => 'jform', 'load_data' => $loadData)
+                'com_oscontent.content', 'content', array('control' => 'jform', 'load_data' => $loadData)
         );
 
         if (empty($form)) {
@@ -69,10 +66,9 @@ class OSContentModelContent extends OSModel
      *
      * @return void
      */
-    public function menuLink($id, $title, $menuselect, $contentType, $parent, $alias = "")
-    {
+    public function menuLink($id, $title, $menuselect, $contentType, $parent, $alias = "") {
         $mainframe = JFactory::getApplication();
-        $database  = JFactory::getDBO();
+        $database = JFactory::getDBO();
 
         $menu = strval($menuselect);
         $link = strval($title);
@@ -101,63 +97,67 @@ class OSContentModelContent extends OSModel
                 $taskLink = "article";
         }
 
-        $row           = JTable::getInstance('menu');
+        $row = JTable::getInstance('menu');
         $row->menutype = $menu;
-        $row->title    = $link;
-        $row->alias    = $alias ? JFilterOutput::stringURLSafe($alias) : JFilterOutput::stringURLSafe($link);
+        $row->title = $link;
+        $row->alias = $alias ? JFilterOutput::stringURLSafe($alias) : JFilterOutput::stringURLSafe($link);
 
         if (trim(str_replace('-', '', $row->alias)) == '') {
             $row->alias = JFactory::getDate()->format('Y-m-d-H-i-s');
         }
 
         $row->parent_id = ($parent == -1) ? 1 : $parent;
-        $row->type      = 'component';
-        $row->link      = 'index.php?option=com_content&view=' . $taskLink . '&id=' . $id;
+        $row->type = 'component';
+        $row->link = 'index.php?option=com_content&view=' . $taskLink . '&id=' . $id;
         $row->published = 1;
-        $row->language  = "*";
+        $row->language = "*";
 
         // $row->componentid = $id;
         $row->component_id = 22;
         // $row->ordering = 9999;
-        $params                          = array();
-        $params['display_num']           = 10;
-        $params['show_headings']         = 0;
-        $params['show_date']             = 0;
-        $params['date_format']           = "";
-        $params['filter']                = 1;
-        $params['filter_type']           = "title";
-        $params['orderby_sec']           = "";
-        $params['show_pagination']       = 1;
+        $params = array();
+        $params['display_num'] = 10;
+        $params['show_headings'] = 0;
+        $params['show_date'] = 0;
+        $params['date_format'] = "";
+        $params['filter'] = 1;
+        $params['filter_type'] = "title";
+        $params['orderby_sec'] = "";
+        $params['show_pagination'] = 1;
         $params['show_pagination_limit'] = 1;
-        $params['show_noauth']           = "";
+        $params['show_noauth'] = "";
         //$params['show_title']            = "";
-        $params['link_titles']           = "";
-        $params['show_intro']            = "";
-        $params['show_section']          = "";
-        $params['link_section']          = "";
-        $params['show_category']         = "";
-        $params['link_category']         = "";
-        $params['show_author']           = "";
-        $params['show_create_date']      = "";
-        $params['show_modify_date']      = "";
-        $params['show_item_navigation']  = "";
-        $params['show_readmore']         = "";
-        $params['show_vote']             = "";
-        $params['show_icons']            = "";
-        $params['show_pdf_icon']         = "";
-        $params['show_print_icon']       = "";
-        $params['show_email_icon']       = "";
-        $params['show_hits']             = "";
-        $params['feed_summary']          = "";
+        $params['link_titles'] = "";
+        $params['show_intro'] = "";
+        $params['show_section'] = "";
+        $params['link_section'] = "";
+        $params['show_category'] = "";
+        $params['link_category'] = "";
+        $params['show_author'] = "";
+        $params['show_create_date'] = "";
+        $params['show_modify_date'] = "";
+        $params['show_item_navigation'] = "";
+        $params['show_readmore'] = "";
+        $params['show_vote'] = "";
+        $params['show_icons'] = "";
+        $params['show_pdf_icon'] = "";
+        $params['show_print_icon'] = "";
+        $params['show_email_icon'] = "";
+        $params['show_hits'] = "";
+        $params['feed_summary'] = "";
         //$params['page_title']            = "";
         // $params['show_page_title']       = 0;
-        $params['pageclass_sfx']         = "";
-        $params['menu_image']            = "";
-        $params['secure']                = 0;
+        $params['pageclass_sfx'] = "";
+        $params['menu_image'] = "";
+        $params['secure'] = 0;
+
+        echo "<pre>";
+        var_dump($params);
+        die;
 
         $registry = new JRegistry;
         $registry->loadArray($params);
-        $row->params = (string)$registry;
+        $row->params = (string) $registry;
 
         $row->setLocation($row->parent_id, 'last-child');
 
@@ -175,7 +175,7 @@ class OSContentModelContent extends OSModel
 
         // Joomla 3.x Backward Compatibility
         if (version_compare(JVERSION, '3.0', '<')) {
-            $row->reorder("menutype = " . $database->Quote($row->menutype) . " AND parent = " . (int)$row->parent);
+            $row->reorder("menutype = " . $database->Quote($row->menutype) . " AND parent = " . (int) $row->parent);
         }
 
         // Clean any existing cache files
@@ -189,8 +189,7 @@ class OSContentModelContent extends OSModel
      *
      * @return  array An array of records as objects
      */
-    public function getMenuItems($menutype)
-    {
+    public function getMenuItems($menutype) {
         // TODO: Check if this is been used
         $table = $this->getTable();
 
@@ -206,9 +205,9 @@ class OSContentModelContent extends OSModel
         $db = $this->getDBO();
 
         $query = 'SELECT a.id, a.name' .
-            ' FROM #__menu AS a' .
-            ' WHERE a.menutype = "' . $menutype . '"' .
-            ' ORDER BY a.name';
+                ' FROM #__menu AS a' .
+                ' WHERE a.menutype = "' . $menutype . '"' .
+                ' ORDER BY a.name';
         $db->setQuery($query);
 
         // return $db->loadResultArray();
@@ -223,13 +222,12 @@ class OSContentModelContent extends OSModel
      *
      * @return  array
      */
-    protected function getCategoryParent()
-    {
+    protected function getCategoryParent() {
         // Initialise variables.
         $options = array();
 
         try {
-            $db    = JFactory::getDbo();
+            $db = JFactory::getDbo();
             $query = $db->getQuery(true);
 
             $query->select('a.id AS value, a.title AS text, a.level');
@@ -240,19 +238,19 @@ class OSContentModelContent extends OSModel
             $query->where('(a.extension = "com_content" OR a.parent_id = 0) AND a.id <> 1');
 
             /*
-            // Prevent parenting to children of this item.
-            if ($id = $this->form->getValue('id')) {
-                $query->join('LEFT', '`#__categories` AS p ON p.id = '.(int) $id);
-                $query->where('NOT(a.lft >= p.lft AND a.rgt <= p.rgt)');
+              // Prevent parenting to children of this item.
+              if ($id = $this->form->getValue('id')) {
+              $query->join('LEFT', '`#__categories` AS p ON p.id = '.(int) $id);
+              $query->where('NOT(a.lft >= p.lft AND a.rgt <= p.rgt)');
 
-                $rowQuery	= $db->getQuery(true);
-                $rowQuery->select('a.id AS value, a.title AS text, a.level, a.parent_id');
-                $rowQuery->from('#__categories AS a');
-                $rowQuery->where('a.id = ' . (int) $id);
-                $db->setQuery($rowQuery);
-                $row = $db->loadObject();
-            }
-            */
+              $rowQuery	= $db->getQuery(true);
+              $rowQuery->select('a.id AS value, a.title AS text, a.level, a.parent_id');
+              $rowQuery->from('#__categories AS a');
+              $rowQuery->where('a.id = ' . (int) $id);
+              $db->setQuery($rowQuery);
+              $row = $db->loadObject();
+              }
+             */
 
             $query->where('a.published IN (0,1)');
             $query->group('a.id');
@@ -315,7 +313,7 @@ class OSContentModelContent extends OSModel
 
         if (isset($row) && !isset($options[0])) {
             if ($row->parent_id == '1') {
-                $parent       = new stdClass;
+                $parent = new stdClass;
                 $parent->text = JText::_('JGLOBAL_ROOT_PARENT');
                 array_unshift($options, $parent);
             }
@@ -332,15 +330,14 @@ class OSContentModelContent extends OSModel
      *
      * @return  array
      */
-    public function &getData()
-    {
+    public function &getData() {
         $database = JFactory::getDBO();
 
         global $my;
 
-        $mainframe         = JFactory::getApplication();
-        $contentSection    = 0;
-        $lists             = null;
+        $mainframe = JFactory::getApplication();
+        $contentSection = 0;
+        $lists = null;
         $sectioncategories = 0;
 
         if (!isset($id)) {
@@ -354,29 +351,23 @@ class OSContentModelContent extends OSModel
         $row = $this->getTable();
         $row->load($id);
 
-        $javascript  = "onchange=\"changeDynaList('catid', sectioncategories, document.adminForm.sectionid.options[document.adminForm.sectionid.selectedIndex].value, 0, 0);\"";
+        $javascript = "onchange=\"changeDynaList('catid', sectioncategories, document.adminForm.sectionid.options[document.adminForm.sectionid.selectedIndex].value, 0, 0);\"";
         $javascript2 = "onchange=\"changeDynaList('menuselect3', menulist, document.adminForm.menuselect.options[document.adminForm.menuselect.selectedIndex].value, 0, 0);\"";
 
 
-        $categories     = $this->getCategoryParent();
+        $categories = $this->getCategoryParent();
         $lists['catid'] = JHTML::_(
-            'select.genericlist',
-            $categories,
-            'catid',
-            'class="inputbox" size="1"',
-            'value',
-            'text',
-            intval($row->catid)
+                        'select.genericlist', $categories, 'catid', 'class="inputbox" size="1"', 'value', 'text', intval($row->catid)
         );
 
         // Build the html select list for ordering
         $query = "SELECT ordering AS value, title AS text"
-            . "\n FROM #__content"
-            . "\n WHERE catid = " . (int)$row->catid
-            . "\n AND state >= 0"
-            . "\n ORDER BY ordering";
+                . "\n FROM #__content"
+                . "\n WHERE catid = " . (int) $row->catid
+                . "\n AND state >= 0"
+                . "\n ORDER BY ordering";
 
-        $uid           = "";
+        $uid = "";
         $row->ordering = null;
 
         // Joomla 3.x Backward Compatibility
@@ -387,8 +378,8 @@ class OSContentModelContent extends OSModel
         }
 
         // build the html select list for menu selection
-        $menu3     = array();
-        $menulist  = array();
+        $menu3 = array();
+        $menulist = array();
         $menuTypes = $this->getMenuTypes();
 
         foreach ($menuTypes as $menuType) {
@@ -403,24 +394,12 @@ class OSContentModelContent extends OSModel
         $stop_notice = array();
 
         $lists['menuselect3'] = JHTML::_(
-            'select.genericlist',
-            $stop_notice,
-            'menuselect3',
-            'class="inputbox" size="10"',
-            'value',
-            'text',
-            null
+                        'select.genericlist', $stop_notice, 'menuselect3', 'class="inputbox" size="10"', 'value', 'text', null
         );
 
 
         $lists['menuselect'] = JHTML::_(
-            'select.genericlist',
-            $menu,
-            'menuselect',
-            'class="inputbox" size="10" ' . $javascript2,
-            'value',
-            'text',
-            null
+                        'select.genericlist', $menu, 'menuselect', 'class="inputbox" size="10" ' . $javascript2, 'value', 'text', null
         );
 
 
@@ -438,7 +417,7 @@ class OSContentModelContent extends OSModel
         // Load params
         jimport('joomla.application.component.helper');
         $lists['sectioncategories'] = $sectioncategories;
-        $lists['menulist']          = $this->createSubMenu();
+        $lists['menulist'] = $this->createSubMenu();
 
         return $lists;
     }
@@ -450,13 +429,12 @@ class OSContentModelContent extends OSModel
      *
      * @return array An array of menu type names
      */
-    public function getMenuTypes()
-    {
+    public function getMenuTypes() {
         $db = JFactory::getDBO();
-        /*$query = 'SELECT menutype' .
-                ' FROM #__menu_types';*/
+        /* $query = 'SELECT menutype' .
+          ' FROM #__menu_types'; */
         $query = 'SELECT a.menutype, a.title' .
-            ' FROM #__menu_types AS a';
+                ' FROM #__menu_types AS a';
         $db->setQuery($query);
 
         // Joomla 3.x Backward Compatibility
@@ -477,12 +455,11 @@ class OSContentModelContent extends OSModel
      *
      * @return  array
      */
-    public function createSubMenu()
-    {
+    public function createSubMenu() {
         // Build the html select list for menu selection
 
-        $menulist  = array();
-        $database  = JFactory::getDBO();
+        $menulist = array();
+        $database = JFactory::getDBO();
         $menuTypes = $this->getMenuTypes();
 
         foreach ($menuTypes as $menuType) {
@@ -496,9 +473,9 @@ class OSContentModelContent extends OSModel
             //Create tje tree of menus
             //http://dev.joomla.org/component/option,com_jd-wiki/Itemid,/id,references:joomla.framework:html:jhtmlmenu-treerecurse/
             $query = 'SELECT id, parent_id, title, menutype, title AS name' .
-                ' FROM #__menu' .
-                ' WHERE menutype = "' . $menuType . '"  AND published = 1' .
-                ' ORDER BY menutype, parent_id, ';
+                    ' FROM #__menu' .
+                    ' WHERE menutype = "' . $menuType . '"  AND published = 1' .
+                    ' ORDER BY menutype, parent_id, ';
 
             // Joomla 3.x Backward Compatibility
             if (version_compare(JVERSION, '3.0', '<')) {
@@ -534,15 +511,8 @@ class OSContentModelContent extends OSModel
 
             // Second pass - get an indent list of the items
             // $list = JHtmlMenu::TreeRecurse(intval($menuItems4[0]->parent_id), '', array(), $children, 9999, 0, 0);
-            $list       = JHTML::_(
-                'menu.treerecurse',
-                intval(@$menuItems4[0]->parent_id),
-                '-',
-                array(),
-                $children,
-                9999,
-                0,
-                0
+            $list = JHTML::_(
+                            'menu.treerecurse', intval(@$menuItems4[0]->parent_id), '-', array(), $children, 9999, 0, 0
             );
             $menulist[] = $list;
             ///////////////////////////////////////////////////
@@ -559,38 +529,37 @@ class OSContentModelContent extends OSModel
      *
      * @return  array
      */
-    public function getPostData()
-    {
+    public function getPostData() {
         // Joomla 3.x Backward Compatibility
         if (version_compare(JVERSION, '3.0', '<')) {
             $post = JRequest::get('post');
         } else {
-            $app   = JFactory::getApplication();
+            $app = JFactory::getApplication();
             $input = $app->input;
-            $post  = $input->getArray(
-                array(
-                    'title'            => 'ARRAY',
-                    'alias'            => 'ARRAY',
-                    'published'        => 'STRING',
-                    'access'           => 'INT',
-                    'created_by'       => 'INT',
-                    'created_by_alias' => 'STRING',
-                    'created'          => 'DATE',
-                    'catid'            => 'INT',
-                    'publish_up'       => 'DATE',
-                    'publish_down'     => 'DATE',
-                    'metadesc'         => 'ARRAY',
-                    'metakey'          => 'ARRAY',
-                    'addMenu'          => 'INT',
-                    'menuselect'       => 'STRING',
-                    'menuselect3'      => 'STRING'
-                )
+            $post = $input->getArray(
+                    array(
+                        'title' => 'ARRAY',
+                        'alias' => 'ARRAY',
+                        'published' => 'STRING',
+                        'access' => 'INT',
+                        'created_by' => 'INT',
+                        'created_by_alias' => 'STRING',
+                        'created' => 'DATE',
+                        'catid' => 'INT',
+                        'publish_up' => 'DATE',
+                        'publish_down' => 'DATE',
+                        'metadesc' => 'ARRAY',
+                        'metakey' => 'ARRAY',
+                        'addMenu' => 'INT',
+                        'menuselect' => 'STRING',
+                        'menuselect3' => 'STRING'
+                    )
             );
 
             for ($i = 0; $i < count($post["title"]); $i++) {
-                $index                       = $i + 1;
+                $index = $i + 1;
                 $post['introtext_' . $index] = $input->get('introtext_' . $index, '', 'raw');
-                $post['fulltext_' . $index]  = $input->get('fulltext_' . $index, '', 'raw');
+                $post['fulltext_' . $index] = $input->get('fulltext_' . $index, '', 'raw');
             }
         }
 
@@ -607,8 +576,7 @@ class OSContentModelContent extends OSModel
      *
      * @return  array
      */
-    public function saveOSContent($option = null)
-    {
+    public function saveOSContent($option = null) {
 
         $post = $this->getPostData();
 
@@ -618,7 +586,7 @@ class OSContentModelContent extends OSModel
             if ($post["title"][$i] == "") {
                 continue;
             }
-            $row        = $this->getTable();
+            $row = $this->getTable();
             $row->title = $post["title"][$i];
 
             if ($post["alias"][$i]) {
@@ -631,17 +599,17 @@ class OSContentModelContent extends OSModel
                 $row->alias = JFactory::getDate()->format('Y-m-d-H-i-s') . "-" . $i;
             }
 
-            $intro_text      = $post['introtext_' . $index];
-            $full_text       = $post['fulltext_' . $index];
-            $row->introtext  = ($intro_text != "" ? $intro_text : $full_text);
-            $row->fulltext   = ($intro_text != "" ? $full_text : "");
-            $row->metakey    = $post["metakey"][$i];
-            $row->metadesc   = $post["metadesc"][$i];
-            $row->robots     = isset($post["robots"]) ? $post["robots"] : "";
-            $row->author     = $post["created_by"];
-            $row->catid      = $post["catid"];
-            $row->access     = $post["access"];
-            $row->language   = "*";
+            $intro_text = $post['introtext_' . $index];
+            $full_text = $post['fulltext_' . $index];
+            $row->introtext = ($intro_text != "" ? $intro_text : $full_text);
+            $row->fulltext = ($intro_text != "" ? $full_text : "");
+            $row->metakey = $post["metakey"][$i];
+            $row->metadesc = $post["metadesc"][$i];
+            $row->robots = isset($post["robots"]) ? $post["robots"] : "";
+            $row->author = $post["created_by"];
+            $row->catid = $post["catid"];
+            $row->access = $post["access"];
+            $row->language = "*";
             $row->created_by = $post["created_by"];
 
             // TODO: implement the metadata/robots
@@ -718,8 +686,7 @@ class OSContentModelContent extends OSModel
 
             if ($table->load($params) && ($table->id != $row->id || $row->id == 0)) {
                 JError::raiseWarning(
-                    "Save content",
-                    JText::_('JLIB_DATABASE_ERROR_ARTICLE_UNIQUE_ALIAS') . ": " . $row->alias
+                        "Save content", JText::_('JLIB_DATABASE_ERROR_ARTICLE_UNIQUE_ALIAS') . ": " . $row->alias
                 );
 
                 return false;
@@ -735,7 +702,7 @@ class OSContentModelContent extends OSModel
 
             $row = $this->getTable();
 
-            $row->id    = 0;
+            $row->id = 0;
             $row->title = $post["title"][$i];
             if ($post["alias"][$i]) {
                 $row->alias = JFilterOutput::stringURLSafe($post["alias"][$i]);
@@ -747,17 +714,17 @@ class OSContentModelContent extends OSModel
                 $row->alias = JFactory::getDate()->format('Y-m-d-H-i-s') . "-" . $i;
             }
 
-            $intro_text      = $post['introtext_' . $index];
-            $full_text       = $post['fulltext_' . $index];
-            $row->introtext  = ($intro_text != "" ? $intro_text : $full_text);
-            $row->fulltext   = ($intro_text != "" ? $full_text : "");
-            $row->metakey    = $post["metakey"][$i];
-            $row->metadesc   = $post["metadesc"][$i];
-            $row->robots     = @$post["robots"];
-            $row->author     = @$post["author"];
-            $row->catid      = $post["catid"];
-            $row->access     = $post["access"];
-            $row->language   = "*";
+            $intro_text = $post['introtext_' . $index];
+            $full_text = $post['fulltext_' . $index];
+            $row->introtext = ($intro_text != "" ? $intro_text : $full_text);
+            $row->fulltext = ($intro_text != "" ? $full_text : "");
+            $row->metakey = $post["metakey"][$i];
+            $row->metadesc = $post["metadesc"][$i];
+            $row->robots = @$post["robots"];
+            $row->author = @$post["author"];
+            $row->catid = $post["catid"];
+            $row->access = $post["access"];
+            $row->language = "*";
             $row->created_by = $post["created_by"];
 
             $row->metadata = "";
@@ -828,7 +795,7 @@ class OSContentModelContent extends OSModel
                 return false;
             }
 
-            $row->reorder('catid = ' . (int)$row->catid . ' AND state >= 0');
+            $row->reorder('catid = ' . (int) $row->catid . ' AND state >= 0');
 
             if (@$post["addMenu"] === 0 || @$post['addMenu'] === 'on') {
                 $type = "content_item_link";
@@ -842,7 +809,7 @@ class OSContentModelContent extends OSModel
                 // Is the item already viewable on the frontpage?
                 // Insert the new entry
                 $query = 'INSERT INTO #__content_frontpage' .
-                    ' VALUES (' . (int)$row->id . ', 1)';
+                        ' VALUES (' . (int) $row->id . ', 1)';
                 $db->setQuery($query);
 
                 if (!$db->query()) {
@@ -858,4 +825,5 @@ class OSContentModelContent extends OSModel
 
         return true;
     }
+
 }
