@@ -93,6 +93,7 @@
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <jdoc:include type="component" />
+                    <jdoc:include type="modules" name="bottomcontent" style="none" />
                 </div>
             <?php else: ?>
                 <div class="col-lg-12">
