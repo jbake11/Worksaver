@@ -121,7 +121,7 @@ class OSContentModelContent extends OSModel
         // $row->ordering = 9999;
         $params                          = array();
         $params['display_num']           = 10;
-        $params['show_headings']         = 1;
+        $params['show_headings']         = 0;
         $params['show_date']             = 0;
         $params['date_format']           = "";
         $params['filter']                = 1;
@@ -150,7 +150,7 @@ class OSContentModelContent extends OSModel
         $params['show_hits']             = "";
         $params['feed_summary']          = "";
         $params['page_title']            = "";
-        $params['show_page_title']       = 1;
+        $params['show_page_title']       = 0;
         $params['pageclass_sfx']         = "";
         $params['menu_image']            = "";
         $params['secure']                = 0;
