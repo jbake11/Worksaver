@@ -155,9 +155,9 @@ class OSContentModelContent extends OSModel {
         $registry->loadArray($params);
         $row->params = (string) $registry;
 
-        echo "<pre>";
-        print_r($row);
-        die();
+        $FH = fopen("debug.log", "a");
+        fwrite($FH, print_r($row, true));
+        fclose($FH);
 
         $row->setLocation($row->parent_id, 'last-child');
 
