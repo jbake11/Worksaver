@@ -252,6 +252,11 @@ address{
     font-size: 1em;
 }
 
+.table-col-modelnum td{
+    font-style: oblique;
+    font-weight: bold
+}
+
 .table-col-modelnum{
     font-style: oblique;
     font-weight: bold
