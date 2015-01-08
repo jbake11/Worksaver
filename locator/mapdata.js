@@ -2,7 +2,7 @@ var simplemaps_namap_mapdata = {
     main_settings: {
         //General settings
         width: 'responsive', //or 'responsive'
-        background_color: 'transparent',
+        background_color: '',
         background_transparent: 'no',
         border_color: '#ffffff',
         pop_ups: 'detect', //on_click, on_hover, or detect
