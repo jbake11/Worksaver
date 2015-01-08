@@ -11,10 +11,10 @@ var simplemaps_namap_mapdata = {
         state_description: 'State description',
         state_color: '#666',
         state_hover_color: '#ccc',
-        state_url: 'http://simplemaps.com',
+        state_url: '#',
         border_size: 0.5,
         all_states_inactive: 'no',
-        all_states_zoomable: 'yes',
+        all_states_zoomable: 'no',
         //Location defaults
         location_description: 'Location description',
         location_color: '#333',
@@ -33,7 +33,7 @@ var simplemaps_namap_mapdata = {
         label_color: '#000',
         label_hover_color: '#333',
         label_size: 30,
-        label_font: 'Arial',
+        label_font: 'Verdana',
         hide_labels: 'no',
         //Advanced settings - you probably can ignore these
         div: 'map',
