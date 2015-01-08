@@ -336,7 +336,8 @@ var simplemaps_namap_mapdata = {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: 'default',
+            hide: 'yes'
         },
         OR: {
             name: 'default',
@@ -453,7 +454,7 @@ var simplemaps_namap_mapdata = {
             color: 'default',
             hover_color: 'default',
             url: 'default',
-            hide: 'no'
+            hide: 'yes'
         }
     },
     locations: {
