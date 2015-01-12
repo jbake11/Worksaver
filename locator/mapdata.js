@@ -9,7 +9,7 @@ var simplemaps_namap_mapdata = {
 
         //State defaults
         state_description: 'State description',
-        state_color: '#666',
+        state_color: '#898788',
         state_hover_color: '#ccc',
         state_url: '#',
         border_size: 0.5,
@@ -71,7 +71,7 @@ var simplemaps_namap_mapdata = {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default',
+            url: '/alaska-distributors',
             description: "Rankin Equipment<br>PO Box 1937<br>Yakima, WA  98907<br>509-452-1651<br>www.rankineqco.com<br>sales@rankineqco.com"
         },
         FL: {
