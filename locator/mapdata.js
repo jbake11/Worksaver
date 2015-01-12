@@ -68,7 +68,7 @@ var simplemaps_namap_mapdata = {
             url: 'default',
         },
         AK: {
-            name: 'default',
+            name: 'Alaska',
             color: 'default',
             hover_color: 'default',
             url: '/alaska',
@@ -162,7 +162,7 @@ var simplemaps_namap_mapdata = {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/illinois-dealers'
         },
         CT: {
             name: 'default',
@@ -252,7 +252,7 @@ var simplemaps_namap_mapdata = {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/iowa-dealers'
         },
         MN: {
             name: 'default',
