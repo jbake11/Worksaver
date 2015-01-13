@@ -4,15 +4,15 @@
 */
 
 /*Dealers Tables*/
-.table-bordered, .table-bordered>thead>tr>th, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>td {
+#dealers .table-bordered, #dealers .table-bordered>thead>tr>th, #dealers .table-bordered>thead>tr>th, #dealers .table-bordered>tbody>tr>th, #dealers .table-bordered>tbody>tr>th, #dealers .table-bordered>tfoot>tr>th, #dealers .table-bordered>tfoot>tr>th, #dealers .table-bordered>thead>tr>td, #dealers .table-bordered>thead>tr>td, #dealers .table-bordered>tbody>tr>td, #dealers .table-bordered>tbody>tr>td, #dealers .table-bordered>tfoot>tr>td, #dealers .table-bordered>tfoot>tr>td {
     border: 1px solid #333;
     font-size: smaller;
 }
 
-.table-striped a {
+#dealers .table-striped a {
     color: #333;
 }
-.table-striped a:hover {
+#dealers .table-striped a:hover {
     color: #333;
 }
 
