@@ -159,7 +159,7 @@ var simplemaps_namap_mapdata = {
             url: 'default'
         },
         IL: {
-            name: 'default',
+            name: 'Dealer Direct',
             color: 'default',
             hover_color: 'default',
             url: '/illinois-dealers'
@@ -249,7 +249,7 @@ var simplemaps_namap_mapdata = {
             url: 'default'
         },
         IA: {
-            name: 'default',
+            name: 'Dealer Direct',
             color: 'default',
             hover_color: 'default',
             url: '/iowa-dealers'
