@@ -14,6 +14,8 @@
         <link href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css" rel="stylesheet">
         <script src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
 
+        <link href="//cdn.datatables.net/responsive/1.0.3/css/dataTables.responsive.css" rel="stylesheet">
+        <script src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.js"></script>
 
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
