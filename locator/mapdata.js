@@ -457,19 +457,6 @@ var simplemaps_namap_mapdata = {
             url: 'default',
             hide: 'yes'
         }
-    },
-    locations: {
-        1: {
-            name: 'New York City',
-            lat: 40.7143528,
-            lng: -74.0059731
-        },
-        2: {
-            name: 'Minneapolis',
-            lat: 44.983334,
-            lng: -93.26667,
-            color: 'default'
-        }
     }
 
 }
