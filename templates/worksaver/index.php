@@ -17,6 +17,31 @@
         <link href="//cdn.datatables.net/responsive/1.0.3/css/dataTables.responsive.css" rel="stylesheet">
         <script src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.js"></script>
 
+        <script>
+            $(document).ready(function() {
+                if ($("#dealers")) {
+                    $("#dealers td").each(function() {
+                        var data = $(this).html();
+                        if (data.indexOf("-") != -1) {
+                            $(this).css("white-space", "nowrap");
+                        }
+                    });
+                    $('#dealers').DataTable({
+                        "autoWidth": false,
+                        responsive: {
+                            breakpoints: [
+                                {name: 'desktop', width: Infinity},
+                                {name: 'tablet-l', width: 1024},
+                                {name: 'tablet-p', width: 768},
+                                {name: 'mobile-l', width: 480},
+                                {name: 'mobile-p', width: 320}
+                            ]
+                        }
+                    });
+                }
+            });
+        </script>
+
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
