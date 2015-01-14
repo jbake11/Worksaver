@@ -473,12 +473,6 @@ var simplemaps_namap_mapdata = {
 }
 
 
-$("#dealers tr td").each(function() {
-    var data = $(this).html();
-    if (data.indexOf("-") > -1) {
-        $(this).prop("white-space", "nowrap");
-    }
-});
 
 
 
