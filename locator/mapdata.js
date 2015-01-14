@@ -3,12 +3,12 @@ var simplemaps_namap_mapdata = {
         //General settings
         width: 'responsive', //or 'responsive'
         background_color: '',
-        background_transparent: 'no',
+        background_transparent: 'yes',
         border_color: '#ffffff',
         pop_ups: 'detect', //on_click, on_hover, or detect
 
         //State defaults
-        state_description: 'State description',
+        state_description: 'Click for distributors',
         state_color: '#898788',
         state_hover_color: '#ccc',
         state_url: '#',
