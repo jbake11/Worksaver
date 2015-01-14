@@ -441,7 +441,7 @@ td { font-weight: bold; }
 }
 
 .dataTables_wrapper .dataTables_filter input {
-    margin-left: 0;
+    margin-left: 10px;
 }
 
 #dealers  td {
