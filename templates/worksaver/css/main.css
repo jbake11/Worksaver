@@ -3,15 +3,7 @@
     Author     : Jeff
 */
 
-/*Dealers Tables*/
-#dealers  td {
-    border: 1px solid #333;
-    font-size: 11px;
-}
 
-#dealers td a {
-    color: #2c3e50;
-}
 
 
 
@@ -438,7 +430,20 @@ td { font-weight: bold; }
 /*    187px*/
 /*}*/
 
+/*Dealers Tables*/
+#dealers {
+    margin-bottom: 40px;
+    clear:both;
+}
 
+#dealers  td {
+    border: 1px solid #333;
+    font-size: 11px;
+}
+
+#dealers td a {
+    color: #2c3e50;
+}
 
 table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before {
     background-color: #333;
