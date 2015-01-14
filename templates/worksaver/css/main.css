@@ -4,11 +4,14 @@
 */
 
 /*Dealers Tables*/
-#dealers  * {
+#dealers  td {
     border: 1px solid #333;
     font-size: 11px;
 }
 
+#dealers td a {
+
+}
 
 
 
