@@ -38,7 +38,7 @@
                             ]
                         }
                     });
-                    $("#dealers_filter input").addClass("form-control");
+//                    $("#dealers_filter input").addClass("form-control");
                 }
             });
         </script>

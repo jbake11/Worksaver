@@ -440,6 +440,10 @@ td { font-weight: bold; }
     margin-bottom: 20px;
 }
 
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0;
+}
+
 #dealers  td {
     border: 1px solid #333;
     font-size: 11px;
