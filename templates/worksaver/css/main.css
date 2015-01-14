@@ -440,3 +440,7 @@ td { font-weight: bold; }
 
 
 
+table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before {
+    background-color: #333;
+
+}
