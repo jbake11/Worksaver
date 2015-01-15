@@ -19,9 +19,9 @@
         <script src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.js"></script>
 
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
                 if ($("#dealers")) {
-                    $("#dealers td").each(function () {
+                    $("#dealers td").each(function() {
                         var data = $(this).html();
                         if (data.indexOf("-") != -1) {
                             $(this).css("white-space", "nowrap");
@@ -123,13 +123,32 @@
     <!--Body Content-->
     <div class="container">
         <div class="row">
-            <?php if ($this->countModules('sidebar')) : ?>
+            <?php if ($this->countModules('sidebar') && !$this->countModules('right-sidebar')) : ?>
                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <jdoc:include type="modules" name="sidebar" style="none" />
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                     <jdoc:include type="component" />
                     <jdoc:include type="modules" name="bottomcontent" style="none" />
+                </div>
+            <?php elseif ($this->countModules('right-sidebar') && $this->countModules('sidebar')): ?>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <jdoc:include type="modules" name="sidebar" style="none" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <jdoc:include type="component" />
+                    <jdoc:include type="modules" name="bottomcontent" style="none" />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <jdoc:include type="modules" name="right-sidebar" style="none" />
+                </div>
+            <?php elseif ($this->countModules('right-sidebar') && !$this->countModules('sidebar')): ?>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <jdoc:include type="component" />
+                    <jdoc:include type="modules" name="bottomcontent" style="none" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <jdoc:include type="modules" name="right-sidebar" style="none" />
                 </div>
             <?php else: ?>
                 <div class="col-lg-12">
