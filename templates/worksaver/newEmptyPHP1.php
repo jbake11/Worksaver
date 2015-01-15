@@ -1,15 +1,18 @@
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img src="/images/material-handling/Split-top_GrappleRake.jpg" alt="" />
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         Designed for today’s modern skid steer and tractor front
         loaders. Available in 62” or 77” width, the split top design
         provides dual upper grapples for picking up brush and
         other debris while leaving the dirt behind. Ideal for loading
         logs, orchard prunings, piling brush and moving hard to
         handle materials.
-        <br /><br />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <img src="/images/material-handling/Split-top_GrappleRake.jpg" alt="" />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <ul>
             <li>Unique tine design with weld-on tine points.</li>
             <li>Tine design allows operator to go under logs/brush for easy clean pick up.</li>
@@ -52,17 +55,27 @@
                 <tr><td><a href="/templates/worksaver/manuals/splitgrapple.pdf">Download Manual Here</a></td>
                     <td><a href="/split-top-grapple-rake-flgr-262-ssgr-262-flgr-262-g">Parts List Click Here</a></td>
                     <td><a href="/split-top-grapple-rake-flgr-277-ssgr-277-flgr-277-g">Parts List Click Here</a></td>
-
-                    split-top-grapple-rake-flat-faced-coupler-set
-                    split-top-grapple-rake-parking-stand-kit
-
-
                 </tr>
             </tbody>
         </table>
-        <br /><br />
-        <i class="fa fa-lg fa-exclamation-triangle"> </i>
-        <strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer
-        is properly counterbalanced. Damage to equipment or personal injury could occur.
     </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr class="table-col-header"><td colspan="3" align="center">Optional Accessories</td></tr>
+                <tr><td><a href="/split-top-grapple-rake-flat-faced-coupler-set">Flat-Faced Coupler Set</a></td>
+                    <td><a href="/split-top-grapple-rake-parking-stand-kit">Parking Stand Kit</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<br /><br />
+<div>
+    <i class="fa fa-lg fa-exclamation-triangle"> </i>
+    <strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer
+    is properly counterbalanced. Damage to equipment or personal injury could occur.
 </div>
