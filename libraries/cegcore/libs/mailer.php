@@ -54,7 +54,7 @@ class Mailer {
 			}
 		}
 
-		if((bool)Base::getConfig('smtp', 0) === true){
+		if((bool)Base::getConfig('smtp', 0) === true OR Base::getConfig('mail_method', 'phpmail') == 'smtp'){
 			$mail->IsSMTP();
 			if(Base::getConfig('smtp_username') AND Base::getConfig('smtp_password')){
 				$mail->SMTPAuth = true;
@@ -66,12 +66,10 @@ class Mailer {
 			$mail->Port       = Base::getConfig('smtp_port');
 			$mail->Username   = Base::getConfig('smtp_username');
 			$mail->Password   = Base::getConfig('smtp_password');
-		}
-		/*
-		if(Base::getConfig('mail_method', 'phpmail') == 'sendmail'){
+		}else if(Base::getConfig('mail_method', 'phpmail') == 'sendmail'){
 			$mail->IsSendmail();
 		}
-		*/
+		
 		if(!isset($other['type']) OR $other['type'] == 'html'){
 			$mail->AltBody = 'To view the message, please use an HTML compatible email viewer!'; // optional - MsgHTML will create an alternate automatically
 			//$body = nl2br($body);

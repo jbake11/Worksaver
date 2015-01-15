@@ -18,6 +18,7 @@ class Paginator extends \GCore\Libs\Helper{
 	var $numbers = 5;
 	var $start = 1;
 	var $end = 5;
+	var $page_param = 'page';
 	//static $template = '';
 	
 	function initialize(){
@@ -43,7 +44,7 @@ class Paginator extends \GCore\Libs\Helper{
 	}
 	*/
 	public function getPrevious($lang = array()){
-		return $this->get_nav_link(self::l_('PAGINATOR_PREV', $lang), \GCore\Libs\Url::buildQuery($this->url, array('page' => ($this->page - 1))), 'previous', ($this->page == 1), $lang);
+		return $this->get_nav_link(self::l_('PAGINATOR_PREV', $lang), \GCore\Libs\Url::buildQuery($this->url, array($this->page_param => ($this->page - 1))), 'previous', ($this->page == 1), $lang);
 	}
 	
 	public function paginator_get_nav_link($title, $url, $type, $disabled = false, $lang = array()){
@@ -66,22 +67,22 @@ class Paginator extends \GCore\Libs\Helper{
 	}
 	
 	public function getFirst($lang = array()){
-		return $this->get_nav_link(self::l_('PAGINATOR_FIRST', $lang), \GCore\Libs\Url::buildQuery($this->url, array('page' => 1)), 'first', ($this->page == 1), $lang);
+		return $this->get_nav_link(self::l_('PAGINATOR_FIRST', $lang), \GCore\Libs\Url::buildQuery($this->url, array($this->page_param => 1)), 'first', ($this->page == 1), $lang);
 	}
 	
 	public function getLast($lang = array()){
-		return $this->get_nav_link(self::l_('PAGINATOR_LAST', $lang), \GCore\Libs\Url::buildQuery($this->url, array('page' => ceil($this->total/$this->limit))), 'last', ($this->page == $this->end OR $this->end < 2), $lang);
+		return $this->get_nav_link(self::l_('PAGINATOR_LAST', $lang), \GCore\Libs\Url::buildQuery($this->url, array($this->page_param => ceil($this->total/$this->limit))), 'last', ($this->page == $this->end OR $this->end < 2), $lang);
 	}
 	
 	public function getNext($lang = array()){
-		return $this->get_nav_link(self::l_('PAGINATOR_NEXT', $lang), \GCore\Libs\Url::buildQuery($this->url, array('page' => ($this->page + 1))), 'next', ($this->page == $this->end OR $this->end < 2), $lang);
+		return $this->get_nav_link(self::l_('PAGINATOR_NEXT', $lang), \GCore\Libs\Url::buildQuery($this->url, array($this->page_param => ($this->page + 1))), 'next', ($this->page == $this->end OR $this->end < 2), $lang);
 	}
 	
 	public function getNumbers($lang = array()){
 		$list = array();
 		for($i = $this->start; $i <= $this->end; $i++){
 			$alt_class = '';
-			$url = \GCore\Libs\Url::buildQuery($this->url, array('page' => ($i)));
+			$url = \GCore\Libs\Url::buildQuery($this->url, array($this->page_param => ($i)));
 			if($this->page == $i){
 				$list[] = $this->get_number_link($url, $i, true);
 			}else{

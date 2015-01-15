@@ -6,7 +6,8 @@
 class com_chronoforms5InstallerScript {
 	function postflight($type, $parent){
 		$mainframe = JFactory::getApplication();
-		$mainframe->redirect('index.php?option=com_chronoforms5&cont=installer');
+		//$mainframe->redirect('index.php?option=com_chronoforms5&cont=installer');
+		$parent->getParent()->setRedirectURL('index.php?option=com_chronoforms5&cont=installer');
 	}
 }
 ?>

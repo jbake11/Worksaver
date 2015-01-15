@@ -133,7 +133,7 @@ Class DbRead extends \GCore\Admin\Extensions\Chronoforms\Action{
 		
 		$ndb_tables = array();
 		if(!empty($data['ndb_table_name'])){
-			$ndb_tables = \GCore\Libs\Database::getInstance(array(
+			/*$ndb_tables = \GCore\Libs\Database::getInstance(array(
 				'type' => $data['ndb_driver'], 
 				'host' => $data['ndb_host'], 
 				'name' => $data['ndb_database'], 
@@ -141,7 +141,8 @@ Class DbRead extends \GCore\Admin\Extensions\Chronoforms\Action{
 				'pass' => $data['ndb_password'], 
 				'prefix' => $data['ndb_prefix']
 			))->getTablesList();
-			$ndb_tables = array_combine($ndb_tables, $ndb_tables);
+			$ndb_tables = array_combine($ndb_tables, $ndb_tables);*/
+			$ndb_tables = array($data['ndb_table_name'] => $data['ndb_table_name']);
 		}
 
 		echo \GCore\Helpers\Html::formStart('action_config db_read_action_config', 'db_read_action_config_{N}');
@@ -164,6 +165,10 @@ Class DbRead extends \GCore\Admin\Extensions\Chronoforms\Action{
 							jQuery('#db_read_ndb_table_name_'+SID).empty();
 							jQuery('#db_read_ndb_table_name_'+SID).append('<option value="">Failed to connect!!</option>');
 						}
+					},
+					"error" : function(){
+						jQuery('#db_read_ndb_table_name_'+SID).empty();
+						jQuery('#db_read_ndb_table_name_'+SID).append('<option value="">Failed to connect!!</option>');
 					},
 				});
 			}

@@ -18,7 +18,7 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 		'files' => '',
 		'array_fields' => '',
 		'upload_path' => '',
-		'forced_file_name' => '',
+		'dynamic_file_name' => '',
 		'max_size' => '100',
 		'min_size' => '0',
 		'enabled' => 1,
@@ -56,7 +56,7 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 			//return;
 		}
 		if(!file_exists($this->upload_path.DS.'index.html')){
-			if(!\GCore\Libs\Folder::create($this->upload_path)){
+			if(!file_exists($this->upload_path) AND !\GCore\Libs\Folder::create($this->upload_path)){
 				$form->errors[] = "Couldn't create upload directory: ".$this->upload_path;
 				$this->events['fail'] = 1;
 				return;
@@ -86,17 +86,18 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 				//get the posted file details
 				$field_name = $file_data[0];
 				if(empty($_FILES[$field_name])){
+				//if(!\GCore\Libs\Arr::getVal($_FILES, explode('.', $field_name))){
 					continue;
 				}
 				$file_post = $_FILES[$field_name];
-				if(in_array($field_name, $array_fields) AND !empty($file_post['name']) AND ($file_post['name'] === array_values($file_post['name']))){
+				if(in_array($field_name, $array_fields) AND !empty($file_post['name'])){// AND ($file_post['name'] === array_values($file_post['name']))){
 					foreach($file_post['name'] as $k => $v){
-						$uploaded_file_data = $this->processUpload($form, array('name' => $file_post['name'][$k], 'tmp_name' => $file_post['tmp_name'][$k], 'error' => $file_post['error'][$k], 'size' => $file_post['size'][$k]), $file_data[0], $file_extensions);
+						$uploaded_file_data = $this->processUpload($form, array('name' => $file_post['name'][$k], 'tmp_name' => $file_post['tmp_name'][$k], 'type' => $file_post['type'][$k], 'error' => $file_post['error'][$k], 'size' => $file_post['size'][$k]), $file_data[0], $file_extensions);
 						if(is_array($uploaded_file_data)){
-							$form->files[$field_name][] = $uploaded_file_data;
-							$form->data[$field_name][] = $uploaded_file_data['name'];
+							$form->files[$field_name][$k] = $uploaded_file_data;
+							$form->data[$field_name][$k] = $uploaded_file_data['name'];
 						}elseif($uploaded_file_data === false){
-							return false;
+							//return false;
 						}
 					}
 				}else{
@@ -105,7 +106,7 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 						$form->files[$field_name] = $uploaded_file_data;
 						$form->data[$field_name] = $uploaded_file_data['name'];
 					}elseif($uploaded_file_data === false){
-						return false;
+						//return false;
 					}
 				}
 			}
@@ -141,8 +142,9 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 		$file_tmp_name = $file_post['tmp_name'];
 		$file_info = pathinfo($file_name);
 		//mask the file name
-		if(strlen($this->config->get('forced_file_name', '')) > 0){
-			$file_name = str_replace('FILE_NAME', $file_name, $this->config->get('forced_file_name', ''));
+		if(strlen($this->config->get('dynamic_file_name', '')) > 0){
+			$dynamic_file_name = eval('?>'.$this->config->get('dynamic_file_name', ''));
+			$file_name = $dynamic_file_name;//str_replace('FILE_NAME', $file_name, $this->config->get('forced_file_name', ''));
 		}else{
 			$file_name = date('YmdHis').'_'.$file_name;
 		}
@@ -175,11 +177,11 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 					$uploaded_file_data = array();
 					$uploaded_file_data = array('name' => $file_name, 'original_name' => $real_file_name, 'path' => $this->upload_path.$file_name, 'size' => $file_post["size"]);
 					//Try to generate an auto file link
-					$site_link = \GCore\C::get('GCORE_FRONT_URL');
-					if(substr($site_link, -1) == "/"){
-						$site_link = substr_replace($site_link, '', -1);
+					$site_link = \GCore\C::get('GCORE_ROOT_URL');
+					if(substr($site_link, -1) != "/"){
+						$site_link = $site_link.'/';//substr_replace($site_link, '', -1);
 					}
-					$uploaded_file_data['link'] = str_replace(array(\GCore\C::get('GCORE_FRONT_PATH'), DS), array($site_link, "/"), $this->upload_path.$file_name);
+					$uploaded_file_data['link'] = str_replace(array(\GCore\C::get('GCORE_ROOT_PATH'), DS), array($site_link, "/"), $this->upload_path.$file_name);
 					//$form->data[$field_name] = $file_name;
 					$form->debug[$this->action_id][self::$title][] = $this->upload_path.$file_name.' has been uploaded successfully.';
 					$this->events['success'] = 1;
@@ -204,6 +206,8 @@ Class FileUpload extends \GCore\Admin\Extensions\Chronoforms\Action{
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][max_error]', array('type' => 'text', 'label' => l_('CF_MAX_SIZE_ERROR'), 'class' => 'XL', 'sublabel' => l_('CF_MAX_SIZE_ERROR_DESC')));
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][min_error]', array('type' => 'text', 'label' => l_('CF_MIN_SIZE_ERROR'), 'class' => 'XL', 'sublabel' => l_('CF_MIN_SIZE_ERROR_DESC')));
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][type_error]', array('type' => 'text', 'label' => l_('CF_FILE_TYPE_ERROR'), 'class' => 'XL', 'sublabel' => l_('CF_FILE_TYPE_ERROR_DESC')));
+		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][array_fields]', array('type' => 'text', 'label' => l_('CF_FILE_ARRAY_FIELDS'), 'class' => 'XL', 'sublabel' => l_('CF_FILE_ARRAY_FIELDS_DESC')));
+		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][dynamic_file_name]', array('type' => 'textarea', 'label' => l_('CF_FILE_DYNAMIC_FILE_NAME'), 'rows' => 5, 'cols' => 70, 'placeholder' => '<?php return date("YmdHis")."_".$file_name;', 'sublabel' => l_('CF_FILE_DYNAMIC_FILE_NAME_DESC')));
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][extensions_separator]', array('type' => 'text', 'label' => l_('CF_FILE_UPLOAD_EXT_SEPARATOR'), 'class' => 'S', 'sublabel' => l_('CF_FILE_UPLOAD_EXT_SEPARATOR_DESC')));
 		echo \GCore\Helpers\Html::formSecEnd();
 		echo \GCore\Helpers\Html::formEnd();

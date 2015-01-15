@@ -1,10 +1,4 @@
-var GDatetimepicker = {
-	/*set_date: function (picker_id, time){
-		var date = new Date(time);
-		var format = jQuery('#'+picker_id).data('gdatetimepicker-format') ? jQuery('#'+picker_id).data('gdatetimepicker-format') : this.format;
-		jQuery('#'+picker_id).val(date.format_date(format));
-		jQuery('#'+picker_id).hide_picker();
-	},*/
+jQuery.gdatetimepicker = {
 	display_month: function (picker_id, year, month, day){
 		var the_month = new Date();
 		if(typeof day == 'undefined'){
@@ -12,20 +6,11 @@ var GDatetimepicker = {
 		}else{
 			the_month.setUTCFullYear(year, month, day);
 		}
-		var days_header = GDatetimepicker.build_days_header(picker_id, the_month);
-		var days_list = GDatetimepicker.build_days_panel(picker_id, the_month);
+		var days_header = this.build_days_header(picker_id, the_month);
+		var days_list = this.build_days_panel(picker_id, the_month);
 		return days_header + days_list;
 	},
-	/*switch_month: function (picker_id, year, month){
-		var month_data = GDatetimepicker.display_month(picker_id, year, month);
-		jQuery('#'+picker_id).hide_picker();
-		jQuery('#'+picker_id).show_picker(month_data);
-	},*/
-	/*select_month: function (picker_id, year, month){
-		var year_data = GDatetimepicker.display_year(picker_id, year, month);
-		jQuery('#'+picker_id).hide_picker();
-		jQuery('#'+picker_id).show_picker(year_data);
-	},*/
+	
 	display_year: function (picker_id, year, month){
 		var the_year = new Date();
 		if(typeof month == 'undefined'){
@@ -33,15 +18,11 @@ var GDatetimepicker = {
 		}else{
 			the_year.setUTCFullYear(year, month);
 		}
-		var months_header = GDatetimepicker.build_months_header(picker_id, the_year);
-		var months_list = GDatetimepicker.build_months_panel(picker_id, the_year);
+		var months_header = this.build_months_header(picker_id, the_year);
+		var months_list = this.build_months_panel(picker_id, the_year);
 		return months_header + months_list;
 	},
-	/*switch_year: function (picker_id, year){
-		var year_data = GDatetimepicker.display_year(picker_id, year);
-		jQuery('#'+picker_id).hide_picker();
-		jQuery('#'+picker_id).show_picker(year_data);
-	},*/
+	
 	display_decade: function (picker_id, year){
 		var the_decade = new Date();
 		if(typeof year == 'undefined'){
@@ -49,15 +30,11 @@ var GDatetimepicker = {
 		}else{
 			the_decade.setUTCFullYear(year);
 		}
-		var years_header = GDatetimepicker.build_years_header(picker_id, the_decade);
-		var years_list = GDatetimepicker.build_years_panel(picker_id, the_decade);
+		var years_header = this.build_years_header(picker_id, the_decade);
+		var years_list = this.build_years_panel(picker_id, the_decade);
 		return years_header + years_list;
 	},
-	/*switch_decade: function (picker_id, year){
-		var decade_data = GDatetimepicker.display_decade(picker_id, year);
-		jQuery('#'+picker_id).hide_picker();
-		jQuery('#'+picker_id).show_picker(decade_data);
-	},*/
+	
 	get_first_day: function (year, month){
 		var the_day = new Date(year, month, 1, 0, 1, 0);
 		var offset = the_day.getTimezoneOffset();
@@ -123,7 +100,7 @@ var GDatetimepicker = {
 		return months_header;
 	},
 	build_months_panel: function (picker_id, current_date){
-		var shortMonths = picker_id.data('shortmonths') ? picker_id.data('shortmonths') : GDatetimepicker.shortMonths;
+		var shortMonths = picker_id.data('shortmonths') ? picker_id.data('shortmonths') : this.shortMonths;
 		var months_list = '';
 		months_list = months_list  + '<div class="gcore-months-picker">';
 		var months_rows = [1,2,3,4];
@@ -144,7 +121,7 @@ var GDatetimepicker = {
 		return months_list;
 	},
 	build_days_header: function (picker_id, current_date){
-		var shortMonths = picker_id.data('shortmonths') ? picker_id.data('shortmonths') : GDatetimepicker.shortMonths;
+		var shortMonths = picker_id.data('shortmonths') ? picker_id.data('shortmonths') : this.shortMonths;
 		var days_header = '';
 		days_header = days_header  + '<div class="gcore-days-header">';
 		var prev_month = new Date();
@@ -158,19 +135,22 @@ var GDatetimepicker = {
 		return days_header;
 	},
 	build_days_panel: function (picker_id, current_date){
-		var shortDays = picker_id.data('shortdays') ? picker_id.data('shortdays') : GDatetimepicker.shortDays;
+		var shortDays = picker_id.data('shortdays') ? picker_id.data('shortdays') : this.shortDays;
+		var shortDaysIndexes = picker_id.data('shortdays_indexes') ? picker_id.data('shortdays_indexes') : this.shortDaysIndexes;
 		var days_list = '';
 		days_list = days_list  + '<div class="gcore-days-picker">';
 		var days_rows = [1,2,3,4,5,6,7];
-		var first_day = GDatetimepicker.get_first_day(current_date.getUTCFullYear(), current_date.getUTCMonth());
+		var first_day = this.get_first_day(current_date.getUTCFullYear(), current_date.getUTCMonth());
 
-		var month_length = GDatetimepicker.get_month_length(current_date.getUTCFullYear(), current_date.getUTCMonth());
+		var month_length = this.get_month_length(current_date.getUTCFullYear(), current_date.getUTCMonth());
 		var days_counter = 1;
 		var next_days_counter = 1;
-		var prev_days_counter = GDatetimepicker.get_month_length(current_date.getUTCFullYear(), current_date.getUTCMonth() - 1) - first_day + 1;
+		var prev_days_counter = this.get_month_length(current_date.getUTCFullYear(), current_date.getUTCMonth() - 1) - first_day + 1;
 		jQuery.each(days_rows, function(i, row){
 			days_list = days_list  + '<div class="days-row">';
-			jQuery.each(shortDays, function(k, day){
+			jQuery.each(shortDaysIndexes, function(ik, k){
+				//k = parseInt(k.toString().replace('d', ''));
+				var day = shortDays[k];
 				if(i == 0){
 					days_list = days_list  + '<div class="day-title">' + day + '</div>';
 				}else{
@@ -179,7 +159,7 @@ var GDatetimepicker = {
 						active_class = ' active_date';
 					}
 					if(i == 1){
-						if(k >= first_day){
+						if(k >= first_day || days_counter > 1){
 							var this_date = new Date();
 							this_date.setUTCFullYear(current_date.getUTCFullYear(), current_date.getUTCMonth(), days_counter);
 							var selecting_class = ' selectable_date' + active_class;
@@ -187,7 +167,7 @@ var GDatetimepicker = {
 							
 							if(picker_id.data('start_date')){
 								var start_date = new Date();
-								var format = picker_id.data('gdatetimepicker-format') ? picker_id.data('gdatetimepicker-format') : GDatetimepicker.format;
+								var format = picker_id.data('format') ? picker_id.data('format') : this.format;
 								var parsed_start_date = start_date.parse_date(picker_id.data('start_date'), format);
 								start_date.setUTCFullYear(parsed_start_date.Y, parsed_start_date.m - 1, parsed_start_date.d);
 								if(start_date > this_date){
@@ -198,7 +178,7 @@ var GDatetimepicker = {
 							
 							if(picker_id.data('end_date')){
 								var end_date = new Date();
-								var format = picker_id.data('gdatetimepicker-format') ? picker_id.data('gdatetimepicker-format') : GDatetimepicker.format;
+								var format = picker_id.data('format') ? picker_id.data('format') : this.format;
 								var parsed_end_date = end_date.parse_date(picker_id.data('end_date'), format);
 								end_date.setUTCFullYear(parsed_end_date.Y, parsed_end_date.m - 1, parsed_end_date.d);
 								if(end_date < this_date){
@@ -218,7 +198,6 @@ var GDatetimepicker = {
 							days_counter = days_counter + 1;
 						}else{
 							//add last month days
-							//var prev_month = current_date.setUTCDate(10);console.log(prev_month);
 							days_list = days_list  + '<div class="day-item disabled_date">' + prev_days_counter + '</div>';
 							prev_days_counter = prev_days_counter + 1;
 						}
@@ -234,7 +213,7 @@ var GDatetimepicker = {
 							
 							if(picker_id.data('start_date')){
 								var start_date = new Date();
-								var format = picker_id.data('gdatetimepicker-format') ? picker_id.data('gdatetimepicker-format') : GDatetimepicker.format;
+								var format = picker_id.data('format') ? picker_id.data('format') : this.format;
 								var parsed_start_date = start_date.parse_date(picker_id.data('start_date'), format);
 								start_date.setUTCFullYear(parsed_start_date.Y, parsed_start_date.m - 1, parsed_start_date.d);
 								if(start_date > this_date){
@@ -245,7 +224,7 @@ var GDatetimepicker = {
 							
 							if(picker_id.data('end_date')){
 								var end_date = new Date();
-								var format = picker_id.data('gdatetimepicker-format') ? picker_id.data('gdatetimepicker-format') : GDatetimepicker.format;
+								var format = picker_id.data('format') ? picker_id.data('format') : this.format;
 								var parsed_end_date = end_date.parse_date(picker_id.data('end_date'), format);
 								end_date.setUTCFullYear(parsed_end_date.Y, parsed_end_date.m - 1, parsed_end_date.d);
 								if(end_date < this_date){
@@ -277,24 +256,26 @@ var GDatetimepicker = {
 	},
 	format: 'd-m-Y',
 	shortMonths: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    longMonths: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-    shortDays: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-    longDays: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+	longMonths: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+	//shortDays: {'d1':'Mo', 'd2':'Tu', 'd3':'We', 'd4':'Th', 'd5':'Fr', 'd6':'Sa', 'd0':'Su'},
+	shortDays: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+	shortDaysIndexes: [0, 1, 2, 3, 4, 5, 6],
+	longDays: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
 };
 
 (function($){
 	Date.prototype.format_date = function(format_string){
 		var chars = {
 			'Y': this.getUTCFullYear(),
-			'm': GDatetimepicker.fix_number2(this.getUTCMonth() + 1),
-			'd': GDatetimepicker.fix_number2(this.getUTCDate()),
+			'm': $.gdatetimepicker.fix_number2(this.getUTCMonth() + 1),
+			'd': $.gdatetimepicker.fix_number2(this.getUTCDate()),
 		};
 		jQuery.each(chars, function(char, val){
 			format_string = format_string.replace(char, val);
 		});
 		return format_string;
 	}
-	
+		
 	Date.prototype.parse_date = function(date, format_string){
 		var formats = {
 			'Ymd': /^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])$/,
@@ -327,122 +308,145 @@ var GDatetimepicker = {
 		}
 		return result;
 	}
-	
-	$.fn.show_picker = function(contents){
-		var $this = $(this);
-		$this.gtooltip({'tipclass':'gtooltip gdatetimepicker-panel', 'closable': 1});
-		$this.data('content', contents);
-		$this.gtooltip('show');
-	}
 
-	$.fn.hide_picker = function(){
-		var $this = $(this);
-		$this.gtooltip('destroy');
-	}
-
-	$.fn.gdatetimepicker = function(option, contents){
-		this.each(function(){
-			var $this = $(this);
-			/*if(!$this.data('gdatetimepicker_params')){
-				$this.data('gdatetimepicker_params', $.extend({}, GDatetimepicker));
-			}*/
-			if(typeof option == 'undefined'){
-				//var month_data = GDatetimepicker.display_month($this.attr('id'));
-				$this.on('focus', function(event){
-					var the_month = new Date();
-					var parsed_date = {'Y':the_month.getUTCFullYear(), 'm':the_month.getUTCMonth() + 1, 'd':the_month.getUTCDate()};
-					if($this.val()){
-						var date = new Date();
-						var format = $this.data('gdatetimepicker-format') ? $this.data('gdatetimepicker-format') : GDatetimepicker.format;
-						var parsed_date = date.parse_date($this.val(), format);
+	$.fn.gdatetimepicker = function(options, params){
+		if(this.length > 0){
+			if($.type(params) === 'undefined' && $.type(options) === 'object'){
+				params = options;
+			}
+			
+			if($.type(options) === 'undefined' || $.type(options) === 'object'){
+				params = $.extend(true, {}, $.gdatetimepicker, params);
+				return this.each(function(){
+					if(!$(this).data('gdatetimepicker') || $.type($(this).data('gdatetimepicker')) != 'object'){
+						$(this).data('gdatetimepicker', new GDatetimepicker(this, params));
 					}
-					
-					if($this.data('start_view')){
-						if($this.data('start_view') == 'y'){
-							var start_view = GDatetimepicker.display_decade($this, parsed_date.Y, parsed_date.m - 1, parsed_date.d);
-						}else if($this.data('start_view') == 'm'){
-							var start_view = GDatetimepicker.display_year($this, parsed_date.Y, parsed_date.m - 1, parsed_date.d);
-						}else{
-							var start_view = GDatetimepicker.display_month($this, parsed_date.Y, parsed_date.m - 1, parsed_date.d);
-						}
-					}else{
-						var start_view = GDatetimepicker.display_month($this, parsed_date.Y, parsed_date.m - 1, parsed_date.d);
-					}
-					$this.gdatetimepicker('show', start_view);
-					/*$this.gtooltip_return().find('*').on('click', function(ch_e){
-						ch_e.stopPropagation();
-					});*/
-					/*$('html').on('click', function(e){
-						if(e.target != event.target){
-							$this.hide_picker();
-						}
-					});*/
-				});
-				/*$this.on('click', function(event){
-					event.stopPropagation();
-				});*/
-				$this.on('keypress', function(){
-					return false;
 				});
 			}
 			
-			if(option == 'show'){
-				$this.show_picker(contents);
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.day-item.selectable_date').on('click', function(){
-					var date = new Date($(this).data('time'));
-					var format = $this.data('gdatetimepicker-format') ? $this.data('gdatetimepicker-format') : GDatetimepicker.format;
-					$this.val(date.format_date(format));
-					
-					if($this.data('on_date_selected')){
-						var on_date_selected = $this.data('on_date_selected');
-						if(on_date_selected in window){
-							window[on_date_selected]($this);
-						}
-					}
-					$this.hide_picker();
-				});
+			if($.type(options) === 'string'){
+				params = $.extend(true, {}, $.gdatetimepicker, params);
 				
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.date-nav-item.switch_month').on('click', function(){
-					var month_data = GDatetimepicker.display_month($this, $(this).data('year'), $(this).data('month'));
-					$this.hide_picker();
-					//$this.show_picker(month_data);
-					$this.gdatetimepicker('show', month_data);
-				});
+				var picker = $(this).data('gdatetimepicker');
 				
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.date-nav-item.select_month').on('click', function(){
-					var year_data = GDatetimepicker.display_year($this, $(this).data('year'), $(this).data('month'));
-					$this.hide_picker();
-					//$this.show_picker(year_data);
-					$this.gdatetimepicker('show', year_data);
-				});
-				
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.month-item.switch_month').on('click', function(){
-					var month_data = GDatetimepicker.display_month($this, $(this).data('year'), $(this).data('month'));
-					$this.hide_picker();
-					//$this.show_picker(month_data);
-					$this.gdatetimepicker('show', month_data);
-				});
-				
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.date-nav-item.switch_year').on('click', function(){
-					var year_data = GDatetimepicker.display_year($this, $(this).data('year'));
-					$this.hide_picker();
-					$this.gdatetimepicker('show', year_data);
-				});
-				
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.date-nav-item.switch_decade').on('click', function(){
-					var decade_data = GDatetimepicker.display_decade($this, $(this).data('year'));
-					$this.hide_picker();
-					//$this.show_picker(decade_data);
-					$this.gdatetimepicker('show', decade_data);
-				});
-				
-				$this.gtooltip_return('gtooltip gdatetimepicker-panel').find('.year-item.switch_year').on('click', function(){
-					var year_data = GDatetimepicker.display_year($this, $(this).data('year'));
-					$this.hide_picker();
-					$this.gdatetimepicker('show', year_data);
-				});
+				switch (options){
+					case 'open':
+						return picker.show();
+					case 'hide':
+						return picker.open();
+					case 'destroy':
+						return picker.destroy();
+					case 'get':
+						return picker.get();
+				}
 			}
-		});
+		}
+	}
+	
+	var GDatetimepicker = function(elem, params){
+		this.element = elem;
+		this.settings = params;
+		
+		this.init();
+	};
+	
+	GDatetimepicker.prototype = {
+		init: function(){
+			var picker = this;
+			$(picker.element).on('focus', function(event){
+				var the_month = new Date();
+				var parsed_date = {'Y':the_month.getUTCFullYear(), 'm':the_month.getUTCMonth() + 1, 'd':the_month.getUTCDate()};
+				if($(picker.element).val()){
+					var date = new Date();
+					var format = $(picker.element).data('format') ? $(picker.element).data('format') : $.gdatetimepicker.format;
+					var parsed_date = date.parse_date($(picker.element).val(), format);
+				}
+				
+				if($(picker.element).data('start_view')){
+					if($(picker.element).data('start_view') == 'y'){
+						var start_view = $.gdatetimepicker.display_decade($(picker.element), parsed_date.Y, parsed_date.m - 1, parsed_date.d);
+					}else if($(picker.element).data('start_view') == 'm'){
+						var start_view = $.gdatetimepicker.display_year($(picker.element), parsed_date.Y, parsed_date.m - 1, parsed_date.d);
+					}else{
+						var start_view = $.gdatetimepicker.display_month($(picker.element), parsed_date.Y, parsed_date.m - 1, parsed_date.d);
+					}
+				}else{
+					var start_view = $.gdatetimepicker.display_month($(picker.element), parsed_date.Y, parsed_date.m - 1, parsed_date.d);
+				}
+				picker.create(start_view);
+			});
+			$(picker.element).on('keypress', function(){
+				return false;
+			});
+		},
+		
+		open: function(contents){
+			var picker = this;
+			$(picker.element).data('content', contents);
+			$(picker.element).gtooltip({'tipclass':'gtooltip gdatetimepicker-panel', 'tid':'dp', 'trigger':'manual', 'closable': 1, 'on_close': 'destroy'});
+			$(picker.element).gtooltip('show', {'tid':'dp'});
+		},
+
+		hide: function(){
+			var picker = this;
+			$(picker.element).gtooltip('destroy', {'tid':'dp'});
+		},
+		
+		create: function(contents){
+			var picker = this;
+			picker.open(contents);
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.day-item.selectable_date').on('click', function(){
+				var date = new Date($(this).data('time'));
+				var format = $(picker.element).data('format') ? $(picker.element).data('format') : $.gdatetimepicker.format;
+				$(picker.element).val(date.format_date(format));
+				$(picker.element).trigger('change');
+				
+				if($(picker.element).data('on_date_selected')){
+					var on_date_selected = $(picker.element).data('on_date_selected');
+					if(on_date_selected in window){
+						window[on_date_selected]($(picker.element));
+					}
+				}
+				picker.hide();
+			});
+			
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.date-nav-item.switch_month').on('click', function(){
+				var month_data = $.gdatetimepicker.display_month($(picker.element), $(this).data('year'), $(this).data('month'));
+				picker.hide();
+				picker.create(month_data);
+			});
+			
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.date-nav-item.select_month').on('click', function(){
+				var year_data = $.gdatetimepicker.display_year($(picker.element), $(this).data('year'), $(this).data('month'));
+				picker.hide();
+				picker.create(year_data);
+			});
+			
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.month-item.switch_month').on('click', function(){
+				var month_data = $.gdatetimepicker.display_month($(picker.element), $(this).data('year'), $(this).data('month'));
+				picker.hide();
+				picker.create(month_data);
+			});
+			
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.date-nav-item.switch_year').on('click', function(){
+				var year_data = $.gdatetimepicker.display_year($(picker.element), $(this).data('year'));
+				picker.hide();
+				picker.create(year_data);
+			});
+			
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.date-nav-item.switch_decade').on('click', function(){
+				var decade_data = $.gdatetimepicker.display_decade($(picker.element), $(this).data('year'));
+				picker.hide();
+				picker.create(decade_data);
+			});
+			
+			$(picker.element).gtooltip('get', {'tid':'dp'}).tip.find('.year-item.switch_year').on('click', function(){
+				var year_data = $.gdatetimepicker.display_year($(picker.element), $(this).data('year'));
+				picker.hide();
+				picker.create(year_data);
+			});
+		},
+		
 	}
 
 }(jQuery));

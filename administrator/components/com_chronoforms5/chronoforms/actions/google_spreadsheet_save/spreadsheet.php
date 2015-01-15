@@ -37,10 +37,10 @@ class Spreadsheet {
 			if(stripos($response, "auth=") !== false) {
 				preg_match("/auth=([a-z0-9_\-]+)/i", $response, $matches);
 				$this->token = $matches[1];
-				$this->debug["Authentictaion"] = "Success";
+				$this->debug["Authentication"] = "Success";
 			}
 		}else{
-			$this->debug["Authentictaion"] = "Failed";
+			$this->debug["Authentication"] = "Failed";
 		}
 	}
 

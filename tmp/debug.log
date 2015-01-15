@@ -1,0 +1,222 @@
+JTableMenu Object
+(
+    [parent_id] => 1
+    [level] => 
+    [lft] => 
+    [rgt] => 
+    [alias] => gdit
+    [_location:protected] => 
+    [_location_id:protected] => 
+    [_cache:protected] => Array
+        (
+        )
+
+    [_debug:protected] => 0
+    [_tbl:protected] => #__menu
+    [_tbl_key:protected] => id
+    [_tbl_keys:protected] => Array
+        (
+            [0] => id
+        )
+
+    [_db:protected] => JDatabaseDriverMysql Object
+        (
+            [name] => mysql
+            [nameQuote:protected] => `
+            [nullDate:protected] => 0000-00-00 00:00:00
+            [_database:JDatabaseDriver:private] => worksaver
+            [connection:protected] => Resource id #1
+            [count:protected] => 157
+            [cursor:protected] => Resource id #24
+            [debug:protected] => 
+            [limit:protected] => 0
+            [log:protected] => Array
+                (
+                )
+
+            [timings:protected] => Array
+                (
+                )
+
+            [callStacks:protected] => Array
+                (
+                )
+
+            [offset:protected] => 0
+            [options:protected] => Array
+                (
+                    [driver] => mysql
+                    [host] => localhost
+                    [user] => worksaver
+                    [password] => isshit67
+                    [database] => worksaver
+                    [prefix] => c35su_
+                    [select] => 1
+                    [port] => 
+                    [socket] => 
+                )
+
+            [sql:protected] => SHOW FULL COLUMNS FROM `#__menu`
+            [tablePrefix:protected] => c35su_
+            [utf:protected] => 1
+            [errorNum:protected] => 0
+            [errorMsg:protected] => 
+            [transactionDepth:protected] => 0
+            [disconnectHandlers:protected] => Array
+                (
+                )
+
+        )
+
+    [_trackAssets:protected] => 
+    [_rules:protected] => 
+    [_locked:protected] => 
+    [_autoincrement:protected] => 1
+    [_observers:protected] => JObserverUpdater Object
+        (
+            [observers:protected] => Array
+                (
+                )
+
+            [doCallObservers:protected] => 1
+        )
+
+    [_jsonEncode:protected] => Array
+        (
+        )
+
+    [_errors:protected] => Array
+        (
+        )
+
+    [id] => 
+    [menutype] => authormenu
+    [title] => gdit
+    [note] => 
+    [path] => 
+    [link] => index.php?option=com_content&view=article&id=296
+    [type] => component
+    [published] => 1
+    [component_id] => 22
+    [checked_out] => 
+    [checked_out_time] => 
+    [browserNav] => 
+    [access] => 1
+    [img] => 
+    [template_style_id] => 
+    [params] => {"filter":1,"filter_type":"title"}
+    [home] => 
+    [language] => *
+    [client_id] => 
+)
+JTableMenu Object
+(
+    [parent_id] => 1
+    [level] => 
+    [lft] => 
+    [rgt] => 
+    [alias] => cbake-debug45
+    [_location:protected] => 
+    [_location_id:protected] => 
+    [_cache:protected] => Array
+        (
+        )
+
+    [_debug:protected] => 0
+    [_tbl:protected] => #__menu
+    [_tbl_key:protected] => id
+    [_tbl_keys:protected] => Array
+        (
+            [0] => id
+        )
+
+    [_db:protected] => JDatabaseDriverMysql Object
+        (
+            [name] => mysql
+            [nameQuote:protected] => `
+            [nullDate:protected] => 0000-00-00 00:00:00
+            [_database:JDatabaseDriver:private] => worksaver
+            [connection:protected] => Resource id #1
+            [count:protected] => 154
+            [cursor:protected] => Resource id #23
+            [debug:protected] => 
+            [limit:protected] => 0
+            [log:protected] => Array
+                (
+                )
+
+            [timings:protected] => Array
+                (
+                )
+
+            [callStacks:protected] => Array
+                (
+                )
+
+            [offset:protected] => 0
+            [options:protected] => Array
+                (
+                    [driver] => mysql
+                    [host] => localhost
+                    [user] => worksaver
+                    [password] => isshit67
+                    [database] => worksaver
+                    [prefix] => c35su_
+                    [select] => 1
+                    [port] => 
+                    [socket] => 
+                )
+
+            [sql:protected] => SHOW FULL COLUMNS FROM `#__menu`
+            [tablePrefix:protected] => c35su_
+            [utf:protected] => 1
+            [errorNum:protected] => 0
+            [errorMsg:protected] => 
+            [transactionDepth:protected] => 0
+            [disconnectHandlers:protected] => Array
+                (
+                )
+
+        )
+
+    [_trackAssets:protected] => 
+    [_rules:protected] => 
+    [_locked:protected] => 
+    [_autoincrement:protected] => 1
+    [_observers:protected] => JObserverUpdater Object
+        (
+            [observers:protected] => Array
+                (
+                )
+
+            [doCallObservers:protected] => 1
+        )
+
+    [_jsonEncode:protected] => Array
+        (
+        )
+
+    [_errors:protected] => Array
+        (
+        )
+
+    [id] => 
+    [menutype] => authormenu
+    [title] => cbake-debug45
+    [note] => 
+    [path] => 
+    [link] => index.php?option=com_content&view=article&id=300
+    [type] => component
+    [published] => 1
+    [component_id] => 22
+    [checked_out] => 
+    [checked_out_time] => 
+    [browserNav] => 
+    [access] => 1
+    [img] => 
+    [template_style_id] => 
+    [params] => {"filter":1,"filter_type":"title"}
+    [home] => 
+    [language] => *
+    [client_id] => 
+)

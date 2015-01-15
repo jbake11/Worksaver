@@ -187,6 +187,9 @@ class Document {
 			case 'gvalidation':
 				$this->_('gtooltip');
 				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gvalidation/gvalidation.js');
+				if(!empty($params['lang'])){
+					$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gvalidation/lang/'.$params['lang'].'.js');
+				}
 				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gvalidation/gvalidation.css');
 			break;
 			case 'gdatetimepicker':
@@ -201,6 +204,22 @@ class Document {
 			case 'gtooltip':
 				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gtooltip/gtooltip.js');
 				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gtooltip/gtooltip.css');
+			break;
+			case 'gmodal':
+				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gmodal/gmodal.js');
+				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gmodal/gmodal.css');
+			break;
+			case 'gtabs':
+				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gtabs/gtabs.js');
+				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gtabs/gtabs.css');
+			break;
+			case 'gsliders':
+				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gsliders/gsliders.js');
+				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/gsliders/gsliders.css');
+			break;
+			case 'geditor':
+				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/geditor/geditor.js');
+				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/geditor/geditor.css');
 			break;
 			case 'select2':
 				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/select2/select2.min.js');
@@ -230,13 +249,12 @@ class Document {
 				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/geditor/geditor.js');
 				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/gplugins/geditor/geditor.css');
 			break;
+			case 'highlight':
+				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/highlight/highlight.pack.js');
+				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/highlight/styles/'.(!empty($params['style']) ? $params['style'] : 'default').'.css');
+				$this->addJsCode('hljs.initHighlightingOnLoad();');
+			break;
 			default:
-				/*$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/jquery/uitems/jquery.ui.core.min.js');
-				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/jquery/uitems/jquery.ui.widget.min.js');
-				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/jquery/uitems/jquery.ui.position.min.js');
-				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/jquery/uitems/jquery.ui.menu.min.js');
-				$this->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'assets/jquery/uitems/jquery.ui.'.$name.'.min.js');
-				$this->addCssFile(\GCore\C::get('GCORE_FRONT_URL').'assets/jquery/'.Base::getConfig('jquery_theme', 'base').'/jquery-ui.min.css');*/
 				break;
 		}
 	}

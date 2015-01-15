@@ -26,6 +26,7 @@ defined("GCORE_SITE") or die;
 	$doc->addJsFile(\GCore\C::get('GCORE_FRONT_URL').'extensions/editors/assets/tinymce/tinymce.min.js');
 
 	$save_ext = '';
+	$save_ext .= 'jQuery("#admin_form :input[name*=\'{N}\']").remove();'; //remove the default fields/actions fields to save some post data space
 	if($chronoforms_settings->get('wizard.safe_save', 1)){
 		if(!(int)$chronoforms_settings->get('wizard.safe_save_chunk_size', 0)){
 			$save_ext .= '
@@ -52,6 +53,15 @@ defined("GCORE_SITE") or die;
 		jQuery(".serialized_form_data_chunks").prop("disabled", false);
 		';
 	}
+	$simple_wizard_fix = '';
+	if(!empty($this->data['setup']) OR !empty($this->data['Form']['params']['setup'])){
+		//simple form, disable the editor in email actions.
+		$simple_wizard_fix = '
+			HideEditor(jQuery("#email_0"));
+			HideEditor(jQuery("#email_1"));
+			HideEditor(jQuery("#thanks_message_4"));
+		';
+	}
 	$doc->addJsCode('
 		function test_form(){
 			'.(!empty($this->data['Form']['title']) ? 'window.open("'.r_(\GCore\C::get('GCORE_ROOT_URL').'index.php?ext=chronoforms&chronoform='.$this->data['Form']['title']).'");' : 'alert("'.l_('CF_SAVE_FORM_FIRST').'");').'
@@ -60,6 +70,7 @@ defined("GCORE_SITE") or die;
 			if(!jQuery("#cform_name").val().trim() || jQuery("#cform_name").val().match(/ /)){
 				alert("'.l_('CF_FORM_TITLE_REQUIRED').'");
 			}else{
+				'.$simple_wizard_fix.'
 				'.$save_ext.'
 				jQuery(".toolbar-button").prop("disabled", true);
 				jQuery("#admin_form").submit();
@@ -153,8 +164,8 @@ defined("GCORE_SITE") or die;
 		$(".PopOverReady").on("hidden.bs.tooltip", function(){
 			$(this).show();
 		});*/
-		$(".PopOverReady").gtooltip({"append":"body", "awaytime":0, "position":"right"});
-		$(".PopOverReady").gtooltip("hover");
+		$(".PopOverReady").gtooltip({"append":"body", "awaytime":0, "position":"right", "resetOnShow":true});
+		//$(".PopOverReady").gtooltip("hover");
 	});
 </script>
 <script>
@@ -841,7 +852,7 @@ jQuery(window).scroll(function(){
 				var Element = $(this).closest('.form_action');
 				//$(this).closest('.form_action').find('.action_config').last().modal();
 				$('#modal_generic_config').find('.modal-body').empty();
-				$('#modal_generic_config').find('.modal-title').html('<?php echo l_('CF_EDIT_ACTION_SETTINGS'); ?>');
+				$('#modal_generic_config').find('.modal-title').html('<?php echo l_('CF_EDIT_ACTION_SETTINGS'); ?>:'+'&nbsp;'+$(this).closest('.panel-heading').find('.action-title-labels').html());
 				var Element_Config = Element.children('.panel-body').children('.action_config').last();
 				Element_Config.css('display', 'block');
 				$('#modal_generic_config').find('.modal-body').append(Element_Config);
@@ -869,7 +880,7 @@ jQuery(window).scroll(function(){
 					'class':'cfaction_'+ui.draggable.attr('id')+'_element_view wizard_element form_action panel panel-default',
 					'item_id':ui.draggable.attr('id'),
 				});
-				form_action.append('<div class="panel-heading"><div class="pull-left"><span class="form_action_label label label-primary">'+ui.draggable.attr('title')+'</span><span class="label label-info action_icon_number" style="">'+action_count+'</span></div></div>');
+				form_action.append('<div class="panel-heading"><div class="pull-left action-title-labels"><span class="form_action_label label label-primary">'+ui.draggable.attr('title')+'</span><span class="label label-info action_icon_number" style="">'+action_count+'</span></div></div>');
 
 				var action_icons = $('<div/>', {
 					'id':'action_icons_'+action_count,
@@ -1003,6 +1014,7 @@ jQuery(window).scroll(function(){
 					<li><a href="#locales" data-g-toggle="tab"><?php echo l_('CF_LOCALES'); ?></a></li>
 					<li><a href="#db_settings" data-g-toggle="tab"><?php echo l_('CF_DB_SETTINGS'); ?></a></li>
 					<li><a href="#style" data-g-toggle="tab"><?php echo l_('CF_STYLE'); ?></a></li>
+					<li><a href="#validation" data-g-toggle="tab"><?php echo l_('CF_VALIDATION'); ?></a></li>
 				</ul>
 			</div>
 			<div class="panel-body">
@@ -1011,7 +1023,7 @@ jQuery(window).scroll(function(){
 						<?php echo $this->Html->formStart(); ?>
 						<?php echo $this->Html->formSecStart(); ?>
 						<?php echo $this->Html->formLine('Form[title]', array('type' => 'text', 'id' => 'cform_name', 'label' => l_('CF_FORM_NAME'), 'class' => 'L validate["required"]', 'sublabel' => l_('CF_FORM_NAME_DESC'))); ?>
-						<?php echo $this->Html->formLine('Form[params][description]', array('type' => 'text', 'label' => l_('CF_FORM_DESC'), 'class' => 'XL', 'sublabel' => l_('CF_FORM_DESC_DESC'))); ?>
+						<?php echo $this->Html->formLine('Form[params][description]', array('type' => 'textarea', 'label' => l_('CF_FORM_DESC'), 'rows' => 4, 'cols' => 70, 'sublabel' => l_('CF_FORM_DESC_DESC'))); ?>
 						<?php echo $this->Html->formLine('Form[published]', array('type' => 'dropdown', 'label' => l_('CF_PUBLISHED'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'values' => 1)); ?>
 						<?php echo $this->Html->formLine('Form[params][setup]', array('type' => 'dropdown', 'id' => 'cform_setup', 'label' => l_('CF_SETUP_MODE'), 'values' => (!empty($this->data['setup']) ? 1 : 0), 'options' => array(0 => l_('CF_ADVANCED'), 1 => l_('CF_SIMPLE')), 'sublabel' => l_('CF_SETUP_MODE_DESC'))); ?>
 						<?php //echo $this->Html->formLine('Form[params][html_helper_set]', array('type' => 'dropdown', 'label' => l_('CF_DESIGNER_SET'), 'options' => array('div' => 'DIV', 'table' => 'TABLE', 'ul' => 'UL'), 'sublabel' => l_('CF_DESIGNER_SET_DESC'))); ?>
@@ -1486,6 +1498,7 @@ jQuery(window).scroll(function(){
 								}
 							}
 						}
+						$tables = array_unique($tables);
 						?>
 						<?php foreach($tables as $table): ?>
 							<?php echo $this->Html->formLine('Form[extras][db_fields_list]['.$table.']', array('type' => 'textarea', 'label' => array('text' => sprintf(l_('CF_DB_FIELDS_LIST'), $table), 'position' => 'top'), 'style' => 'width:auto;', 'rows' => 7, 'cols' => 100, 'sublabel' => l_('CF_DB_FIELDS_LIST_DESC'))); ?>
@@ -1497,11 +1510,46 @@ jQuery(window).scroll(function(){
 					<div id="style" class="tab-pane">
 						<?php echo $this->Html->formStart(); ?>
 						<?php echo $this->Html->formSecStart(); ?>
-						<?php echo $this->Html->formLine('Form[params][theme]', array('type' => 'dropdown', 'id' => 'cform_bootstrap', 'label' => l_('CF_FORM_THEME'), 'values' => 'bootstrap3', 'options' => array('gcoreui' => l_('GCoreUI'), 'bootstrap3' => l_('Bootstrap3'), 'none' => l_('CF_NONE')/*, 'semantic1' => l_('Semantic 1')*/), 'sublabel' => l_('CF_FORM_THEME_DESC'))); ?>
+						<?php echo $this->Html->formLine('Form[params][theme]', array('type' => 'dropdown', 'id' => 'cform_bootstrap', 'label' => l_('CF_FORM_THEME'), 'values' => 'bootstrap3', 'options' => array('gcoreui' => l_('GCoreUI'), 'bootstrap3' => l_('Bootstrap3'), 'bootstrap3_pure' => l_('Pure Bootstrap3'), 'none' => l_('CF_NONE')/*, 'semantic1' => l_('Semantic 1')*/), 'sublabel' => l_('CF_FORM_THEME_DESC'))); ?>
+						<?php //echo $this->Html->formLine('Form[params][responsive_layout]', array('type' => 'dropdown', 'label' => l_('CF_RESPONSIVE_LAYOUT'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_RESPONSIVE_LAYOUT_DESC'))); ?>
 						<?php echo $this->Html->formLine('Form[params][tight_layout]', array('type' => 'dropdown', 'label' => l_('CF_TIGHT_LAYOUT'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_TIGHT_LAYOUT_DESC'))); ?>
 						<?php echo $this->Html->formLine('Form[params][rtl_support]', array('type' => 'dropdown', 'label' => l_('CF_RTL_SUPPORT'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_RTL_SUPPORT_DESC'))); ?>
 						<?php echo $this->Html->formLine('Form[params][labels_right_aligned]', array('type' => 'dropdown', 'label' => l_('CF_LABELS_RIGHT_ALIGNED'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_LABELS_RIGHT_ALIGNED_DESC'))); ?>
 						<?php echo $this->Html->formLine('Form[params][labels_auto_width]', array('type' => 'dropdown', 'label' => l_('CF_LABELS_AUTO_WIDTH'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_LABELS_AUTO_WIDTH_DESC'))); ?>
+						<?php echo $this->Html->formSecEnd(); ?>
+						<?php echo $this->Html->formEnd(); ?>
+					</div>
+					
+					<div id="validation" class="tab-pane">
+						<?php echo $this->Html->formStart(); ?>
+						<?php echo $this->Html->formSecStart(); ?>
+						<?php echo $this->Html->formLine('Form[params][js_validation_language]', array('type' => 'dropdown', 'label' => l_('CF_JS_VALIDATION_LANGUAGE'), 'options' => 
+						array(
+							'' => l_('CF_JS_VALIDATION_LANGUAGE_DYNAMIC'),
+							'en' => 'English', 
+							'fr' => 'French', 
+							'de' => 'Deutsch', 
+							'nl' => 'Dutch', 
+							'es' => 'Spanish', 
+							'da' => 'Danish', 
+							'it' => 'Italian', 
+							'jp' => 'Japanese', 
+							'cn' => 'Chinese', 
+							'ru' => 'Russain', 
+							'pt' => 'Portugese', 
+							'gr' => 'Greek', 
+							'tr' => 'Turkish', 
+							'pl' => 'Polish', 
+							'ro' => 'Romanian', 
+							'no' => 'Norwegian bokmål', 
+							'fa' => 'Farsi', 
+							'lv' => 'Latvian', 
+							'sl' => 'Slovenščina', 
+							'sk' => 'Slovak', 
+							'cz' => 'Čeština', 
+							'th' => 'Thai'
+						), 
+						'sublabel' => l_('CF_JS_VALIDATION_LANGUAGE_DESC'))); ?>
 						<?php echo $this->Html->formSecEnd(); ?>
 						<?php echo $this->Html->formEnd(); ?>
 					</div>

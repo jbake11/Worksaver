@@ -188,6 +188,13 @@ class Form extends \GCore\Libs\GModel {
 			}
 			$field['values'] = $values;
 		}
+		if(!empty($field['data'])){
+			foreach($field['data'] as $k => $v){
+				if(!empty($v)){
+					$field[':data-'.$k] = $v;
+				}
+			}
+		}
 		if(isset($field['params'])){
 			$params = array();
 			if(!empty($field['params'])){
@@ -198,7 +205,12 @@ class Form extends \GCore\Libs\GModel {
 				$lines = explode("\n", $field['params']);
 				foreach($lines as $line){
 					$opts = explode("=", $line);
-					$field[':'.trim($opts[0])] = isset($opts[1]) ? trim($opts[1]) : trim($opts[0]);
+					if(isset($field[trim($opts[0])])){
+						//here we override any existing field parameter using th extra params box
+						$field[trim($opts[0])] = isset($opts[1]) ? trim($opts[1]) : trim($opts[0]);
+					}else{
+						$field[':'.trim($opts[0])] = isset($opts[1]) ? trim($opts[1]) : trim($opts[0]);
+					}
 				}
 			}
 		}
@@ -228,34 +240,39 @@ class Form extends \GCore\Libs\GModel {
 
 	function build_container_code($field = array(), $tag = 'start', $id){
 		if($tag == 'start'){
+			$attachment = !empty($field['load-state']) ? ' data-load-state="'.$field['load-state'].'"' : '';
 			switch($field['container_type']){
 				case '':
 					return '';
 				case 'div':
-					return '<div class="'.$field['class'].'" id="'.$field['id'].'">';
+					return '<div class="'.$field['class'].'" id="'.$field['id'].'"'.$attachment.'>';
 				case 'multiplier':
-					return '<div class="'.$field['class'].'" id="'.$field['id'].'"><div class="multiplier-contents">';
+					$multiplier_code = '<div class="'.$field['class'].' multiplier-container" id="'.$field['id'].'"'.$attachment.' '.(!empty($field['multiplier']['hide_first']) ? 'data-hide_first="1"' : '').' '.(!empty($field['multiplier']['disable_first']) ? 'data-disable_first="1"' : '').' data-replacer="'.$field['multiplier']['replacer'].'" data-count="'.$field['multiplier']['count'].'">';
+					$multiplier_code .= '<?php ob_start(); ?>';
+					return $multiplier_code;
+				case 'multiplier-contents':
+					return '<div class="'.$field['class'].' multiplier-contents" id="'.$field['id'].'"'.$attachment.'>';
 				case 'custom':
 					return $field['start_code'];
 				case 'column':
-					return '<div class="'.$field['class'].'" id="'.$field['id'].'" style="float:left; width:'.$field['size']['width'].'%">';
+					return '<div class="'.$field['class'].'" id="'.$field['id'].'" style="float:left; width:'.$field['size']['width'].'%"'.$attachment.'>';
 				case 'multi_column':
-					return '<div class="'.$field['class'].'" id="'.$field['id'].'" style="overflow:auto;">';
+					return '<div class="'.$field['class'].'" id="'.$field['id'].'" style="overflow:auto;"'.$attachment.'>';
 				case 'page':
 					return '';
 				case 'fieldset':
-					return '<fieldset class="'.$field['class'].'" id="'.$field['id'].'">
+					return '<fieldset class="'.$field['class'].'" id="'.$field['id'].'"'.$attachment.'>
 					<legend>'.$field['title'].'</legend>';
 				case 'panel':
-					return '<div class="panel panel-default '.$field['class'].'" id="'.$field['id'].'">
+					return '<div class="panel panel-default '.$field['class'].'" id="'.$field['id'].'"'.$attachment.'>
 					<div class="panel-heading">'.$field['title'].'</div>
 					<div class="panel-body">';
 				case 'tabs_area':
-					return '<div class="'.$field['class'].'" id="'.$field['id'].'">
+					return '<div class="'.$field['class'].'" id="'.$field['id'].'"'.$attachment.'>
 					<ul class="nav nav-tabs">'.'__TABS_TITLES__'.$id.'__'.'</ul>
 					<div class="tab-content">';
 				case 'pills_area':
-					return '<div class="'.$field['class'].'" id="'.$field['id'].'">
+					return '<div class="'.$field['class'].'" id="'.$field['id'].'"'.$attachment.'>
 					<ul class="nav nav-pills">'.'__TABS_TITLES__'.$id.'__'.'</ul>
 					<div class="tab-content">';
 				case 'tab':
@@ -267,7 +284,7 @@ class Form extends \GCore\Libs\GModel {
 					return '<div id="'.$field['id'].'" class="'.$class.'">';
 				case 'sliders_area':
 					self::$sliders[$id]['id'] = $field['id'];
-					return '<div class="panel-group '.$field['class'].'" id="'.$field['id'].'">';
+					return '<div class="panel-group '.$field['class'].'" id="'.$field['id'].'"'.$attachment.'>';
 				case 'slider':
 					$class = ' collapse';
 					if(empty(self::$sliders[$field['container_id']]['class'])){
@@ -286,10 +303,27 @@ class Form extends \GCore\Libs\GModel {
 				case 'div':
 					return '</div>';
 				case 'multiplier':
+					$multiplier_code = '<?php $multiplier_code = ob_get_clean(); ?>';
+					$multiplier_code .= '<?php echo $multiplier_code; ?>';
+					if(!empty($field['multiplier']['data_path'])){
+						$multiplier_code .= '<?php $count = count(\GCore\Libs\Arr::getVal($form->data, explode(".", "'.$field['multiplier']['data_path'].'"), array())); ?>';
+						$multiplier_code .= '<?php for($i = '.(int)$field['multiplier']['count'].'; $i < $count; $i++): ?>';
+						$multiplier_code .= '<?php echo str_replace("'.$field['multiplier']['replacer'].'", $i, $multiplier_code); ?>';
+						$multiplier_code .= '<?php endfor; ?>';
+					}else if(!empty($field['multiplier']['start_count']) AND is_numeric($field['multiplier']['start_count'])){
+						$multiplier_code .= '<?php for($i = '.(int)$field['multiplier']['count'].'; $i <'.((int)$field['multiplier']['count'] + (int)$field['multiplier']['start_count']).'; $i++): ?>';
+						$multiplier_code .= '<?php echo str_replace("'.$field['multiplier']['replacer'].'", $i, $multiplier_code); ?>';
+						$multiplier_code .= '<?php endfor; ?>';
+					}else{
+						
+					}
+					$multiplier_code .= '
+					'.(!empty($field['multiplier']['hide_buttons']) ? '' : '<span class="btn btn-success btn-sm multiplier-add-button"><i class="fa fa-plus fa-lg"></i></span>').'
+					</div>';
+					return $multiplier_code;
+				case 'multiplier-contents':
 					return '
-					<span class="btn btn-danger btn-xs multiplier-remove-button"><i class="fa fa-times fa-lg"></i></span>
-					</div>
-					<span class="btn btn-success btn-sm multiplier-add-button" data-replacer="'.$field['multiplier']['replacer'].'" data-count="'.$field['multiplier']['count'].'"><i class="fa fa-plus fa-lg"></i></span>
+					'.(!empty($field['multiplier-contents']['hide_buttons']) ? '' : '<span class="btn btn-danger btn-xs multiplier-remove-button"><i class="fa fa-times fa-lg"></i></span>').'
 					</div>';
 				case 'custom':
 					return $field['end_code'];

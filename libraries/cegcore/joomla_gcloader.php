@@ -29,6 +29,8 @@ if(empty($fails)){
 			'chronoforums' => 'com_chronoforums',
 			'chronolistings' => 'com_chronolistings',
 			'chronocommunity' => 'com_chronocommunity',
+			'chronosearch' => 'com_chronosearch',
+			'chronocontact' => 'com_chronocontact',
 		);
 		foreach($alters as $k => $v){
 			$url = str_replace('ext='.$k, 'option='.$v, $url);
@@ -70,6 +72,8 @@ if(empty($fails)){
 				'chronoforums' => 'com_chronoforums',
 				'chronolistings' => 'com_chronolistings',
 				'chronocommunity' => 'com_chronocommunity',
+				'chronosearch' => 'com_chronosearch',
+				'chronocontact' => 'com_chronocontact',
 				$extension => 'com_'.$joption,
 			));
 

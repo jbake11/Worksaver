@@ -22,6 +22,7 @@ class Chronoforms extends \GCore\Libs\GController {
 	function index(){
 		$this->Form->order_by = 'Form.id';
 		$this->_sortable();
+		$this->_search(array('Form.title', 'Form.app', 'Form.params'));
 		$this->_paginate();
 		$forms = $this->Form->find('all');
 		$this->set('forms', $forms);
@@ -30,10 +31,13 @@ class Chronoforms extends \GCore\Libs\GController {
 			$domain = str_replace(array('http://', 'https://'), '', \GCore\Libs\Url::domain());
 			if(\GCore\C::get('GSITE_PLATFORM') == 'wordpress'){
 				$session->setFlash('error', "Your ChronoForms installation on <strong>".$domain."</strong> is NOT validated, the number of published forms has been limited to 1 form only per website.");
+				$session->setFlash('info', "You can add any form to any of your website pages using this shortcode: [Chronoforms5 chronoform=\"FORM_NAME\"]");
 			}else{
 				$session->setFlash('error', "Your ChronoForms installation on <strong>".$domain."</strong> is NOT validated.");
 			}
 		}
+		parent::_settings('chronoforms');
+		$this->set('chronoforms_settings', new \GCore\Libs\Parameter($this->data['Chronoforms']));
 	}
 
 	function toggle(){
@@ -124,6 +128,7 @@ class Chronoforms extends \GCore\Libs\GController {
 	}
 
 	function save(){
+		$session = \GCore\Libs\Base::getSession();
 		parent::_settings('chronoforms');
 		$chronoforms_settings = new \GCore\Libs\Parameter($this->data['Chronoforms']);
 		if($chronoforms_settings->get('wizard.safe_save', 1)){
@@ -172,12 +177,12 @@ class Chronoforms extends \GCore\Libs\GController {
 			if($this->Request->get('save_act') == 'apply'){
 				$this->redirect(r_('index.php?ext=chronoforms&act=edit&id='.$this->Form->id));
 			}else{
+				$session->setFlash('success', sprintf(l_('CF_FORM_X_HAS_BEEN_UPDATED'), $this->data['Form']['title']));
 				$this->redirect(r_('index.php?ext=chronoforms'));
 			}
 		}else{
 			$this->edit();
 			$this->view = 'edit';
-			$session = \GCore\Libs\Base::getSession();
 			$session->setFlash('error', \GCore\Libs\Arr::flatten($this->Form->errors));
 		}
 	}
@@ -610,6 +615,28 @@ class Chronoforms extends \GCore\Libs\GController {
 		$exporter->execute($form, 0);
 	}
 	
+	function backup_records(){
+		if(empty($this->data['table'])){
+			$session = \GCore\Libs\Base::getSession();
+			$session->setFlash('error', l_('CF_NO_TABLES_SELECTED'));
+			$this->redirect(r_('index.php?ext=chronoforms'));
+		}
+		
+		\GCore\Libs\Model::generateModel('ListData', array('tablename' => $this->data['table']));
+		$list_model = '\GCore\Models\ListData';
+		$list = $list_model::getInstance()->find('all', array('conditions' => array($list_model::getInstance()->pkey => $this->data['gcb'])));
+		$rows = array();
+		foreach($list as $i){
+			$rows[] = $i['ListData'];
+		}
+		
+		$form = new \stdClass();
+		$form->actions_config[0] = array('data_path' => 'ListData', 'enabled' => 1);
+		$form->data['ListData'] = $rows;
+		$exporter = new \GCore\Admin\Extensions\Chronoforms\Actions\CsvExport\CsvExport();
+		$exporter->execute($form, 0);
+	}
+	
 	function action_task(){
 		$action = \GCore\Libs\Str::camilize($this->data['action_name']);
 		$fn = $this->data['action_fn'];
@@ -666,7 +693,6 @@ class Chronoforms extends \GCore\Libs\GController {
 
 	function _validated(){
 		parent::_settings('chronoforms');
-		return true;
 		if(isset($this->data['Chronoforms']['validated']) AND (int)$this->data['Chronoforms']['validated'] == 1){
 			return true;
 		}
@@ -702,6 +728,9 @@ class Chronoforms extends \GCore\Libs\GController {
 			if($this->data['pid'] == 7){
 				$update_fld = 'validated_authorize';
 			}
+			if($this->data['pid'] == 31){
+				$update_fld = 'validated_2checkout';
+			}
 			//$postfields = array();
 			unset($this->data['option']);
 			unset($this->data['act']);
@@ -734,7 +763,7 @@ class Chronoforms extends \GCore\Libs\GController {
 				$this->data['Chronoforms'][$update_fld] = 1;
 				$result = parent::_save_settings('chronoforms');
 				if($result){
-					$session->setFlash('success', 'Validated successflly.');
+					$session->setFlash('success', 'Validated successfully.');
 					$this->redirect(r_('index.php?ext=chronoforms'));
 				}else{
 					$session->setFlash('error', 'Validation error.');
@@ -759,7 +788,7 @@ class Chronoforms extends \GCore\Libs\GController {
 						$this->data['Chronoforms'][$update_fld] = 1;
 						$result = parent::_save_settings('chronoforms');
 						if($result){
-							$session->setFlash('success', 'Validated successflly.');
+							$session->setFlash('success', 'Validated successfully.');
 							$this->redirect(r_('index.php?ext=chronoforms'));
 						}else{
 							$session->setFlash('error', 'Validation error.');
