@@ -2641,9 +2641,9 @@ class RSFormProHelper {
                     $defaultValue = RSFormProHelper::isCode($data['DEFAULTVALUE']);
                 }
 
-                $className = 'rsform-input-box';
+                $className = 'rsform-input-box  form-control';
                 if ($invalid)
-                    $className .= ' rsform-error';
+                    $className .= ' form-control rsform-error';
                 RSFormProHelper::addClass($data['ADDITIONALATTRIBUTES'], $className);
 
                 $out .= '<input type="text" value="' . (isset($value[$data['NAME']]) ? RSFormProHelper::htmlEscape($value[$data['NAME']]) : RSFormProHelper::htmlEscape($defaultValue)) . '" size="' . $data['SIZE'] . '" ' . ((int) $data['MAXSIZE'] > 0 ? 'maxlength="' . (int) $data['MAXSIZE'] . '"' : '') . ' name="form[' . $data['NAME'] . ']" id="' . $data['NAME'] . '" ' . $data['ADDITIONALATTRIBUTES'] . '/>';
@@ -2653,7 +2653,7 @@ class RSFormProHelper {
             case 'textArea':
                 $defaultValue = RSFormProHelper::isCode($data['DEFAULTVALUE']);
 
-                $className = 'rsform-text-box';
+                $className = 'rsform-text-box  form-control';
                 if ($invalid)
                     $className .= ' rsform-error';
                 RSFormProHelper::addClass($data['ADDITIONALATTRIBUTES'], $className);
@@ -2666,9 +2666,9 @@ class RSFormProHelper {
 
             case 3:
             case 'selectList':
-                $className = 'rsform-select-box';
+                $className = 'rsform-select-box  form-control';
                 if ($invalid)
-                    $className .= ' rsform-error';
+                    $className .= ' rsform-error ';
                 RSFormProHelper::addClass($data['ADDITIONALATTRIBUTES'], $className);
 
                 $out .= '<select ' . ($data['MULTIPLE'] == 'YES' ? 'multiple="multiple"' : '') . ' name="form[' . $data['NAME'] . '][]" ' . ((int) $data['SIZE'] > 0 ? 'size="' . (int) $data['SIZE'] . '"' : '') . ' id="' . $data['NAME'] . '" ' . $data['ADDITIONALATTRIBUTES'] . ' >';
@@ -2931,7 +2931,7 @@ class RSFormProHelper {
 
             case 9:
             case 'fileUpload':
-                $className = 'rsform-upload-box';
+                $className = 'rsform-upload-box  form-control';
                 if ($invalid)
                     $className .= ' rsform-error';
                 RSFormProHelper::addClass($data['ADDITIONALATTRIBUTES'], $className);
@@ -3008,7 +3008,7 @@ class RSFormProHelper {
                         $out .= '<input type="button" value="' . RSFormProHelper::htmlEscape($data['PREVBUTTON']) . '"  id="' . $data['NAME'] . 'Prev" ' . $data['ADDITIONALATTRIBUTES3'] . ' />';
                 }
                 if ($button_type == 'button')
-                    $out .= '<button type="submit" name="form[' . $data['NAME'] . ']" id="' . $data['NAME'] . '" ' . $data['ADDITIONALATTRIBUTES'] . '>' . RSFormProHelper::htmlEscape($data['LABEL']) . '</button>';
+                    $out .= '<button type="submit"  name="form[' . $data['NAME'] . ']" id="' . $data['NAME'] . '" ' . $data['ADDITIONALATTRIBUTES'] . '>' . RSFormProHelper::htmlEscape($data['LABEL']) . '</button>';
                 else
                     $out .= '<input type="submit" value="' . RSFormProHelper::htmlEscape($data['LABEL']) . '" name="form[' . $data['NAME'] . ']" id="' . $data['NAME'] . '" ' . $data['ADDITIONALATTRIBUTES'] . ' />';
                 if ($data['RESET'] == 'YES') {
