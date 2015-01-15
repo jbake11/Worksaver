@@ -2987,7 +2987,7 @@ class RSFormProHelper {
 
                 $data['ADDITIONALATTRIBUTES2'] = $data['ADDITIONALATTRIBUTES'];
 
-                $className = 'rsform-submit-button';
+                $className = 'rsform-submit-button btn btn-lg btn-primary';
                 RSFormProHelper::addClass($data['ADDITIONALATTRIBUTES'], $className);
 
                 $data['ADDITIONALATTRIBUTES3'] = $data['ADDITIONALATTRIBUTES'];
