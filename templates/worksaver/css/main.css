@@ -246,6 +246,11 @@
     padding: 0;
 }
 
+.video-align{
+    width: 50%;
+    margin: 0 auto;
+}
+
 #header{
     background: url('/templates/worksaver/images/headbg.jpg') center  no-repeat;
     background-size: cover;

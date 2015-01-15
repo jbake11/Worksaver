@@ -81,3 +81,42 @@
 </div>
 <br />
 
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr>
+                    <td>Product</td>
+                    <td>Model</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td><img class="img-responsive" src="/images/hitch-kits/hk-90.jpg" alt="Photo of HK-90" /></td>
+                    <td><br />HK-90</td>
+                    <td>Model: Standard Cub - Cat. 0/I, (Not for Lo-Boy or Cadet Lawnmower) (Uses existing hydraulic lift)<br /><br /><a href="/3-pt-hitch-adapter-kits-hk-90-parts-list">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hk-90-91ws.pdf">Download Manual</a></td>
+                </tr>
+                <tr>
+                    <td><img class="img-responsive" src="/images/hitch-kits/hk-90.jpg" alt="Photo of HK-90" /></td>
+                    <td><br />HK-91</td>
+                    <td>Model: Cub Lo-Boy - Cat. 0/I (Uses existing hydraulic lift), (Not for 154, 184, 185 models) (Not for Cadet Cub Lawnmower)&nbsp;<br /><br /><a href="/3-pt-hitch-adapter-kits-hk-90-parts-list">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hk-90-91ws.pdf">Download Manual</a></td>
+                </tr>
+                <tr>
+                    <td><img class="img-responsive" src="/images/hitch-kits/hk-95.jpg" alt="Photo of HK-95" /></td>
+                    <td><br />HK-95</td>
+                    <td>Models: Super A, 100, 130, 140 - Cat. I, With standard pull-type drawbar (Uses existing hydraulic lift)<br /><br /><a href="/3-pt-hitch-adapter-kits-hk-95-parts-list">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hk-95-96.pdf">Download Manual</a></td>
+                </tr>
+                <tr>
+                    <td><img class="img-responsive" src="/images/hitch-kits/hk-95.jpg" alt="Photo of HK-95" /></a></td>
+                    <td><br />HK-96</td>
+                    <td>Models: 100, 130, 140 - Cat. I , (With IH 1-pt. fast hitch) (Uses existing hydraulic lift)<br /><br /><a href="/3-pt-hitch-adapter-kits-hk-96-parts-list">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hk-95-96.pdf">Download Manual</a></td>
+                </tr>
+                <tr>
+                    <td><img class="img-responsive" src="/images/hitch-kits/hk-102.jpg" alt="Photo of HK-102" /></a></td>
+                    <td><br />HK-102</td>
+                    <td>Models: C, Super C, 200, 230 - Cat. I (Uses existing hydraulic lift)&nbsp;<br /><br /><a href="/3-pt-hitch-adapter-kits-hk-102-parts-list">Parts List Click Here</a><br /><a href="/templates/worksaver/manuals/hk102.pdf">Download Manual</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
