@@ -4,10 +4,10 @@
 */
 
 .rsform {
-    margin-top: 120px;
+    margin-top: 40px;
 }
 
-.rsform input {
+.rsform input, .rsform textarea {
     margin-bottom: 20px;
 }
 
