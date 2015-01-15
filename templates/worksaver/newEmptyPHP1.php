@@ -61,8 +61,8 @@
             </tbody>
         </table>
         <br /><br />
-        <h4><i class="fa fa-lg fa-exclamation-triangle"> </i> WARNING:</h4>
-        <p>Read and understand the operator’s manual before operation. Be sure tractor/skid steer
-            is properly counterbalanced. Damage to equipment or personal injury could occur.</p>
+        <i class="fa fa-lg fa-exclamation-triangle"> </i>
+        <strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer
+        is properly counterbalanced. Damage to equipment or personal injury could occur.
     </div>
 </div>
