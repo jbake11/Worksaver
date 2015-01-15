@@ -3303,7 +3303,7 @@ class RSFormProHelper {
                     $defaultValue = RSFormProHelper::isCode($data['DEFAULTVALUE']);
                 }
 
-                $className = 'rsform-input-box';
+                $className = 'rsform-input-box form-control';
                 if ($invalid)
                     $className .= ' rsform-error';
                 RSFormProHelper::addClass($data['ADDITIONALATTRIBUTES'], $className);
