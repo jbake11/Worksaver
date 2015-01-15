@@ -247,8 +247,8 @@
 }
 
 .video-align{
-    width: 50%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header{
