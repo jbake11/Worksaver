@@ -10,6 +10,10 @@ namespace GCore\Libs;
 /* @copyright:ChronoEngine.com @license:GPLv2 */defined('_JEXEC') or die('Restricted access');
 defined("GCORE_SITE") or die;
 class Arr {
+	//is assoc array
+	public static function is_assoc($arr){
+		return (bool)count(array_filter(array_keys($arr), 'is_string'));
+	}
 	//normalizes a multi dimensional array into 1 dimension
 	public static function normalize($array = array()){
 		$return = array();

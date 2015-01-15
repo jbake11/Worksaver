@@ -49,14 +49,14 @@ class Toolbar extends \GCore\Libs\Helper{
 				jQuery("#<?php echo $html_id; ?>").on('click',
 					function(){
 						<?php if($type == 'link'): ?>
-							window.location.href = '<?php echo $link; ?>';
+							window.location.href = jQuery("#<?php echo $html_id; ?>").data("url");
 							return false;
 						<?php elseif($type == 'submit'):; ?>
-							jQuery('#<?php echo self::getFormID(); ?>').attr('action', '<?php echo $link; ?>');
+							jQuery('#<?php echo self::getFormID(); ?>').attr('action', jQuery("#<?php echo $html_id; ?>").data("url"));
 							jQuery('#<?php echo self::getFormID(); ?>').submit();
 						<?php elseif($type == 'submit_selectors'):; ?>
 							if(jQuery('#<?php echo self::getFormID(); ?> input.gc_selector:checked').length > 0){
-								jQuery('#<?php echo self::getFormID(); ?>').attr('action', '<?php echo $link; ?>');
+								jQuery('#<?php echo self::getFormID(); ?>').attr('action', jQuery("#<?php echo $html_id; ?>").data("url"));
 								jQuery('#<?php echo self::getFormID(); ?>').submit();
 							}else{
 								alert("<?php echo $alert; ?>");
@@ -65,7 +65,7 @@ class Toolbar extends \GCore\Libs\Helper{
 						<?php elseif($type == 'false'):; ?>
 							return false;
 						<?php else: ?>
-							jQuery('#<?php echo self::getFormID(); ?>').attr('action', '<?php echo $link; ?>');
+							jQuery('#<?php echo self::getFormID(); ?>').attr('action', jQuery("#<?php echo $html_id; ?>").data("url"));
 							<?php echo $type; ?>();
 						<?php endif; ?>
 					}
@@ -81,7 +81,7 @@ class Toolbar extends \GCore\Libs\Helper{
 			if($html){
 				return $html;
 			}else{
-				return '<input type="button" value="'.$text.'" id="'.$html_id.'" class="toolbar-button" />';
+				return '<input type="button" value="'.$text.'" id="'.$html_id.'" data-url="'.$link.'" class="toolbar-button" />';
 			}
 		?>
 		<?php

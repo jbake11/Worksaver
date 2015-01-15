@@ -70,7 +70,7 @@ class DnaBuilder {
 				'id' => 'action_icons_'.$id,
 				'class' => 'action_icons pull-right'
 			));
-			$action_title = '<div class="pull-left"><span class="form_action_label label label-primary">'.$action_class::$title.'</span><span style="" class="label label-info action_icon_number">'.$id.'</span>'.(!empty($configs[$id]['action_label']) ? '<span style="" class="label action_label_label">'.$configs[$id]['action_label'].'</span>' : '').'</div>';
+			$action_title = '<div class="pull-left action-title-labels"><span class="form_action_label label label-primary">'.$action_class::$title.'</span><span style="" class="label label-info action_icon_number">'.$id.'</span>'.(!empty($configs[$id]['action_label']) ? '<span style="" class="label action_label_label">'.$configs[$id]['action_label'].'</span>' : '').'</div>';
 
 			$actions_output[] = \GCore\Helpers\Html::container('div', $action_title.$action_icons.'<div class="clearfix"></div>', array(
 				'class' => 'panel-heading'

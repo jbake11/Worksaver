@@ -183,8 +183,8 @@ class AppJ {
 		date_default_timezone_set($mainframe->getCfg('offset'));
 		//site title
 		\GCore\Libs\Base::setConfig('site_title', $mainframe->getCfg('sitename'));
-		//$lang = \JFactory::getLanguage();
-		//\GCore\Libs\Base::setConfig('site_language', $lang->getTag());
+		
+		
 		/*if(!Authorize::authorized($classname, $this->action)){
 			if($content_only){
 				return;
@@ -271,7 +271,7 @@ class AppJ {
 		//load the theme files now
 		$theme = \GCore\Helpers\Theme::getInstance();
 
-		if($this->tvout != 'ajax' AND $doc->theme == 'bootstrap3'){
+		if($this->tvout != 'ajax' AND strpos($doc->theme, 'bootstrap3') !== false){
 			$this->buffer = '<div class="gbs3">'.$this->buffer.'</div>';
 		}
 		//Event::trigger('on_after_dispatch');

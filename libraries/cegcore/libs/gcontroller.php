@@ -307,7 +307,7 @@ class GController extends Controller {
 				unset($this->helpers[$k]);
 			}
 
-			$page = Request::data('page', $session->get(get_class($this).$prefix.'.'.$model_class->alias.'.page', 1));
+			$page = Request::data(\GCore\Libs\Base::getConfig('page_url_param_name', 'page'), $session->get(get_class($this).$prefix.'.'.$model_class->alias.'.page', 1));
 			$page = ($page < 1) ? 1 : $page;
 			$active_limit = !empty($model_class->page_limit) ? $model_class->page_limit : Base::getConfig('list_limit', 30);
 			$limit = Request::data('limit', $session->get(get_class($this).$prefix.'.'.$model_class->alias.'.limit', $active_limit));
@@ -335,6 +335,7 @@ class GController extends Controller {
 			$this->helpers['\GCore\Helpers\Paginator']['limit'] = $limit;
 			$this->helpers['\GCore\Helpers\Paginator']['page'] = $page;
 			$this->helpers['\GCore\Helpers\Paginator']['offset'] = $offset;
+			$this->helpers['\GCore\Helpers\Paginator']['page_param'] = \GCore\Libs\Base::getConfig('page_url_param_name', 'page');
 
 			if(!$bad_page){
 				$session->set(get_class($this).$prefix.'.'.$model_class->alias.'.page', $page);

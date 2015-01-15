@@ -21,7 +21,7 @@ class Checkbox {
 		'value' => '',
 		'label' => 'Checkbox Label',
 		'sublabel' => '',
-		'secondary_label' => '',
+		'secondary_label' => 'Secondary checkbox label.',
 		'class' => '',
 		'title' => '',
 		'style' => ''
@@ -34,7 +34,7 @@ class Checkbox {
 		'label.text' => array('value' => 'Checkbox Label', 'label' => 'Label', 'type' => 'text', 'class' => 'L'),
 		'label.position' => array('values' => 'left', 'label' => 'Label position', 'type' => 'dropdown', 'options' => array('left' => 'Left', 'top' => 'Top')),
 		'sublabel' => array('value' => '', 'label' => 'Sub Label', 'type' => 'text', 'class' => 'L'),
-		'secondary_label' => array('value' => '', 'label' => 'Secondary Label', 'type' => 'text', 'class' => 'L'),
+		'secondary_label' => array('value' => 'Secondary checkbox label.', 'label' => 'Secondary Label', 'type' => 'text', 'class' => 'L'),
 		'checked' => array('value' => '', 'label' => 'Checked', 'type' => 'dropdown', 'options' => array(0 => 'No', 1 => 'Yes')),
 		'class' => array('value' => '', 'label' => 'Class', 'type' => 'text', 'class' => 'L'),
 		'title' => array('value' => '', 'label' => 'Title', 'type' => 'text', 'class' => 'L'),
@@ -94,8 +94,9 @@ class Checkbox {
 					'inputs' => array(
 						array('type' => 'custom', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][label]', 'code' => 'On'),
 						array('type' => 'dropdown', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][state]', 'options' => array('' => '', 'check' => 'check', 'uncheck' => 'uncheck'), 'sublabel' => 'Event', 'style' => 'width:auto;'),
-						array('type' => 'dropdown', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][action]', 'options' => array('' => '', 'enable' => 'enable', 'disable' => 'disable', 'show' => 'show', 'hide' => 'hide', 'show_parent' => 'show parent', 'hide_parent' => 'hide parent', 'function' => 'function'), 'sublabel' => 'Action', 'style' => 'width:auto;'),
-						array('type' => 'text', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][target]', 'sublabel' => 'Target field ID or Function name'),
+						array('type' => 'dropdown', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][action]', 'options' => array('' => '', 'enable' => 'enable', 'disable' => 'disable', 'show' => 'show', 'hide' => 'hide', 'show_parent' => 'show parent', 'hide_parent' => 'hide parent', 'set_dynamic_html' => 'Set Dynamic HTML', 'function' => 'function'), 'sublabel' => 'Action', 'style' => 'width:auto;'),
+						array('type' => 'text', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][target]', 'sublabel' => 'Element ID/fn()/Event'),
+						//array('type' => 'textarea', 'name' => 'Form[extras][fields]['.$k.'][events]['.$i.'][options]', 'class' => 'A', 'rows' => 3, 'sublabel' => 'AJAX event'),
 					)
 				));
 			}

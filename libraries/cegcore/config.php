@@ -29,6 +29,7 @@ class Config {
 	public static $query_cache_expiry = 3600;
 	public static $site_language = "en-gb";
 	public static $detect_language = 0;
+	public static $mail_method = "phpmail";
 	public static $mail_from_name = "";
 	public static $mail_from_email = "";
 	public static $mail_reply_name = "";
@@ -47,4 +48,5 @@ class Config {
 	public static $db_prefix = "";
 	public static $db_adapter = "pdo";
 	public static $cache_permissions = 1;
+	public static $page_url_param_name = 'page';
 }

@@ -176,16 +176,13 @@ class AppWp {
 			}
 			$session->set('user', array_merge($session->get('user', array()), $user_session));
 		}
-		//copy some config
-		$mainframe = \JFactory::getApplication();
-		//set timezone
-		date_default_timezone_set($mainframe->getCfg('offset'));
-		//site title
-		\GCore\Libs\Base::setConfig('site_title', $mainframe->getCfg('sitename'));
 		*/
+		//set timezone
+		date_default_timezone_set(get_option('timezone_string'));
+		//site title
+		\GCore\Libs\Base::setConfig('site_title', get_bloginfo('name'));
 		
-		//$lang = \JFactory::getLanguage();
-		//\GCore\Libs\Base::setConfig('site_language', $lang->getTag());
+		
 		/*if(!Authorize::authorized($classname, $this->action)){
 			if($content_only){
 				return;

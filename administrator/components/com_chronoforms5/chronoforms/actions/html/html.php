@@ -13,6 +13,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 	static $title = 'HTML (Render Form)';
 	var $defaults = array(
 		'submit_event' => 'submit',
+		'add_form_tags' => 1,
 		'page' => 1,
 	);
 
@@ -50,16 +51,18 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 			$form->execute('client_validation', array('rules' => $validations));
 		}
 		*/
-		$theme = '';
-		if($form->params->get('theme', 'bootstrap3') == 'bootstrap3'){
+		$theme = $form->params->get('theme', 'bootstrap3');
+		/*if($form->params->get('theme', 'bootstrap3') == 'bootstrap3'){
 			$theme = 'bootstrap3';
+		}else if($form->params->get('theme', 'bootstrap3') == 'bootstrap3_pure'){
+			$theme = 'bootstrap3_pure';
 		}else if($form->params->get('theme', 'bootstrap3') == 'semantic1'){
 			$theme = 'semantic1';
 		}else if($form->params->get('theme', 'bootstrap3') == 'gcoreui'){
 			$theme = 'gcoreui';
 		}else if($form->params->get('theme', 'bootstrap3') == 'none'){
 			$theme = 'none';
-		}
+		}*/
 		$doc->theme = $theme;
 		\GCore\Helpers\Theme::getInstance();
 		if($form->params->get('tight_layout', 0)){
@@ -169,10 +172,29 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 				}
 			');
 		}
+		/*if($form->params->get('responsive_layout', 0)){
+			$responsive_css = '
+				#'.$form_id.' .gcore-input{width:100% !important;}
+				#'.$form_id.' .form-control{width:100% !important;}
+			';
+			foreach($form->form['Form']['extras']['fields'] as $k => $field){
+				if(in_array($field['type'], array('submit', 'button'))){
+					$responsive_css .= '#'.$form_id.' #fin-'.$field['id'].'{width:auto !important;}';
+				}
+			}
+			$doc->addCssCode($responsive_css);
+		}*/
+		
+		if($form->params->get('js_validation_language', '') == ''){
+			$lang = strtolower(\GCore\Libs\Base::getConfig('site_language'));
+			$js_lang_tag = explode('-', $lang);
+			$form->params->set('js_validation_language', $js_lang_tag[0]);
+		}
 
 		//check fields events
 		if(!empty($form->form['Form']['extras']['fields'])){
 			$events_codes = array();
+			$pageload_events_codes = array();
 			//$events_codes[] = 'jQuery(document).ready(function($){';
 			$events_codes[] = 'function chronoforms_fields_events(){';
 			foreach($form->form['Form']['extras']['fields'] as $k => $field){
@@ -192,6 +214,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 					}
 					if(!empty($_m)){
 						$events_codes[] = $_f."\n".implode("\n", $_m)."\n".$_l;
+						$pageload_events_codes[] = implode("\n", $_m);
 					}
 				}
 				if(!empty($field['inputs'])){
@@ -212,6 +235,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 							}
 							if(!empty($_m)){
 								$events_codes[] = $_f."\n".implode("\n", $_m)."\n".$_l;
+								$pageload_events_codes[] = implode("\n", $_m);
 							}
 						}
 					}
@@ -219,6 +243,10 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 			}
 			$events_codes[] = '}';
 			$events_codes[] = 'chronoforms_fields_events();';
+			$events_codes[] = 'function chronoforms_pageload_fields_events(){';
+			$events_codes[] = implode("\n", $pageload_events_codes);
+			$events_codes[] = '}';
+			$events_codes[] = 'chronoforms_pageload_fields_events();';
 			
 			//$form->execute('js', array('content' => implode("\n", $events_codes)));
 		}
@@ -226,6 +254,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 		ob_start();
 		eval('?>'.$form->form['Form']['content']);
 		$output = ob_get_clean();
+		$form_content = $output;
 		//select the page to display
 		$form_pages = explode('<!--_CHRONOFORMS_PAGE_BREAK_-->', $output);
 		$active_page_index = (int)$config->get('page', 1) - 1;
@@ -252,7 +281,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 		$form_tag .= ' id="'.$form_id.'"';
 		$form_tag .= ' class="'.$config->get('form_class', 'chronoform').(($theme == 'bootstrap3') ? ' form-horizontal' : '').'"';
 		if($config->get('form_tag_attach', '')){
-			$form_tag .= $config->get('form_tag_attach', '');
+			$form_tag .= ' '.trim($config->get('form_tag_attach', ''));
 		}
 
 		$form_tag .= '>';
@@ -267,23 +296,20 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 			//echo '<div class="gcore chronoform-container">';
 		}
 		*/
-		if(!empty($events_codes)){
-			$js_scripts = array(implode("\n", $events_codes));
-		}else{
-			$js_scripts = array();
-		}
+		$js_scripts = array();
+		
 		if(strpos($output, 'data-wysiwyg="1"') !== false){
 			$doc->_('jquery');
 			$doc->_('editor');
 			$js_scripts[] = '$(\'*[data-wysiwyg="1"]\').each(function(){ tinymce.init({"selector":"#"+$(this).attr("id")}); });';
 		}
-		if(strpos($output, 'validate[') !== false){
+		if(strpos($form_content, 'validate[') !== false){
 			$doc->_('jquery');
 			$doc->_('gtooltip');
-			$doc->_('gvalidation');
+			$doc->_('gvalidation', array('lang' => $form->params->get('js_validation_language', 'en')));
 			$js_scripts[] = '$("#chronoform-'.$form->form['Form']['title'].'").gvalidate();';
 			if($config->get('required_labels_identify', 1)){
-				if($form->params->get('theme', 'bootstrap3') == 'bootstrap3'){
+				if(strpos($form->params->get('theme', 'bootstrap3'), 'bootstrap3') !== false){
 					$required_icon = '<i class=\'fa fa-asterisk\' style=\'color:#ff0000; font-size:9px; vertical-align:top;\'></i>';
 				}else{
 					$required_icon = '<span style=\'color:#ff0000; font-size:12px; vertical-align:top;\'>*</span>';
@@ -292,10 +318,11 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 					function chronoforms_validation_signs(formObj){
 						formObj.find(":input[class*=validate]").each(function(){
 							if($(this).attr("class").indexOf("required") >= 0 || $(this).attr("class").indexOf("group") >= 0){
+								var required_parent = [];
 								if($(this).closest(".gcore-subinput-container").length > 0){
 									var required_parent = $(this).closest(".gcore-subinput-container");
-								}else if($(this).closest(".gcore-form-row").length > 0){
-									var required_parent = $(this).closest(".gcore-form-row");
+								}else if($(this).closest(".gcore-form-row, .form-group").length > 0){
+									var required_parent = $(this).closest(".gcore-form-row, .form-group");
 								}
 								if(required_parent.length > 0){
 									var required_label = required_parent.find("label");
@@ -311,29 +338,46 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 				';
 			}
 		}
-		if(strpos($output, 'data-tooltip') !== false){
+		if(strpos($form_content, 'data-tooltip') !== false){
 			$doc->_('jquery');
 			$doc->_('gtooltip');
+			if(strpos($form->params->get('theme', 'bootstrap3'), 'bootstrap3') !== false){
+				$tip_icon = '<i class=\'fa fa-exclamation-circle input-tooltip\' style=\'color:#2693FF; padding-left:5px;\'></i>';
+			}else{
+				$tip_icon = '<span style=\'color:#ff0000; font-size:12px; vertical-align:top;\'>!</span>';
+			}
 			$js_scripts[] = '
 				function chronoforms_data_tooltip(formObj){
 					formObj.find(":input").each(function(){
-						if($(this).data("tooltip") && $(this).closest(".gcore-input, .gcore-input-wide").length > 0 && $(this).closest(".gcore-input, .gcore-input-wide").next(".input-tooltip").length < 1){
-							var $tip = $(\'<i class="fa fa-exclamation-circle input-tooltip" style="float:left; padding:7px 0px 0px 7px;"></i>\').attr("title", $(this).data("tooltip"));
-							$(this).closest(".gcore-input, .gcore-input-wide").after($tip);
-							$(this).closest(".gcore-input, .gcore-input-wide").css("float", "left");
+						if($(this).data("tooltip") && $(this).closest(".gcore-input, .gcore-input-wide").length > 0){
+							var tipped_parent = [];
+							if($(this).closest(".gcore-subinput-container").length > 0){
+								var tipped_parent = $(this).closest(".gcore-subinput-container");
+							}else if($(this).closest(".gcore-form-row, .form-group").length > 0){
+								var tipped_parent = $(this).closest(".gcore-form-row, .form-group");
+							}
+							if(tipped_parent.length > 0){
+								var tipped_label = tipped_parent.find("label");
+								if(tipped_label.length > 0 && !tipped_label.first().hasClass("tipped_label")){
+									tipped_label.first().addClass("tipped_label");
+									var $tip = $("'.$tip_icon.'");
+									$tip.data("content", $(this).data("tooltip"));
+									tipped_label.first().append($tip);
+								}
+							}
 						}
 					});
-					formObj.find(".input-tooltip").gtooltip("hover");
+					formObj.find(".input-tooltip").gtooltip();
 				}
 				chronoforms_data_tooltip($("#chronoform-'.$form->form['Form']['title'].'"));
 			';
 		}
-		if(strpos($output, 'data-load-state') !== false){
+		if(strpos($form_content, 'data-load-state') !== false){
 			$doc->_('jquery');
 			$js_scripts[] = '
 				function chronoforms_data_loadstate(formObj){
 					formObj.find(\':input[data-load-state="disabled"]\').prop("disabled", true);
-					formObj.find(\':input[data-load-state="hidden"]\').css("display", "none");
+					formObj.find(\'*[data-load-state="hidden"]\').css("display", "none");
 					formObj.find(\':input[data-load-state="hidden_parent"]\').each(function(){
 						if($(this).closest(".gcore-subinput-container").length > 0){
 							$(this).closest(".gcore-subinput-container").css("display", "none");
@@ -350,31 +394,56 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 			$doc->_('jquery.inputmask');
 			$js_scripts[] = '$(":input").inputmask();';
 		}
-		if(strpos($output, 'data-gdatetimepicker') !== false){
+		if(strpos($output, 'data-gdatetimepicker') !== false OR strpos($output, 'data-fieldtype="gdatetimepicker"') !== false){
 			$doc->_('jquery');
 			$doc->_('gdatetimepicker');
-			$js_scripts[] = '$(\'*[data-gdatetimepicker="1"]\').gdatetimepicker();';
+			$js_scripts[] = '
+			$(\'*[data-gdatetimepicker-format]\').each(function(){
+				$(this).data("format", $(this).data("gdatetimepicker-format"));
+			});
+			';//for old data attributes
+			$js_scripts[] = '$(\'*[data-gdatetimepicker="1"]\').gdatetimepicker();';//for old data attributes
+			$js_scripts[] = '$(\'*[data-fieldtype="gdatetimepicker"]\').gdatetimepicker();';
 		}
-		if(strpos($output, 'multiplier-add-button') !== false){
+		if(strpos($output, 'multiplier-container') !== false){
 			$doc->_('jquery');
 			$js_scripts[] = '
-				$(".multiplier-add-button").on("click", function(){
-					var multiplier_clone = $(this).parent().find(".multiplier-contents").first().clone();
-					if(typeof($(this).data("replacer")) != "undefined"){
-						var multiplier_clone = multiplier_clone.wrap("<p>").parent().html().replace(new RegExp($(this).data("replacer"), "g"), $(this).data("count"));
-						$(this).data("count", parseInt($(this).data("count")) + 1);
+				$(".multiplier-container").each(function(){
+					if(typeof($(this).data("hide_first")) != "undefined"){
+						$(this).find(".multiplier-contents").first().hide();
 					}
-					$(this).parent().find(".multiplier-contents").last().after(multiplier_clone);
+					if(typeof($(this).data("disable_first")) != "undefined"){
+						$(this).find(".multiplier-contents").first().find(":input").prop("disabled", true);
+					}
+					if($(this).find(".multiplier-contents").length > 1){
+						var counter = $(this).find(".multiplier-contents").length;
+						$(this).data("count", counter);
+					}
+				});
+				$(".multiplier-container").find(".multiplier-add-button").on("click", function(){
+					var multiplier_container = $(this).closest(".multiplier-container");
+					
+					var multiplier_clone = multiplier_container.find(".multiplier-contents").first().clone();
+					multiplier_clone.find(".multiplier-remove-button").first().css("display", "");
+					multiplier_clone.show();
+					multiplier_clone.find(":input").prop("disabled", false);
+					
+					if(typeof(multiplier_container.data("replacer")) != "undefined"){
+						var counter = parseInt(multiplier_container.data("count"));
+						var multiplier_clone = multiplier_clone.wrap("<p>").parent().html().replace(new RegExp(multiplier_container.data("replacer"), "g"), counter);
+						multiplier_container.data("count", counter + 1);
+					}
+					multiplier_container.find(".multiplier-contents").last().after(multiplier_clone);
 				});
 				$(document).on("click", ".multiplier-remove-button", function(){
-					$(this).parent().remove();
+					$(this).closest(".multiplier-contents").remove();
 				});
 			';
 		}
 		if((bool)$config->get('ajax_submit', 0) === true){
 			$doc->_('jquery');
 			$doc->_('gtooltip');
-			$doc->_('gvalidation');
+			$doc->_('gvalidation', array('lang' => $form->params->get('js_validation_language', 'en')));
 			
 			$ajax_url = \GCore\Libs\Url::buildQuery($form_action, array('tvout' => 'ajax'));
 			$js_scripts[] = '
@@ -412,35 +481,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 							var form_action = $("#'.$form_id.'").prop("action");
 							var sep = (form_action.indexOf("?") > -1) ? "&" : "?";
 							var ajax_url = form_action + sep + "tvout=ajax";
-							/*
-							//files processing
-							event.stopPropagation();
-							event.preventDefault();
-							var data = new FormData();
-							$.each(files, function(key, value){
-								data.append(key, value);
-							});
-							$.ajax({
-								url: ajax_url,
-								type: "POST",
-								data: data,
-								cache: false,
-								dataType: "json",
-								async: false,
-								processData: false, // Do not process the files
-								contentType: false, // Set content type to false as jQuery will tell the server its a query string request
-								success: function(data, textStatus, jqXHR){
-									if(typeof data.error === "undefined"){
-										console.log("Success " + data.error);
-									}else{
-										console.log("ERRORS: " + data.error);
-									}
-								},
-								error: function(jqXHR, textStatus, errorThrown){
-									console.log("ERRORS: " + textStatus);
-								}
-							});
-							*/
+							
 							//data processing
 							$.ajax({
 								"type" : "POST",
@@ -462,13 +503,17 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 					chrono_ajax_submit();
 				';
 		}
+		$js_scripts[] = implode("\n", $events_codes);
+		
 		if(!empty($js_scripts)){
 			$doc->addJsCode('jQuery(document).ready(function($){
 				'.implode("\n", $js_scripts).'
 			});');	
 		}
-
-		echo $form_tag;
+		
+		if((bool)$config->get('add_form_tags', 1) === true){
+			echo $form_tag;
+		}
 		//if ajax then display system messages inside the form
 		if((bool)$config->get('ajax_submit', 0) === true){
 			$doc = \GCore\Libs\Document::getInstance();
@@ -481,10 +526,9 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 		$output = \GCore\Helpers\DataLoader::load($output, $form->data);
 		//show output
 		echo $output;
-		echo '</form>';
-		/*if($theme == 'bootstrap3'){
-			echo '</div>';
-		}*/
+		if((bool)$config->get('add_form_tags', 1) === true){
+			echo '</form>';
+		}
 	}
 
 	function create_event($field, $event_data, $form){
@@ -494,16 +538,19 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 			$event_data['operator'] = '=';
 		}
 		if($event_data['state'] == 'check'){
-			$return .= 'if($(this).prop("checked"))';
+			$return .= 'if($("[name=\''.$field['name'].'\']").prop("checked"))';
 		}else if($event_data['state'] == 'uncheck'){
-			$return .= 'if(!$(this).prop("checked"))';
+			$return .= 'if(!$("[name=\''.$field['name'].'\']").prop("checked"))';
 		}else{
-			if($field['type'] == 'checkbox_group'){
+			if(in_array($field['type'], array('checkbox_group'))){
 				$operator = ($event_data['operator'] == '=') ? '=' : $event_data['operator'];
 				$return .= 'if($("[name=\''.$field['name'].'\'][value'.$operator.'\''.$event_data['state'].'\']").prop("checked"))';
+			}else if(in_array($field['type'], array('radio'))){
+				$operator = ($event_data['operator'] == '=') ? '==' : $event_data['operator'];
+				$return .= 'if($("[name=\''.$field['name'].'\']:checked").val() '.$operator.' "'.$event_data['state'].'")';
 			}else{
 				$operator = ($event_data['operator'] == '=') ? '==' : $event_data['operator'];
-				$return .= 'if($(this).val() '.$operator.' "'.$event_data['state'].'")';
+				$return .= 'if($("[name=\''.$field['name'].'\']").val() '.$operator.' "'.$event_data['state'].'")';
 			}
 		}
 		$return .= '{'."\n";
@@ -567,6 +614,22 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 				
 			}
 		}
+		if($event_data['action'] == 'set_dynamic_html'){
+			if(!empty($event_data['options'])){
+				$ajax_event = $event_data['options'];
+				$return .= '
+				'.$target_field.'.html("<img src=\''.\GCore\Helpers\Assets::image('loading-small.gif').'\' />");
+				$.ajax({
+					"type" : "GET",
+					"url" : "'.r_('index.php?ext=chronoforms&chronoform='.$form->form['Form']['title'].'&event='.$ajax_event.'&tvout=ajax').'",
+					"data" : $("#'.$form_id.'").serialize(),
+					"success" : function(res){
+						'.$target_field.'.html(res);
+					},
+				});';
+				
+			}
+		}
 		if($event_data['action'] == 'function'){
 			$return .= $event_data['target'].';';
 		}
@@ -587,6 +650,7 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][required_labels_identify]', array('type' => 'dropdown', 'label' => l_('CF_REQUIRED_LABELS_IDENTIFY'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'values' => 1, 'sublabel' => l_('CF_REQUIRED_LABELS_IDENTIFY_DESC')));
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][relative_url]', array('type' => 'dropdown', 'label' => l_('CF_RELATIVE_URL'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'values' => 1, 'sublabel' => l_('CF_RELATIVE_URL_DESC')));
 		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][ajax_submit]', array('type' => 'dropdown', 'label' => l_('CF_AJAX_SUBMIT'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'values' => 0, 'sublabel' => l_('CF_AJAX_SUBMIT_DESC')));
+		echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][add_form_tags]', array('type' => 'dropdown', 'label' => l_('CF_ADD_FORM_TAGS'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'values' => 1, 'sublabel' => l_('CF_ADD_FORM_TAGS_DESC')));
 
 		echo \GCore\Helpers\Html::formSecEnd();
 		echo \GCore\Helpers\Html::formEnd();
@@ -594,10 +658,10 @@ Class Html extends \GCore\Admin\Extensions\Chronoforms\Action{
 	
 	public static function config_check($data = array()){
 		$diags = array();
-		$diags[l_('CF_DIAG_PAGE')] = $data['page'];
-		$diags[l_('CF_DIAG_SUBMIT_EVENT')] = $data['submit_event'];
+		$diags[l_('CF_DIAG_PAGE')] = !empty($data['page']) ? $data['page'] : 1;
+		$diags[l_('CF_DIAG_SUBMIT_EVENT')] = !empty($data['submit_event']) ? $data['submit_event'] : 'submit';
 		$diags[l_('CF_DIAG_ACTION_URL')] = empty($data['action_url']);
-		$diags[l_('CF_DIAG_AJAX')] = $data['ajax_submit'];
+		$diags[l_('CF_DIAG_AJAX')] = !empty($data['ajax_submit']) ? $data['ajax_submit'] : 0;
 		return $diags;
 	}
 }

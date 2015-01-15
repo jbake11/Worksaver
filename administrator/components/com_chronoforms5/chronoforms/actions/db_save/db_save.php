@@ -19,6 +19,7 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 		'enabled' => 1,
 		'model_id' => 'Data',
 		'save_under_modelid' => 0,
+		'force_save' => 0,
 		'multi_save' => 0,
 		'ndb_enable' => 0,
 		'ndb_driver' => 'mysql',
@@ -73,6 +74,7 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 			}
 			$model_class = '\GCore\Models\\'.$model_id;
 			if(!class_exists($model_class)){
+				$form->debug[$action_id][self::$title]['Queries'] = "Error creating the model class, please try a different model id.";
 				return;
 			}
 			$data = $form->data;
@@ -80,14 +82,16 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 				$data = $form->data[$model_id];
 			}
 			$user = \GCore\Libs\Base::getUser();
+			
+			$conditions = eval('?>'.$config->get('conditions', ''));
 
 			$initial_queries = $model_class::getInstance()->dbo->log;
 			if((bool)$config->get('multi_save', 0) === true){
 				//$data['user_id'] = !empty($data['user_id']) ? $data['user_id'] : $user['id'];
-				$model_class::getInstance()->saveAll($data);
+				$model_class::getInstance()->saveAll($data, array('new' => (bool)$config->get('force_save', 0), 'conditions' => $conditions));
 			}else{
 				$data['user_id'] = !empty($data['user_id']) ? $data['user_id'] : $user['id'];
-				$model_class::getInstance()->save($data);
+				$model_class::getInstance()->save($data, array('new' => (bool)$config->get('force_save', 0), 'conditions' => $conditions));
 			}
 			//insert the pkey value to data
 			if((bool)$config->get('save_under_modelid', 0) === true){
@@ -127,7 +131,7 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 		
 		$ndb_tables = array();
 		if(!empty($data['ndb_table_name'])){
-			$ndb_tables = \GCore\Libs\Database::getInstance(array(
+			/*$ndb_tables = \GCore\Libs\Database::getInstance(array(
 				'type' => $data['ndb_driver'], 
 				'host' => $data['ndb_host'], 
 				'name' => $data['ndb_database'], 
@@ -135,7 +139,8 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 				'pass' => $data['ndb_password'], 
 				'prefix' => $data['ndb_prefix']
 			))->getTablesList();
-			$ndb_tables = array_combine($ndb_tables, $ndb_tables);
+			$ndb_tables = array_combine($ndb_tables, $ndb_tables);*/
+			$ndb_tables = array($data['ndb_table_name'] => $data['ndb_table_name']);
 		}
 
 		echo \GCore\Helpers\Html::formStart('action_config db_save_action_config', 'db_save_action_config_{N}');
@@ -159,6 +164,10 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 							jQuery('#db_save_ndb_table_name_'+SID).append('<option value="">Failed to connect!!</option>');
 						}
 					},
+					"error" : function(){
+						jQuery('#db_save_ndb_table_name_'+SID).empty();
+						jQuery('#db_save_ndb_table_name_'+SID).append('<option value="">Failed to connect!!</option>');
+					},
 				});
 			}
 		</script>
@@ -176,6 +185,8 @@ Class DbSave extends \GCore\Admin\Extensions\Chronoforms\Action{
 			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][save_under_modelid]', array('type' => 'dropdown', 'label' => l_('CF_SAVE_UNDER_MODELID'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_SAVE_UNDER_MODELID_DESC')));
 			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][multi_save]', array('type' => 'dropdown', 'label' => l_('CF_MULTI_SAVE'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_MULTI_SAVE_DESC')));
 			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][model_id]', array('type' => 'text', 'label' => l_('CF_MODEL_ID'), 'sublabel' => l_('CF_MODEL_ID_DESC')));
+			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][force_save]', array('type' => 'dropdown', 'label' => l_('CF_FORCE_SAVE'), 'options' => array(0 => l_('NO'), 1 => l_('YES')), 'sublabel' => l_('CF_FORCE_SAVE_DESC')));
+			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][conditions]', array('type' => 'textarea', 'rows' => 5, 'cols' => 70, 'label' => l_('CF_DB_SAVE_CONDITIONS'), 'sublabel' => l_('CF_DB_SAVE_CONDITIONS_DESC')));
 			echo \GCore\Helpers\Html::formSecEnd();
 			?>
 			</div>

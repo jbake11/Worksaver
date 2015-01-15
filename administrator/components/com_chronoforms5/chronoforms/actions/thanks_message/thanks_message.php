@@ -17,7 +17,7 @@ Class ThanksMessage extends \GCore\Admin\Extensions\Chronoforms\Action{
 		$config =  $form->actions_config[$action_id];
 		$config = new \GCore\Libs\Parameter($config);
 		$message = $config->get('message', '');
-		echo \GCore\Libs\Str::replacer($message, $form->data);
+		echo \GCore\Libs\Str::replacer($message, $form->data, array('repeater' => 'repeater'));
 	}
 
 	public static function config(){

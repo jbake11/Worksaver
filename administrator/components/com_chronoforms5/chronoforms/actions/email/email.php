@@ -40,6 +40,7 @@ Class Email extends \GCore\Admin\Extensions\Chronoforms\Action{
 			<li class="active"><a href="#basic-{N}" data-g-toggle="tab"><?php echo l_('CF_BASIC'); ?></a></li>
 			<li><a href="#advanced-{N}" data-g-toggle="tab"><?php echo l_('CF_ADVANCED'); ?></a></li>
 			<li><a href="#encryption-{N}" data-g-toggle="tab"><?php echo l_('CF_ENCRYPTION'); ?></a></li>
+			<li><a href="#body-template-{N}" data-g-toggle="tab"><?php echo l_('CF_EMAIL_BODY_TEMPLATE'); ?></a></li>
 		</ul>
 		<div class="tab-content">
 			<div id="basic-{N}" class="tab-pane active">
@@ -88,6 +89,15 @@ Class Email extends \GCore\Admin\Extensions\Chronoforms\Action{
 			echo \GCore\Helpers\Html::formSecEnd();
 			?>
 			</div>
+			<div id="body-template-{N}" class="tab-pane">
+			<?php
+			echo \GCore\Helpers\Html::formSecStart();
+			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][template_header]', array('type' => 'textarea', 'label' => l_('CF_EMAIL_TEMPLATE_HEADER'), 'rows' => 5, 'cols' => 70, 'sublabel' => l_('CF_EMAIL_TEMPLATE_HEADER_DESC')));
+			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][template_body]', array('type' => 'textarea', 'label' => l_('CF_EMAIL_TEMPLATE_BODY'), 'rows' => 5, 'cols' => 70, 'sublabel' => l_('CF_EMAIL_TEMPLATE_BODY_DESC')));
+			echo \GCore\Helpers\Html::formLine('Form[extras][actions_config][{N}][template_footer]', array('type' => 'textarea', 'label' => l_('CF_EMAIL_TEMPLATE_FOOTER'), 'rows' => 5, 'cols' => 70, 'sublabel' => l_('CF_EMAIL_TEMPLATE_FOOTER_DESC')));
+			echo \GCore\Helpers\Html::formSecEnd();
+			?>
+			</div>
 		</div>
 		<?php
 		echo \GCore\Helpers\Html::formEnd();
@@ -106,7 +116,7 @@ Class Email extends \GCore\Admin\Extensions\Chronoforms\Action{
 
 	function on_form_save(&$data, $action_id){
 		if(!empty($data['content']) AND (empty($data['extras']['actions_config'][$action_id]['template']) OR !empty($data['extras']['actions_config'][$action_id]['template_generation']))){
-			$data['extras']['actions_config'][$action_id]['template'] = $this->field_replacer($data);
+			$data['extras']['actions_config'][$action_id]['template'] = $this->field_replacer($data, $action_id);
 		}
 	}
 
@@ -171,12 +181,12 @@ Class Email extends \GCore\Admin\Extensions\Chronoforms\Action{
 			if($config->get('append_ip_address', 1)){
 				$body = $body."<br /><br />"."IP: {ip_address}";
 			}
-			$body = \GCore\Libs\Str::replacer($body, $form->data, array('replace_null' => true, 'nl2br' => true));
+			$body = \GCore\Libs\Str::replacer($body, $form->data, array('replace_null' => true, 'nl2br' => true, 'repeater' => 'repeater'));
 		}else{
 			if($config->get('append_ip_address', 1)){
 				$body = $body."\n\n"."IP: {ip_address}";
 			}
-			$body = \GCore\Libs\Str::replacer($body, $form->data, array('replace_null' => true));
+			$body = \GCore\Libs\Str::replacer($body, $form->data, array('replace_null' => true, 'repeater' => 'repeater'));
 		}
 
 		//attach
@@ -192,6 +202,9 @@ Class Email extends \GCore\Admin\Extensions\Chronoforms\Action{
 		//load global settings
 		$settings = $form::_settings();
 		if(!empty($settings['mail'])){
+			if(!empty($settings['mail']['smtp']) AND empty($settings['mail']['mail_method'])){
+				$settings['mail']['mail_method'] = 'smtp';
+			}
 			foreach($settings['mail'] as $k => $v){
 				\GCore\Libs\Base::setConfig($k, $v);
 			}
@@ -223,32 +236,43 @@ Class Email extends \GCore\Admin\Extensions\Chronoforms\Action{
 		$form->debug[$action_id][self::$title][] = "Body:\n".$body;
 	}
 
-	function field_replacer($data){
+	function field_replacer($data, $action_id){
 		$htmlcode = $data['content'];
+		
+		$email_template_header = trim($data['extras']['actions_config'][$action_id]['template_header']) ? $data['extras']['actions_config'][$action_id]['template_header'] : '<table>';
+		$email_template_body = trim($data['extras']['actions_config'][$action_id]['template_body']) ? $data['extras']['actions_config'][$action_id]['template_body'] : '<tr><td>{label}</td><td>{{name}}</td></tr>'."\n";
+		$email_template_footer = trim($data['extras']['actions_config'][$action_id]['template_footer']) ? $data['extras']['actions_config'][$action_id]['template_footer'] : '</table>';
+		
 		if(!empty($data['form_type'])){
-			$html_string = '<table>';
+			$html_string = $email_template_header;
 			$html_string .= "\n";
 			foreach($data['extras']['fields'] as $k => $field){
-				if(!in_array($field['type'], array('button', 'submit', 'reset', 'captcha', 'multi'))){
-					$html_string .= '<tr>';
+				if(!in_array($field['type'], array('button', 'submit', 'reset', 'captcha', 'multi', 'container'))){
+					$field['label'] = (!empty($field['label']['text']) ? $field['label']['text'] : $field['label']);
+					$field['name'] = implode('.', explode('[', str_replace(']', '', str_replace('[]', '', $field['name']))));
+					/*$html_string .= '<tr>';
 					$html_string .= '<td>'.(!empty($field['label']['text']) ? $field['label']['text'] : $field['label']).'</td>';
 					$html_string .= '<td>{'.str_replace('[]', '', $field['name']).'}</td>';
 					$html_string .= '</tr>';
-					$html_string .= "\n";
+					$html_string .= "\n";*/
+					$html_string .= \GCore\Libs\Str::replacer($email_template_body, $field);
 				}
 				if(!empty($field['inputs'])){
 					foreach($field['inputs'] as $fn => $field_input){
 						if(!in_array($field_input['type'], array('button', 'submit', 'reset', 'captcha', 'multi'))){
-							$html_string .= '<tr>';
+							$field_input['label'] = (!empty($field_input['label']['text']) ? $field_input['label']['text'] : $field_input['label']);
+							$field_input['name'] = implode('.', explode('[', str_replace(']', '', str_replace('[]', '', $field_input['name']))));
+							/*$html_string .= '<tr>';
 							$html_string .= '<td>'.(!empty($field_input['label']['text']) ? $field_input['label']['text'] : $field_input['label']).'</td>';
 							$html_string .= '<td>{'.str_replace('[]', '', $field_input['name']).'}</td>';
 							$html_string .= '</tr>';
-							$html_string .= "\n";
+							$html_string .= "\n";*/
+							$html_string .= \GCore\Libs\Str::replacer($email_template_body, $field_input);
 						}
 					}
 				}
 			}
-			$html_string .= '</table>';
+			$html_string .= $email_template_footer;
 			return $html_string;
 		}
 		//find any style code in the email template and get it here
