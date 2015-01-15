@@ -1,105 +1,68 @@
-
-
-
-
-
-
-
-
-• Unique tine design with weld-on tine points.
-• Tine design allows operator to go under logs/brush for
-easy clean pick up.
-• Interfacing quick-attach brackets available for most tractor
-loader models including John Deere, AGCO, CNH,
-Bush Hog and others.
-• Greaseable pivot points on upper clamps for long
-service life.
-• Shield Plate in upper clamps provides protection for
-hydraulic cylinders.
-
-
-Split-Top Grapple Rake Specifications
-Choose Worksaver For All Your Material Handling
-FLGR-262 / SSGR-262 / FLGR-262-G FLGR-277 / SSGR-277 / FLGR-277-G
-Overall Width (in/mm) 62 / 1575 77 / 1956
-Overall Depth (in/mm) 25 / 635 25 / 635
-Overall Height Closed (in/mm) 54 / 1372 54 / 1372
-Grapple Opening (in/mm) 50 / 1270 50 / 1270
-Upper Grapple Widths (in/mm) 19.25 / 489 19.25 / 489
-Tine Spacing (in/mm) 15 / 381 15 / 381
-Number of Tines/Grapples (lower/upper) 5 / 4 6 / 4
-Reinforcing Tubes Between Lower Tines Yes Yes
-Number of Hydraulic Cylinders 2 2
-Cylinder Bore (in/mm) 2 / 50.8 2 / 50.8
-Cylinder Stroke (in/mm) 10 / 254 10 / 254
-Cylinder Rod Diameter (in/mm) 1.125 / 28.57 1.125 / 28.57
-Cylinder Pressure Rating (psi/bar) 3000 / 206.9 3000 / 206.9
-Mounting for Tractor Loader (FLGR) Mgt. Brt. Available* Mgt. Brt. Available*
-Weight FLGR Model (lbs/kg) 704 / 319 804 / 365
-Mounting for Skid Steer (SSGR) “Universal” Skid Steer “Universal” Skid Steer
-Weight SSGR Model (lbs/kg) 784 / 356 964 / 437
-Mounting for FLGR–G Models Euro / Global Euro / Global
-Weight FLGR–G Models (lbs/kg) 800 / 363 990 / 449
-Horsepower Rating (maximum) 95 PTO HP 150 PTO HP
-Product No. FLGR Models (loader) 811380 811400
-Product No. SSGR Models (skid steer) 811435 811440
-Product No. FLGR–G Models (Euro/Global) 811495 811490
-
-
-
-
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-
-
+        <img src="/images/material-handling/Split-top_GrappleRake.jpg" alt="" />
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img src="images/material-handling/" alt="" />
+        Designed for today’s modern skid steer and tractor front
+        loaders. Available in 62” or 77” width, the split top design
+        provides dual upper grapples for picking up brush and
+        other debris while leaving the dirt behind. Ideal for loading
+        logs, orchard prunings, piling brush and moving hard to
+        handle materials.
+        <br /><br />
+        <ul>
+            <li>Unique tine design with weld-on tine points.</li>
+            <li>Tine design allows operator to go under logs/brush for easy clean pick up.</li>
+            <li>Interfacing quick-attach brackets available for most tractor loader models including John Deere, AGCO, CNH, Bush Hog and others.</li>
+            <li>Greaseable pivot points on upper clamps for long service life.</li>
+            <li>Shield Plate in upper clamps provides protection for hydraulic cylinders.</li>
+        </ul>
     </div>
 </div>
 <br /><br />
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-
-
-
-        <div>
-            <ul>
-                <li>Designed to handle either two 4' x 4' x 8' square bales or three 3' x 3' x 8' square bales.</li>
-                <li>Bale support is provided on the bottom by five (5) 26" long forged steel spears.</li>
-                <li>Six (6) 18" forged spear are provided for the uprights to help secure the bales in transport.</li>
-                <li>Each side utilizes five (5) bale hooks that are moveable to allow the operator to position the in the most convenient location.</li>
-                <li>Bale hooks rotate hydraulically on square shafts supported by UHMW-polyethylene bushings.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr class="table-col-header">
-                    <td colspan="4" align="center">Models RBH-4000 Specifications</td>
-                </tr>
-                <tr><td>Model</td><td>Item No.</td><td>Description</td><td>Weight</td></tr>
-                <tr><td>RBH-4000</td><td>831460</td><td>Large Rectangular Bale Handler, rated at 4,000 lbs.
-                        Designed for tractor front loaders. Optional pin-on brackets
-                        or interfacing brackets for most popular quick-attach front
-                        loaders are available (loader arm distance of 54" or less)
-                    </td><td>881 lbs.</td></tr>
+                <tr class="table-col-header"><td colspan="3" align="center">Split-Top Grapple Rake Specifications</td></tr>
+                <tr><td>&nbsp;</td><td>FLGR-262 / SSGR-262 / FLGR-262-G</td><td>FLGR-277 / SSGR-277 / FLGR-277-G</td></tr>
+                <tr><td>Overall Width (in/mm)</td><td>62 / 1575</td><td>77 / 1956</td></tr>
+                <tr><td>Overall Depth (in/mm)</td><td>25 / 635</td><td>25 / 635</td></tr>
+                <tr><td>Overall Height Closed (in/mm)</td><td>54 / 1372</td><td>54 / 1372</td></tr>
+                <tr><td>Grapple Opening (in/mm)</td><td>50 / 1270</td><td>50 / 1270</td></tr>
+                <tr><td>Upper Grapple Widths (in/mm)</td><td>19.25 / 489</td><td>19.25 / 489</td></tr>
+                <tr><td>Tine Spacing (in/mm)</td><td>15 / 381</td><td>15 / 381</td></tr>
+                <tr><td>Number of Tines/Grapples (lower/upper)</td><td>5 / 4</td><td>6 / 4</td></tr>
+                <tr><td>Reinforcing Tubes Between Lower Tines</td><td>Yes</td><td>Yes</td></tr>
+                <tr><td>Number of Hydraulic Cylinders</td><td>2</td><td>2</td></tr>
+                <tr><td>Cylinder Bore (in/mm)</td><td>2 / 50.8</td><td>2 / 50.8</td></tr>
+                <tr><td>Cylinder Stroke (in/mm)</td><td>10 / 254</td><td>10 / 254</td></tr>
+                <tr><td>Cylinder Rod Diameter (in/mm)</td><td>1.125 / 28.57</td><td>1.125 / 28.57</td></tr>
+                <tr><td>Cylinder Pressure Rating (psi/bar)</td><td>3000 / 206.9</td><td>3000 / 206.9</td></tr>
+                <tr><td>Mounting for Tractor Loader (FLGR)</td><td>Mgt. Brt. Available*</td><td>Mgt. Brt. Available*</td></tr>
+                <tr><td>Weight FLGR Model (lbs/kg)</td><td>704 / 319</td><td>804 / 365</td></tr>
+                <tr><td>Mounting for Skid Steer (SSGR)</td><td>“Universal” Skid Steer</td><td>“Universal” Skid Steer</td></tr>
+                <tr><td>Weight SSGR Model (lbs/kg)</td><td>784 / 356</td><td>964 / 437</td></tr>
+                <tr><td>Mounting for FLGR–G Models</td><td>Euro / Global</td><td>Euro / Global</td></tr>
+                <tr><td>Weight FLGR–G Models (lbs/kg)</td><td>800 / 363</td><td>990 / 449</td></tr>
+                <tr><td>Horsepower Rating (maximum)</td><td>95 PTO HP</td><td>150 PTO HP</td></tr>
+                <tr><td>Product No. FLGR Models (loader)</td><td>811380</td><td>811400</td></tr>
+                <tr><td>Product No. SSGR Models (skid steer)</td><td>811435</td><td>811440</td></tr>
+                <tr><td>Product No. FLGR–G Models (Euro/Global)</td><td>811495</td><td>811490</td></tr>
+                <tr><td><a href="/templates/worksaver/manuals/splitgrapple.pdf">Download Manual Here</a></td>
+                    <td><a href="/split-top-grapple-rake-flgr-262-ssgr-262-flgr-262-g">Parts List Click Here</a></td>
+                    <td><a href="/split-top-grapple-rake-flgr-277-ssgr-277-flgr-277-g">Parts List Click Here</a></td>
 
-                <tr><td>vRBH-4000G</td><td>831487</td><td>Large Rectangular Bale Handler for tractor front loaders
-                        with Euro/Global carrier system. Rated at 4,000 lbs.
-                    </td><td>870 lbs.</td></tr>
+                    split-top-grapple-rake-flat-faced-coupler-set
+                    split-top-grapple-rake-parking-stand-kit
 
 
-                </tr>
-                <tr>
-                    <td colspan="4" align="center"><a href="/templates/worksaver/manuals/rbh4000.pdf">Download Manual Here</a></td>
                 </tr>
             </tbody>
         </table>
+        <br /><br />
+        <h4><i class="fa fa-lg fa-exclamation-triangle"> </i> WARNING:</h4>
+        <p>Read and understand the operator’s manual before operation. Be sure tractor/skid steer
+            is properly counterbalanced. Damage to equipment or personal injury could occur.</p>
     </div>
-</div>
 </div>

@@ -8,6 +8,7 @@
 
         <!-- Le styles -->
         <link href="http://netdna.bootstrapcdn.com/bootswatch/latest/flatly/bootstrap.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css <http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css>" rel="stylesheet">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
@@ -18,9 +19,9 @@
         <script src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.js"></script>
 
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 if ($("#dealers")) {
-                    $("#dealers td").each(function() {
+                    $("#dealers td").each(function () {
                         var data = $(this).html();
                         if (data.indexOf("-") != -1) {
                             $(this).css("white-space", "nowrap");
