@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         Revolutionizing the way rock
         grapples work, the SARG
         (Sweep Action Rock Grapple)
@@ -17,12 +17,24 @@
         of the material. Rocks, brush, logs,
         stumps, debris or scrap, the SARG
         handles them all.
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/material-handling/SARG_withrock.jpg" alt="" />
+        <br /><a href="/templates/worksaver/literature/wsr6927_SARG sheet.pdf">Download the literature</a>
+
     </div>
 </div>
-
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <img class="img-responsive" src="/images/material-handling/SARG_landing.jpg" alt="" />
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <img class="img-responsive" src="/images/material-handling/SARG_withrock.jpg" alt="" />
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <div>
+            <img class="img-responsive" src="/images/material-handling/Sarg-2-064A.jpg" alt="" />
+        </div>
+    </div>
+</div>
+</div>
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <div>
@@ -33,10 +45,9 @@
         </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <div>
-            <img class="img-responsive" src="/images/material-handling/SARG_lineart.jpg" alt="" />
-        </div>
+        <img class="img-responsive" src="/images/material-handling/SARG_lineart.jpg" alt="" />
     </div>
+</div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
