@@ -1,5 +1,8 @@
 <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <img class="img-responsive" src="/images/material-handling/SARG_landing.jpg" alt="" />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         Revolutionizing the way rock
         grapples work, the SARG
         (Sweep Action Rock Grapple)
@@ -17,37 +20,18 @@
         of the material. Rocks, brush, logs,
         stumps, debris or scrap, the SARG
         handles them all.
-        <br /><a href="/templates/worksaver/literature/wsr6927_SARG sheet.pdf">Download the literature</a>
-
+        <br /><br /><a href="/templates/worksaver/literature/wsr6927_SARG sheet.pdf">Download the literature</a>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-        <img class="img-responsive" src="/images/material-handling/SARG_landing.jpg" alt="" />
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <img class="img-responsive" src="/images/material-handling/SARG_withrock.jpg" alt="" />
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <div>
             <img class="img-responsive" src="/images/material-handling/Sarg-2-064A.jpg" alt="" />
         </div>
     </div>
-</div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <div>
-            <img class="img-responsive" src="/images/material-handling/Bolt-on_sideplates.jpg" alt="" />
-            <div style="max-width:300px; word-wrap:break-word;">
-                Bolt-on side plates hold smaller rocks in the bucket. They can be removed from the bucket to allow the SARG to handle logs and stumps.
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img class="img-responsive" src="/images/material-handling/SARG_lineart.jpg" alt="" />
-    </div>
-</div>
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -71,7 +55,19 @@
         </table>
     </div>
 </div>
-
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div>
+            <img class="img-responsive" src="/images/material-handling/Bolt-on_sideplates.jpg" alt="" />
+            <div style="max-width:300px; word-wrap:break-word;">
+                Bolt-on side plates hold smaller rocks in the bucket. They can be removed from the bucket to allow the SARG to handle logs and stumps.
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <img class="img-responsive" src="/images/material-handling/SARG_lineart.jpg" alt="" />
+    </div>
+</div>
 <div>
     <i class="fa fa-lg fa-exclamation-triangle"> </i>
     <strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer
