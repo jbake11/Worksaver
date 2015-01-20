@@ -1,84 +1,142 @@
 <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        Designed for compact tractors up to 40 horsepower that
-        are equipped with a front loader. This 60-inch wide grapple
-        allows the acreage owner unsurpassed versatility in clearing
-        brush, piling limbs or orchard maintenance. Ideal for loading
-        limbs, orchard prunings, piling brush and other hard to
-        handle materials.
-    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><img class="img-responsive" src="/images/rear-blades-landscape-rakes/LRHD-6.jpg" alt="Photo of LRHD-6" /></div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">Ideal for grading, leveling, spreading topsoil, removing stones as well as maintaining ball diamonds and horse exercise arenas. All units utilize 5/169 x 19 x 159 heat treated spring steel tines which are individually bolted to the tine bar and supported by a “waffle plate” for added strength. Select models (LRHD) will fit a Cat. I quick hitch and are supplied with a parking stand. All models are shipped with 7/89 pins.</div>
 </div>
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <img src="/images/material-handling/Compact_GrappleRake.jpg" alt="" />
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <ul>
-            <li>Unique upper grapple design provides clamping force to
-                hold material securely.</li>
-            <li>Design allows brush and other materials to be picked up
-                while leaving the dirt.</li>
-            <li>Size compatible with the lift capacity of most small
-                loader tractors.</li>
-            <li>Good forward visibility for easy control in close quarters
-                for increased productivity.</li>
-            <li>Simple efficient design with few moving parts for
-                long life.</li>
-            <li>Pivot points have lubrication capabilities.</li>
-            <li>Tractor front loader model allow use of standard pin-on
-                bracket or select interfacing quick attach brackets for
-                John Deere, AGCO, CNH, Kubota and other brands.</li>
-            <li><a href="/templates/worksaver/literature/wsr6480_Material Handling.pdf">Download the literature</a></li>
-        </ul>
-    </div>
-</div>
+<p>&nbsp;</p>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr class="table-col-header"><td colspan="3" align="center">Compact Grapple Rake Specifications</td></tr>
-                <tr><td>&nbsp;</td><td>FLGR-4062</td><td>FLGR-4062S</td></tr>
-                <tr><td>Overall Width (in/mm)</td><td>60 / 1524</td><td>60 / 1524</td></tr>
-                <tr><td>Overall Depth (in/mm)</td><td>23 / 584.2</td><td>23 / 584.2</td></tr>
-                <tr><td>Overall Height Closed (in/mm)</td><td>38.77 / 984.75</td><td>38.77 / 984.75</td></tr>
-                <tr><td>Grapple Opening (in/mm)</td><td>27 / 685.8</td><td>27 / 685.8</td></tr>
-                <tr><td>Upper Grapple Widths (in/mm)</td><td>34 / 836.6</td><td>34 / 836.6</td></tr>
-                <tr><td>Tine Spacing (in/mm)</td><td>15 / 381</td><td>15 / 381</td></tr>
-                <tr><td>Number of Lower Tines</td><td>5</td><td>5</td></tr>
-                <tr><td>Reinforcing Tubes Between Lower Tines</td><td>Yes</td><td>Yes</td></tr>
-                <tr><td>Number of Hydraulic Cylinders</td><td>1</td><td>1</td></tr>
-                <tr><td>Cylinder Bore (in/mm)</td><td>2 / 50.8</td><td>2 / 50.8</td></tr>
-                <tr><td>Cylinder Stroke (in/mm)</td><td>8 / 203.2</td><td>8 / 203.2</td></tr>
-                <tr><td>Cylinder Rod Diameter (in/mm)</td><td>1.125 / 28.57</td><td>1.125 / 28.57</td></tr>
-                <tr><td>Cylinder Pressure Rating (psi/bar)</td><td>3000 / 207</td><td>3000 / 207</td></tr>
-                <tr><td>Mounting for Tractor Loader (FLGR)</td><td>Mgt. Brt. Available *</td><td>“Universal” Skid Steer</td></tr>
-                <tr><td>Weight FLGR Model (lbs/kg)</td><td>359 / 180.98</td><td>364 / 180.98</td></tr>
-                <tr><td>Product No. FLGR Models (loader)</td><td>811460</td><td>811480</td></tr>
-                <tr><td><a href="/templates/worksaver/manuals/com-grapple.pdf">Download Manual Here</a></td>
-                    <td><a href="/compact-grapple-rake-flgr-4062">Parts List Click Here</a></td>
-                    <td><a href="/compact-grapple-rake-flgr-4062s">Parts List Click Here</a></td>
+                <tr>
+                    <td class="table-col-header" colspan="4">LRHD Series Specifications</td>
+                </tr>
+                <tr>
+                    <td>Model:</td>
+                    <td>LRHD-6</td>
+                    <td>LRHD-7</td>
+                    <td>LRHD-8</td>
+                </tr>
+                <tr>
+                    <td>Item No.:</td>
+                    <td>342240</td>
+                    <td>342250</td>
+                    <td>342255</td>
+                </tr>
+                <tr>
+                    <td>Maximum HP:</td>
+                    <td>60 hp</td>
+                    <td>60 hp</td>
+                    <td>60 hp</td>
+                </tr>
+                <tr>
+                    <td>Frame Size:</td>
+                    <td>Square Tube</td>
+                    <td>Square Tube</td>
+                    <td>Square Tube</td>
+                </tr>
+                <tr>
+                    <td>A-Frame:</td>
+                    <td>Welded Mast</td>
+                    <td>Welded Mast</td>
+                    <td>Welded Mast</td>
+                </tr>
+                <tr>
+                    <td>3-pt. Hitch:</td>
+                    <td>Cat. I</td>
+                    <td>
+                        <p>Cat. I</p>
+                    </td>
+                    <td>
+                        <p>&nbsp;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rake Width:</td>
+                    <td>6 ft.</td>
+                    <td>
+                        <p>7 ft.</p>
+                    </td>
+                    <td>
+                        <p>8 ft.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tine Bar Size:</td>
+                    <td>6 in. x 3.5 in.</td>
+                    <td>
+                        <p>6 in. x 3.5 in.</p>
+                    </td>
+                    <td>
+                        <p>6 in. x 3.5 in.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rake Positions:</td>
+                    <td>3 forward/ 2 reverse</td>
+                    <td>
+                        <p>3 forward/ 2 reverse</p>
+                    </td>
+                    <td>
+                        <p>3 forward/ 2 reverse</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tine Size:</td>
+                    <td>5/16 in. x 1 in.</td>
+                    <td>
+                        <p>5/16 in. x 1 in.</p>
+                    </td>
+                    <td>
+                        <p>5/16 in. x 1 in.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Weight (lbs):</td>
+                    <td>279</td>
+                    <td>
+                        <p>305</p>
+                    </td>
+                    <td>
+                        <p>331</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Parking Stand:</td>
+                    <td>Yes</td>
+                    <td>
+                        <p>Yes</p>
+                    </td>
+                    <td>
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>SGW-10</td>
+                    <td>N/A</td>
+                    <td>
+                        <p>N/A</p>
+                    </td>
+                    <td>
+                        <p>N/A</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DGW-20</td>
+                    <td>Optional</td>
+                    <td>
+                        <p>Optional</p>
+                    </td>
+                    <td>
+                        <p>Optional</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="/landscape-rakes-mcr-series-parts-list">Parts List Click Here</a></td>
+                    <td><a href="/templates/worksaver/manuals/Rakews.pdf">Download Manual</a></td>
+                    <td><a href="landscape-rakes-dgw-20">Optional Dual Gauge Wheel Package: DGW-20</a></td>
+                    <td><a href="landscape-rakes-dgw-20">&nbsp;</a></td>
                 </tr>
             </tbody>
         </table>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr class="table-col-header"><td colspan="3" align="center">Optional Accessories</td></tr>
-                <tr><td align="center"><a href="/split-top-grapple-rake-flat-faced-coupler-set">Flat-Faced Coupler Set</a></td>
-                    <td align="center"><a href="/split-top-grapple-rake-parking-stand-kit">Parking Stand Kit</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div>
-    <i class="fa fa-lg fa-exclamation-triangle"> </i>
-    <strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer
-    is properly counterbalanced. Damage to equipment or personal injury could occur.
-</div>
-<br />
-
-
