@@ -39,43 +39,138 @@
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <div><strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer is properly counterbalanced. Damage to equipment or personal injury could occur.</div>
-    <p>&nbsp;</p>
+    <br />
 </div>
-
-
 
 
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Designed for skid steer or tractor
+        front loaders, our standard pallet
+        forks have rated capacities from
+        4,000 lbs. to 5,500 lbs. All models
+        feature solid steel alloy forks for long
+        life, with spring loaded latches for
+        easy adjustment spacing.
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <img class="img-responsive" src="/images/material-handling/PalletForks.jpg" alt="" />
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <ul>
+
+            <li>Skid steer pallet forks (4,000 lbs.
+                are offered with a one piece backstop
+                or a step through design
+                for easy cab access and excellent
+                visibility.</li>
+            <li>Skid steer models mount with the
+                “Universal” quick-attach mounting
+                system.</li>
+            <li>Premium forks include spring
+                loaded latches for easy adjustment
+                spacing.</li>
+            <li>Models available with integrated
+                brackets for skid steers, John
+                Deere 400/500/600/700 series
+                loaders, and loaders with euro/
+                global attaching method.</li>
+            <li>Optional interfacing quick-attach
+                brackets available for most other
+                loader models.</li>
+            <li>Provides versatility for your skid
+                steer or tractor front loader.</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr class="table-col-header"><td align="center" colspan="4">Specifications</td></tr>
-                <tr class="table-col-img"><td colspan="4" align="center"><img class="img-responsive" src="/images/material-handling/FLGR-4062.gif" alt="" /></td></tr>
-                <tr><td>Ref. No</td><td>Part No.</td><td>Description</td><td>No. Req'd</td></tr>
-                <tr><td>1</td><td>811461</td><td>Main Frame Weldment (FLGR-4062)</td><td>1</td></tr>
-                <tr><td>2</td><td>811471</td><td>Grapple Clamp Weldment</td><td>1</td></tr>
-                <tr><td>3</td><td>341338</td><td>Point, Replaceable Grapple (Weld-On)</td><td>5</td></tr>
-                <tr><td>4</td><td>2503257</td><td>Bolt, Hex 1"-8NC x 6" Gr. 5</td><td>1</td></tr>
-                <tr><td>5</td><td>2503309</td><td>Bolt, 1"-8NC x 4" Hex Head Gr.5</td><td>2</td></tr>
-                <tr><td>6</td><td>2500045</td><td>Nut, 1"-8NC Hex Nylock</td><td>3</td></tr>
-                <tr><td>7</td><td>2504049</td><td>Zerk, Drive 5/16"</td><td>3</td></tr>
-                <tr><td>8</td><td>2504230</td><td>Cylinder, Hydraulic 2 x 8 ARH</td><td>1</td></tr>
-                <tr><td>9</td><td>2504007</td><td>Pin, Cotter 3/16" x 1-3/4"</td><td>2</td></tr>
-                <tr><td>10</td><td>2505035</td><td>Spring Bushing, 1.25 x 1 x 1</td><td>2</td></tr>
-                <tr><td>11</td><td>2505609</td><td>Hyd. Adapter 90° 3/4-16 ORB/F 1/4-18 NPSM</td><td>2</td></tr>
-                <tr><td>12</td><td>811236</td><td>Bracket, RH Lift (1" Holes)</td><td>2</td></tr>
-                <tr><td>13</td><td>811237</td><td>Bracket, LH Lift (1" Holes)</td><td>2</td></tr>
-                <tr><td>14</td><td>811238</td><td>Lift Pin 1" x 6"</td><td>4</td></tr>
-                <tr><td>15</td><td>590034</td><td>Linch Pin, 1/4" (AK-61)</td><td>8</td></tr>
-                <tr><td>16</td><td>830214</td><td>U-Bolt, 5/8"-11NC 3" x 4-1/2"</td><td>8</td></tr>
-                <tr><td>17</td><td>2502007</td><td>Washer, 5/8" Springlock)</td><td>16</td></tr>
-                <tr><td>18</td><td>2500013</td><td>Nut, 5/8"-11NC Full Hex</td><td>16</td></tr>
-                <tr><td>19</td><td>101026</td><td>Safety Sign - Caution (Instructions)</td><td>1</td></tr>
-                <tr><td>20</td><td>101027</td><td>Safety Sign - Warning (Stand Clear)</td><td>2</td></tr>
-                <tr><td>21</td><td>101122</td><td>Safety Sign - Warning (Hi-Pressure)</td><td>1</td></tr>
-                <tr><td>22</td><td>101204</td><td>Safety Sign - Notice (Grapples)</td><td>1</td></tr>
-                <tr><td>23</td><td>101129</td><td>Safety Sign - Warning (Grapples)</td><td>1</td></tr>
-            <tbody>
+                <tr class="table-col-header">
+                    <td colspan="4" align="center">For Skid Steer & Tractor Front Loaders the “Universal” Quick Attach System</td>
+                    <td>For Tractor Loaders</td>
+                </tr>
+                <tr><td>Model</td><td>SSPF-442</td><td>SSPF-448S</td><td>SSPF-3748</td><td>PF-448</td></tr>
+                <tr><td>Equipment Used On</td><td>Skid Steer Loader</td><td>Skid Steer Loader</td><td>Skid Steer Loader</td><td>Tractor Loader</td></tr>
+                <tr><td>Capacity (lbs/kg)</td><td>4,000 / 1,814</td><td>4,000 / 1,814</td><td>4,000 / 1,814</td><td>4,000 / 1,814</td></tr>
+                <tr><td>Frame Construction</td><td>Welded Steel</td><td>Welded Steel</td><td>Welded Steel</td><td>Welded Steel</td></tr>
+                <tr><td>Backstop</td><td>Step-through</td><td>Step-through</td><td>Single Piece</td><td>N/A</td></tr>
+                <tr><td>Mounting</td><td>“Universal” Skid Steer</td><td>“Universal” Skid Steer</td><td>“Universal” Skid Steer</td><td>Mgt. Brt. Available*</td></tr>
+                <tr><td>Fork Spacing (in/mm)</td><td>6 – 40 / 152 – 1016</td><td>6 – 40 / 152 – 1016</td><td>6 – 40 / 152 – 1016</td><td>6 – 40 / 152 – 1016</td></tr>
+                <tr><td>Fork Carrier</td><td>Notched Rail</td><td>Notched Rail</td><td>Notched Rail</td><td>Notched Rail</td></tr>
+                <tr><td>Forks</td><td>1.375” x 4” w/Latch</td><td>1.375” x 4” w/Latch</td><td>1.375” x 4” w/Latch</td><td>1.375” x 4” w/Latch</td></tr>
+                <tr><td>Fork Length (in/mm)</td><td>42 / 1067</td><td>48 / 1219</td><td>48 / 1219</td><td>48 / 1219</td></tr>
+                <tr><td>Weight (lbs/kg)</td><td>345 / 157</td><td>359 / 163</td><td>315/143</td><td>438 / 199</td></tr>
+                <tr><td>Product No.</td><td>832400</td><td>832415</td><td>831370</td><td>831830</td></tr>
+                <tr>
+                    <td><a href="/images/manuals/JDSSGLPF.pdf">Download Manual Here</a></td>
+                    <td><a href="/pallet-forks-sspf-442">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-sspf-448">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-sspf-3748">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-pf-448">Parts List Click Here</a></td>
+                </tr>
+                <tr><td colspan="5">*Optional interfacing quick attach brackets available for most popular loaders.</td></tr>
+            </tbody>
         </table>
     </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr class="table-col-header"><td colspan="4" align="center">John Deere Integrated Frame Pallet Forks</td></tr>
+                <tr><td>Model</td><td>JDPF-5442</td><td>JDPF-5448</td><td>JDPF-6748</td></tr>
+                <tr><td>Equipment Used On </td><td>D Front Loader</td><td>JD Front Loader</td><td>JD Front Loader</td></tr>
+                <tr><td>Capacity (lbs/kg)</td><td>4,000 / 1,814</td><td>4,000 / 1,814</td><td>5,500 / 2,495</td></tr>
+                <tr><td>Frame Construction</td><td>Welded Steel</td><td>Welded Steel</td><td>Welded Steel</td></tr>
+                <tr><td>Mounting</td><td>400 / 500 Series JD</td><td>400 / 500 Series</td><td>JD 600 / 700 Series JD</td></tr>
+                <tr><td>Fork Spacing (in/mm)</td><td>6 – 40 / 152 – 1016</td><td>6 – 40 / 152 – 1016</td><td>6 – 40 / 152 – 1016</td></tr>
+                <tr><td>Fork Carrier</td><td>Notched Rail</td><td>Notched Rail</td><td>Notched Rail</td></tr>
+                <tr><td>Forks</td><td>1.375” x 4” w/Latch</td><td>1.375” x 4” w/Latch</td><td>1.57” x 4” w/Latch</td></tr>
+                <tr><td>Fork Length (in/mm)</td><td>42 / 1067</td><td>48 / 1219</td><td>48 / 1219</td></tr>
+                <tr><td>Weight (lbs/kg)</td><td>345 / 157</td><td>359 / 163</td><td>373 / 169</td></tr>
+                <tr><td>Product No.</td><td>832420</td><td>832435</td><td>832440</td></tr>
+                <tr>
+                    <td><a href="/images/manuals/JDSSGLPF.pdf">Download Manual Here</a></td>
+                    <td><a href="/pallet-forks-jdpf-5442">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-jdpf-5448">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-jdpf-6748">Parts List Click Here</a></td>
+                </tr>
+                <tr><td colspan="4">*Optional interfacing quick attach brackets available for most popular loaders.</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table table-bordered table-responsive table-striped">
+            <tbody>
+                <tr class="table-col-header"><td colspan="4" align="center">Global (Euro Hook Style) Integrated Frame Pallet Forks</td></tr>
+                <tr><td>Model</td><td>GLPF-442</td><td>GLPF-448</td><td>GLPF-5548</td></tr>
+                <tr><td>Equipment Used On</td><td>Tractor Front Loader</td><td>Tractor Front Loader</td><td>Tractor Front Loader</td></tr>
+                <tr><td>Capacity (lbs/kg)</td><td>4,000 / 1,814</td><td>4,000 / 1,814</td><td>5,500 / 2,495</td></tr>
+                <tr><td>Frame Construction</td><td>Welded Steel</td><td>Welded Steel</td><td>Welded Steel</td></tr>
+                <tr><td>Mounting</td><td>Euro / Global Carrier</td><td>Euro / Global Carrier</td><td>Euro / Global Carrier</td></tr>
+                <tr><td>Fork Spacing</td><td>6” to 40”</td><td>6” to 40”</td><td>6” to 40”</td></tr>
+                <tr><td>Fork Carrier</td><td>Notched Rail</td><td>Notched Rail</td><td>Notched Rail</td></tr>
+                <tr><td>Forks</td><td>1.375” x 4” w/Latch</td><td>1.375” x 4” w/Latch</td><td>1.57” x 4” w/Latch</td></tr>
+                <tr><td>Fork Length (in/mm)</td><td>42 / 1067</td><td>48 / 1219</td><td>48 / 1219</td></tr>
+                <tr><td>Weight (lbs)</td><td>345 / 157</td><td>359 / 163</td><td>373 / 169</td></tr>
+                <tr><td>Product No.</td><td>832452</td><td>832458</td><td>832460</td></tr>
+                <tr>
+                    <td><a href="/images/manuals/JDSSGLPF.pdf">Download Manual Here</a></td>
+                    < <td><a href="/pallet-forks-glpf-442">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-glpf-448">Parts List Click Here</a></td>
+                    <td><a href="/pallet-forks-glpf-5548">Parts List Click Here</a></td>
+                <tr><td colspan="4">*Optional interfacing quick attach brackets available for most popular loaders.</td></tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">    <div><strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer is properly counterbalanced. Damage to equipment or personal injury could occur.</div>
+    <p>&nbsp;</p>
 </div>
