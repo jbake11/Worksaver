@@ -410,7 +410,14 @@ nav ul li a{
     padding: 8px;
 }
 
+.qc-sys-img .img-responsive {
+    margin: 0 auto;
+}
 
+
+#quick-change-adjust h4{
+    margin-top: 0px;
+}
 
 #footnav{
     background-color: #6a6a69;
@@ -462,7 +469,10 @@ address{
 
 }
 
-
+.qc-sys-img img{
+    max-height: 214px;
+    max-width: 300px;
+}
 
 //Product Tables
 .table-body{
