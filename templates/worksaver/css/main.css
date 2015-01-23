@@ -410,7 +410,9 @@ nav ul li a{
     padding: 8px;
 }
 
-
+#quick-change-adjust{
+    margin-top: 0px;
+}
 
 #footnav{
     background-color: #6a6a69;

@@ -1,6 +1,6 @@
 <h2>Consistently delivering a different approach</h2><br />
 <div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         Worksaver with over two decades of post driver innovations now offers two series
         of post drivers. Our standard duty model HPD-16 incorporates many of the
         innovations first brought to the market by Worksaver: “convertible” hydraulic valve,
@@ -18,7 +18,10 @@
         spring-anchor design when mounted to the cushion mounts reduces vibration
         which further provides increased spring service life. Increasing fence-building
         performance, making the Q-series a game changer.
-        <br /><br />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         The Q-series of hydraulic post drivers continues Worksaver’s innovation
         with post drivers. In the past two decades Worksaver has brought the following
         enhancements to the market:
@@ -34,11 +37,12 @@
             <li>First with adjustable legs on all models</li>
             <li>First with “convertible” valve for open center/closed center hydraulic systems</li>
         </ul>
-        <br /><br />
+    </div>
+    <div id="quick-change-adjust" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <h4>New QuickChange system:</h4>
-        Worksaver has introduced a new Feature called The QuickChange System for replacing the rod seal in the field.
-        <a href="/hydraulic-post-drivers-quickchange-system">New QuickChange System</a>
-        Download Instructions to change cyl. rod seal
+        Worksaver has introduced a new Feature called The QuickChange System for replacing the rod seal in the field. <br />
+        <a href="/hydraulic-post-drivers-quickchange-system">New QuickChange System</a>&nbsp;
+        <a href="/HPD-20quick-20change.pdf">Download Instructions to change cyl. rod seal</a>
     </div>
 </div>
 <br />
