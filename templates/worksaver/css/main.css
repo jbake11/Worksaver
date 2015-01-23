@@ -464,7 +464,10 @@ address{
 
 }
 
-
+.qc-sys-img{
+    max-height: 214px;
+    max-width: 300px
+}
 
 //Product Tables
 .table-body{
