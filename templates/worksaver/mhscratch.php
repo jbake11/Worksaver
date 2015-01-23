@@ -1,6 +1,6 @@
 <h2>Consistently delivering a different approach</h2><br />
 <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
         Worksaver with over two decades of post driver innovations now offers two series
         of post drivers. Our standard duty model HPD-16 incorporates many of the
         innovations first brought to the market by Worksaver: “convertible” hydraulic valve,
@@ -34,9 +34,12 @@
             <li>First with adjustable legs on all models</li>
             <li>First with “convertible” valve for open center/closed center hydraulic systems</li>
         </ul>
+        <br /><br />
+        <h4>New QuickChange system:</h4>
+        Worksaver has introduced a new Feature called The QuickChange System for replacing the rod seal in the field.
+        <a href="/hydraulic-post-drivers-quickchange-system">New QuickChange System</a>
+        Download Instructions to change cyl. rod seal
     </div>
-    <br /><br />
-    <h4><a href="/hydraulic-post-drivers-quickchange-system">New QuickChange system:</a></h4><br /> Worksaver has introduced a new Feature called The QuickChange System for replacing the rod seal in the field.    Download Instructions to change cyl. rod seal
 </div>
 <br />
 <div class="row">
