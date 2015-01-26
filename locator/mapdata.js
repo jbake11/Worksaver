@@ -205,6 +205,7 @@ var simplemaps_namap_mapdata = {
             name: 'Arkansas Distributors',
             color: 'default',
             hover_color: 'default',
+            description: "Implement Sales Inc.<br>PO Box 249, Hwy 70 West<br>West Memphis, AR  72303<br>800-489-4726<br>www.buhler.com<br>jthomas@buhler.com",
             url: '/arkansas-distributors'
         },
         MO: {
@@ -333,6 +334,7 @@ var simplemaps_namap_mapdata = {
             name: 'Arizona Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Contact Worksaver for distributor information',
             url: '/arizona-distributors'
         },
         NV: {
@@ -357,6 +359,7 @@ var simplemaps_namap_mapdata = {
             name: 'California  Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Contact Worksaver for distributor information',
             url: '/california-distributors'
         },
         MI: {
