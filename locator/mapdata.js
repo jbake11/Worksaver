@@ -235,6 +235,7 @@ var simplemaps_namap_mapdata = {
             name: 'Alabama Distributors',
             color: 'default',
             hover_color: 'default',
+            description: "Implement Sales Co<br>1574 Stone Ridge Dr.<br>Stone Mountain, GA  30083<br>800-955-9592<br>www.implementsalesga.com<br>sales@implementsalesga.com",
             url: '/alabama-distributors'
         },
         LA: {
