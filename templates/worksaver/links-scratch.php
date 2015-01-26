@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-responsive">
             <tbody>
-                <tr class="table-col-header"><td colspan="3" align="center">Farm Equipment Manufacturers</td></tr>
+                <tr bgcolor="#ccc" class="table-col-header"><td colspan="3" align="center">Farm Equipment Manufacturers<br /><br /></td></tr>
 
                 <tr>
                     <td><a href="http://www.bighambrothers.com/"><IMG SRC="/images/links/bblogo.gif" WIDTH=200 HEIGHT=40></a></td>
@@ -52,7 +52,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-responsive">
             <tbody>
-                <tr class="table-col-header"><td colspan="3" align="center">Agricultural Magazines</td></tr>
+                <tr bgcolor="#ccc" class="table-col-header"><td colspan="3" align="center">Agricultural Magazines<br /><br /></td></tr>
                 <tr>
                     <td><a href="http://www.smallfarm.com/"><IMG SRC="/images/links/americansmallfarm.jpg" width="100" height="150"></a></td>
                     <td><a href="http://www.farmjournal.com/beeftoday/"><IMG SRC="/images/links/BeefToday.jpg" width="100" height="150"></a></td>
@@ -81,7 +81,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-responsive">
             <tbody>
-                <tr class="table-col-header"><td colspan="3" align="center">Other Agricultural Links</td></tr>
+                <tr bgcolor="#ccc" class="table-col-header"><td colspan="3" align="center">Other Agricultural Links<br /><br /></td></tr>
                 <tr>
                     <td><a href="http://www.ifas.ufl.edu/www/agator_home.htm"><IMG SRC="/images/links/chmpbutn.gif" WIDTH=110 HEIGHT=48></a></td>
                     <td><a href="http://www.ararental.org/"><IMG SRC="/images/links/ararental.gif" WIDTH=200 HEIGHT=40></a></td>
@@ -90,11 +90,11 @@
                 <tr>
                     <td><a href="http://www.wssitepro.com/"><IMG SRC="/images/links/SitePrologo.gif" WIDTH=140 HEIGHT=50></a></td>
                     <td><a href="http://www.grainfarmer.com"><IMG SRC="/images/links/imageOEP.jpg" WIDTH=110 HEIGHT=48></a></td>
-                    <td><a href="http://www.agriculture.com/contents/FFA/">FFA Organization and Affiliates</a></td>
+                    <td><a href="http://www.aem.org"><IMG SRC="/images/links/aemlogo.gif" WIDTH=110 HEIGHT=48></a></td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.aem.org"><IMG SRC="/images/links/aemlogo.gif" WIDTH=110 HEIGHT=48></a></td>
                     <td><a href="http://www.farmequip.org/" TARGET="new"><IMG SRC="/images/links/ani_fema-sm.gif" WIDTH=59 HEIGHT=87></a></td>
+                    <td><a href="http://www.agriculture.com/contents/FFA/">FFA Organization and Affiliates</a></td>
                 </tr>
             </tbody>
         </table>
