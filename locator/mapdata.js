@@ -65,6 +65,7 @@ var simplemaps_namap_mapdata = {
             name: 'Hawaii Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Contact Worksaver for distributor information',
             url: '/hawaii-distributors'
         },
         AK: {
@@ -78,6 +79,7 @@ var simplemaps_namap_mapdata = {
             name: 'Florida Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Henry Mitchem Equipment Co.<br>2219 W. Griffin Road<br>Leesburg, FL  34748<br>352-787-4109<br>www.mitchemequipment.com',
             url: '/florida-distributors'
         },
         NH: {
@@ -126,6 +128,7 @@ var simplemaps_namap_mapdata = {
             name: 'Delaware Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Hamilton Equipment<br>567 South Reading Road<br>Ephrata, PA  17522<br>800-733-0275<br>www.haminc.com<br>sales@haminc.com',
             url: '/delaware-distributors'
         },
         MD: {
@@ -156,6 +159,7 @@ var simplemaps_namap_mapdata = {
             name: 'Indiana Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Implement Sales Inc.<br>2242 Koetter Dr.<br>Clarksville, IN  47129<br>800-467-4726<br>www.buhler.com<br>rbundy@buhler.com',
             url: '/indiana-distributors'
         },
         IL: {
@@ -169,6 +173,7 @@ var simplemaps_namap_mapdata = {
             name: 'Connecticut Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>1314 Union St<br>West Springfield, MA  01090<br>413-736-5462<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/connecticut-distributors'
         },
         WI: {
@@ -218,6 +223,7 @@ var simplemaps_namap_mapdata = {
             name: 'Georgia Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Implement Sales Co<br>1574 Stone Ridge Dr.<br>Stone Mountain, GA  30083<br>800-955-9592<br>www.implementsalesga.com<br>sales@implementsalesga.com',
             url: '/georgia-distributors'
         },
         SC: {
@@ -322,6 +328,7 @@ var simplemaps_namap_mapdata = {
             name: 'Colorado Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Beaver Valley<br>9591 Normfield Blvd<br>Denver, CO  80238<br>800-528-2872<br>www.beavervalleysupply.com<br>info@beavervalleysupply.com',
             url: '/colorado-distributors'
         },
         UT: {
@@ -372,6 +379,7 @@ var simplemaps_namap_mapdata = {
             name: 'Idaho Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'General Implement<br>300 East Overland Rd.<br>Meridian, ID  83642<br>800-676-0555<br>www.generalimp.com',
             url: '/idaho-distributors'
         },
         //Canada
