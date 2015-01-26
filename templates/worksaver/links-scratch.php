@@ -77,13 +77,11 @@
         </table>
     </div>
 </div>
-
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr class="table-col-header"><td colspan="3" align="center">title</td></tr>
-                Other Agricultural Links
+                <tr class="table-col-header"><td colspan="3" align="center">Other Agricultural Links</td></tr>
                 <tr>
                     <td><a href="http://www.ifas.ufl.edu/www/agator_home.htm"><IMG SRC="/images/links/chmpbutn.gif" WIDTH=110 HEIGHT=48></a></td>
                     <td><a href="http://www.ararental.org/"><IMG SRC="/images/links/ararental.gif" WIDTH=200 HEIGHT=40></a></td>
