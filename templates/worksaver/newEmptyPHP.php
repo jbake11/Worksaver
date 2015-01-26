@@ -1,62 +1,21 @@
 <div class="row">
-    <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
-        <img class="qc-sys-img img-responsive" src="/images/fence-equipment/QuickChange.jpg" alt="" />
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        Worksaver offers a wide range of seeders and spreaders handling many types of material. All our seeder/spreaders come with complete easy to read operator manuals. Each operator's manual has seed and fertilizer spread charts, a troubleshooting section, and a complete part schematics.
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
-        Worksaver is introducing the QuickChange system featuring a new End Cap (Splitcap) for our HPD-series of Post Drivers. This new SplitCap will allow the end user to easily replace the rod seal in the field.
-        The QuickChange system also involves a change to the cylinder rod and attaching hardware. The serial number break and parts information is listed below.
-        <br /><br />
-        <a href="/images/fence-equipment/HPD-20quick-20change.pdf">Download Instructions to change cyl. rod seal</a>
+    <div class="col-lg-4 col-md-4"><a href="/">
+            <img class="img-responsive" src="/images/" alt="" /></a>
     </div>
-</div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr><td class="table-col-header" colspan="2" align="center">HPD-16 Effective with S/N 4077</td></tr>
-                <tr><td class="table-col-modelnum">Description</td><td>New Item Number</td></tr>
-                <tr><td>Cylinder Rod (now 1-inch dia.)</td><td>815166</td></tr>
-                <tr><td>End Cap w/Rod Seal</td><td>815170</td></tr>
-                <tr><td>Shoulder Nut</td><td>815205</td></tr>
-                <tr><td>New Top Nut</td><td>2500017</td></tr>
-            </tbody>
-        </table>
+    <div class="col-lg-8 col-md-8">
+        <h3><a href="/"><strong></strong></a></h3>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr><td class="table-col-header" colspan="2" align="center">HPD-20 Effective with S/N 4531</td></tr>
-                <tr><td class="table-col-modelnum">Description</td><td>New Item Number</td></tr>
-                <tr><td>Cylinder Rod</td><td>815204</td></tr>
-                <tr><td>End Cap w/Rod Seal</td><td>815170</td></tr>
-                <tr><td>Shoulder Nut</td><td>815205</td></tr>
-                <tr><td>New Top Nut</td><td>2500017</td></tr>
-            </tbody>
-        </table>
+    <div class="col-lg-4 col-md-4"><a href="/">
+            <img class="img-responsive" src="/images/" alt="" /></a>
+    </div>
+    <div class="col-lg-8 col-md-8">
+        <h3><a href="/"><strong></strong></a></h3>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-12 col-lg-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
-            <tbody>
-                <tr><td class="table-col-header" colspan="2" align="center">HPD-24 Effective with S/N 1284</td></tr>
-                <tr><td class="table-col-modelnum">Description</td><td>New Item Number</td></tr>
-                <tr><td>Cylinder Rod</td><td>815204</td></tr>
-                <tr><td>End Cap w/Rod Seal</td><td>815170</td></tr>
-                <tr><td>Shoulder Nut</td><td>815205</td></tr>
-                <tr><td>New Top Nut</td><td>2500017</td></tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div>
-    <i class="fa fa-lg fa-exclamation-triangle"> </i>
-    <strong>WARNING:</strong> Read and understand the operator’s manual before operation. Be sure tractor/skid steer
-    is properly counterbalanced. Damage to equipment or personal injury could occur.
-</div>
-<br />
