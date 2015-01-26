@@ -62,98 +62,98 @@ var simplemaps_namap_mapdata = {
     state_specific: {
         //U.S. States
         HI: {
-            name: 'default',
+            name: 'Hawaii Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/hawaii-distributors'
         },
         AK: {
-            name: 'Alaska',
+            name: 'Alaska Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/alaska-distributors',
             description: "Rankin Equipment<br>PO Box 1937<br>Yakima, WA  98907<br>509-452-1651<br>www.rankineqco.com<br>sales@rankineqco.com"
         },
         FL: {
-            name: 'default',
+            name: 'Florida Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/florida-distributors'
         },
         NH: {
-            name: 'default',
+            name: 'New Hamsphire Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/new-hampshire-distributors'
         },
         VT: {
-            name: 'default',
+            name: 'Vermont Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/vermont-distributors'
         },
         ME: {
-            name: 'default',
+            name: 'Maine Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/maine-distributors'
         },
         RI: {
-            name: 'default',
+            name: 'Rhode Island Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/rhode-island-distributors'
         },
         NY: {
-            name: 'default',
+            name: 'New York Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/new-york-distributors'
         },
         PA: {
-            name: 'default',
+            name: 'Pennsylvania Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/pennsylvania-distributors'
         },
         NJ: {
-            name: 'default',
+            name: 'New Jersey Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/new-jersey-distributors'
         },
         DE: {
-            name: 'default',
+            name: 'Delaware Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/delaware-distributors'
         },
         MD: {
-            name: 'default',
+            name: 'Maryland Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/maryland-distributors'
         },
         VA: {
-            name: 'default',
+            name: 'Virginia Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/virginia-distributors'
         },
         WV: {
-            name: 'default',
+            name: 'West Virginia Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/west-virginia-distributors'
         },
         OH: {
-            name: 'default',
+            name: 'Ohio Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/ohio-distributors'
         },
         IN: {
-            name: 'default',
+            name: 'Indiana Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/indiana-distributors'
@@ -166,19 +166,19 @@ var simplemaps_namap_mapdata = {
             url: '/illinois-dealers'
         },
         CT: {
-            name: 'default',
+            name: 'Connecticut Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/connecticut-distributors'
         },
         WI: {
-            name: 'default',
+            name: 'Wisconsin Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/wisconsin-distributors'
         },
         NC: {
-            name: 'default',
+            name: 'North Carolia Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/north-carolina-distributors'
@@ -190,19 +190,19 @@ var simplemaps_namap_mapdata = {
             url: '#'
         },
         MA: {
-            name: 'default',
+            name: 'Massachusetts Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/massachusetts-distributors'
         },
         TN: {
-            name: 'default',
+            name: 'Tennessee Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/tennessee-distributors'
         },
         AR: {
-            name: 'default',
+            name: 'Arkansas Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/arkansas-distributors'
@@ -214,25 +214,25 @@ var simplemaps_namap_mapdata = {
             url: '/missouri-distributors'
         },
         GA: {
-            name: 'default',
+            name: 'Georgia Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/georgia-distributors'
         },
         SC: {
-            name: 'default',
+            name: 'South Carolina Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/south-carolina-distributors'
         },
         KY: {
-            name: 'default',
+            name: 'Kentucky Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/kentucky-distributors'
         },
         AL: {
-            name: 'Alabama',
+            name: 'Alabama Distributors',
             color: 'default',
             hover_color: 'default',
             url: '/alabama-distributors'
@@ -338,7 +338,7 @@ var simplemaps_namap_mapdata = {
             name: 'Nevada Distributors',
             color: 'default',
             hover_color: 'default',
-            url: '/nevada-distributors',
+            url: '/nevada-distributors'
         },
         OR: {
             name: 'Oregon Distributors',
