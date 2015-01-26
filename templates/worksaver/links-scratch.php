@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
+        <table class="table table-responsive">
             <tbody>
                 <tr class="table-col-header"><td colspan="3" align="center">Farm Equipment Manufacturers</td></tr>
 
@@ -10,12 +10,12 @@
                     <td><a href="http://www.casecorp.com"><IMG SRC="/images/links/case.gif" WIDTH=200 HEIGHT=40></a></td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.cat.com"><IMG SRC="/images/links/cat_logo.gif" WIDTH=200 HEIGHT=40></a></td>
+                    <td><a href="http://www.cat.com"><IMG SRC="/images/links/Cat_logo.gif" WIDTH=200 HEIGHT=40></a></td>
                     <td><a href="http://www.deere.com"><IMG SRC="/images/links/logo_green.gif" WIDTH=200 HEIGHT=40></a></td>
                     <td><a href="http://www.hispec.net"><IMG SRC="/images/links/hispec.gif" WIDTH=150 HEIGHT=30></a></td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.gehl.com"><IMG SRC="/images/links/gehl.gif" WIDTH=150 HEIGHT=30></a></td>
+                    <td><a href="http://www.gehl.com"><IMG SRC="/images/links/Gehl.gif" WIDTH=150 HEIGHT=30></a></td>
                     <td><a href="http://www.landoll.com/"><IMG SRC="/images/links/Landoll.jpg" WIDTH=150 HEIGHT=40></a></td>
                     <td><a href="http://www.lelyusa.com"><IMG SRC="/images/links/lely.gif" WIDTH=150 HEIGHT=40></a></td>
                 </tr>
@@ -50,7 +50,7 @@
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
+        <table class="table table-responsive">
             <tbody>
                 <tr class="table-col-header"><td colspan="3" align="center">Agricultural Magazines</td></tr>
                 <tr>
@@ -64,9 +64,9 @@
                     <td><a href="http://www.hpj.com"><IMG SRC="/images/links/highplainsjournal.bmp" width="100" height="150"></a></td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.ag-implement.com"><IMG SRC="/images/links/agra-net.bmp" width="150" height="65"></a></td>
+                    <td><a href="http://www.ag-implement.com"><IMG SRC="/images/links/Agra-net.bmp" width="150" height="65"></a></td>
                     <td><a href="http://www.iowafarmer.com"><img src="/images/links/Iowafarmer.jpg" width=140 height=55 alt=""></a></td>
-                    <td><a href="http://www.agpub.on.ca/pork/porkhom.htm"><IMG SRC="/images/links/pork.jpg" width="100" height="150"></a></td>
+                    <td><a href="http://www.agpub.on.ca/pork/porkhom.htm"><IMG SRC="/images/links/Pork.jpg" width="100" height="150"></a></td>
                 </tr>
                 <tr>
                     <td><a href="http://progressivefarmer.com/"><IMG SRC="/images/links/progressivefarmer.bmp" width="150" height="75"></a></td>
@@ -79,7 +79,7 @@
 </div>
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-bordered table-responsive table-striped">
+        <table class="table table-responsive">
             <tbody>
                 <tr class="table-col-header"><td colspan="3" align="center">Other Agricultural Links</td></tr>
                 <tr>
