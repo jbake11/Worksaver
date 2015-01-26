@@ -33,15 +33,15 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h3>Copyright © 1996-2011 Worksaver, Inc. All Rights Reserved.</h3>
-
+        <br /><br />
         Worksaver retains all copyrights in any text or graphic images owned by Worksaver
         and hereby authorizes you to electronically copy documents published herein solely
         for th purpose of transmitting or viewing the information. Any file or image rebroadcast
         or mirroring, modification, or otherwise alter any files or images, or print the information
         contained herein, without written permission from Worksaver is strictly prohibited.
-
-        Worksaver, Terra-Max, Hugger, Grabber, and Claw names and logos are registered trademarks.
-        Stack-Max registration is pending. Microsoft, Internet Explorer, and Netscape are registered
+        <br /><br />
+        <strong>Worksaver, Terra-Max, Hugger, Grabber,</strong> and <strong> Claw</strong> names and logos are registered trademarks.
+        <strong>Stack-Max</strong> registration is pending. <strong>Microsoft, Internet Explorer,</strong> and <strong>Netscape</strong> are registered
         logos and trademarks with respect to their companies. Worksaver has permission to provide
         customer access to their respective web sites to obtain a current software version to better
         view Worksaver web pages. All logos are registered trademarks of their respective companies.
@@ -51,7 +51,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h3>Legal Notices</h3>
-
+        <br /><br />
         The information is this publication, including text, images, and links, are provides
         "as is" by Worksaver, Inc. solely as a convenience to customers, dealers, and distributors
         without warranty of any kind, either expressed or implied, including but not limited to,
@@ -59,12 +59,11 @@
         Worksaver, Inc. assumes no responsibility for errors or omissions in this publication or other
         documents which are referenced by or linked to this publication. This publication could include
         technical or other inaccuracies, and not all products or services referenced herein are available in all areas. Changes are periodically added to the information, and Worksaver may change products or services described in this publication at any time.
-
+        <br /><br />
         Should you choose to respond directly to Worksaver with any information including comments, questions,
         suggestions, ideas, etc. relating to this web site or Worksaver products, and services, you agree that
         such information shall be deemed as non-confidential and Worksaver shall have no obligation to respond
         and be free to reproduce, use, disclose, and distribute the information to others without limitation,
         including but not limited to developing, manufacturing, and marketing products incorporating such information.
-
     </div>
 </div>
