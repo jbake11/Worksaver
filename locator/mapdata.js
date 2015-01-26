@@ -65,98 +65,98 @@ var simplemaps_namap_mapdata = {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default',
+            url: '/hawaii-distributors'
         },
         AK: {
             name: 'Alaska',
             color: 'default',
             hover_color: 'default',
-            url: '/alaska',
+            url: '/alaska-distributors',
             description: "Rankin Equipment<br>PO Box 1937<br>Yakima, WA  98907<br>509-452-1651<br>www.rankineqco.com<br>sales@rankineqco.com"
         },
         FL: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/florida-distributors'
         },
         NH: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/new-hampshire-distributors'
         },
         VT: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/vermont-distributors'
         },
         ME: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/maine-distributors'
         },
         RI: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/rhode-island-distributors'
         },
         NY: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/new-york-distributors'
         },
         PA: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/pennsylvania-distributors'
         },
         NJ: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/new-jersey-distributors'
         },
         DE: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/delaware-distributors'
         },
         MD: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/maryland-distributors'
         },
         VA: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/virginia-distributors'
         },
         WV: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/west-virginia-distributors'
         },
         OH: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/ohio-distributors'
         },
         IN: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/indiana-distributors'
         },
         IL: {
             name: 'Dealer Direct',
@@ -169,85 +169,85 @@ var simplemaps_namap_mapdata = {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/connecticut-distributors'
         },
         WI: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/wisconsin-distributors'
         },
         NC: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/north-carolina-distributors'
         },
         DC: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '#'
         },
         MA: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/massachusetts-distributors'
         },
         TN: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/tennessee-distributors'
         },
         AR: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/arkansas-distributors'
         },
         MO: {
-            name: 'default',
+            name: 'Missouri Disributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/missouri-distributors'
         },
         GA: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/georgia-distributors'
         },
         SC: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/south-carolina-distributors'
         },
         KY: {
             name: 'default',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/kentucky-distributors'
         },
         AL: {
-            name: 'default',
+            name: 'Alabama',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/alabama-distributors'
         },
         LA: {
-            name: 'default',
+            name: 'Louisiana Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/louisiana-distributors'
         },
         MS: {
-            name: 'default',
+            name: 'Mississippi Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/mississippi-distributors'
         },
         IA: {
             name: 'Dealer Direct',
@@ -257,209 +257,201 @@ var simplemaps_namap_mapdata = {
             url: '/iowa-dealers'
         },
         MN: {
-            name: 'default',
+            name: 'Minnesota Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/minnesota-distributors'
         },
         OK: {
-            name: 'default',
+            name: 'Oklahoma',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/oklahoma-distributors'
         },
         TX: {
-            name: 'default',
+            name: 'Texas Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/texas-distributors'
         },
         NM: {
-            name: 'default',
+            name: 'New Mexico Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/bew-mexico-distributors'
         },
         KS: {
-            name: 'default',
+            name: 'Kansas Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/kansas-distributors'
         },
         NE: {
-            name: 'default',
+            name: 'Nebraksa Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/nebraska-distributors'
         },
         SD: {
-            name: 'default',
+            name: 'South Dakota Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/south-dakota-distributors'
         },
         ND: {
-            name: 'default',
+            name: 'North Dakota Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/north-dakota-distributors'
         },
         WY: {
-            name: 'default',
+            name: 'Wyoming Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/wyoming-distributors'
         },
         MT: {
-            name: 'default',
+            name: 'Montana Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/montana-distributors'
         },
         CO: {
-            name: 'default',
+            name: 'Colorado Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/colorado-distributors'
         },
         UT: {
-            name: 'default',
+            name: 'Utah Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/utah-distributors'
         },
         AZ: {
-            name: 'default',
+            name: 'Arizona Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/arizona-distributors'
         },
         NV: {
-            name: 'default',
+            name: 'Nevada Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default',
+            url: '/nevada-distributors',
         },
         OR: {
-            name: 'default',
+            name: 'Oregon Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/oregon-distributors'
         },
         WA: {
-            name: 'default',
+            name: 'Washington Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/washington-distributors'
         },
         CA: {
-            name: 'default',
+            name: 'California  Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/california-distributors'
         },
         MI: {
-            name: 'default',
+            name: 'Michigan Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/michigan-distributors'
         },
         ID: {
-            name: 'default',
+            name: 'Idaho Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/idaho-distributors'
         },
         //Canada
         AB: {
-            name: 'default',
+            name: 'Alberta Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/alberta-distributors'
         },
         BC: {
-            name: 'default',
+            name: 'British Columbia Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/british-columbia-distributors'
         },
         SK: {
-            name: 'default',
+            name: 'Saskatchewan Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/saskatchewan-distributors'
         },
         MB: {
-            name: 'default',
+            name: 'Manitoba Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/manitoba-distributors'
         },
         ON: {
-            name: 'default',
+            name: 'Ontario Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/ontario-distributors'
         },
         QC: {
-            name: 'default',
+            name: 'Quebec Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/quebec-distributors'
         },
         NB: {
-            name: 'default',
+            name: 'New Brunswick Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/new-brunswick-distributors'
         },
         PE: {
-            name: 'default',
+            name: 'Prince Edward Island Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/prince-edward-island-distributors'
         },
         NS: {
-            name: 'default',
+            name: 'Nova Scotia Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/nova-scotia-distributors'
         },
         NF: {
-            name: 'default',
+            name: 'Newfoundland Distributors',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '/newfoundland-distributors'
         },
         NU: {
-            name: 'default',
+            name: 'Nunavut',
             color: 'default',
             hover_color: 'default',
-            url: 'default',
+            url: '#'
         },
         NT: {
-            name: 'default',
+            name: 'Northwest Territories',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
+            url: '#'
         },
         YT: {
-            name: 'default',
+            name: 'Yukon Territory',
             color: 'default',
             hover_color: 'default',
-            url: 'default'
-        },
-        "Mexico": {
-            name: 'Mexico',
-            description: 'default',
-            color: 'default',
-            hover_color: 'default',
-            url: 'default',
-            hide: 'yes'
+            url: '#'
         }
     }
 
-}
+};
 
 
 
