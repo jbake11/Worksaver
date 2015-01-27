@@ -42,8 +42,6 @@
                     $("#dealers_filter").addClass("form-inline");
                     $("#dealers_filter input").addClass("form-control");
 
-                    $("#dealers_filter label").html('<label>Please enter your county, city or zip code (first three digits only) to locate your nearest dealer(s).<br><input type="search" class="form-control" placeholder="" aria-controls="dealers"></label>');
-
                 }
                 if ($("#map")) {
                     setTimeout('hidemap()', 2000);
