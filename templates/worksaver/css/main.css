@@ -703,5 +703,6 @@ table.dataTable.dtr-inline.collapsed tbody tr.parent td:first-child:before, tabl
 
 #dealers_length {
     float: right !important;
+    margin-top: 15px;
 }
 
