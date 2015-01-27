@@ -261,6 +261,7 @@ var simplemaps_namap_mapdata = {
             name: 'Mississippi Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'White’s Inc.<br>Box 2344<br>Houston, TX 77252<br>800-231-9559<br>www.whitesinc.com<br>wholegoodsales@whitesinc.com<br><hr>Implement Sales Inc.<br>PO Box 249, Hwy 70 West<br>West Memphis, AR  72303<br>800-489-4726<br>www.buhler.com<br>jthomas@buhler.com',
             url: '/mississippi-distributors'
         },
         IA: {
