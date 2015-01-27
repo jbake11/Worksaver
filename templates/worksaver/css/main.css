@@ -706,3 +706,6 @@ table.dataTable.dtr-inline.collapsed tbody tr.parent td:first-child:before, tabl
     margin-top: 15px;
 }
 
+#manuals td a {
+    color:  #1449d2;
+}
