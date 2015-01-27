@@ -86,6 +86,7 @@ var simplemaps_namap_mapdata = {
             name: 'New Hamsphire Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>11A Evergreen Dr.<br>Fairfield, ME  04937<br>207-453-7788<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/new-hampshire-distributors'
         },
         VT: {
@@ -123,6 +124,7 @@ var simplemaps_namap_mapdata = {
             name: 'New Jersey Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Hamilton Equipment<br>567 South Reading Road<br>Ephrata, PA  17522<br>800-733-0275<br>www.haminc.com<br>sales@haminc.com',
             url: '/new-jersey-distributors'
         },
         DE: {
@@ -188,6 +190,7 @@ var simplemaps_namap_mapdata = {
             name: 'North Carolia Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Tri-States Distributors<br>PO Box 1121<br>Statesville, NC  28677<br>704-873-0531<br>www.tristatedistributors.net<br>info@tristatedistributors.net',
             url: '/north-carolina-distributors'
         },
         DC: {
@@ -294,7 +297,8 @@ var simplemaps_namap_mapdata = {
             name: 'New Mexico Distributors',
             color: 'default',
             hover_color: 'default',
-            url: '/bew-mexico-distributors'
+            description: 'Beaver Valley<br>9591 Normfield Blvd<br>Denver, CO  80238<br>800-528-2872<br>www.beavervalleysupply.com<br>info@beavervalleysupply.com',
+            url: '/new-mexico-distributors'
         },
         KS: {
             name: 'Kansas Distributors',
@@ -307,6 +311,7 @@ var simplemaps_namap_mapdata = {
             name: 'Nebraksa Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Beaver Valley Supply<br>Hwy 36 East<br>Atwood KS  67730<br>800-928-1280<br>www.beavervalleysupply.com<br>beavervalley@sbcglobal.net',
             url: '/nebraska-distributors'
         },
         SD: {
@@ -319,6 +324,7 @@ var simplemaps_namap_mapdata = {
             name: 'North Dakota Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Edney Distributing Co.<br>1230 43rd St. NW<br>Fargo, ND  58102<br>888-443-3639<br>www.edneyco.com<br>sales@edneyco.com',
             url: '/north-dakota-distributors'
         },
         WY: {
@@ -331,6 +337,7 @@ var simplemaps_namap_mapdata = {
             name: 'Montana Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'General Implement<br>5516 Holiday Ave<br>Billings, MT  59101<br>800-772-3165<br>www.generalimp.com<br>jhove@arnoldmachinery.com',
             url: '/montana-distributors'
         },
         CO: {
@@ -357,6 +364,7 @@ var simplemaps_namap_mapdata = {
             name: 'Nevada Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Contact Worksaver for distributor information',
             url: '/nevada-distributors'
         },
         OR: {
