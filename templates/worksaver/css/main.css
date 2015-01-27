@@ -691,3 +691,7 @@ table.dataTable.dtr-inline.collapsed tbody tr.parent td:first-child:before, tabl
     background-color: #ccc;
     color: black;
 }
+
+#map hr {
+    color: #333;
+}
