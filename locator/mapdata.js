@@ -174,7 +174,7 @@ var simplemaps_namap_mapdata = {
         },
         IL: {
             name: 'Dealer Direct',
-            description: 'Click to View locations by County',
+            description: 'Click to view/search locations',
             color: 'default',
             hover_color: 'default',
             url: '/illinois-dealers'
@@ -278,7 +278,7 @@ var simplemaps_namap_mapdata = {
         },
         IA: {
             name: 'Dealer Direct',
-            description: 'Click to View locations by County',
+            description: 'Click to view/search locations',
             color: 'default',
             hover_color: 'default',
             url: '/iowa-dealers'
