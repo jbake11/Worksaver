@@ -93,6 +93,7 @@ var simplemaps_namap_mapdata = {
             name: 'Vermont Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>1314 Union St<br>West Springfield, MA  01090<br>413-736-5462<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/vermont-distributors'
         },
         ME: {
@@ -112,12 +113,14 @@ var simplemaps_namap_mapdata = {
             name: 'New York Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>6412 Deere Rd<br>Syracuse, NY  13206<br>315-463-5201<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/new-york-distributors'
         },
         PA: {
             name: 'Pennsylvania Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Hamilton Equipment<br>567 South Reading Road<br>Ephrata, PA  17522<br>800-733-0275<br>www.haminc.com<br>sales@haminc.com',
             url: '/pennsylvania-distributors'
         },
         NJ: {
@@ -145,18 +148,21 @@ var simplemaps_namap_mapdata = {
             name: 'Virginia Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Hamilton Equipment Inc.<br>467 Oakland Circle<br>Raphine VA   24472<br>540-377-2628<br>www.haminc.com<br>sales@haminc.com',
             url: '/virginia-distributors'
         },
         WV: {
             name: 'West Virginia Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Hamilton Equipment<br>567 South Reading Road<br>Ephrata, PA  17522<br>800-733-0275<br>www.haminc.com<br>sales@haminc.com',
             url: '/west-virginia-distributors'
         },
         OH: {
             name: 'Ohio Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Implement Sales Inc.<br>229 N. 4  Mile Run Rd.<br>Youngstown, OH  44515<br>Youngstown, OH  44515<br>800-233-0815<br>www.buhler.com<br>mneely@buhler.com',
             url: '/ohio-distributors'
         },
         IN: {
@@ -184,6 +190,7 @@ var simplemaps_namap_mapdata = {
             name: 'Wisconsin Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Edney Distributing Co.<br>2571 W. Wisconsin<br>Portage, WI  53901<br>888-443-3639<br>www.edneyco.com<br>sales@edneyco.com',
             url: '/wisconsin-distributors'
         },
         NC: {
@@ -210,6 +217,7 @@ var simplemaps_namap_mapdata = {
             name: 'Tennessee Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Implement Sales Inc.<br>PO Box 249, Hwy 70 West<br>West Memphis, AR  72303<br>800-489-4726<br>www.buhler.com<br>jthomas@buhler.com',
             url: '/tennessee-distributors'
         },
         AR: {
@@ -285,12 +293,14 @@ var simplemaps_namap_mapdata = {
             name: 'Oklahoma',
             color: 'default',
             hover_color: 'default',
+            description: 'Southwest Distributing<br>PO Box 456<br>Clinton, OK  73601<br>800-522-4056<br>www.swdistributors.net<br>southwestdist@omega1wireless.net',
             url: '/oklahoma-distributors'
         },
         TX: {
             name: 'Texas Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'White’s Inc.<br>Box 2344<br>Houston, TX 77252<br>800-231-9559<br>www.whitesinc.com<br>wholegoodsales@whitesinc.com<br>',
             url: '/texas-distributors'
         },
         NM: {
@@ -318,6 +328,7 @@ var simplemaps_namap_mapdata = {
             name: 'South Dakota Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Edney Distributing Co.<br>P.O. Box 198<br>Huron SD 57350<br>888-443-3639<br>www.edneyco.com<br>sales@edneyco.com',
             url: '/south-dakota-distributors'
         },
         ND: {
@@ -331,6 +342,7 @@ var simplemaps_namap_mapdata = {
             name: 'Wyoming Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'General Implement<br>5516 Holiday Ave<br>Billings, MT  59101<br>800-772-3165<br>www.generalimp.com<br>jhove@arnoldmachinery.com',
             url: '/wyoming-distributors'
         },
         MT: {
@@ -351,6 +363,7 @@ var simplemaps_namap_mapdata = {
             name: 'Utah Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'General Implement<br>2955 West 2100 South<br>Salt Lake City, UT  84119<br>800-767-0555<br>www.gerneralimp.com',
             url: '/utah-distributors'
         },
         AZ: {
@@ -371,12 +384,14 @@ var simplemaps_namap_mapdata = {
             name: 'Oregon Distributors',
             color: 'default',
             hover_color: 'default',
+            description: "Rankin Equipment<br>PO Box 1937<br>Yakima, WA  98907<br>509-452-1651<br>www.rankineqco.com<br>sales@rankineqco.com",
             url: '/oregon-distributors'
         },
         WA: {
             name: 'Washington Distributors',
             color: 'default',
             hover_color: 'default',
+            description: "Rankin Equipment<br>PO Box 1937<br>Yakima, WA  98907<br>509-452-1651<br>www.rankineqco.com<br>sales@rankineqco.com",
             url: '/washington-distributors'
         },
         CA: {
@@ -447,6 +462,7 @@ var simplemaps_namap_mapdata = {
             name: 'Prince Edward Island Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>1314 Union St<br>West Springfield, MA  01090<br>413-736-5462<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/prince-edward-island-distributors'
         },
         NS: {
