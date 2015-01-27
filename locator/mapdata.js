@@ -236,6 +236,7 @@ var simplemaps_namap_mapdata = {
             name: 'Kentucky Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Implement Sales Inc.<br>2242 Koetter Dr.<br>Clarksville, IN  47129<br>800-467-4726<br>www.buhler.com<br>rbundy@buhler.com',
             url: '/kentucky-distributors'
         },
         AL: {
@@ -249,6 +250,7 @@ var simplemaps_namap_mapdata = {
             name: 'Louisiana Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'White’s Inc.<br>Box 2344<br>Houston, TX 77252<br>800-231-9559<br>www.whitesinc.com<br>wholegoodsales@whitesinc.com<br><hr><br>Implement Sales Inc.<br>PO Box 249, Hwy 70 West<br>West Memphis, AR  72303<br>800-489-4726<br>www.buhler.com<br>jthomas@buhler.com',
             url: '/louisiana-distributors'
         },
         MS: {
@@ -292,6 +294,7 @@ var simplemaps_namap_mapdata = {
             name: 'Kansas Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Beaver Valley Supply Co.<br>Hwy 36 East<br>Atwood KS  67730<br>800-928-1280<br>www.beavervalleysupply.com<br>beavervalley@sbcglobal.net',
             url: '/kansas-distributors'
         },
         NE: {
