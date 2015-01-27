@@ -42,6 +42,9 @@
                     $("#dealers_filter").addClass("form-inline");
                     $("#dealers_filter input").addClass("form-control");
                 }
+                if ($("#map_trial")) {
+                    $("#map_trial").hide();
+                }
             });
         </script>
 
