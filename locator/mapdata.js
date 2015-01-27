@@ -98,6 +98,7 @@ var simplemaps_namap_mapdata = {
             name: 'Maine Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>11A Evergreen Dr.<br>Fairfield, ME  04937<br>207-453-7788<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/maine-distributors'
         },
         RI: {
@@ -135,6 +136,7 @@ var simplemaps_namap_mapdata = {
             name: 'Maryland Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>1314 Union St<br>West Springfield, MA  01090<br>413-736-5462<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/maryland-distributors'
         },
         VA: {
@@ -198,6 +200,7 @@ var simplemaps_namap_mapdata = {
             name: 'Massachusetts Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'JS Woodhouse<br>1314 Union St<br>West Springfield, MA  01090<br>413-736-5462<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
             url: '/massachusetts-distributors'
         },
         TN: {
@@ -217,6 +220,7 @@ var simplemaps_namap_mapdata = {
             name: 'Missouri Disributors',
             color: 'default',
             hover_color: 'default',
+            description: 'ACI Distributors<br>3220 New Town Blvd.<br>St. Charles, MO  63301<br>800-237-0562<br>www.acidist.com<BR>joyce@acidistributor.com<hr>Beaver Valley Supply Co.<br>Hwy 36 East<br>Atwood KS  67730<br>800-928-1280<br>www.beavervalleysupply.com<br>beavervalley@sbcglobal.net',
             url: '/missouri-distributors'
         },
         GA: {
@@ -270,6 +274,7 @@ var simplemaps_namap_mapdata = {
             name: 'Minnesota Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Edney Distributing Co.<br>8485 215th St. West<br>Lakeville, MN  55044<br>888-443-3639<br>www.edneyco.com<br>sales@edneyco.com',
             url: '/minnesota-distributors'
         },
         OK: {
@@ -376,6 +381,7 @@ var simplemaps_namap_mapdata = {
             name: 'Michigan Distributors',
             color: 'default',
             hover_color: 'default',
+            descrtiption: 'Wiles Sales<br>10273 Mt. Hope Rd.<br>Carson City, MI  48811<br>800-584-1076<br>www.wilessales.com<br>wilessales@wilessales.com',
             url: '/michigan-distributors'
         },
         ID: {
