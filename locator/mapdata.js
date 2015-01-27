@@ -245,6 +245,7 @@ var simplemaps_namap_mapdata = {
             name: 'South Carolina Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Tri-States Distributors<br>PO Box 1121<br>Statesville, NC  28677<br>704-873-0531<br>www.tristatedistributors.net<br>info@tristatedistributors.net',
             url: '/south-carolina-distributors'
         },
         KY: {
@@ -420,61 +421,70 @@ var simplemaps_namap_mapdata = {
             name: 'Alberta Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Westward Parts<br>6517 67th St.<br>Red Deer, AB  T4P 1A3<br>403-342-5510<br>www.westwardparts.com<br>info@westwardparts.com',
             url: '/alberta-distributors'
         },
         BC: {
             name: 'British Columbia Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Westward Parts<br>6517 67th St.<br>Red Deer, AB  T4P 1A3<br>403-342-5510<br>www.westwardparts.com<br>info@westwardparts.com',
             url: '/british-columbia-distributors'
         },
         SK: {
             name: 'Saskatchewan Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Westward Parts<br>201 Henderson Drive<br>Regina, SK  S4N 7E2<br>306-721-2113<br>www.westwardparts.com<br>info@westwardparts.com',
             url: '/saskatchewan-distributors'
         },
         MB: {
             name: 'Manitoba Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Westward Parts<br>1435 St. James St.<br>Winnipeg, MB  R3H OW9<br>204-697-2444<br>www.westwardparts.com<br>info@westwardparts.com',
             url: '/manitoba-distributors'
         },
         ON: {
             name: 'Ontario Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Farm Fleet<br>23703 Wellburn Rd  RR #3<br>St. Mary’s ON  N4X 1C6<br>519-461-1499<br>www.farmfleet.com<br>paul.stubbens@farmfleet.com',
             url: '/ontario-distributors'
         },
         QC: {
             name: 'Quebec Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Farm Fleet<br>23703 Wellburn Rd  RR #3<br>St. Mary’s ON  N4X 1C6<br>519-461-1499<br>www.farmfleet.com<br>paul.stubbens@farmfleet.com',
             url: '/quebec-distributors'
         },
         NB: {
             name: 'New Brunswick Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Farm Fleet<br>23703 Wellburn Rd  RR #3<br>St. Mary’s ON  N4X 1C6<br>519-461-1499<br>www.farmfleet.com<br>paul.stubbens@farmfleet.com',
             url: '/new-brunswick-distributors'
         },
         PE: {
             name: 'Prince Edward Island Distributors',
             color: 'default',
             hover_color: 'default',
-            description: 'JS Woodhouse<br>1314 Union St<br>West Springfield, MA  01090<br>413-736-5462<br>www.jswoodhouse.com<br>info@jswoodhouse.com',
+            description: 'Farm Fleet<br>23703 Wellburn Rd  RR #3<br>St. Mary’s ON  N4X 1C6<br>519-461-1499<br>www.farmfleet.com<br>paul.stubbens@farmfleet.com',
             url: '/prince-edward-island-distributors'
         },
         NS: {
             name: 'Nova Scotia Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Farm Fleet<br>23703 Wellburn Rd  RR #3<br>St. Mary’s ON  N4X 1C6<br>519-461-1499<br>www.farmfleet.com<br>paul.stubbens@farmfleet.com',
             url: '/nova-scotia-distributors'
         },
         NF: {
             name: 'Newfoundland Distributors',
             color: 'default',
             hover_color: 'default',
+            description: 'Farm Fleet<br>23703 Wellburn Rd  RR #3<br>St. Mary’s ON  N4X 1C6<br>519-461-1499<br>www.farmfleet.com<br>paul.stubbens@farmfleet.com',
             url: '/newfoundland-distributors'
         },
         NU: {
