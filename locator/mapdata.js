@@ -478,4 +478,7 @@ var simplemaps_namap_mapdata = {
 
 
 
+if ($("#map_trial").length) {
+    $("#map_trial").hide();
+}
 
