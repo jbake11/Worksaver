@@ -42,7 +42,14 @@
                     $("#dealers_filter").addClass("form-inline");
                     $("#dealers_filter input").addClass("form-control");
                 }
+                if ($("#map")) {
+                    setTimeout('hidemap()', 2000);
+                }
             });
+            function hidemap()
+            {
+                $("#map_trial").hide();
+            }
         </script>
 
 
