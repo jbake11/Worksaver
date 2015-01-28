@@ -1,101 +1,35 @@
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-responsive">
+        <table class="table table-bordered table-responsive table-striped">
             <tbody>
-                <tr bgcolor="#ccc" class="table-col-header"><td colspan="3" align="center">Farm Equipment Manufacturers<br /><br /></td></tr>
-
-                <tr>
-                    <td><a href="http://www.bighambrothers.com/"><IMG SRC="/images/links/bblogo.gif" WIDTH=200 HEIGHT=40></a></td>
-                    <td><a href="http://blu-jet.com/"><IMG SRC="/images/links/bluejet.jpg" WIDTH=200 HEIGHT=40></a></td>
-                    <td><a href="http://www.casecorp.com"><IMG SRC="/images/links/case.gif" WIDTH=200 HEIGHT=40></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.cat.com"><IMG SRC="/images/links/Cat_logo.gif" WIDTH=200 HEIGHT=40></a></td>
-                    <td><a href="http://www.deere.com"><IMG SRC="/images/links/logo_green.gif" WIDTH=200 HEIGHT=40></a></td>
-                    <td><a href="http://www.hispec.net"><IMG SRC="/images/links/hispec.gif" WIDTH=150 HEIGHT=30></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.gehl.com"><IMG SRC="/images/links/Gehl.gif" WIDTH=150 HEIGHT=30></a></td>
-                    <td><a href="http://www.landoll.com/"><IMG SRC="/images/links/Landoll.jpg" WIDTH=150 HEIGHT=40></a></td>
-                    <td><a href="http://www.lelyusa.com"><IMG SRC="/images/links/lely.gif" WIDTH=150 HEIGHT=40></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.newholland.com/"><IMG SRC="/images/links/newholland.bmp" WIDTH=150 HEIGHT=40></a></td>
-                    <td><a href="http://www.schultesales.com/"><IMG SRC="/images/links/schulte.jpg" WIDTH=150 HEIGHT=40></a></td>
-                    <td><a href="http://www.stanbonhamcompany.com"><IMG SRC="/images/links/Stanbonhamlogo.gif" WIDTH=100 HEIGHT=90></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.woodsonline.com/"><IMG SRC="/images/links/woods.jpg" WIDTH=150 HEIGHT=30></a></td>
-                    <td><a href="http://acra.pld.com">ACRA</a></td>
-                    <td><a href="http://www.agchem.com">Ag-Chem</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.agcocorp.com">AGCO</a></td>
-                    <td><a href="http://www.ncn.net/~artsway/">Art's-Way</a></td>
-                    <td><a href="http://www.brillionfarmeq.com/">Brillion</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.crustbuster.com/">Crustbuster</a></td>
-                    <td><a href="http://www.fuerst-bros.com/">Fuerst Bros.</a></td>
-                    <td><a href="http://www.kascomfg.com">Kasco</a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.progressivefarm.com">Progressive Farm Products</a></td>
-                    <td><a href="http://www.4unverferth.com">Unverferth</a></td>
-                    <td><a href="http://www.yetterco.com">Yetter</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-responsive">
-            <tbody>
-                <tr bgcolor="#ccc" class="table-col-header"><td colspan="3" align="center">Agricultural Magazines<br /><br /></td></tr>
-                <tr>
-                    <td><a href="http://www.smallfarm.com/"><IMG SRC="/images/links/americansmallfarm.jpg" width="100" height="150"></a></td>
-                    <td><a href="http://www.farmjournal.com/beeftoday/"><IMG SRC="/images/links/BeefToday.jpg" width="100" height="150"></a></td>
-                    <td><a href="http://www.farmjournal.com/"><IMG SRC="/images/links/farmjournal.jpg" width="100" height="150"></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.fastlinepublications.com"><IMG SRC="/images/links/fastline.gif" width="100" height="150"></a></td>
-                    <td><a href="http://www.feedstuffs.com"><IMG SRC="/images/links/feedstuffs.jpg" width="100" height="150"></a></td>
-                    <td><a href="http://www.hpj.com"><IMG SRC="/images/links/highplainsjournal.bmp" width="100" height="150"></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.ag-implement.com"><IMG SRC="/images/links/Agra-net.bmp" width="150" height="65"></a></td>
-                    <td><a href="http://www.iowafarmer.com"><img src="/images/links/Iowafarmer.jpg" width=140 height=55 alt=""></a></td>
-                    <td><a href="http://www.agpub.on.ca/pork/porkhom.htm"><IMG SRC="/images/links/Pork.jpg" width="100" height="150"></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://progressivefarmer.com/"><IMG SRC="/images/links/progressivefarmer.bmp" width="150" height="75"></a></td>
-                    <td><a href="http://agriculture.com"><IMG SRC="/images/links/successfulfarm.jpg" width="100" height="150"></a></td>
-                    <td><a href="http://usfronline.com/">U.S. Farm Report</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <table class="table table-responsive">
-            <tbody>
-                <tr bgcolor="#ccc" class="table-col-header"><td colspan="3" align="center">Other Agricultural Links<br /><br /></td></tr>
-                <tr>
-                    <td><a href="http://www.ifas.ufl.edu/www/agator_home.htm"><IMG SRC="/images/links/chmpbutn.gif" WIDTH=110 HEIGHT=48></a></td>
-                    <td><a href="http://www.ararental.org/"><IMG SRC="/images/links/ararental.gif" WIDTH=200 HEIGHT=40></a></td>
-                    <td><a href="http://www.ffa.org/"><IMG SRC="/images/links/ffa.gif" WIDTH=200 HEIGHT=40></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.wssitepro.com/"><IMG SRC="/images/links/SitePrologo.gif" WIDTH=140 HEIGHT=50></a></td>
-                    <td><a href="http://www.grainfarmer.com"><IMG SRC="/images/links/imageOEP.jpg" WIDTH=110 HEIGHT=48></a></td>
-                    <td><a href="http://www.aem.org"><IMG SRC="/images/links/aemlogo.gif" WIDTH=110 HEIGHT=48></a></td>
-                </tr>
-                <tr>
-                    <td><a href="http://www.farmequip.org/" TARGET="new"><IMG SRC="/images/links/ani_fema-sm.gif" WIDTH=59 HEIGHT=87></a></td>
-                    <td><a href="http://www.agriculture.com/contents/FFA/">FFA Organization and Affiliates</a></td>
-                </tr>
+                <tr class="table-col-header"><td align="center" colspan="4">Specifications</td></tr>
+                <tr class="table-col-img"><td colspan="4" align="center"><img class="img-responsive" src="/images/material-handling/FLGR-4062.gif" alt=""></td></tr>
+                <tr><td>Ref. No</td><td>Part No.</td><td>Description</td><td>No. Req'd</td></tr>
+                <tr><td>Ref. No.</td><td>Part No.</td><td>Description     </td><td>No. Reqd.
+                <tr><td>1</td><td>343211</td><td>Main Frame Weldment (SBX-4)</td><td>1
+                <tr><td>343206</td><td>Main Frame Weldment (SBX-5)</td><td>1
+                <tr><td>343201</td><td>Main Frame Weldment (SBX-6)</td><td>1
+                <tr><td>2</td><td>343223</td><td>Cutting Edge (SBX-4)</td><td>2
+                <tr><td>343222</td><td>Cutting Edge (SBX-5)</td><td>2
+                <tr><td>343221</td><td>Cutting Edge (SBX-6)</td><td>2
+                <tr><td>3</td><td>2503045</td><td>Bolt 5/8" - 11NC x 1 1/2" Plow Head</td><td>Var.
+                <tr><td>4</td><td>2502007</td><td>Washer 5/8" Springlock</td><td>Var.
+                <tr><td>5</td><td>2500013</td><td>Nut 5/8" - 11NC Full Hex</td><td>Var.
+                <tr><td>6</td><td>343208</td><td>Strap, Toplink</td><td>2
+                <tr><td>7</td><td>343209</td><td>Strap, Tie</td><td>2
+                <tr><td>8</td><td>343058</td><td>Spacer, Toplink</td><td>1
+                <tr><td>9</td><td>2503002</td><td>Bolt 3/4" - 10NC x 2" Hex Head Gr. 2</td><td>2
+                <tr><td>10</td><td>2503033</td><td>Bolt 3/4" -10NC x 5" Hex Head Gr.2</td><td>1
+                <tr><td>11</td><td>2502001</td><td>Washer 3/4" Springlock</td><td>3
+                <tr><td>12</td><td>2500002</td><td>Nut 3/4" - 10NC Full Hex</td><td>3
+                <tr><td>13</td><td>590108</td><td>Draw Pin, Cat. 1 (AK-578)</td><td>2
+                <tr><td>13A</td><td>590330</td><td>Draw Pin, Cat. 0 (Optional - SBX-4 only)</td><td>2
+                <tr><td>14</td><td>341334</td><td>Shank, Scarifier w/Tip (Ref. #13)</td><td>Var.
+                <tr><td>15</td><td>341338</td><td>Replaceable Wear Tip</td><td>Var.
+                <tr><td>16</td><td>343180</td><td>Pin, Lock</td><td>Var.
+                <tr><td>17</td><td>590187</td><td>Hair Clip Pin (AK-2704)</td><td>Var.
+                <tr><td>18</td><td>101128</td><td>Safety Sign - Caution (Avoid Injury)</td><td>1
+                <tr><td>19</td><td>101151</td><td>Safety Sign - Caution (Safe Practices)</td><td>1
             </tbody>
         </table>
     </div>
