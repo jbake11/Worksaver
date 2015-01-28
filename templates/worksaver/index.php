@@ -182,6 +182,9 @@
                                         <nav class="navigation" role="navigation">
                                             <jdoc:include type="modules" name="footermenu" style="none" />
                                         </nav>
+                                        <div class="copyright-text" style="float: right;">
+                                            Copyright &copy; <?php echo date('Y'); ?> Worksaver, Inc. All Rights Reserved.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
