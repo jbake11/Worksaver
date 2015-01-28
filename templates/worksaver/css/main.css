@@ -223,11 +223,9 @@
     margin-bottom: 20px;
 }
 
-
 .copyright-text{
     pading-top: 10px;
 }
-
 
 .item-page h3 {
     margin-top: 0px;
@@ -558,6 +556,16 @@ td { font-weight: bold; }
 
 }
 
+@media(max-width: 1239px){
+
+    .copyright-text{
+        pading-top: 10px;
+        text-align: center;
+    }
+
+}
+
+
 @media (max-width: 1200px){
     .slider-adjust .item img {
         max-width: 100%;
@@ -578,6 +586,7 @@ td { font-weight: bold; }
         font-size: smaller;
     }
 }
+
 @media (max-width: 767px){
     .slider-adjust .item img {
         max-width: 100%;
