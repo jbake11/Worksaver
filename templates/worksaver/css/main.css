@@ -232,6 +232,10 @@
     min-height: 500px
 }
 
+.category-list{
+    padding-top: 10px;
+}
+
 .item-page h3 {
     margin-top: 0px;
 }
