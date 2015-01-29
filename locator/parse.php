@@ -22,7 +22,7 @@ foreach ($dom->getElementsByTagName('a') as $node) {
         $files[] = $filename;
 
         $ch = curl_init();
-        $source = "http://www.worksaver.com/Manuals/" . $filename;
+        $source = "http://www.worksaver.com/Manuals/" . strtolower($filename);
         echo $source . "\n";
 
         $header = array(
