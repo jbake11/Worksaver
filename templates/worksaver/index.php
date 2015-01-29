@@ -178,16 +178,9 @@
                         <?php if ($this->countModules('mainmenu')) : ?>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-12">
-                                        <nav class="navigation" role="navigation">
-                                            <jdoc:include type="modules" name="footermenu" style="none" />
-                                        </nav>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-12">
-                                        <div class="copyright-text" style="float: right;">
-                                            Copyright &copy; <?php echo date('Y'); ?> Worksaver, Inc. All Rights Reserved.
-                                        </div>
-                                    </div>
+                                    <nav class="navigation" role="navigation">
+                                        <jdoc:include type="modules" name="footermenu" style="none" />
+                                    </nav>
                                 </div>
                             </div>
                         <?php endif; ?>
@@ -201,6 +194,9 @@
                 <div class="foot-contact">
                     <jdoc:include type="modules" name="footcol1" style="xhtml" />
 
+                </div>
+                <div class="copyright-text" style="float: left;">
+                    Copyright &copy; <?php echo date('Y'); ?> Worksaver, Inc. All Rights Reserved.
                 </div>
             </div>
             <div class='col-lg-4 col-md-4 col-sm-4'>
