@@ -44,9 +44,10 @@ foreach ($dom->getElementsByTagName('a') as $node) {
         curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookies.txt');
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         $data = curl_exec($ch);
-        var_dump($data);
         curl_close($ch);
-//        $filename = str_replace(" ", "%20", $filename);
+
+
+
         $destination = $filename;
         $file = fopen($destination, "w+");
         fputs($file, $data);
