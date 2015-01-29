@@ -10,9 +10,10 @@ $dom = new DOMDocument;
 $dom->loadHTML(file_get_contents('mans.html'));
 foreach ($dom->getElementsByTagName('a') as $node) {
     $filename = basename($node->getAttribute("href"));
+    $filename = str_replace("%20", " ", $filename);
 
     if (stristr($filename, "#") === FALSE && !file_exists('../images/manuals/' . $filename)):
         echo 'http://www.worksaver.com/Manuals/' . $filename . ' -o ../images/manuals/' . $filename . "\n";
-        shell_exec('curl http://www.worksaver.com/Manuals/' . $filename . ' -o ../images/manuals/' . $filename);
+        shell_exec('curl "http://www.worksaver.com/Manuals/' . $filename . '" -o "../images/manuals/' . $filename . '"');
     endif;
 }
