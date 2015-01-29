@@ -228,6 +228,10 @@
     color: white;
 }
 
+#bodycontainer{
+    min-height: 200px
+}
+
 .item-page h3 {
     margin-top: 0px;
 }
