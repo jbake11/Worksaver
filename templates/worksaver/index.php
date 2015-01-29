@@ -19,9 +19,9 @@
         <script src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.js"></script>
 
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 if ($("#dealers")) {
-                    $("#dealers td").each(function() {
+                    $("#dealers td").each(function () {
                         var data = $(this).html();
                         if (data.indexOf("-") != -1) {
                             $(this).css("white-space", "nowrap");
@@ -178,10 +178,15 @@
                         <?php if ($this->countModules('mainmenu')) : ?>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-12">
+                                    <div class="col-lg-7 col-md-7 col-sm-12">
                                         <nav class="navigation" role="navigation">
                                             <jdoc:include type="modules" name="footermenu" style="none" />
                                         </nav>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12">
+                                        <div class="copyright-text" style="float: right;">
+                                            Copyright &copy; <?php echo date('Y'); ?> Worksaver, Inc. All Rights Reserved.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
