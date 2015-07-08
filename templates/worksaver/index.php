@@ -6,7 +6,10 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="format-detection" content="telephone=no">
 
-        <!-- Le styles -->
+        <link rel="shortcut icon"
+              type="image/ico""
+              href="/favicon.ico">
+
         <link href="http://netdna.bootstrapcdn.com/bootswatch/latest/flatly/bootstrap.min.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js"></script>
@@ -19,9 +22,9 @@
         <script src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.js"></script>
 
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
                 if ($("#dealers")) {
-                    $("#dealers td").each(function () {
+                    $("#dealers td").each(function() {
                         var data = $(this).html();
                         if (data.indexOf("-") != -1) {
                             $(this).css("white-space", "nowrap");
@@ -212,6 +215,51 @@
             </div>
         </div>
     </div>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-60408917-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- HitsLink.com tracking script -->
+    <script type="text/javascript" id="wa_u" defer></script>
+    <script type="text/javascript" async>//<![CDATA[
+        var wa_pageName = location.pathname;    // customize the page name here;
+        wa_account = "88908D948C9E899A8D";
+        wa_location = 31;
+        wa_MultivariateKey = '';    //  Set this variable to perform multivariate testing
+        var wa_c = new RegExp('__wa_v=([^;]+)').exec(document.cookie), wa_tz = new Date(),
+                wa_rf = document.referrer, wa_sr = location.search, wa_hp = 'http' + (location.protocol == 'https:' ? 's' : '');
+        if (top !== self) {
+            wa_rf = top.document.referrer;
+            wa_sr = top.location.search
+        }
+        if (wa_c != null) {
+            wa_c = wa_c[1]
+        } else {
+            wa_c = wa_tz.getTime();
+            document.cookie = '__wa_v=' + wa_c + ';path=/;expires=1/1/' + (wa_tz.getUTCFullYear() + 2);
+        }
+        wa_img = new Image();
+        wa_img.src = wa_hp + '://counter.hitslink.com/statistics.asp?v=1&s=31&eacct=' + wa_account + '&an=' +
+                escape(navigator.appName) + '&sr=' + escape(wa_sr) + '&rf=' + escape(wa_rf) + '&mvk=' + escape(wa_MultivariateKey) +
+                '&sl=' + escape(navigator.systemLanguage) + '&l=' + escape(navigator.language) +
+                '&pf=' + escape(navigator.platform) + '&pg=' + escape(wa_pageName) + '&cd=' + screen.colorDepth + '&rs=' + escape(screen.width +
+                ' x ' + screen.height) + '&je=' + navigator.javaEnabled() + '&c=' + wa_c + '&tks=' + wa_tz.getTime()
+                ;
+        document.getElementById('wa_u').src = wa_hp + '://counter.hitslink.com/track.js';//]]>
+    </script>
+
 
 </body>
 </html>

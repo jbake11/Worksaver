@@ -229,8 +229,14 @@
 }
 
 #bodycontainer{
-    min-height: 530px;
+    min-height: 500px;
 }
+#bodycontainer .search {
+  clear: both;
+  width: 100%;
+  display: block;
+}
+
 
 .category-list{
     padding-top: 10px;
@@ -250,12 +256,7 @@
 }
 
 .item-page .table .img-responsive {
-    /*max-width: 214px;*/
-    width: auto !important;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+    max-width: 214px;
 }
 
 .container-fluid {
@@ -569,99 +570,6 @@ td { font-weight: bold; }
     width:  50%;
 
 }
-
-.sigFreeThumb {
-    margin-right: 11px !important;
-}
-
-
-#bodycontainer .search {
-    clear: both;
-    width: 100%;
-    display: block;
-}
-
-#bodycontainer .nav {
-    margin-top: 40px;
-}
-#bodycontainer .nav li a {
-    color: #000;
-}
-#bodycontainer .nav li a:hover {
-    text-decoration: none;
-    color: white;
-}
-#bodycontainer .nav li ul {
-    padding-left: 25px;
-}
-
-#bodycontainer .nav li ul li {
-    list-style-type: none;
-}
-
-#bodycontainer .nav li ul li a {
-    color: #000;
-}
-#bodycontainer .nav li ul li a:hover {
-    text-decoration: none;
-    color: #18bc9c;
-}
-
-.phrases, .only {
-    margin-top: 20px;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.phrases legend, .only legend {
-    margin-bottom: 5px;
-}
-
-.searchintro {
-    margin-top: 5px;
-}
-
-ul.sigFreeClassic li.sigFreeThumb {
-    background: none !important;
-}
-
-.phrases-box, .only label {
-    margin-left: 20px;
-}
-
-.result-title {
-    font-size: 20px;
-}
-
-.result-created {
-    margin-bottom: 20px;
-}
-
-.pagination-list {
-    padding: 0;
-}
-.pagination-list li {
-    float: left;
-    border-radius: 5px;
-    background-color: #9a9897;
-    margin-right: 10px;
-    list-style-type: none;
-}
-.pagination-list li a {
-    padding: 5px 10px 5px 10px;
-    cursor: pointer;
-    display: inline-block;
-    color: #2c3e50;
-}
-.pagination-list li a:hover {
-    color: white;
-    text-decoration: none;
-}
-
 
 @media(max-width: 1239px){
 
